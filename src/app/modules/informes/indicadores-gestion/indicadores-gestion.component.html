@@ -1,0 +1,43 @@
+<h1 class="titulo-h1">INDICADORES DE GESTIÓN</h1>
+<p>
+  Para dar cumplimiento a la Ley, se consignan los indicadores de gestión
+  reportados a la Contraloría General de la República.
+</p>
+<a class="btn-comun mb-4">Certificados</a>
+<button class="btn-comun mb-4" type="button">
+  <span class="icon icon-documento"></span> Certificados
+</button>
+<a class="btn-comun mb-4" type="button">
+  <span class="icon icon-documento"></span> Certificados
+</a>
+<button class="btn-comun mb-4" type="button">
+  <i class="bi bi-1-circle"></i> Certificados
+</button>
+<button class="btn-comun-b mb-4" type="button">
+  <i class="bi bi-1-circle"></i> Certificados
+</button>
+<a class="btn-comun-b mb-4" type="button">
+  <i class="bi bi-1-circle"></i> Certificados
+</a>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion [closeOthers]="true">
+  @for (item of items; track item) {
+  <div ngbAccordionItem [collapsed]="true">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>{{ item.nombre }}</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a class="link-file" href="#"
+            ><i class="bi bi-file-earmark-pdf-fill"></i
+            >{{ item.acordion[0].files[0].nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  }
+</div>

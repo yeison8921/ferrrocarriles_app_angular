@@ -1,0 +1,24 @@
+export interface AcordionSimple {
+  id: number;
+  nombre: string;
+  contenido: string;
+}
+
+export interface File {
+  id: number;
+  extension: string;
+  nombre: string;
+  url: string;
+}
+
+export interface AcordionFiles {
+  id: number;
+  nombre: string;
+  files: File[];
+}
+
+export interface AcordionAnidadoFiles {
+  id: number;
+  nombre: string;
+  acordion: AcordionFiles[];
+}
