@@ -1,0 +1,52 @@
+<h1 class="titulo-h1">INFORMACIÓN PRESUPUESTAL Y FINANCIERA</h1>
+
+<p>
+  La Información Presupuestal y Financiera, es considerada como uno de los
+  productos del proceso de planeación de la Entidad. De esta forma, busca
+  cumplir no solo con los requisitos legales y formales, sino además es una
+  herramienta de control del desempeño general del Fondo Pasivo Social, de su
+  plan corporativo, de los planes operativos de cada área y de gestión, que
+  permite cumplir con la estrategia necesaria para superar las limitaciones
+  originadas por factores exógenos, ayudando a la Entidad en el papel
+  participativo del desarrollo del país.
+</p>
+
+<h3 class="titulo-h3 mt-4">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+<div ngbAccordion [closeOthers]="true">
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let acordion of files; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ acordion.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div
+            class="mb-4"
+            *ngFor="let acordionInterno of acordion.acordion; let j = index"
+          >
+            <h4 class="titulo-h4">
+              <span>{{ j + 1 }}</span> {{ acordionInterno.nombre }}
+            </h4>
+            <div *ngFor="let file of acordionInterno.files; let k = index">
+              <a class="link-file" href="{{ file.url }}">
+                <i class="bi bi-file-earmark-{{ file.extension }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
