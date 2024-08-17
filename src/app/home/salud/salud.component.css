@@ -65,24 +65,21 @@ h1::after  {
   font-family: "WorkSans-Regular";
   font-size: 1rem;
 
-   .icon{
-    color: var(--amarillo-o);
-   }
-
-   b{    
+   b{
     font-family: "WorkSans-Bold";
    }
+   .icono{
+    display: block;
+    width: 100%;
+    height: 4rem;
+    font-size: 3rem;
+    color: var(--amarillo-o);
+  }
 
 }
 
-.icono{
-  display: block;
-  width: 100%;
-  height: 4rem;
-  font-size: 3rem;
-  text-align: center;
-  color: var(--amarillo-o);
-}
+
+
 .icono::before {
   font-family: "govco-font";
 }
@@ -109,6 +106,3 @@ h1::after  {
   content: "\EBF5";
 }
 
-.doctor {
-  margin-left: 25%;
-}

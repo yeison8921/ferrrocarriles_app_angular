@@ -7,7 +7,7 @@
   .card {
     background-color:var(--azul-t);
     border-radius: 0%;
-    width: 20rem;
+    width: auto;
     margin: 2rem;
     .card-footer{
       background: none;
