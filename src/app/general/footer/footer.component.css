@@ -1,219 +1,117 @@
-.govco-twitter-square:before {
- content: "\ee16";
-}
-
-.govco-twitter:before {
- content: "\ee17";
-}
-
-.govco-instagram-square:before {
- content: "\ed5b";
-}
-
-.govco-instagram:before {
- content: "\ed5c";
-}
-
-.govco-facebook-f:before {
- content: "\ed0e";
-}
-
-.govco-facebook-messenger:before {
- content: "\ed0f";
-}
-
-.govco-facebook-square:before {
- content: "\ed10";
-}
-
-.govco-facebook:before {
-  content: "\ed11";
- }
-
- .govco-youtube:before {
-  content: '\ee52';
- }
-
-.govco-phone:before {
- content: "\ea8a";
-}
-
-.govco-phone-alt:before {
- content: "\ea85";
-}
-/*** FUENTE ICONOS ***/
-
-/*** MODAL 1 ***/
-.govco-footer *{
-  font-family: "WorkSans-Regular";
-}
-
-.govco-co {
- height: 48px;
- margin-top: 24px;
- display: inline-block;
- content: url(https://cdn.www.gov.co/v4/assets/images/logo-colombia.svg);
-}
-
-.govco-separator {
- border-left: 1px solid #e5eefb;
- opacity: 1px;
- height: 44px;
- margin-left: 10px;
- margin-right: 5px;
- display: inline-block;
-}
-
-.govco-logo {
- height: 30px;
- display: inline-block;
- content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
- vertical-align: super;
-}
-
-.govco-footer-logo {
- height: 96px;
- background-color: var(--azul);
- width: 100%;
- margin-top: 20px !important;
+.gov-fondo {
+  background-color: var(--azul-t);
+  height: 100%;
+  width: 100%;
+  top: 50px;
 }
 
 .govco-data-front {
- width: calc(100% - 40px);
- margin-left: 20px !important;
- -webkit-box-shadow: 50px 30px 0px -30px #e6effd, -50px 30px 0px -30px #e6effd,
-  0px 20px 0px 0px #e6effd, 50px 50px 0px -30px #e6effd,
-  -50px 50px 0px -30px #e6effd;
- box-shadow: 50px 30px 0px -30px #e6effd, -50px 30px 0px -30px #e6effd,
-  0px 20px 0px 0px #e6effd, 50px 50px 0px -30px #e6effd,
-  -50px 50px 0px -30px #e6effd;
- top: 0;
- border: 2px solid #e5eefb;
- border-radius: 10px;
- opacity: 1;
+  background-color: white;
+  border: 2px solid var(--azul-c);
+  border-radius: 10px 10px 0 0;
 }
 
-.govco-text-header-1 {
- color: var(--azul);
- text-align: left;
- font-size: 1.3rem;
- font-weight: 600;
+h4,
+h5,
+a {
+  color: var(--azul);
 }
 
-.govco-text-header-2 {
- color: var(--azul);
- text-align: left;
- font-size: 1.2rem;
- font-weight: bold;
- margin-bottom: 0 !important;
+h4,
+h5,
+.redes a,
+.gov-link a {
+  font-family: "Montserrat-SemiBold";
+}
+
+p {
+  font-family: "WorkSans-Regular";
+
+  a {
+    word-break: break-all;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: var(--azul-t);
+}
+
+.redes a::before {
+  font-family: "govco-font";
+}
+
+.icono-twitter::before {
+  content: "\ee16";
+}
+
+.icono-instagram:before {
+  content: "\ed5b";
+}
+
+.icono-facebook {
+  word-break: break-all;
+}
+
+.icono-facebook:before {
+  content: "\ed10";
+}
+
+.icono-youtube:before {
+  content: "\ee52";
+}
+
+.logos-iso img {
+  height: fit-content;
+}
+
+.govco-footer-logo {
+  height: 96px;
+  background-color: var(--azul);
+  width: 100%;
 }
 
 .govco-logo-container {
- margin-left: 80px !important;
+  text-align: center;
+  margin-left: unset;
 }
 
-.govco-link-modal {
- color: var(--azul);
- text-decoration: underline;
+.govco-co {
+  height: 48px;
+  margin-top: 24px;
+  display: inline-block;
+  content: url(https://cdn.www.gov.co/v4/assets/images/logo-colombia.svg);
 }
 
-.icon::before {
- margin: 0 !important;
- padding: 0 !important;
- font-family: "govco-font";
- transform: scale(1.5, 1.5);
- margin-right: 10px !important;
- margin-left: 5px !important;
- vertical-align: text-top !important;
- color: var(--azul);
+.govco-separator {
+  border-left: 1px solid #e5eefb;
+  opacity: 1px;
+  height: 44px;
+  margin-left: 10px;
+  margin-right: 5px;
+  display: inline-block;
 }
 
-.govco-iconContainer {
- display: inline-block !important;
- width: auto !important;
+.govco-logo {
+  height: 30px;
+  display: inline-block;
+  content: url(https://cdn.www.gov.co/v4/assets/images/logo.svg);
+  vertical-align: super;
 }
 
-.govco-links-container {
- margin-bottom: 50px !important;
- margin-top: 30px !important;
+@media (min-width: 576px) {
+  p a {
+    word-break: auto-phrase;
+  }
 }
 
-.govco-footer-text {
- margin-top: 50px !important;
- margin-left: 80px !important;
-}
-
-.govco-sedes {
- margin-top: 20px !important;
-}
-
-.govco-logo-div-a {
- text-align: center !important;
-}
-
-.govco-links-directorio {
- margin-top: 20px !important;
-}
-
-.govco-link-container {
- display: inline-block;
- width: auto !important;
-}
-
-.govco-nombre-entidad {
- margin-bottom: 0px !important;
-}
-
-@media (max-width: 991px) {
- .govco-sedes {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 5px !important;
- }
-
- .govco-sede-info {
-  margin-left: 0 !important;
- }
-
- .govco-text-header-1 {
-  margin-left: 15px !important;
- }
-
- .govco-logo-entidad {
-  height: 65px;
- }
-
- .govco-footer-text {
-  margin: 0 !important;
-  margin-top: 50px !important;
- }
-
- .govco-nombre-entidad {
-  margin-left: 0px !important;
-  width: 100% !important;
- }
-
- .govco-logo-div-a {
-  margin-left: 0 !important;
- }
-
- .govco-iconContainer {
-  margin-top: 20px !important;
-  display: block !important;
-  width: 100% !important;
- }
-
- .govco-link-container {
-  display: block !important;
-  width: 100% !important;
- }
-
- .govco-logo-container {
-  text-align: center !important;
-  margin-left: unset !important;
- }
-
- .govco-network{
-    margin: 0;
- }
+@media (min-width: 992px) {
+  .govco-logo-container {
+    margin-left: 80px;
+    text-align: start;
+  }
 }
