@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { AcordionAnidadoFiles } from '../../../interfaces/acordion';
-
 @Component({
-  selector: 'app-plan-accion',
+  selector: 'app-plan-adquisiciones',
   standalone: true,
   imports: [NgbAccordionModule],
-  templateUrl: './plan-accion.component.html',
-  styleUrl: './plan-accion.component.css'
+  templateUrl: './plan-adquisiciones.component.html',
+  styleUrl: './plan-adquisiciones.component.css'
 })
-export class PlanAccionComponent {
+export class PlanAdquisicionesComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
@@ -69,5 +68,4 @@ export class PlanAccionComponent {
       },
     ];
   }
-
 }

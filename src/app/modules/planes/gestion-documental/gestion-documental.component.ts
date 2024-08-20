@@ -3,13 +3,14 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { AcordionAnidadoFiles } from '../../../interfaces/acordion';
 
 @Component({
-  selector: 'app-plan-accion',
+  selector: 'app-gestion-documental',
   standalone: true,
   imports: [NgbAccordionModule],
-  templateUrl: './plan-accion.component.html',
-  styleUrl: './plan-accion.component.css'
+  templateUrl: './gestion-documental.component.html',
+  styleUrl: './gestion-documental.component.css'
 })
-export class PlanAccionComponent {
+export class GestionDocumentalComponent {
+
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
@@ -69,5 +70,4 @@ export class PlanAccionComponent {
       },
     ];
   }
-
 }
