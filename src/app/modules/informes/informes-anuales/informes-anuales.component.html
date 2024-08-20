@@ -1,0 +1,15 @@
+<h1 class="titulo-h1">INFORMES ANUALES</h1>
+<p>
+  Aquí encontrará los informes de empalme de la Presidencia del Fondo Pasivo
+  Social.
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<a
+  *ngFor="let file of files"
+  class="link-file"
+  href="{{ file.url }}"
+  target="_blank"
+  ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>{{ file.nombre }}</a
+>

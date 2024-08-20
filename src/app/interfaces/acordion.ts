@@ -6,7 +6,7 @@ export interface AcordionSimple {
 
 export interface File {
   id: number;
-  extension: string;
+  tipo: string;
   nombre: string;
   url: string;
 }
@@ -21,4 +21,5 @@ export interface AcordionAnidadoFiles {
   id: number;
   nombre: string;
   acordion: AcordionFiles[];
+  files?: File[];
 }
