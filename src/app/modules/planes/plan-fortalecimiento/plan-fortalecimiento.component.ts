@@ -24,7 +24,7 @@ export class PlanFortalecimientoComponent {
               {
                 id: 1,
                 nombre: 'INDICADORES ESTRATEGICOS 2023.pdf',
-                extension: 'pdf',
+                tipo: 'pdf',
                 url: '.pdf',
               },
             ],
@@ -42,7 +42,7 @@ export class PlanFortalecimientoComponent {
               {
                 id: 1,
                 nombre: 'INDICADORES DE GESTIÓN FPS FNC 2023.pdf',
-                extension: 'pdf',
+                tipo: 'pdf',
                 url: '.pdf',
               },
             ],
@@ -60,7 +60,7 @@ export class PlanFortalecimientoComponent {
               {
                 id: 1,
                 nombre: 'FORMULACION DE INDICADORES PROCESO.PDF',
-                extension: 'pdf',
+                tipo: 'pdf',
                 url: '.pdf',
               },
             ],
