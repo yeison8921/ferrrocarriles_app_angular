@@ -28,27 +28,27 @@ const routes: Routes = [
     component: PlanAccionComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-estrategico/63',
+    path: 'plan-estrategico/63',
     component: PlanEstrategicoComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-de-anticorrupcion-y-atencion-al-ciudadano/74',
+    path: 'plan-de-anticorrupcion-y-atencion-al-ciudadano/74',
     component: PlanAnticorrupcionComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-de-riesgos/79',
+    path: 'plan-de-riesgos/79',
     component: PlanRiesgosComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/planes-de-mejoramiento/60',
+    path: 'planes-de-mejoramiento/60',
     component: PlanMejoramientoComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-de-fortalecimiento/78',
+    path: 'plan-de-fortalecimiento/78',
     component: PlanFortalecimientoComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-gestion-humana/197',
+    path: 'plan-gestion-humana/197',
     component: PlanGestionHumanaComponent,
   },
   {
@@ -56,27 +56,27 @@ const routes: Routes = [
     component: ProcedimientosComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-anual-de-adquisiciones/198',
+    path: 'plan-anual-de-adquisiciones/198',
     component: PlanAdquisicionesComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-de-politica-sectorial-de-transparencia-e-integridad/231',
+    path: 'plan-de-politica-sectorial-de-transparencia-e-integridad/231',
     component:PlanPoliticaComponent ,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-de-participacion-ciudadana/73',
+    path: 'plan-de-participacion-ciudadana/73',
     component: PlanParticipacionComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/plan-seguridad-y-privacidad-de-la-informacion/200',
+    path: 'plan-seguridad-y-privacidad-de-la-informacion/200',
     component: PlanSeguridadComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/programas-y-proyectos-de-inversion/202',
+    path: 'programas-y-proyectos-de-inversion/202',
     component: ProyectosInversionComponent,
   },
   {
-    path: 'planeacion-gestion-y-control/gestion-documental/203',
+    path: 'gestion-documental/203',
     component: GestionDocumentalComponent,
   },
 ];
