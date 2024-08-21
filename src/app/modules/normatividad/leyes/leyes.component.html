@@ -1,0 +1,12 @@
+<div>
+  <h1 class="titulo-h1">LEYES</h1>
+
+  <div *ngFor="let ley of leyes; let i = index">
+    <h3 class="titulo-h3">{{ ley.title }}</h3>
+    <p>{{ ley.text }}</p>
+    <a class="link-file mb-3" href="{{ ley.href }}" target="_blank"
+      ><i class="bi bi-file-earmark-pdf-fill"></i>{{ ley.title }}</a
+    >
+    <hr />
+  </div>
+</div>

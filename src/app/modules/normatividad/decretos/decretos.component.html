@@ -1,0 +1,17 @@
+<div>
+  <h1 class="titulo-h1">DECRETOS</h1>
+
+  <p class="mb-3 mt-3">
+    Decretos por las cuales se establecen lineamientos y procedimientos internos
+    del Fondo Pasivo Social
+  </p>
+
+  <div *ngFor="let decreto of decretos; let i = index">
+    <h3 class="titulo-h3">{{ decreto.title }}</h3>
+    <p>{{ decreto.text }}</p>
+    <a class="link-file mb-3" href="{{ decreto.href }}" target="_blank"
+      ><i class="bi bi-file-earmark-pdf-fill"></i>{{ decreto.title }}</a
+    >
+    <hr />
+  </div>
+</div>
