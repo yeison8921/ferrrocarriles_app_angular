@@ -1,108 +1,173 @@
 h1 {
   text-align: start;
-  position:relative;
+  position: relative;
   color: var(--azul-t);
 }
+
 h1 span {
-background:#fff;
-z-index:1;
-position:relative;
-padding:15px;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+  padding: 15px;
 }
-h1::after  {
+
+h1::after {
   content: '';
   position: absolute;
-  width:100%;
-  height:0.2rem;
-  left:0px;
-  top:2rem;
+  width: 100%;
+  height: 0.2rem;
+  left: 0px;
+  top: 60%;
   background: var(--azul-t);
-  z-index:0;
+  z-index: 0;
 }
-.titleSection{
-  color:var(--azul-t);
+
+.titleSection {
+  color: var(--azul-t);
 }
+
 .textColor {
   color: var(--azul-o);
-  position:relative;
+  position: relative;
 }
 
 .mapa {
   background-color: var(--gris-c);
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
 }
 
 .info {
   background-color: var(--azul-o);
+
+  .botones {
+    justify-content: center;
+  }
 }
 
-.indicador{
+.indicador {
   text-align: center;
   color: var(--blanco-o);
 }
-.iconfile{
+
+.iconfile {
   color: var(--amarillo-o);
 }
 
-.titleBanner{
+.titleBanner {
   font-size: 2rem;
   font-weight: bold;
   color: var(--blanco-o);
   font-family: "WorkSans-Bold";
 
-    span{
-      color: var(--amarillo-o);
-    }
+  span {
+    color: var(--amarillo-o);
+  }
 }
 
 .columnInfo {
   padding: 0rem;
   color: var(--blanco-o);
-  font-size: 1.3rem;
   font-weight: 300;
   text-align: center;
   font-family: "WorkSans-Regular";
+  width: min-content;
   font-size: 1rem;
 
-   b{
+  b {
     font-family: "WorkSans-Bold";
-   }
-   .icono{
+  }
+
+  .icono {
     display: block;
     width: 100%;
     height: 4rem;
     font-size: 3rem;
     color: var(--amarillo-o);
   }
-
 }
-
-
 
 .icono::before {
   font-family: "govco-font";
 }
 
-.icon-afiliaciones::before{
+.icon-afiliaciones::before {
   content: "\e9EB";
 }
-.icon-promocionyprevencion::before{
+
+.icon-promocionyprevencion::before {
   content: "\e9B7";
 }
-.icon-indicadores::before{
+
+.icon-indicadores::before {
   content: "\ea9c";
 }
-.icon-derechosydeberes::before{
+
+.icon-derechosydeberes::before {
   content: "\e9B5";
 }
+
 .icon-usuarios::before {
   content: "\EC85";
 }
+
 .icon-prestadores::before {
   content: "\EC4C";
 }
+
 .icon-municipios::before {
   content: "\EBF5";
 }
 
+@media (min-width: 576px) {
+  .mapa img {
+    width: auto;
+  }
+
+  .info {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .info {
+    .container>div {
+      width: 585px;
+    }
+
+    .botones {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .mapa img {
+    width: 100%;
+  }
+
+  .info {
+    justify-content: start;
+  }
+
+  .info .botones {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mapa img {
+    width: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .info .container>div {
+    width: 610px
+  }
+}
