@@ -200,7 +200,7 @@ export class InformesDefensaJudicialComponent {
         ],
       },
       {
-        id: 1,
+        id: 3,
         nombre: 'PROGRAMACION AUDIENCIAS',
         acordion: [
           {
@@ -406,6 +406,300 @@ export class InformesDefensaJudicialComponent {
                 url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/03. 2022/12. AUDIENCIAS DICIEMBRE DE 2022 CONCILIACIÓN.xls',
               },
             ],
+          },
+          {
+            id: 5,
+            nombre: '2021',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '01 AUDIENCIAS ENERO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/01 AUDIENCIAS ENERO 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre: '01 CONTROL CITACIONES AUDIENCIAS CTE DEFENSA 2020.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/01 CONTROL CITACIONES AUDIENCIAS CTE DEFENSA 2020.xls',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '03 AUDIENCIAS MARZO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/03 AUDIENCIAS MARZO 2021 CONCILIACIÓN..pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: '04 AUDIENCIAS ABRIL 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/04 AUDIENCIAS ABRIL 2021 CONCILIACIÓN..pdf',
+              },
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '05 AUDIENCIAS MAYO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/05 AUDIENCIAS MAYO 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 6,
+                tipo: 'pdf',
+                nombre: '06 AUDIENCIAS JUNIO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/06 AUDIENCIAS JUNIO 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 7,
+                tipo: 'pdf',
+                nombre: '07 AUDIENCIAS JULIO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/07 AUDIENCIAS JULIO 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 8,
+                tipo: 'pdf',
+                nombre: '08 AUDIENCIAS AGOSTO 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/08 AUDIENCIAS AGOSTO 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 9,
+                tipo: 'pdf',
+                nombre: '09 AUDIENCIAS SEPTIEMBRE 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/09 AUDIENCIAS SEPTIEMBRE 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 10,
+                tipo: 'pdf',
+                nombre: '10 AUDIENCIAS OCTUBRE 2021 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/10 AUDIENCIAS OCTUBRE 2021 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 11,
+                tipo: 'excel',
+                nombre: '11 AUDIENCIAS NOVIEMBRE 2021 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/04. 2021/11 AUDIENCIAS NOVIEMBRE 2021 CONCILIACIÓN.xls',
+              },
+            ],
+          },
+          {
+            id: 6,
+            nombre: '2020',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '1. AUDIENCIAS ENERO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/1. AUDIENCIAS ENERO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: '1. AUDIENCIAS ENERO A JUNIO TRAMITE.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/1. AUDIENCIAS ENERO A JUNIO TRAMITE.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '1. AUDIENCIAS ENERO A JUNIO TRÁMITE.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/1. AUDIENCIAS ENERO A JUNIO TRÁMITE.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'excel',
+                nombre: '1. AUDIENCIAS ENERO A JUNIO TRÁMITE.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/1. AUDIENCIAS ENERO A JUNIO TRÁMITE.xls',
+              },
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '10. AUDIENCIAS OCTUBRE 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/10. AUDIENCIAS OCTUBRE 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 6,
+                tipo: 'pdf',
+                nombre: '11. AUDIENCIAS NOVIEMBRE 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/11. AUDIENCIAS NOVIEMBRE 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 7,
+                tipo: 'pdf',
+                nombre: '12. AUDIENCIAS DICIEMBRE 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/12. AUDIENCIAS DICIEMBRE 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 8,
+                tipo: 'pdf',
+                nombre: '2. AUDIENCIAS FEBRERO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/2. AUDIENCIAS FEBRERO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 9,
+                tipo: 'pdf',
+                nombre: '3. AUDIENCIAS MARZO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/3. AUDIENCIAS MARZO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 10,
+                tipo: 'pdf',
+                nombre: '4. AUDIENCIAS ABRIL 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/4. AUDIENCIAS ABRIL 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 11,
+                tipo: 'pdf',
+                nombre: '5. AUDIENCIAS MAYO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/5. AUDIENCIAS MAYO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 12,
+                tipo: 'pdf',
+                nombre: '6. AUDIENCIAS JUNIO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/6. AUDIENCIAS JUNIO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 13,
+                tipo: 'pdf',
+                nombre: '7. AUDIENCIAS JULIO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/7. AUDIENCIAS JULIO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 14,
+                tipo: 'pdf',
+                nombre: '8. AUDIENCIAS AGOSTO 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/8. AUDIENCIAS AGOSTO 2020 CONCILIACIÓN.pdf',
+              },
+              {
+                id: 15,
+                tipo: 'pdf',
+                nombre: '9. AUDIENCIAS SEPTIEMBRE 2020 CONCILIACIÓN.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/05. 2020/9. AUDIENCIAS SEPTIEMBRE 2020 CONCILIACIÓN.pdf',
+              },
+            ],
+          },
+          {
+            id: 7,
+            nombre: '2019',
+            files: [
+              {
+                id: 16,
+                tipo: 'pdf',
+                nombre: 'CONSOLIDADO DE AUDIENCIAS 2019.pdf',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/06. 2019/CONSOLIDADO DE AUDIENCIAS 2019.pdf',
+              },
+            ],
+          },
+          {
+            id: 8,
+            nombre: '2018',
+            files: [
+              {
+                id: 17,
+                tipo: 'excel',
+                nombre: 'audiencias2018.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/07. 2018/audiencias2018.xls',
+              },
+            ],
+          },
+          {
+            id: 9,
+            nombre: '2017',
+            files: [
+              {
+                id: 17,
+                tipo: 'excel',
+                nombre: 'audiencias2017.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/08. 2017/audiencias2017.xls',
+              },
+            ],
+          },
+          {
+            id: 10,
+            nombre: '2016',
+            files: [
+              {
+                id: 17,
+                tipo: 'excel',
+                nombre: 'audiencias2016.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/09. 2016/audiencias2016.xls',
+              },
+            ],
+          },
+          {
+            id: 11,
+            nombre: '2015',
+            files: [
+              {
+                id: 18,
+                tipo: 'excel',
+                nombre: 'audiencias2015.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/10. 2015/audiencias2015.xls',
+              },
+            ],
+          },
+          {
+            id: 12,
+            nombre: '2014',
+            files: [
+              {
+                id: 19,
+                tipo: 'excel',
+                nombre: 'audiencias2014.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/11. 2014/audiencias2014.xls',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 4,
+        nombre: 'RELACIÓN DE DEMANDAS',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            nombre: 'DEMANDAS FPS 2016.xls',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/DEMANDAS FPS 2016.xls',
+          },
+          {
+            id: 2,
+            tipo: 'excel',
+            nombre: 'DEMANDAS FPS 2017.xls',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/DEMANDAS FPS 2017.xls',
+          },
+          {
+            id: 3,
+            tipo: 'excel',
+            nombre: 'DEMANDAS FPS 2018.xls',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/DEMANDAS FPS 2018.xls',
+          },
+          {
+            id: 4,
+            tipo: 'excel',
+            nombre: 'DEMANDAS FPS 2019.xlsx',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/DEMANDAS FPS 2019.xlsx',
+          },
+          {
+            id: 5,
+            tipo: 'pdf',
+            nombre: 'INFORME TRIMESTRAL 001.pdf',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/INFORME TRIMESTRAL 001.pdf',
+          },
+          {
+            id: 6,
+            tipo: 'pdf',
+            nombre: 'INFORME TRIMESTRAL 002.pdf',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/INFORME TRIMESTRAL 002.pdf',
+          },
+          {
+            id: 7,
+            tipo: 'pdf',
+            nombre: 'INFORME TRIMESTRAL 003.pdf',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/INFORME TRIMESTRAL 003.pdf',
+          },
+          {
+            id: 8,
+            tipo: 'pdf',
+            nombre: 'INFORME TRIMESTRAL 004 .pdf',
+            url: '/assets/files/informes_defensa_judicial/RELACIÓN DE DEMANDAS/INFORME TRIMESTRAL 004 .pdf',
           },
         ],
       },
