@@ -40,7 +40,7 @@
             </h4>
             <div *ngFor="let file of acordionInterno.files; let k = index">
               <a class="link-file" href="{{ file.url }}">
-                <i class="bi bi-file-earmark-{{ file.extension }}-fill"></i>
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
                 {{ file.nombre }}
               </a>
             </div>
