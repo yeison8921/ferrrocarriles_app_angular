@@ -1,0 +1,1659 @@
+[
+  {
+    "section": "Asignación de citas",
+    "departments": [
+      {
+        "name": "Magdalena",
+        "places": [
+          {
+            "city": "CIENAGA",
+            "name": "Clínica general de ciénaga s.a.s.",
+            "address": "Cra. 19 #18 - 145",
+            "phone": "4368120 Opción 2-3134769284",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "FUNDACIÓN",
+            "name": "Maconsalud Fundación Sede 04",
+            "address": "Calle 8 # 8-76",
+            "phone": "3185218808",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "SANTA MARTA",
+            "name": "Sede Centro de Atención Ambulatoria",
+            "address": "Avenida El Libertador # 13-12",
+            "phone": "605 4366111",
+            "hours": "7:00am - 06:00 pm"
+          }
+        ]
+      },
+      {
+        "name": "Antioquia",
+        "places": [
+          {
+            "city": "BELLO",
+            "name": "Sumimedical",
+            "address": "Sede Bello Cra 50 #46 - 146",
+            "phone": "01 800 041 3704 - 320 880 4424",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "MEDELLIN",
+            "name": "Sumimedical",
+            "address": "Apoyo Terapéutico Cll 45E # 73 -40 Medellín",
+            "phone": "01 800 041 3704 - 320 880 4424",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "MEDELLIN",
+            "name": "Sumimedical",
+            "address": "Torre Villanueva Carrera 49 No. 58-45",
+            "phone": "01 800 041 3704 - 320 880 4424",
+            "hours": "24 Horas"
+          }
+        ]
+      },
+      {
+        "name": "Atlántico",
+        "places": [
+          {
+            "city": "BARRANQUILLA",
+            "name": "Clinica General del Norte sede 2",
+            "address": "Calle 59 # 50-10",
+            "phone": "3091690 Opcion 1",
+            "hours": "7:00 am-5:30 pm"
+          }
+        ]
+      },
+      {
+        "name": "Bogotá",
+        "places": [
+          {
+            "city": "BOGOTÁ",
+            "name": "PSQ SAS",
+            "address": "Carrera 16 A N° 85-29",
+            "phone": "601-3905418 - 3187126397 citasemcosaludpsq.ips@gmail.com",
+            "hours": "Lunes a sábado de 7:00 a.m. – 5:00 p.m."
+          }
+        ]
+      },
+      {
+        "name": "Bolivar",
+        "places": [
+          {
+            "city": "CARTAGENA",
+            "name": "Clínica El Bosque",
+            "address": "Transversal 54 # 30111",
+            "phone": "605 6945969 - 3009124728",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Boyacá",
+        "places": [
+          {
+            "city": "TUNJA",
+            "name": "Dansosalud",
+            "address": "Carrera 11 No 11-51",
+            "phone": "3227678916",
+            "hours": "Lunes a Viernes 8:00 AM A 12:00 PM Y 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "CHIQUINQUIRÁ",
+            "name": "Clinicsalud",
+            "address": "Calle 19 # 9-12",
+            "phone": "3132623711 - 3118546589",
+            "hours": "Lunes a Viernes DE 8:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          },
+          {
+            "city": "SOGAMOSO",
+            "name": "Sireb",
+            "address": "Calle 9 A N°13-39",
+            "phone": "7722714 - 7703039 - 3134643026 - 3153495845 - 3159254497",
+            "hours": "Lunes a Viernes DE 8:00 AM A 11:00 AM Y 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "MONIQUIRÁ",
+            "name": "Monsalud",
+            "address": "Calle 8 Nº 8-53 Barbosa - Santander",
+            "phone": "7482822",
+            "hours": "Lunes a Viernes DE 8:00 AM A 12:00 PM Y 2:00 AM A 5:30 PM"
+          },
+          {
+            "city": "DUITAMA",
+            "name": "Centro de Atención Reina Maria Ltda",
+            "address": "Carrera 17 #13-19",
+            "phone": "7651205 - 3138783548 - 3174302959",
+            "hours": "Lunes a Viernes DE 7:00 AM A 7:00 PM Y SABADOS 7:00 AM A 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Caldas",
+        "places": [
+          {
+            "city": "MANIZALES",
+            "name": "Cosmitet Ips Manizales Parque Médico",
+            "address": "Avenida Santander #6 5A-41",
+            "phone": "8918326",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "LA DORADA",
+            "name": "Victoria SAS",
+            "address": "Calle 11 N° 3-48 Centro",
+            "phone": "3186733608 -606 -8576985",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00M"
+          }
+        ]
+      },
+      {
+        "name": "Cauca",
+        "places": [
+          {
+            "city": "POPAYÁN",
+            "name": "Cosmitet Ips Popayan",
+            "address": "Calle 4 #0-55 Barrio La Pamba",
+            "phone": "PBX 8339282",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "POPAYÁN",
+            "name": "Cosmitet Sede Administrativa Popayan – Auditoria Medica",
+            "address": "Calle 4 # 1-26 Barrio La Pamba",
+            "phone": "8372993",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "POPAYÁN",
+            "name": "Cosmitet Sede Administrativa Popayan – Coordinacion medica",
+            "address": "Calle 4 # 1-26 Barrio La Pamba",
+            "phone": "8325073",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "POPAYÁN",
+            "name": "Cosmitet Sede Administrativa Popayan – Aux Administrativa",
+            "address": "Calle 4 # 1-26 Barrio La Pamba",
+            "phone": "8325071",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "POPAYÁN",
+            "name": "Cosmitet Sede Administrativa Popayan – Radicación De Cuentas",
+            "address": "Calle 4 # 1-26 Barrio La Pamba",
+            "phone": "8221243",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Cesar",
+        "places": [
+          {
+            "city": "BOSCONIA",
+            "name": "Hospital San Juan Bosco E.S.E",
+            "address": "Cra 16 No. 20-60 Bosconia",
+            "phone": "3182851798",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "CHIRUGUANA",
+            "name": "Salud Humana Empresa S.A.",
+            "address": "Cra 5 No. 3-26 Chiriguana",
+            "phone": "3215641816",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "CURUMANI",
+            "name": "Hospital Cristian Moreno Pallares",
+            "address": "Calle 9 A Cra 17 NO. 17 Esquina – Curumaní",
+            "phone": "5750326",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "VALLEDUPAR",
+            "name": "Dazalud IPS",
+            "address": "Carrera 17 No 13B bis-15 Barrio Alfonso López",
+            "phone": "3183294259 - 3116926630",
+            "hours": "07:00am - 05:00 pm"
+          }
+        ]
+      },
+      {
+        "name": "Cundinamarca",
+        "places": [
+          {
+            "city": "FACATATIVA",
+            "name": "Improvequality Reduce Cost Save Lifes Auditores SAS QCL Auditores",
+            "address": "Calle 15 No 9 - 56 Barrio Pensilvania",
+            "phone": "6210905 - 6210910 - 8901362 - 8900710 - 8902000 - 3115533970",
+            "hours": "Lunes a Viernes de 6:30 AM A 7:00 PM y Sabados DE 7:00 AM A 1:00 PM"
+          },
+          {
+            "city": "GIRARDOT",
+            "name": "Sociedad Clinica Emcosalud S.A",
+            "address": "Calle 20A No 8-48",
+            "phone": "3219068336",
+            "hours": "Lunes a Viernes 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM Y Sabados DE 7:00 AM A 10:00 AM"
+          },
+          {
+            "city": "ZIPAQUIRÁ",
+            "name": "Improvequality Reduce Cost Save Lifes Auditores SAS QCL Auditores",
+            "address": "Calle 3 D # 13 - 78",
+            "phone": "8813821 - 8829226 - 8829224",
+            "hours": "Lunes a Viernes 7:00 AM A 7:00 PM Y Sabado de 7:00 AM A 1:00 PM"
+          },
+          {
+            "city": "VILLETA",
+            "name": "Unidad Medica Central IPS",
+            "address": "Calle 5 No. 6 -51",
+            "phone": "8445213 - 3107593090",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM y de 1:00 PM A 4:00 PM Sabado de 7:00 AM A 3:00 PM"
+          },
+          {
+            "city": "CHOCONTÁ",
+            "name": "Osdoksalud Servicios Integrales en Salud EU",
+            "address": "Calle 6 No. 3 - 80",
+            "phone": "8562256",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "LA MESA",
+            "name": "Mesalud Limitada",
+            "address": "Calle 4 A No. 27-85",
+            "phone": "8470994",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "GUADUAS",
+            "name": "Empresa Social Del Estado Hospital San José de Guaduas",
+            "address": "Carrera 9 N 7-26 Barrio Carlos Lleras",
+            "phone": "3144722756 - 3124695799",
+            "hours": "Lunes a Viernes 7:00 AM A 12:00 PM Y 01:30 PM a 5:30 PM"
+          },
+          {
+            "city": "FUSAGASUGÁ",
+            "name": "San Pablo Angel",
+            "address": "Calle 18 # 11-33",
+            "phone": "8958006 - 3212144494",
+            "hours": "Lunes a Viernes de 7:00 AM A 1:00 PM"
+          },
+          {
+            "city": "CACHIPAY",
+            "name": "Mesalud Limitada",
+            "address": "Calle 4 A No. 27-85",
+            "phone": "8470994",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "UTICA",
+            "name": "Unidad Medica Central IPS",
+            "address": "Calle 5 No. 6 -51",
+            "phone": "8445213 – 8444283 – 8445318 – 88444102",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM y de 1:00 PM A 4:00 PM Sabado de 7:00 AM A 3:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Meta",
+        "places": [
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Servicios Medicos Integrales de Salud",
+            "address": "Carrera 40 A # 40-32",
+            "phone": "6706810",
+            "hours": "Lunes a Viernes de 8:00 AM - 12:00 PM Y 02:00 PM - 06:00 PM y Sabado de 08:00 AM A 12:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Nariño",
+        "places": [
+          {
+            "city": "TUMACO",
+            "name": "Cosmitet Ips Tumaco",
+            "address": "Calle Mosquera Frente al Parte Colon",
+            "phone": "602 7271526",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día, Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Quindio",
+        "places": [
+          {
+            "city": "ARMENIA",
+            "name": "Cosmitet Ips Armenia",
+            "address": "Avenida Bolivar #1-23",
+            "phone": "(606) 7359448",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Risaralda",
+        "places": [
+          {
+            "city": "SANTA ROSA DE CABAL",
+            "name": "Cosmitet Ips Centro Medico Guadalupe",
+            "address": "Cra. 15 #35-39",
+            "phone": "0363324112-EXT 103",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "SANTA ROSA DE CABAL",
+            "name": "Cosmitet Ips Santa Rosa De Cabal",
+            "address": "Carrera 15 #13-78 Local 107-108-201",
+            "phone": "3651804",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "PEREIRA",
+            "name": "Cosmitet Ips Pereira",
+            "address": "Carrera 14 BIS #10-17",
+            "phone": "3400359",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "QUINCHIA",
+            "name": "Cosmitet Ips Quinchia",
+            "address": "Carrera 8 #7-20",
+            "phone": "3177279986",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Santander",
+        "places": [
+          {
+            "city": "BUCARAMANGA",
+            "name": "Sumimedical",
+            "address": "Calle 54 # 31-122",
+            "phone": "01 800 041 3704 - 320 880 4424",
+            "hours": "24 horas"
+          },
+          {
+            "city": "PUENTE NACIONAL",
+            "name": "E.S.E. Hospital Integrado San Antonio",
+            "address": "Carrera 6 # 8-61",
+            "phone": "3182545922",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Quindio",
+        "places": [
+          {
+            "city": "ARMENIA",
+            "name": "Cosmitet Ips Armenia",
+            "address": "Avenida Bolivar #1-23",
+            "phone": "(606) 7359448",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Risaralda",
+        "places": [
+          {
+            "city": "SANTA ROSA DE CABAL",
+            "name": "Cosmitet Ips Centro Medico Guadalupe",
+            "address": "Cra. 15 #35-39",
+            "phone": "0363324112-EXT 103",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "SANTA ROSA DE CABAL",
+            "name": "Cosmitet Ips Santa Rosa De Cabal",
+            "address": "Carrera 15 #13-78 Local 107-108-201",
+            "phone": "3651804",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "PEREIRA",
+            "name": "Cosmitet Ips Pereira",
+            "address": "Carrera 14 BIS #10-17",
+            "phone": "3400359",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "QUINCHIA",
+            "name": "Cosmitet Ips Quinchia",
+            "address": "Carrera 8 #7-20",
+            "phone": "3177279986",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Santander",
+        "places": [
+          {
+            "city": "BUCARAMANGA",
+            "name": "Sumimedical",
+            "address": "Calle 54 # 31-122",
+            "phone": "01 800 041 3704 - 320 880 4424",
+            "hours": "24 horas"
+          },
+          {
+            "city": "PUENTE NACIONAL",
+            "name": "E.S.E. Hospital Integrado San Antonio",
+            "address": "Carrera 6 # 8-61",
+            "phone": "3182545922",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Tolima",
+        "places": [
+          {
+            "city": "IBAGUE",
+            "name": "Sociedad Clinica Emcosalud",
+            "address": "Carrera 8 # 17-10",
+            "phone": "3105679731",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Emcosalud Sede Mariquita",
+            "address": "Calle 8 N. 4-50",
+            "phone": "3164728805",
+            "hours": "Lunes a Viernes 7:00 AM A 10:00 AM"
+          },
+          {
+            "city": "HONDA",
+            "name": "Marco Publio Silva Palencia",
+            "address": "Carrera 20 N°9-97 Cuesta Padilla",
+            "phone": "2512066",
+            "hours": "Lunes a Viernes 1:00 PM A 4:00 PM"
+          },
+          {
+            "city": "AMBALEMA",
+            "name": "Hospital San Antonio de Ambalema",
+            "address": "Carrera 5 # 2-89 Barrio Campoalegre",
+            "phone": "3156519175",
+            "hours": "Lunes a Jueves de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM Viernes 7:00 AM A 12:00 PM Y DE 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "NATAGAIMA",
+            "name": "Hospital San Antonio de Natagaima",
+            "address": "Calle 6 Carrera 11 Esquina",
+            "phone": "2269829- 3164740149",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Valle del Cauca",
+        "places": [
+          {
+            "city": "BUGA",
+            "name": "Cosmitet Ips Buga",
+            "address": "Carrera 16 #7-25",
+            "phone": "5185000 EXT 2745",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "BUENAVENTURA",
+            "name": "Cosmitet Ips Buenaventura",
+            "address": "Carrera 47 #4-02 Barrio Bellavista",
+            "phone": "2421880",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "CARTAGO",
+            "name": "Cosmitet Ips Cartago",
+            "address": "Carrera 1 #15-36 Barrio El Prado",
+            "phone": "52134549",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "PALMIRA",
+            "name": "Cosmitet Ips Palmira",
+            "address": "Carrera 26 #32A-18 Barrio Uribe",
+            "phone": "5185000 EXT 2902",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "TULUA",
+            "name": "Cosmitet Ips Tulua",
+            "address": "Calle 26 # 39-20 segundo piso, local 2",
+            "phone": "5185000 ext 2751-2754-2756-2757-2707",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "YUMBO",
+            "name": "Cosmitet Ips Yumbo",
+            "address": "Carrera 4 #3-23",
+            "phone": "6588563",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "ZARZAL",
+            "name": "Cosmitet Ips Zarzal",
+            "address": "Calle 9 #7-94 Barrio El Quindío",
+            "phone": "2207096",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "CALI",
+            "name": "Cosmitet Ips Fondo Pasivo",
+            "address": "Carrera 40 # 5C - 102",
+            "phone": "5185041 - 5185000",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Gestión de órdenes de servicio",
+    "departments": [
+      {
+        "name": "Bolivar",
+        "places": [
+          {
+            "city": "CARTAGENA",
+            "name": "Clínica El Bosque",
+            "address": "Transversal 54 # 30111",
+            "phone": "605 6945969 - 3009124728",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Magdalena",
+        "places": [
+          {
+            "city": "CIENAGA",
+            "name": "Clínica General de Ciénaga S.A.S.",
+            "address": "Cra. 19 #18 - 145",
+            "phone": "4368120 Opción 2-3134769284",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "FUNDACION",
+            "name": "Maconsalud fundación sede 04",
+            "address": "Calle 8 # 8-76",
+            "phone": "3185218808",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "SANTA MARTA",
+            "name": "Sede Centro de atención ambulatoria",
+            "address": "Avenida el libertador # 13-12",
+            "phone": "605 4366111",
+            "hours": "7:00am - 06:00 pm"
+          }
+        ]
+      },
+      {
+        "name": "Cesar",
+        "places": [
+          {
+            "city": "BOSCONIA",
+            "name": "Drogueria La Economia",
+            "address": "Calle 18 No 18ª-32",
+            "phone": "6055606446",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "CHIRUGUANA",
+            "name": "Drogueria La Economia",
+            "address": "Carrera 5 No 4-07",
+            "phone": "6055606446",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "CURUMANI",
+            "name": "Drogueria La Economia",
+            "address": "Calle 8 Carrera 17 Local 1",
+            "phone": "6055606446",
+            "hours": "07:00am - 05:00 pm"
+          },
+          {
+            "city": "VALLEDUPAR",
+            "name": "Drogueria La Economia",
+            "address": "Calle 16 No 12-05",
+            "phone": "6055606446",
+            "hours": "07:00am - 05:00 pm"
+          }
+        ]
+      },
+      {
+        "name": "Atlántico",
+        "places": [
+          {
+            "city": "BARRANQUILLA",
+            "name": "Clinica General del Norte sede 2",
+            "address": "Calle 59 # 50-10",
+            "phone": "3091690 Opcion 1",
+            "hours": "7:00 am-5:30 pm"
+          }
+        ]
+      },
+      {
+        "name": "Antioquia",
+        "places": [
+          {
+            "city": "BELLO",
+            "name": "CAPA Bello",
+            "address": "Carrera 50 #46 - 146",
+            "phone": "604) 520 10 40 opción 5 ext 1401",
+            "hours": "Lunes a viernes de 6:00 a.m a 7:00 p.m. – Sábado: de 7:00 a.m. a 1:00 p.m."
+          },
+          {
+            "city": "BARBOSA",
+            "name": "ESE Hospital San Vicente de Paul BARBOSA-CAPITADO",
+            "address": "Calle 5 E #18-133 barrio la florida Girardota",
+            "phone": "3183514231",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "CISNEROS",
+            "name": "ESE Hospital San Antonio - Cisneros",
+            "address": "Calle 17 # 17-105",
+            "phone": "3183514231",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "GIRARDOTA",
+            "name": "ESE Hospital San Rafael Girardota",
+            "address": "Carrera. 16 # 11- 01",
+            "phone": "3183514231",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "AMAGA",
+            "name": "ESE Hospital San Fernando - Capitado",
+            "address": "Carrera 51#52-81 hospital amagá",
+            "phone": "3173712037",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "FREDONIA",
+            "name": "ESE Hospital de Santa Lucia - Fredonia",
+            "address": "Calle 69 # 50 - 220",
+            "phone": "3183514231",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "PUERTO NARE",
+            "name": "Empresa Social del Estado Hospital Octavio Olivares",
+            "address": "Carrera 5 N. 45-103 Barrio Héctor Duque",
+            "phone": "3176649317",
+            "hours": "Lunes a viernes de 1:30 pm a 5:30pm y sabado cada 15 dias de 9am a 1pm"
+          },
+          {
+            "city": "CARACOLI",
+            "name": "E.S.E. Hospital San Pio X",
+            "address": "Calle 22 #21-1",
+            "phone": "3176649317",
+            "hours": "Lunes a viernes de 1:30 pm a 5:30pm y sabado cada 15 dias de 9am a 1pm"
+          },
+          {
+            "city": "MEDELLIN",
+            "name": "CAPA Estadio",
+            "address": "Calle 47D #70-113",
+            "phone": "520 10 40 Ext: 302 - 303",
+            "hours": "Lunes a viernes de 7:00 a.m a 7:00 p.m. – Sábados de 7:00 a.m. a 1 :00 p.m."
+          },
+          {
+            "city": "COPACABANA",
+            "name": "CAPA Copacabana",
+            "address": "Calle 53 # 56 – 34 Barrio La Asunción",
+            "phone": "atencionalusuario.copacabana@sumimedical.com",
+            "hours": "Lunes a viernes de 7:00 a.m. a 5:30 p.m. – Sábados de 7:00 a.m. a 1:00 p.m. cada 15 días."
+          },
+          {
+            "city": "PUERTO BERRIO",
+            "name": "CAPA Puerto Berrío",
+            "address": "Calle 45 # 6 -12 Barrio El Hoyo",
+            "phone": "(+57) 317 664 9317",
+            "hours": "Lunes a viernes de 6:00 a.m. a 5:30 p.m. – Sábados de 6:00 a 1:00 p.m."
+          },
+          {
+            "city": "RIONEGRO",
+            "name": "CAPA Rionegro",
+            "address": "Cra. 49 # 50 – 58, Locales 108 – 109",
+            "phone": "(604) 411 44 88",
+            "hours": "lunes a viernes de 6:40 a.m. a 7:00 p.m. – Sábados de 6:40 a.m. a 1:00 p.m."
+          }
+        ]
+      },
+      {
+        "name": "Santander",
+        "places": [
+          {
+            "city": "BUCARAMANGA",
+            "name": "CAPA Bucaramanga",
+            "address": "Calle 54 # 31-122",
+            "phone": "atencionalusuario.santander@sumimedical.com",
+            "hours": "Lunes a viernes de 7:00 a.m. a 5:00 p.m. – Sábados de 7:00 a.m. a 11:00 a.m."
+          },
+          {
+            "city": "BARRANCABERMEJA",
+            "name": "Renacer con Amor",
+            "address": "Calle 5 # 33-31 Barrio Alto Prado",
+            "phone": "316 2524839",
+            "hours": "7:00 am - 12:00 m y 2:00 pm a 5:00 pm"
+          },
+          {
+            "city": "AGUACHICA",
+            "name": "Insosalud",
+            "address": "Diagonal 56 No. 15 B 40 B. Pueblo",
+            "phone": "3212124574",
+            "hours": "lunes a jueves de 7 am a 11:30 y de 2 a 5:30 pm los viernes de 7am a 12 y de 2 a 4:30 pm"
+          },
+          {
+            "city": "PUENTE NACIONAL",
+            "name": "E.S.E. Hospital Integrado San Antonio",
+            "address": "Carrera 6 # 8-61",
+            "phone": "3182545922",
+            "hours": "Lines a Viernes de 8:00 AM A 12:00 PM Y 2:00 AM A 6:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Valle del Cauca",
+        "places": [
+          {
+            "city": "BUGA",
+            "name": "Cosmitet Ips Buga",
+            "address": "Carrera 16 #7-25",
+            "phone": "5185000 EXT 2745",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "BUENAVENTURA",
+            "name": "Cosmitet Ips Buenaventura",
+            "address": "Carrera 47 #4-02 Barrio Bellavista",
+            "phone": "2421880",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "CARTAGO",
+            "name": "Cosmitet Ips Cartago",
+            "address": "Carrera 1 #15-36 Barrio El Prado",
+            "phone": "2134549",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "PALMIRA",
+            "name": "Carrerra 26 #32A-18 Barrio Uribe",
+            "address": "5185000 EXT 2902",
+            "phone": "2134549",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "TULUA",
+            "name": "Cosmitet Ips Tulua",
+            "address": "Calle 26 # 39-20 segundo piso, local 2",
+            "phone": "5185000 ext 2751-2754-2756-2757-2707",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "YUMBO",
+            "name": "Cosmitet Ips Yumbo",
+            "address": "Carrera 4 #3-23",
+            "phone": "6588563",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "ZARZAL",
+            "name": "Cosmitet Ips Zarzal",
+            "address": "Calle 9 #7-94 Barrio El Quindío",
+            "phone": "2207096",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          },
+          {
+            "city": "CALI",
+            "name": "Cosmitet Ips Fondo Pasivo",
+            "address": "Carrera 40 # 5C - 102",
+            "phone": "5185041 - 5185000",
+            "hours": "Lunes a Viernes Jornada Mañana 7 am - 12 medio día Jornada Tarde 1 PM - 5 PM"
+          }
+        ]
+      },
+      {
+        "name": "Bogotá",
+        "places": [
+          {
+            "city": "BOGOTÁ",
+            "name": "PSQ SAS",
+            "address": "Carrera 16 A N° 85-29",
+            "phone": "601-3905418 - 3187126397 citasemcosaludpsq.ips@gmail.com",
+            "hours": "Lunes a sábado de 7:00 a.m. – 5:00 p.m."
+          }
+        ]
+      },
+      {
+        "name": "Cundinamarca",
+        "places": [
+          {
+            "city": "FACATATIVA",
+            "name": "Improvequality Reduce Cost Save Lifes Auditores SAS QCL Auditores",
+            "address": "Calle 15 No 9 - 56 Barrio Pensilvania",
+            "phone": "6210905 - 6210910- 8901362 - 8900710 - 8902000 - 3115533970",
+            "hours": "Lunes a Viernes de 6:30 AM A 7:00 PM y Sabados DE 7:00 AM A 1:00 PM."
+          },
+          {
+            "city": "GIRARDOT",
+            "name": "Sociedad Clinica Emcosalud S.A",
+            "address": "Calle 20A No 8-48",
+            "phone": "3219068336",
+            "hours": "Lunes a Viernes 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM Y Sabados DE 7:00 AM A 10:00 AM"
+          },
+          {
+            "city": "ZIPAQUIRÁ",
+            "name": "Improvequality Reduce Cost Save Lifes Auditores SAS QCL Auditores",
+            "address": "Calle 3 D # 13 - 78",
+            "phone": "8813821 - 8829226 -8829224",
+            "hours": "Lunes a Viernes 7:00 AM A 7:00 PM Y Sabado de 7:00 AM A 1:00 PM"
+          },
+          {
+            "city": "VILLETA",
+            "name": "Unidad Medica Central IPS",
+            "address": "Calle 5 No. 6 -51",
+            "phone": "8445213 - 3107593090",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM y de 1:00 PM A 4:00 PM Sabado de 7:00 AM A 3:00 PM"
+          },
+          {
+            "city": "CHOCONTÁ",
+            "name": "Osdoksalud Servicios Integrales en Salud EU",
+            "address": "Calle 6 No. 3 - 80",
+            "phone": "8562256",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "LA MESA",
+            "name": "Mesalud Limitada",
+            "address": "Calle 4 A No. 27-85",
+            "phone": "8470994",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "GUADUAS",
+            "name": "Empresa Social Del Estado Hospital San José de Guaduas",
+            "address": "Carrera 9 N 7-26 Barrio Carlos Lleras",
+            "phone": "3144722756 - 3124695799",
+            "hours": "Lunes a Viernes 7:00 AM A 12:00 PM Y 01:30 PM a 5:30 PM"
+          },
+          {
+            "city": "FUSAGASUGÁ",
+            "name": "San Pablo Angel",
+            "address": "Calle 18 # 11-33",
+            "phone": "8958006 - 3212144494",
+            "hours": "Lunes a Viernes de 7:00 AM A 1:00 PM"
+          },
+          {
+            "city": "CACHIPAY",
+            "name": "Mesalud Limitada",
+            "address": "Calle 4 A No. 27-85",
+            "phone": "8470994",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00 PM y de 2:00 PM A 4:00PM Sabados de 8:00 AM A 12:00 PM"
+          },
+          {
+            "city": "UTICA",
+            "name": "Unidad Medica Central IPS",
+            "address": "Calle 5 No. 6 -51",
+            "phone": "8445213 – 8444283 – 8445318 – 88444102",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM y de 1:00 PM A 4:00 PM Sabado de 7:00 AM A 3:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Caldas",
+        "places": [
+          {
+            "city": "LA DORADA",
+            "name": "Victoria SAS",
+            "address": "Calle 11 N° 3-48 Centro",
+            "phone": "3186733608 -606 -8576985",
+            "hours": "Lunes a Viernes de 8:00 AM A 12:00M"
+          }
+        ]
+      },
+      {
+        "name": "Tolima",
+        "places": [
+          {
+            "city": "IBAGUE",
+            "name": "Sociedad Clinica Emcosalud",
+            "address": "Carrera 8 # 17-10",
+            "phone": "3105679731",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Emcosalud Sede Mariquita",
+            "address": "Calle 8 N. 4-50",
+            "phone": "3164728805",
+            "hours": "Lunes a Viernes 7:00 AM A 10:00 AM"
+          },
+          {
+            "city": "HONDA",
+            "name": "Marco Publio Silva Palencia",
+            "address": "Carrera 20 N°9-97 Cuesta Padilla",
+            "phone": "2512066",
+            "hours": "Lunes a Viernes 1:00 AM A 4:00 PM"
+          },
+          {
+            "city": "AMBALEMA",
+            "name": "Hospital San Antonio de Ambalema",
+            "address": "Carrera 5 # 2-89 Barrio Campoalegre",
+            "phone": "3156519175",
+            "hours": "Lunes a Jueves de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM Viernes 7:00 AM A 12:00 PM Y DE 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "NATAGAIMA",
+            "name": "Hospital San Antonio de Natagaima",
+            "address": "Calle 6 Carrera 11 Esquina",
+            "phone": "2269829- 3164740149",
+            "hours": "Lunes a Viernes de 7:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Boyacá",
+        "places": [
+          {
+            "city": "TUNJA",
+            "name": "Dansosalud",
+            "address": "Carrera 11 No 11-51",
+            "phone": "3227678916",
+            "hours": "Lunes a Viernes 8:00 AM A 12:00 PM Y 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "CHIQUINQUIRÁ",
+            "name": "Clinicsalud",
+            "address": "Calle 19 # 9-12",
+            "phone": "3132623711 - 3118546589",
+            "hours": "Lunes a Viernes DE 8:00 AM A 12:00 PM Y 2:00 PM A 6:00 PM"
+          },
+          {
+            "city": "SOGAMOSO",
+            "name": "Sireb",
+            "address": "Calle 9 A N°13-39",
+            "phone": "7722714 - 7703039 - 3134643026 - 3153495845 - 3159254497",
+            "hours": "Lunes a Viernes DE 8:00 AM A 11:00 AM Y 2:00 PM A 5:00 PM"
+          },
+          {
+            "city": "MONIQUIRÁ",
+            "name": "Monsalud",
+            "address": "Calle 8 Nº 8-53 Barbosa - Santander",
+            "phone": "7482822",
+            "hours": "Lunes a Viernes DE 8:00 AM A 12:00 PM Y 2:00 AM A 5:30 PM"
+          },
+          {
+            "city": "DUITAMA",
+            "name": "Centro de Atención Reina Maria Ltda",
+            "address": "Carrera 17 #13-19",
+            "phone": "7651205 - 3138783548 - 3174302959",
+            "hours": "Lunes a Viernes DE 7:00 AM A 7:00 PM Y SABADOS 7:00 AM A 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Meta",
+        "places": [
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Servicios Medicos Integrales de Salud",
+            "address": "Carrera 40 A # 40-32",
+            "phone": "6706810",
+            "hours": "Lunes a Viernes de 8:00 AM - 12:00 PM Y 02:00 PM - 06:00 PM y Sabado de 08:00 AM A 12:00 PM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Dispensación de medicamentos.",
+    "departments": [
+      {
+        "name": "Atlantico",
+        "places": [
+          {
+            "city": "BARRANQUILLA",
+            "name": "Clinica General del Norte sede 2- Evedisa",
+            "address": "Calle 59 # 50-10",
+            "phone": "3222351847-3228169675",
+            "hours": "7:00 am-5:30 pm"
+          }
+        ]
+      },
+      {
+        "name": "Cesar",
+        "places": [
+          {
+            "city": "GAMARRA",
+            "name": "Hospital Olaya Herrera",
+            "address": "Carrera 12 NO 8-44",
+            "phone": "5626288",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "PAILITAS",
+            "name": "Hospital Heli Moreno Blanco E.S.E",
+            "address": "Calle 7B N. 5 - 123",
+            "phone": "5288452",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "PELAYA",
+            "name": "ESE Hospital Francisco Canossa",
+            "address": "Calle 7A NO. 10-75",
+            "phone": "5290025",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "TAMALAMEQUE",
+            "name": "ESE Hospital Tamalameque",
+            "address": "Calle Principal Esquina",
+            "phone": "3162917492",
+            "hours": "Lunes a Viernes 7:00AM A 12:00PM Y 1:00PM A 6:00PM"
+          },
+          {
+            "city": "AGUACHICA",
+            "name": "Pharmasan",
+            "address": "Carrera 13 # 3 - 46 Barrio Centro",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "GAMARRA",
+            "name": "Pharmasan",
+            "address": "Calle 9 # 11-72 Local 1 Barrio San José",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "PAILITAS",
+            "name": "Pharmasan",
+            "address": "Calle 7 # 5a-33 Barrio Pueblo Nuevo",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "PELAYA",
+            "name": "Pharmasan",
+            "address": "Calle 8 # 9-67 Local 2 Barrio San Bernardo",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "TAMALAMEQUE",
+            "name": "Pharmasan",
+            "address": "Calle 5 # 8-11 Barrio Flores de Sabana",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "AGUACHICA",
+            "name": "Offimedicas. a. s",
+            "address": "Calle 5 # 33 - 19 Barrio Maria Eugenia",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          }
+        ]
+      },
+      {
+        "name": "Magdalena",
+        "places": [
+          {
+            "city": "CIENAGA",
+            "name": "Sede Centro de atención ambulatoria Dirección - EVEDISA",
+            "address": "Carrera 18 B # 18 A - 15",
+            "phone": "4366111 EXT 26128",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "FUNDACION",
+            "name": "Medisin",
+            "address": "carrera 10 # con calle 7 local 02",
+            "phone": "",
+            "hours": "7:00am - 06:00 pm"
+          },
+          {
+            "city": "SANTA MARTA",
+            "name": "Sede Centro de atención ambulatoria Dirección - EVEDISA",
+            "address": "Avenida el libertador # 13-12",
+            "phone": "4366111",
+            "hours": "7:00am - 06:00 pm"
+          }
+        ]
+      },
+      {
+        "name": "Antioquia",
+        "places": [
+          {
+            "city": "BELLO",
+            "name": "Sumimedical Bello",
+            "address": "Carrera 50 #46 - 146",
+            "phone": "5201040",
+            "hours": "Lunes a Viernes 06:00 - 17:00 S 07:00 - 13:00"
+          },
+          {
+            "city": "BARBOSA",
+            "name": "ESE Hospital San Vicente de Paul",
+            "address": "Carrera 17 # 10 - 34 Sector La Bomba",
+            "phone": "5744061341",
+            "hours": "Lunes a Viernes 07:00 - 18:00"
+          },
+          {
+            "city": "CISNEROS",
+            "name": "ESE Hospital San Antonio - Cisneros",
+            "address": "CL 18 # 17 - 105",
+            "phone": "8631847",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "GIRARDOTA",
+            "name": "ESE Hospital San Rafael Girardota",
+            "address": "Carrera 16 NO. 11-011",
+            "phone": "4052380",
+            "hours": "Lunes a Sabado 07:00 - 17:00"
+          },
+          {
+            "city": "AMAGA",
+            "name": "ESE Hospital San Fernando - Capitado",
+            "address": "Carrera 51#52-81 hospital amagá",
+            "phone": "3173712037",
+            "hours": "Lunes a Viernes 9:00am - 5:00pm Primer y tercer sabado de cada mes 7AM A 1PM"
+          },
+          {
+            "city": "FREDONIA",
+            "name": "ESE Hospital de Santa Lucia - Fredonia",
+            "address": "Calle 69 # 50 - 220",
+            "phone": "8401101",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "PUERTO NARE",
+            "name": "Empresa Social del Estado Hospital Octavio Olivares",
+            "address": "Carrera 5 N. 45-103 Barrio Héctor Duque",
+            "phone": "8347037",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "CARACOLI",
+            "name": "E.S.E. Hospital San Pio X",
+            "address": "Calle 21# 20-32",
+            "phone": "8336014",
+            "hours": "Lunes a Viernes 06:00 - 18:00"
+          },
+          {
+            "city": "MEDELLIN",
+            "name": "Farmacia Estadio",
+            "address": "Carrera 73 NO. 45E - 7",
+            "phone": "5201040",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "COPACABANA",
+            "name": "Sumimedical Copacabana",
+            "address": "Calle 53 N° 56 - 30/34",
+            "phone": "5201040",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "PUERTO BERRIO",
+            "name": "Sumimedical Puerto Berrío",
+            "address": "Calle 45 # 6 - 12",
+            "phone": "5201040",
+            "hours": "Lunes a Viernes 07:00 - 17:00"
+          },
+          {
+            "city": "RIONEGRO",
+            "name": "CAPA Rionegro",
+            "address": "Cra. 49 # 50 – 58, Locales 108 – 109",
+            "phone": "(604) 411 44 88",
+            "hours": "lunes a viernes de 6:40 a.m. a 7:00 p.m. – Sábados de 6:40 a.m. a 1:00 p.m."
+          },
+          {
+            "city": "MEDELLIN",
+            "name": "Sumimedical Sede Apoyo Terapeutico",
+            "address": "Calle 45E 73 40",
+            "phone": "5201040",
+            "hours": "Lunes a Viernes 07:00 - 19:00 S 07:00 - 13:00"
+          }
+        ]
+      },
+      {
+        "name": "Santander",
+        "places": [
+          {
+            "city": "BUCARAMANGA",
+            "name": "Sumimedical Bucaramanga",
+            "address": "Calle 54 # 31-122",
+            "phone": "5201040",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "BARRANCABERMEJA",
+            "name": "Pharmasan",
+            "address": "Calle 49 # 19-82 Local 1 Barrio Colombia",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "BUCARAMANGA",
+            "name": "Pharmasan",
+            "address": "Calle 53 # 35 a 07 Barrio Cabecera del Llano",
+            "phone": "6477632 - 6960254",
+            "hours": "Lunes a Viernes de 7:30 am a 3:30 pm Jornada continua"
+          },
+          {
+            "city": "PUERTO WILCHES",
+            "name": "Pharmasan",
+            "address": "Calle 6 # 3 - 62 Barrio Centro",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "PIEDECUESTA",
+            "name": "Offimedicas. a. s",
+            "address": "Calle 7 # 6-73 Barrio Centro",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "PUENTE NACIONAL",
+            "name": "Offimedicas. a. s",
+            "address": "Carrera 5 # 5 - 48 Barrio Comuneros",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "PAILITAS",
+            "name": "Pharmasan",
+            "address": "Calle 7 # 5a-33 Barrio Pueblo Nuevo",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "PELAYA",
+            "name": "Pharmasan",
+            "address": "Calle 8 # 9-67 Local 2 Barrio San Bernardo",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "SABANA DE TORRES",
+            "name": "Pharmasan",
+            "address": "Cra 12 # 15-24 LOCAL 7 Y 8 B. 20 DE JULIO",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "BARRANCABERMEJA",
+            "name": "Offimedicas. a. s",
+            "address": "Calle 52 # 15-46 Barrio Colombia",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "PUERTO WILCHES",
+            "name": "Pharmasan",
+            "address": "Calle 6 # 3 - 26 Barrio Centro",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "SAN GIL",
+            "name": "Pharmasan",
+            "address": "Calle 14 No 9-36",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          }
+        ]
+      },
+      {
+        "name": "Norte de Santander",
+        "places": [
+          {
+            "city": "CÚCUTA",
+            "name": "Pharmasan",
+            "address": "Calle 8 # 1E - 125 Barrio Popular",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "OCAÑA",
+            "name": "Pharmasan",
+            "address": "Calle 11 # 21 - 15 Local 102 Bulevar Plaza, Barrio El Martinete",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "PAMPLONA",
+            "name": "Pharmasan",
+            "address": "Calle 6A # 7 - 48 Pasaje Santa Ines Barrio Centro",
+            "phone": "6477632 - 6960254",
+            "hours": "08:00 am -12:00 m / 01:00 pm - 04:00 Lunes a Viernes"
+          },
+          {
+            "city": "CÚCUTA",
+            "name": "Offimedicas. a. s",
+            "address": "Avenida 0 # 8 - 53 Barrio Latino",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "OCAÑA",
+            "name": "Offimedicas. a. s",
+            "address": "Calle 7 # 29 - 255 Avenida Francisco Fernandez de Contreras",
+            "phone": "6973918",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          }
+        ]
+      },
+      {
+        "name": "Valle del Cauca",
+        "places": [
+          {
+            "city": "CALI",
+            "name": "Centro de Consulta Externa Cosmitet #4",
+            "address": "Carrera 40 No. 5C-80 Primer Piso",
+            "phone": "5185000",
+            "hours": "Lunes a Viernes 8:00 AM - 5:00 PM"
+          },
+          {
+            "city": "BUENAVENTURA",
+            "name": "Servicio Farmaceutico Cosmitet Sede 1",
+            "address": "Carrera 47 # 4 - 02",
+            "phone": "(2)2421880",
+            "hours": "Lunes a Viernes 7:00 AM - 6:00 PM, Sabados 7:00 AM - 2:00 PM"
+          },
+          {
+            "city": "PALMIRA",
+            "name": "Servicio Farmaceutico Palmira Cosmitet",
+            "address": "Carrera 32 No. 30-63",
+            "phone": "(2)2701997",
+            "hours": "Lunes a Viernes 7:30 AM - 6:00 PM, Sabados 8:00 AM - 12:30 PM / 1:00 PM - 5:00 PM"
+          },
+          {
+            "city": "TULUA",
+            "name": "Servicio Farmaceutico Cosmitet Tulua",
+            "address": "Carrera 40 La Variante SN 3-70",
+            "phone": "2317430",
+            "hours": "Lunes a Viernes 7:30 AM - 7:00 PM, Sabados 9:00 AM - 12:00 PM"
+          },
+          {
+            "city": "CARTAGO",
+            "name": "Servicio Farmaceutico Cosmitet Cartago",
+            "address": "Carrera 1 No. 15-36",
+            "phone": "(2)2145555",
+            "hours": "Lunes a Viernes 8:00 AM - 5:00 PM"
+          },
+          {
+            "city": "BUGA",
+            "name": "Servicio Farmaceutico Cosmitet Buga",
+            "address": "Calle 3 No. 16-29",
+            "phone": "(2)2273624",
+            "hours": "Lunes a Viernes 7:00 AM - 7:00 PM, Sabados 8:00 AM - 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Quindio",
+        "places": [
+          {
+            "city": "ARMENIA",
+            "name": "Servicio Farmaceutico Cosmitet Armenia",
+            "address": "Avenida Bolivar #1-23",
+            "phone": "7359448",
+            "hours": "Lunes a Viernes 7:00 AM - 7:00 PM, Sabados 7:00 AM - 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Risaralda",
+        "places": [
+          {
+            "city": "PEREIRA",
+            "name": "Servicio Farmaceutico Cosmitet Pereira",
+            "address": "Carrera 14 BIS # 10 - 17 Nivel 1 Edificio Mont Blanc",
+            "phone": "(2)3400359 ext 5403",
+            "hours": "Lunes a Viernes 6:30 AM - 7:00 PM, Sabados 7:00 AM - 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Cauca",
+        "places": [
+          {
+            "city": "POPAYAN",
+            "name": "Servicio Farmaceutico Cosmitet Popayan",
+            "address": "Cll 4 # 0- 55 B/ La Pamba",
+            "phone": "(2)8205166",
+            "hours": "Lunes a Viernes 7:00 AM - 6:00 PM, Sabados 7:00 AM - 1:00 PM"
+          }
+        ]
+      },
+      {
+        "name": "Bolivar",
+        "places": [
+          {
+            "city": "CARTAGENA",
+            "name": "Dumian Medical SAS",
+            "address": "Transversal 54 No. 30 - 111 Carretera el Bosque",
+            "phone": "6778000",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "CARTAGENA",
+            "name": "Centro Medico Cosmitet Bolivar",
+            "address": "Calle 8 2 10",
+            "phone": "57928273257",
+            "hours": "Lunes a Sabado 07:00 - 17:00"
+          },
+          {
+            "city": "CARTAGENA",
+            "name": "Drogueria Super Descuento GD 2",
+            "address": "Avenida Bolivar #1-23",
+            "phone": "3158500359",
+            "hours": "Lunes a Viernes 07:00 - 19:00"
+          },
+          {
+            "city": "SOPLAVIENTO",
+            "name": "IPS Salud Social",
+            "address": "Calle de la Linea N° 3 04",
+            "phone": "3107288780 - 3145637798",
+            "hours": "Lunes a Sabado 07:00 - 17:00"
+          }
+        ]
+      },
+      {
+        "name": "Bogotá",
+        "places": [
+          {
+            "city": "BOGOTÁ",
+            "name": "Malca LTDA",
+            "address": "Calle 25 D # 34 A 08",
+            "phone": "2687500",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "Colsubsidio Drogueria Cruz Roja",
+            "address": "Avenida 68 No. 66 - 31",
+            "phone": "7-469909",
+            "hours": "Domingo a Domingo 00:00 a 24:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "Emcofarma",
+            "address": "Calle 57 No. 24 - 11",
+            "phone": "321-9068348",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "Colsubsidio SF. Teusaquillo",
+            "address": "Calle 48 No. 14 - 90",
+            "phone": "7-500557",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "Malca LTDA",
+            "address": "Calle 25 D # 34 A 08",
+            "phone": "3-3377415",
+            "hours": "Lun a Vie 8:00 a 17:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "PSQ Corferias",
+            "address": "Carrera 40 No 24 D -07",
+            "phone": "3160252181",
+            "hours": "Lun a Vie 8:00 a 17:00 Sabado 8:00 a 12:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "PSQ Country",
+            "address": "Carrera 16a No. 85- 29",
+            "phone": "3160252182",
+            "hours": "Lun a Vie 8:00 a 17:00 Sabado 8:00 a 12:00"
+          },
+          {
+            "city": "BOGOTÁ",
+            "name": "PSQ Candelaria",
+            "address": "Carrera 28 No.63-20 Sur",
+            "phone": "3160252184",
+            "hours": "Lun a Vie 8:00 a 17:00 Sabado 8:00 a 12:00"
+          }
+        ]
+      },
+      {
+        "name": "Tolima",
+        "places": [
+          {
+            "city": "IBAGUE",
+            "name": "Empresa Cooperativa de Servicios de Salud \"EMCOSALUD\"",
+            "address": "Carrera 8 No. 17-10",
+            "phone": "3162356922",
+            "hours": "7:00 A 18:00"
+          },
+          {
+            "city": "IBAGUE",
+            "name": "Droguerias Copifam Calle 22",
+            "address": "Carrera 5 # 21 101",
+            "phone": "2619191",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "IBAGUE",
+            "name": "Colsubsidio SF. Uba IBAGUÉ",
+            "address": "Calle 40 N 4C 23 Macarena",
+            "phone": "2642762 2770038",
+            "hours": "Lun a Vie 7:00a 7:00 Sab 7:00a 15:00"
+          },
+          {
+            "city": "AMBALEMA",
+            "name": "Hospital San Antonio E.S.E.",
+            "address": "Carrera 5A #2-89 Barrio Campoalegre",
+            "phone": "3156474370-3156474422",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "AMBALEMA",
+            "name": "Droguerias Copifam Ambalema",
+            "address": "Carrera 4 # 9 03 LC 01",
+            "phone": "2745960",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "HONDA",
+            "name": "Hospital San Juan de Dios Honda Empresa Social del Estado",
+            "address": "Carrera 21/22 Calle 9",
+            "phone": "2515716",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "HONDA",
+            "name": "Droguerias Copifam Honda",
+            "address": "Calle 9 # 22 05",
+            "phone": "2511278",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "HONDA",
+            "name": "Empresa Cooperativa de Servicios de Salud \"EMFARMA\"",
+            "address": "Calle 9 N 21-208 Avenida Centenario",
+            "phone": "2513933",
+            "hours": "Lun a Vie: 7:30- 12:00 2:00 a 6:00; Sab: 7:00 - 12:00"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Empresa Cooperativa de Servicios de Salud \"EMFARMA\"",
+            "address": "Calle 8 # 4-50",
+            "phone": "2623765",
+            "hours": "Lun a Vie: 7:30- 12:00 14:00 a 18:00; Sab: 7:00 - 12:00"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Droguerias Copifam Mariquita",
+            "address": "Carrera 4 # 6 01 / 03",
+            "phone": "2651333",
+            "hours": "7:00 A 19:00"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Hospital San Antonio E.S.E. Natagaima",
+            "address": "Calle 6 Carrera 11 Esquina",
+            "phone": "3174286097 - 3174354885",
+            "hours": "Lun a Vie: 7:30- 12:00 14:00 a 18:00; Sab: 7:00 - 12:00"
+          },
+          {
+            "city": "MARIQUITA",
+            "name": "Droguerias Copifam Natagaima",
+            "address": "Calle 6 # 4 96",
+            "phone": "2269921",
+            "hours": "7:00 A 19:00"
+          }
+        ]
+      },
+      {
+        "name": "Meta",
+        "places": [
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Colsubsidio Drogeria Barzal",
+            "address": "Calle 33 NO. 36-50 LOCAL 105 Barrio Barzal",
+            "phone": "6832951 - 3208020297",
+            "hours": "Lun a Vie: 7:00- 7:00; Sab: 7:00- 4:00"
+          },
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Nueva Clinica El Barzal S.A.S",
+            "address": "Carrera 37 No. 35-17",
+            "phone": "6726521",
+            "hours": "24 Horas"
+          },
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Colsubsidio Drogeria Llano Centro",
+            "address": "Carrera 39 # 29C-15 Centro Comercial Llano Centro",
+            "phone": "3124037461",
+            "hours": "Lun a Vie: 7:00- 7:00; Sab: 7:00- 4:00"
+          },
+          {
+            "city": "VILLAVICENCIO",
+            "name": "Servimedicos SAS Clinica Centaruos",
+            "address": "Calle 32 No.40A-40",
+            "phone": "6623137",
+            "hours": "7:00 A 19:00"
+          }
+        ]
+      }
+    ]
+  }
+]

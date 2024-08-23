@@ -1,0 +1,624 @@
+[
+  {
+    "name": "DIRECCIÓN GENERAL",
+    "people": [
+      {
+        "name": "SAMIRA JULIETH ELJACH DURANTE",
+        "position": "DIRECTOR GENERAL",
+        "email": "samira.eljach@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1988"
+      },
+      {
+        "name": "DIANA MARCELA SERNA BURBANO",
+        "position": "SECRETARIO EJECUTIVO (Libre NR)",
+        "email": "diana.serna@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1988"
+      },
+      {
+        "name": "EDUIN FERNANDO PACHÓN MEDINA",
+        "position": "CONDUCTOR MECÁNICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C.",
+        "phone": "3817171 Ext. 1945"
+      }
+    ]
+  },
+  {
+    "name": "OFICINA ASESORA DE PLANEACIÓN Y SISTEMAS",
+    "people": [
+      {
+        "name": "MARIA YANETH FARFAN CASALLAS",
+        "position": "JEFE DE OFICINA",
+        "email": "yaneth.farfan@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1914"
+      },
+      {
+        "name": "MARIA VILMA RUIZ LÓPEZ",
+        "position": "AUXILIAR DE SERVICIOS GENERALES (Nom Prov)",
+        "email": "vilma.ruiz@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1963"
+      },
+      {
+        "name": "DIANA PAOLA CHURQUE MEDINA",
+        "position": "SECRETARIO EJECUTIVO (Nom PP)",
+        "email": "diana.churque@gps.gov.co",
+        "location": "Sede administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1963"
+      }
+    ]
+  },
+  {
+    "name": "OFICINA DE CONTROL INTERNO",
+    "people": [
+      {
+        "name": "CIRO JORGE EDGAR SANCHÉZ CASTRO",
+        "position": "PROFESIONAL ESPECIALIZADO",
+        "email": "ciro.sanchez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1952"
+      }
+    ]
+  },
+  {
+    "name": "SECRETARIA GENERAL",
+    "people": [
+      {
+        "name": "JOSE ALBERTO PUMAREJO MEDINA",
+        "position": "SECRETARIO GENERAL (Libre NR)",
+        "email": "jose.pumarejo@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1988"
+      },
+      {
+        "name": "CLARA INES DUEÑAS BELTRAN",
+        "position": "SECRETARIO EJECUTIVO (Nom Prov)",
+        "email": "clara.dueñas@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1988"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO ATENCIÓN AL CIUDADANO Y GESTIÓN DOCUMENTAL",
+    "people": [
+      {
+        "name": "MÓNICA ALEXANDRA MANRIQUE NARVAEZ",
+        "position": "TÉCNICO ADMINISTRATIVO",
+        "email": "monica.manrique@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1903"
+      },
+      {
+        "name": "CLARA CECILIA RODRIGUEZ PACHO",
+        "position": "AUXILIAR ADMINISTRATIVO Grado 20",
+        "email": "clara.rodriguez@fps.gov.co",
+        "location": "Punto de Atención a ciudadanos",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1900"
+      },
+      {
+        "name": "CARLOS DAVID GONZALEZ AMELL",
+        "position": "AUXILIAR SERVICIOS GENERALES (Nom Prov)",
+        "email": "carlos.gonzalez@fps.gov.co",
+        "location": "Punto de Atención a ciudadanos",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1973"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN DE TALENTO HUMANO",
+    "people": [
+      {
+        "name": "ANA CAROLINA FARIS CÓRDOBA",
+        "position": "PROFESIONAL ESPECIALIZADO (Nom PP)",
+        "email": "ana.feris@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1939"
+      },
+      {
+        "name": "NOHORA CLEMENCIA SANABRIA AGUILAR",
+        "position": "SECRETARIO EJECUTIVO Grado 22",
+        "email": "nohora.sanabria@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1939"
+      },
+      {
+        "name": "SILVANO MARTINEZ LOPEZ",
+        "position": "ANALISTA DE SISTEMAS",
+        "email": "silvano.martinez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1940"
+      },
+      {
+        "name": "NELLY RINCÓN LEÓN",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "nelly.rincon@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1962"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO BIENES COMPRAS Y SERVICIOS ADMINISTRATIVOS",
+    "people": [
+      {
+        "name": "LUIS ALBERTO SEGURA BECERRA",
+        "position": "PROFESIONAL ESPECIALIZADO (E)",
+        "email": "luis.segura@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1941"
+      },
+      {
+        "name": "ILBA CORREDOR LEIVA",
+        "position": "TECNICO ADMINISTRATIVO €",
+        "email": "ilba.corredor@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1942"
+      },
+      {
+        "name": "JORGE OTALORA ALDANA",
+        "position": "TECNICO ADMINISTRATIVO",
+        "email": "jorge.otalora@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1943"
+      },
+      {
+        "name": "ERNESTO ELIAS MENDEZ RUIZ",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "ernesto.mendez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1944"
+      },
+      {
+        "name": "HECTOR RUIZ MARTINEZ",
+        "position": "AUXILIAR SERVICIOS GENERALES",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1944"
+      },
+      {
+        "name": "JIMENA SANCHEZ ROBAYO",
+        "position": "AUXILIAR SERVICIOS GENERALES (Nom PP)",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1942"
+      },
+      {
+        "name": "JULIO CESAR GAMEZ GONZALEZ",
+        "position": "CONDUCTOR MECANICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1943"
+      },
+      {
+        "name": "JESUS ALBERTO GARZON GARZON",
+        "position": "CONDUCTOR MECANICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1944"
+      },
+      {
+        "name": "NELSON FERNANDO RAMIREZ HERRERA",
+        "position": "CONDUCTOR MECANICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1944"
+      },
+      {
+        "name": "ANGIE CAROLINA RINCON VALVUENA",
+        "position": "AUXILIAR SERVICIOS GENERALES",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1944"
+      }
+    ]
+  },
+  {
+    "name": "SUBDIRECCIÓN FINANCIERA",
+    "people": [
+      {
+        "name": "NICOLÁS ORTEGA MORAT",
+        "position": "SUBDIRECTOR GENERAL (Libre NR)",
+        "email": "nicolas.ortega@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1909"
+      },
+      {
+        "name": "SANDRA MILENA FARFAN BRICEÑO",
+        "position": "SECRETARIO EJECUTIVO (Nom Prov)",
+        "email": "sandra.farfan@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1909"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO DE CONTABILIDAD",
+    "people": [
+      {
+        "name": "TULIA XIMENA DIAZ ROMERO",
+        "position": "PROFESIONAL ESPECIALIZADO (Nom Prov.)",
+        "email": "ximena.diaz@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C.",
+        "phone": "3817171 Ext. 1930"
+      },
+      {
+        "name": "ELKIN SAUL TORRES DÍAZ",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom PP)",
+        "email": "",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1931"
+      },
+      {
+        "name": "SERGIO DANIEL MARTINEZ",
+        "position": "TÉCNICO ADMINISTRATIVO",
+        "email": "sergio.martinez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1933"
+      },
+      {
+        "name": "LINSI ALEXIS MARQUINEZ SEVILLANO",
+        "position": "AUXILIAR SERVICIOS GENERALES (Nom Prov.)",
+        "email": "linsi.marquinez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1933"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO DE PRESUPUESTO",
+    "people": [
+      {
+        "name": "INGRID YANETH OVALLE POSADA",
+        "position": "TÉCNICO ADMINISTRATIVO (NPP)",
+        "email": "ingrid.ovalle@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1929"
+      },
+      {
+        "name": "MARIA ERCILIA PAVA MEDINA",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "maria.pava@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1929"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO DE TESORERÍA",
+    "people": [
+      {
+        "name": "MERY PATRICIA ROJAS AREVALO",
+        "position": "TECNICO ADMINISTRATIVO (€)",
+        "email": "patricia.rojas@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1935"
+      },
+      {
+        "name": "CECILIA STELLA FORERO AREVALO",
+        "position": "SECRETARIO EJECUTIVO (€)",
+        "email": "cecilia.forero@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1935"
+      },
+      {
+        "name": "WILLIAM FERNANDO OLIVARES LOPEZ",
+        "position": "SECRETARIO EJECUTIVO - GRADO 33 (€)",
+        "email": "william.olivares@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1935"
+      }
+    ]
+  },
+  {
+    "name": "OFICINA ASESORA JURIDICA",
+    "people": [
+      {
+        "name": "ANDREA LILIANA ALDANA TRUJILLO",
+        "position": "JEFE DE OFICINA",
+        "email": "andrea.aldana@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      },
+      {
+        "name": "LUZ HEDY ORTIZ TORRES",
+        "position": "SECRETARIO EJECUTIVO (Nom PP)",
+        "email": "luz.ortiz@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      },
+      {
+        "name": "RICARDO DAVID CASTELLANOS",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1913"
+      },
+      {
+        "name": "LUIS MIGUEL MOSCOTE BRITO",
+        "position": "SECRETARIO EJECUTIVO (Nom Prov)",
+        "email": "luis.moscote@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1913"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO DE DEFENSA JUDICIAL",
+    "people": [
+      {
+        "name": "HUMBERTO MALAVER PINZON",
+        "position": "PROFESIONAL ESPECIALIZADO Grado 14",
+        "email": "humberto.malaver@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      },
+      {
+        "name": "NANCY STELLA MUÑOZ ARIAS",
+        "position": "SECRETARIO EJECUTIVO Grado 22",
+        "email": "nancy.munoz@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      },
+      {
+        "name": "LILIA BRICEÑO BUITRAGO",
+        "position": "AUXILIAR ADMINISTRATIVO Grado 20",
+        "email": "lilia.briceño@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      },
+      {
+        "name": "ANUAR MERCADO BUSTAMANTE",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "anuar.mercado@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1989"
+      }
+    ]
+  },
+  {
+    "name": "SUBDIRECCIÓN DE PRESTACIONES SOCIALES",
+    "people": [
+      {
+        "name": "HEIDY YULI SANCHEZ GONZALEZ",
+        "position": "SUBDIRECTOR GENERAL (Libre NR)",
+        "email": "heidy.sanchez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1955"
+      },
+      {
+        "name": "MARIA MERCEDES CALLEJAS MONTAÑA",
+        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
+        "email": "maria.callejas@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1955"
+      },
+      {
+        "name": "JULIETH SAMANTHA BIUTRAGO AMARILLO",
+        "position": "PROFESIONAL ESPECIALIZADO (Nom PP)",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1955"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE PRESTACIONES ECONÓMICAS",
+    "people": [
+      {
+        "name": "LEIVIS MARIANA BOTINA MONTERO",
+        "position": "PROFESIONAL ESPECIALIZADO (Nom Prov)",
+        "email": "mariana.botina@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1954"
+      },
+      {
+        "name": "BLANCA SAMARIS MATALLANA SOTELO",
+        "position": "ANALISTA DE SISTEMAS",
+        "email": "blanca.matallana@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1922"
+      },
+      {
+        "name": "GUIOMAR ANGELICA MARTINEZ RODRIGUEZ",
+        "position": "SECRETARIO EJECUTIVO Grado 22",
+        "email": "guiomar.martinez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1922"
+      },
+      {
+        "name": "FRANCISCA DE ASIS ARDILA GUERRA",
+        "position": "TÉCNICO ADMINISTRATIVO (€)",
+        "email": "francisca.ardila@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1922"
+      },
+      {
+        "name": "ANGEL ROBERT TORRES FLORES",
+        "position": "TÉCNICO ADMINISTRATIVO",
+        "email": "robert.torres@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1922"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD",
+    "people": [
+      {
+        "name": "LUZ ELENA GUTIERREZ SUAREZ",
+        "position": "PROFESIONAL ESPECIALIZADO (Nom Prov)",
+        "email": "luz.gutierrez@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1915"
+      },
+      {
+        "name": "OLGA LUCIA CARDONA SANCHEZ",
+        "position": "SECRETARIO EJECUTIVO Grado 22",
+        "email": "olga.cardona@fps.gov.co",
+        "location": "Carrera 55 No. 40A # 20 Oficina 412",
+        "city": "MEDELLIN",
+        "phone": "3817171 Ext. 1991"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - DIVISIÓN CENTRAL",
+    "people": [
+      {
+        "name": "MARIA PILAR LAVERDE",
+        "position": "SECRETARIO EJECUTIVO (€)",
+        "email": "maria.laverde@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1949"
+      },
+      {
+        "name": "XAVIER AUGUSTO NORIEGA SIRTORI",
+        "position": "MEDICO ESPECIALISTA (Nom PP)",
+        "email": "xavier.noriega@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1918"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - AFILIACIONES",
+    "people": [
+      {
+        "name": "OMAR ANTONIO FORERO PORRAS",
+        "position": "SECRETARIO EJECUTIVO (Nom PP)",
+        "email": "omar.forero@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1960"
+      },
+      {
+        "name": "SILVIO RIVERA DOMINGUEZ",
+        "position": "AUXILIAR ADMINISTRATIVO (€)",
+        "email": "silvio.rivera@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C",
+        "phone": "3817171 Ext. 1961"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - ANTIOQUIA",
+    "people": [
+      {
+        "name": "LILIA AMPARO FRANCO DUQUE",
+        "position": "SECRETARIO EJECUTIVO (€)",
+        "email": "lilia.franco@fps.gov.co",
+        "location": "Carrera 55 No. 40A # 20 Oficina 412",
+        "city": "MEDELLIN",
+        "phone": "3817171 Ext. 1991"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - BUCARAMANGA",
+    "people": [
+      {
+        "name": "LIGIA GALEANO PENAGOS",
+        "position": "SECRETARIO EJECUTIVO (Nom PP)",
+        "email": "ligia.galeano@fps.gov.co",
+        "location": "Calle 22 # 23-45 Barrio Alarcon",
+        "city": "BUCARAMANGA",
+        "phone": "3817171 Ext. 1992"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - PACÍFICO",
+    "people": [
+      {
+        "name": "ISABEL CRISTINA GALLO MEJIA",
+        "position": "MEDICO ESPECIALISTA",
+        "email": "isabel.gallo@fps.gov.co",
+        "location": "Calle 25 Norte # 4 N-28",
+        "city": "CALI",
+        "phone": "3817171 Ext. 1990"
+      },
+      {
+        "name": "MARTHA AZUCENA GARZON",
+        "position": "TÉCNICO ADMINISTRATIVO (€)",
+        "email": "martha.garzon@fps.gov.co",
+        "location": "Calle 25 Norte # 4 N-28",
+        "city": "CALI",
+        "phone": "3817171 Ext. 1990"
+      }
+    ]
+  },
+  {
+    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - MAGDALENA",
+    "people": [
+      {
+        "name": "RAIMUNDO GUILLERMO COHEN COGOLLO",
+        "position": "MEDICO ESPECIALISTA (Nom Prov)",
+        "email": "raimundo.cohen@fps.gov.co",
+        "location": "Cll 31 No.58-38 Barrio Pedro de Heredia",
+        "city": "CARTAGENA",
+        "phone": "3817171 Ext. 1993"
+      }
+    ]
+  }
+]
