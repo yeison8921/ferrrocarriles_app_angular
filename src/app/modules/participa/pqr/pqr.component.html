@@ -1,0 +1,140 @@
+<h1 class="titulo-h1">INDICADORES DE GESTIÓN</h1>
+
+<p class="title_p"> Peticiones, Quejas, Reclamos, Sugerencias, Denuncias y Felicitaciones (PQRSDF).</p>
+<br/>
+<p>La entidad ha dispuesto los siguientes componentes de comunicación, donde puedes
+   encontrar lo referente a la participación ciudadana del Fondo de Pasivo Social Ferracorriles Nacionales de Colombia.<br/>
+<br/>
+  <span class="title_p">Peticiones:</span> En FPS estamos atentos a recibir y resolver sus derechos de petición por favor sea lo más claro posible.
+<br/>
+  <span class="title_p">Quejas:</span> En este módulo, usted podrá interponer una Queja sobre el comportamiento de los funcionarios de nuestra institución.
+<br/>
+  <span class="title_p">Reclamos:</span> En este módulo usted podrá interponer una reclamación sobre el incumplimiento o irregularidad de alguna de las características de los servicios ofrecidos por FPS.
+<br/>
+  <span class="title_p">Sugerencias:</span> En este módulo, usted podrá exponer alternativas que nos permitan establecer planes de mejoramiento en nuestros servicio y alcanzar la excelencia en el mismo. Recuerde que por medio de este canal no se le podrá dar ninguna respuesta.
+<br/>
+  <span class="title_p">Denuncias:</span> En este módulo, usted podrá poner en conocimiento un acto de corrupción de uno de nuestros funcionarios.
+<br/>
+  <span class="title_p">Felicitaciones:</span> En este módulo, usted podrá enviarnos felicitaciones.
+<br/>
+  <span class="title_p">Solicitud de Información Pública:</span> Es el requerimiento que hace el ciudadano a una o varias Entidades, con el fin que se le brinde información relacionada con los servicios propios de cada Entidad.
+<br/>
+  <span class="title_p">Encuesta de Satisfacción:</span> Aquí podrá diligenciar la encuesta de satisfacción, sobre los servicios que le hemos prestado.
+<br/>
+  <span class="title_p">Actualización de Datos:</span> Aquí podrá diligenciar nuestro formulario y mantener su información y/o datos  actualizados.
+</p>
+
+<section class="mt-4 mb-4">
+  <a class="btn-comun mb-4" type="button" href="#">
+    <span class="icon icon-documento"></span>
+    Canal de interacción de libertad para la participación ciudadana
+  </a>
+  <a class="btn-comun mb-4" type="button" href="#">
+    <span class="icon icon-documento"></span>
+    Caracterizaciópn de usuarios y grupo de valor
+  </a>
+  <a class="btn-comun mb-4" type="button" href="#">
+    <span class="icon icon-documento"></span>
+    Asociaciones ferrocarriles
+  </a>
+  <a class="btn-comun mb-4" type="button" href="#">
+    <span class="icon icon-documento"></span>
+    Avance de plan de sistema integrado de gestion -MIPG 2023
+  </a>
+
+</section>
+
+<section>
+  <div class="d-flex justify-content-center">
+      <div class="row gap-3">
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-pen"></i>
+      PETICIONES
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-emoji-frown"></i>
+      QUEJAS
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-exclamation-circle"></i>
+      RECLAMOS
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-chat-quote"></i>
+      SUGERENCIAS
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-hand-thumbs-down"></i>
+      DENUNCIAS
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-hand-thumbs-up"></i>
+      FELICITACIONES
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-person-vcard"></i>
+      SOLICITUD DE INFORMACIÓN PUBLICA
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-ui-checks"></i>
+      ENCUESTA DE SATISFACCIÓN
+    </a>
+  </div>
+  <div class="btn-icono">
+    <a href="#">
+      <i class="bi bi-person-badge"></i>
+      ACTUALIZACIÓN DE DATOS
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+<section>
+  <h3 class="titulo-h3 mt-4">
+    <span class="icon govco-server"></span>Listado de documentos
+  </h3>
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let item of items; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span
+          >{{ item.nombre }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <a
+              *ngFor="let file of item.files"
+              class="link-file"
+              href="{{ file.url }}"
+              target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+              >{{ file.nombre }}</a
+            >
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

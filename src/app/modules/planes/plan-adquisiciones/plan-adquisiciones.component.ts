@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { AcordionAnidadoFiles } from '../../../interfaces/acordion';
+import { NgFor } from '@angular/common';
 @Component({
   selector: 'app-plan-adquisiciones',
   standalone: true,
-  imports: [NgbAccordionModule],
+  imports: [NgbAccordionModule, NgFor],
   templateUrl: './plan-adquisiciones.component.html',
   styleUrl: './plan-adquisiciones.component.css'
 })
