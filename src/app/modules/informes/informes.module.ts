@@ -7,6 +7,8 @@ import { MemoriasCongresoComponent } from './memorias-congreso/memorias-congreso
 import { InformesPqrsComponent } from './informes-pqrs/informes-pqrs.component';
 import { InformeMedicionSatisfaccionCiudadanoComponent } from './informe-medicion-satisfaccion-ciudadano/informe-medicion-satisfaccion-ciudadano.component';
 import { InformesDefensaJudicialComponent } from './informes-defensa-judicial/informes-defensa-judicial.component';
+import { InformeConsolidadoComponent } from './informe-consolidado/informe-consolidado.component';
+import { InformeOficinaControlInternoComponent } from './informe-oficina-control-interno/informe-oficina-control-interno.component';
 
 const routes: Routes = [
   {
@@ -36,6 +38,14 @@ const routes: Routes = [
   {
     path: 'informes-de-la-defensa-judicial/70',
     component: InformesDefensaJudicialComponent,
+  },
+  {
+    path: 'informes-consolidado-gestion-prestaciones-economicas/72',
+    component: InformeConsolidadoComponent,
+  },
+  {
+    path: 'informes-oficina-de-control-interno/186',
+    component: InformeOficinaControlInternoComponent,
   },
 ];
 
