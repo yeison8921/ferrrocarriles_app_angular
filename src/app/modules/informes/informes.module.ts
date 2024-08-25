@@ -9,6 +9,9 @@ import { InformeMedicionSatisfaccionCiudadanoComponent } from './informe-medicio
 import { InformesDefensaJudicialComponent } from './informes-defensa-judicial/informes-defensa-judicial.component';
 import { InformeConsolidadoComponent } from './informe-consolidado/informe-consolidado.component';
 import { InformeOficinaControlInternoComponent } from './informe-oficina-control-interno/informe-oficina-control-interno.component';
+import { InformesFiscalesComponent } from './informes-fiscales/informes-fiscales.component';
+import { InformeAuditoriaOficinaControlInternoComponent } from './informe-auditoria-oficina-control-interno/informe-auditoria-oficina-control-interno.component';
+import { RendicionCuentasComponent } from './rendicion-cuentas/rendicion-cuentas.component';
 
 const routes: Routes = [
   {
@@ -22,6 +25,10 @@ const routes: Routes = [
   {
     path: 'indicadores-de-gestion/62',
     component: IndicadoresGestionComponent,
+  },
+  {
+    path: 'informes-fiscales/61',
+    component: InformesFiscalesComponent,
   },
   {
     path: 'memorias-al-congreso-de-la-republica/66',
@@ -46,6 +53,14 @@ const routes: Routes = [
   {
     path: 'informes-oficina-de-control-interno/186',
     component: InformeOficinaControlInternoComponent,
+  },
+  {
+    path: 'informe-de-auditoria-oficina-de-control-interno/168',
+    component: InformeAuditoriaOficinaControlInternoComponent,
+  },
+  {
+    path: 'rendicion-de-cuentas/67',
+    component: RendicionCuentasComponent,
   },
 ];
 
