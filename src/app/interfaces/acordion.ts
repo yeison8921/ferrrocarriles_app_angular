@@ -20,6 +20,6 @@ export interface AcordionFiles {
 export interface AcordionAnidadoFiles {
   id: number;
   nombre: string;
-  acordion: AcordionFiles[];
+  acordion?: AcordionFiles[];
   files?: File[];
 }
