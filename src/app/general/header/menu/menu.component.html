@@ -30,33 +30,45 @@
         <ul class="navbar-nav navbar-nav-menu-govco ms-auto">
           <li ngbDropdown class="nav-item" *ngFor="let item of menu">
             <a
-              *ngIf="item.submenu.length == 0"
+              *ngIf="item.submenu!.length == 0"
               class="nav-link dir-menu-govco"
+              [ngClass]="item.active ? 'active' : ''"
               routerLink="{{ item.url }}"
               role="button"
+              (click)="
+                activarMenu(item.url.split('/')[item.url.split('/').length - 1])
+              "
             >
               <span class="text-item-menu-govco"> {{ item.nombre }} </span>
             </a>
             <a
-              *ngIf="item.submenu.length > 0"
+              *ngIf="item.submenu!.length > 0"
               ngbDropdownToggle
               class="nav-link dir-menu-govco"
-              (routerLink)="(item.url)"
+              [ngClass]="item.active ? 'active' : ''"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               <span class="text-item-menu-govco"> {{ item.nombre }} </span>
             </a>
-            <ul ngbDropdownMenu>
+            <ul ngbDropdownMenu *ngIf="item.submenu!.length > 0">
               <li *ngFor="let sitem of item.submenu">
                 <a
                   ngbDropdownItem
                   class="dir-menu-govco"
-                  (routerLink)="(item.url)"
+                  [ngClass]="sitem.active ? 'active' : ''"
+                  routerLink="{{ sitem.url }}"
                   role="button"
+                  (click)="
+                    activarMenu(
+                      sitem.url.split('/')[sitem.url.split('/').length - 1]
+                    )
+                  "
                 >
-                  <span class="text-item-menu-govco"> {{ sitem.nombre }} </span>
+                  <span class="text-item-menu-govco">
+                    {{ sitem.nombre }}
+                  </span>
                 </a>
               </li>
             </ul>
