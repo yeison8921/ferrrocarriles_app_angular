@@ -41,3 +41,7 @@
   width: 9px;
   box-shadow: 5px 0 5px -2px #888;
 }
+
+.justify-items-center {
+  justify-items: center;
+}

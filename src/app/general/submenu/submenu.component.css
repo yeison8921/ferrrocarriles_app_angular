@@ -1,0 +1,91 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion-header {
+
+    a,
+    button {
+        font-size: 1rem;
+        font-family: "WorkSans-Bold";
+        text-decoration: none;
+        color: var(--azul-o);
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        min-height: auto;
+    }
+
+    a:hover,
+    button:hover {
+        color: var(--azul-t);
+
+        span {
+            color: var(--azul-t);
+        }
+    }
+
+    span {
+        font-family: "govco-font";
+        background-color: transparent;
+        border-radius: 0;
+        color: var(--azul-o);
+        width: auto;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.accordion-collapse {
+    border: 0;
+
+    .link {
+        text-decoration: 0;
+        color: var(--gris-o);
+        transition: all 0.3s ease-in-out;
+        display: block;
+        line-height: 1.2rem;
+    }
+
+    .link:hover {
+        color: var(--azul-t);
+    }
+}
+
+
+.icon-home::after {
+    content: '\e9d4';
+}
+
+.icon-informes::after {
+    content: '\ea73';
+}
+
+.icon-entidad::after {
+    content: '\e977';
+}
+
+.icon-usuarios::after {
+    content: '\ebaa';
+}
+
+.icon-mano::after {
+    content: '\e9aa';
+}
+
+.icon-prensa::after {
+    content: '\ea5e';
+}
+
+.icon-salud::after {
+    content: '\ea05';
+}
+
+.icon-financiera::after {
+    content: '\e9a5';
+}
+
+.icon-normativa::before {
+    content: "\ec18";
+}
