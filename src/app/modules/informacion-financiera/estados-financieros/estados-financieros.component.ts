@@ -11,7 +11,7 @@ import { NgFor } from '@angular/common';
   templateUrl: './estados-financieros.component.html',
   styleUrl: './estados-financieros.component.css'
 })
-export class EstadosFinancierosComponent {
+export class EstadosFinancierosComponent { 
 
   files: AcordionAnidadoFiles[];
 
@@ -1523,29 +1523,6 @@ export class EstadosFinancierosComponent {
       }
       
       
-      
-      
-      
-      
-      
-      
-
-
-      
-      
-      
-
-
-
-
-      
-
-      
-      
-      
-      
-      
-
 ]}
 
 } 
