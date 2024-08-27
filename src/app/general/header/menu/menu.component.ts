@@ -1,9 +1,9 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {
   NgbCollapseModule,
   NgbDropdownModule,
 } from '@ng-bootstrap/ng-bootstrap';
-import { NgClass, NgFor, NgIf } from '@angular/common';
+import { NgClass, NgFor, NgIf, Location } from '@angular/common';
 import { Menu } from '../../../interfaces/header';
 import { SearchComponent } from '../search/search.component';
 import { RouterLink } from '@angular/router';
@@ -23,45 +23,51 @@ import { RouterLink } from '@angular/router';
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css',
 })
-export class MenuComponent implements AfterViewInit {
+export class MenuComponent {
   isCollapsed = true;
   menu: Menu[];
 
-  constructor() {
+  constructor(private location: Location) {
     this.menu = [
       {
         id: 1,
         nombre: 'INICIO',
         url: '/',
+        active: false,
         submenu: [],
       },
       {
         id: 2,
         nombre: 'TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
       {
         id: 3,
         nombre: 'ATENCIÓN Y SERVICIOS DE LA CIUDADANÍA',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [
           {
             id: 10,
             nombre: 'Trámites y Servicios',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 11,
             nombre: 'Canales de Atención',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 12,
             nombre: 'PQRSDF',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
         ],
@@ -69,66 +75,77 @@ export class MenuComponent implements AfterViewInit {
       {
         id: 4,
         nombre: 'PARTICIPA',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
       {
         id: 5,
         nombre: 'LA ENTIDAD',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
       {
         id: 6,
         nombre: 'SALA DE PRENSA',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
       {
         id: 7,
         nombre: 'SERVICIOS DE SALUD',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [
           {
             id: 13,
             nombre: 'Canal de Atención Servicios de Salud',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 14,
             nombre: 'Cobertura de Operación y Red de Prestadores de Salud',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 15,
             nombre: 'Sistema de Afiliación Transaccional (SAT)',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 16,
             nombre: 'Ruta de promoción y mantenimiento de la salud',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 17,
             nombre: 'Indicadores de salud',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 18,
             nombre: 'Afiliados',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
           {
             id: 19,
             nombre: 'Gestión del Riesgo',
-            url: '/',
+            url: '/1',
+            active: false,
             submenu: [],
           },
         ],
@@ -136,17 +153,40 @@ export class MenuComponent implements AfterViewInit {
       {
         id: 8,
         nombre: 'PLANEACIÓN, GESTIÓN Y CONTROL',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
       {
         id: 9,
         nombre: 'INFORMACIÓN PRESUPUESTAL Y FINANCIERA',
-        url: '/',
+        url: '/1',
+        active: false,
         submenu: [],
       },
     ];
+    let path = this.location.path().split('/');
+    this.activarMenu(path[path.length - 1]);
   }
-
-  ngAfterViewInit() {}
+  activarMenu(numberPath: string) {
+    this.menu.forEach((item) => {
+      item.active = false;
+      let numberUrl = item.url.split('/')[item.url.split('/').length - 1];
+      if (item.submenu!.length > 0) {
+        item.submenu!.forEach((submenu) => {
+          submenu.active = false;
+          let numberSurl =
+            submenu.url.split('/')[submenu.url.split('/').length - 1];
+          if (numberSurl == numberPath) {
+            submenu.active = true;
+          }
+        });
+      } else {
+        if (numberUrl == numberPath) {
+          item.active = true;
+        }
+      }
+    });
+  }
+  goPage() {}
 }

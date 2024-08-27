@@ -2,5 +2,8 @@ export interface Menu {
   id: number;
   nombre: string;
   url: string;
-  submenu: Menu[];
+  urlactive?: boolean;
+  icono?: string;
+  active: boolean;
+  submenu?: Menu[];
 }

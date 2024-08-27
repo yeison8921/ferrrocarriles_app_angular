@@ -1,1 +1,147 @@
-<p>submenu {{ submenu }}</p>
+<div ngbAccordion class="pe-3" [closeOthers]="true">
+  <div
+    ngbAccordionItem
+    class="mb-3"
+    *ngFor="let item of submenu; let i = index"
+    [collapsed]="!item.active"
+  >
+    <h2 ngbAccordionHeader>
+      <a
+        *ngIf="item.submenu!.length == 0"
+        routerLink="{{ item.url }}"
+        role="button"
+        ><span class="icon-{{ item.icono }}"></span> {{ item.nombre }}</a
+      >
+      <a
+        ngbAccordionButton
+        *ngIf="item.submenu!.length > 0 && item.urlactive"
+        routerLink="{{ item.url }}"
+        role="button"
+        class="accordion-button"
+        [ngClass]="item.active ? '' : 'collapsed'"
+        (click)="cambio(i, item.active)"
+      >
+        <span class="icon-{{ item.icono }}"></span> {{ item.nombre }}
+      </a>
+      <button
+        ngbAccordionButton
+        *ngIf="item.submenu!.length > 0 && !item.urlactive"
+        role="button"
+        (click)="cambio(i, item.active)"
+      >
+        <span class="icon-{{ item.icono }}"></span> {{ item.nombre }}
+      </button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="pb-0 pe-0">
+        <ng-template>
+          <div *ngFor="let subitem of item.submenu">
+            <a
+              class="link mb-2"
+              *ngIf="
+                subitem.submenu == undefined || subitem.submenu?.length == 0
+              "
+              routerLink="{{ subitem.url }}"
+              >{{ subitem.nombre }}</a
+            >
+            <div
+              ngbAccordion
+              [closeOthers]="true"
+              *ngIf="
+                subitem.submenu != undefined && subitem.submenu!.length > 0
+              "
+            >
+              <div ngbAccordionItem class="mb-3" [collapsed]="!subitem.active">
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton role="button">
+                    {{ subitem.nombre }}
+                  </button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody class="pb-0 pe-0">
+                    <ng-template>
+                      <a
+                        *ngFor="let subsubitem of subitem.submenu"
+                        class="link mb-2"
+                        routerLink="{{ subsubitem.url }}"
+                        >{{ subsubitem.nombre }}</a
+                      >
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  <!--<div ngbAccordionItem class="mb-3" [collapsed]="false">
+    <h2 ngbAccordionHeader>
+      <a
+        ngbAccordionButton
+        routerLink="/"
+        role="button"
+        class="accordion-button collapsed"
+      >
+        <span class="icon-informes"></span> INFORMES
+      </a>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="pb-0 pe-0">
+        <ng-template>
+          <a class="link" href="/2">Informes de Empalme</a>
+          <a class="link" href="/2">Informes Anuales</a>
+          <a class="link" href="/2">Indicadores de Gestión</a>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  <div ngbAccordionItem class="mb-3" [collapsed]="false">
+    <h2 ngbAccordionHeader>
+      <button ngbAccordionButton role="button">
+        <span class="icon-informes"></span> INFORMES
+      </button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="pb-0 pe-0">
+        <ng-template>
+          <div ngbAccordion [closeOthers]="true">
+            <div ngbAccordionItem class="mb-3" [collapsed]="false">
+              <h2 ngbAccordionHeader>
+                <button ngbAccordionButton role="button">
+                  <span class="icon-informes"></span> INFORMES
+                </button>
+              </h2>
+              <div ngbAccordionCollapse>
+                <div ngbAccordionBody class="pb-0 pe-0">
+                  <ng-template>
+                    <a class="link" href="/2">Informes de Empalme</a>
+                    <a class="link" href="/2">Informes Anuales</a>
+                    <a class="link" href="/2">Indicadores de Gestión</a>
+                  </ng-template>
+                </div>
+              </div>
+            </div>
+            <div ngbAccordionItem class="mb-3" [collapsed]="false">
+              <h2 ngbAccordionHeader>
+                <button ngbAccordionButton role="button">
+                  <span class="icon-informes"></span> INFORMES
+                </button>
+              </h2>
+              <div ngbAccordionCollapse>
+                <div ngbAccordionBody class="pb-0 pe-0">
+                  <ng-template>
+                    <a class="link" href="/2">Informes de Empalme</a>
+                    <a class="link" href="/2">Informes Anuales</a>
+                    <a class="link" href="/2">Indicadores de Gestión</a>
+                  </ng-template>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>-->
+</div>

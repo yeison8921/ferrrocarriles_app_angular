@@ -18,12 +18,20 @@ export let routes: Routes = [
   {
     path: 'corporativo',
     component: EntidadComponent,
+    title: 'Transaparecia y Acceso a la Información Pública',
+    data: {
+      page: true,
+    },
     loadChildren: () =>
       import('./modules/entidad/entidad.module').then((m) => m.EntidadModule),
   },
   {
     path: 'servicios-de-salud',
     component: ServiciosSaludComponent,
+    title: 'Servicios de Salud',
+    data: {
+      page: false,
+    },
     loadChildren: () =>
       import('./modules/servicios-salud/servicios-salud.module').then(
         (m) => m.ServiciosSaludModule
@@ -32,6 +40,10 @@ export let routes: Routes = [
   {
     path: 'informacion-contable-y-financiera',
     component: InformacionFinancieraComponent,
+    title: 'Información Presupuestal y Financiera',
+    data: {
+      page: false,
+    },
     loadChildren: () =>
       import(
         './modules/informacion-financiera/informacion-financiera.module'
@@ -40,6 +52,10 @@ export let routes: Routes = [
   {
     path: 'informes',
     component: InformesComponent,
+    title: 'Informes',
+    data: {
+      page: false,
+    },
     loadChildren: () =>
       import('./modules/informes/informes.module').then(
         (m) => m.InformesModule
@@ -48,6 +64,10 @@ export let routes: Routes = [
   {
     path: 'normatividad',
     component: NormatividadComponent,
+    title: 'Normatividad',
+    data: {
+      page: true,
+    },
     loadChildren: () =>
       import('./modules/normatividad/normatividad.module').then(
         (m) => m.NormatividadModule
@@ -56,6 +76,10 @@ export let routes: Routes = [
   {
     path: 'participa',
     component: ParticipaComponent,
+    title: 'Participa',
+    data: {
+      page: true,
+    },
     loadChildren: () =>
       import('./modules/participa/participa.module').then(
         (m) => m.ParticipaModule
@@ -64,12 +88,20 @@ export let routes: Routes = [
   {
     path: 'planeacion-gestion-y-control',
     component: PlanesComponent,
+    title: 'Planes y Programas',
+    data: {
+      page: false,
+    },
     loadChildren: () =>
       import('./modules/planes/planes.module').then((m) => m.PlanesModule),
   },
   {
     path: 'sala-de-prensa',
     component: SalaPrensaComponent,
+    title: 'Sala de Prensa',
+    data: {
+      page: false,
+    },
     loadChildren: () =>
       import('./modules/sala-prensa/sala-prensa.module').then(
         (m) => m.SalaPrensaModule
