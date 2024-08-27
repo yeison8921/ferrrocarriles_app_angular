@@ -2,23 +2,4 @@
   <h3 class="titulo-h3">
     <span class="icon govco-server"></span>Listado de documentos
   </h3>
-  <div ngbAccordion [closeOthers]="true">
-    @for (item of items; track item) {
-    <div ngbAccordionItem [collapsed]="true">
-      <div ngbAccordionHeader>
-        <button ngbAccordionButton>{{ item.nombre }}</button>
-      </div>
-      <div ngbAccordionCollapse>
-        <div ngbAccordionBody>
-          <ng-template>
-            <a class="link-file" href="#"
-              ><i class="bi bi-file-earmark-pdf-fill"></i
-              >{{ item.acordion[0].files[0].nombre }}</a
-            >
-          </ng-template>
-        </div>
-      </div>
-    </div>
-    }
-    </div>
-</div>
+
