@@ -10,7 +10,9 @@ const routes: Routes = [
   },
   {
     path: 'directorio-general-funcionarios-fps/192',
+    title: 'Directorio General Funcionarios FPS',
     component: DirectorioGeneralFuncionariosComponent,
+
   },
 ];
 

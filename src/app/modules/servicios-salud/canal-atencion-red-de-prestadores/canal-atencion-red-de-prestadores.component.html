@@ -44,71 +44,48 @@
       <div ngbAccordionCollapse>
         <div ngbAccordionBody>
           <ng-template>
+            <div *ngFor="let option of optionsDepartments">
+              <select
+                *ngIf="option[canal.id]"
+                class="form-select"
+                [(ngModel)]="selectedDepartment[canal.id]"
+              >
+                <option value="">Seleccione una opción</option>
+                <option *ngFor="let o of option[canal.id]" [value]="o.value">
+                  {{ o.value }}
+                </option>
+              </select>
+            </div>
             <div
               *ngFor="let department of canal.departments; let i = index"
               class="mt-3"
             >
-              <h4 class="titulo-h4">
-                {{ department.name }}
-              </h4>
               <div
-                *ngFor="let place of department.places; let i = index"
-                class="mt-3"
+                class="row"
+                *ngIf="department.name == selectedDepartment[canal.id]"
               >
-                <table class="table table-bordered">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <b>{{ place.city }}</b>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>{{ place.name }}</td>
-                    </tr>
-                    <tr>
-                      <td><b>Dirección: </b>{{ place.address }}</td>
-                    </tr>
-                    <tr>
-                      <td><b>Teléfono: </b>{{ place.phone }}</td>
-                    </tr>
-                    <tr>
-                      <td><b>Horario de Atención: </b>{{ place.hours }}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </ng-template>
-
-          <!-- <ng-template>
-            <div *ngIf="documento.subdepartment.length" class="mb-3">
-              <div
-                *ngFor="let accordion of documento.subaccordion; let i = index"
-                class="mt-3"
-              >
-                <h4 class="titulo-h4">
-                  <span>{{ i + 1 }}</span>
-                  {{ accordion.title }}
-                </h4>
                 <div
-                  *ngFor="let file of accordion.files; let i = index"
-                  class="ms-3"
+                  *ngFor="let place of department.places; let i = index"
+                  class="col-lg-12 mt-3"
                 >
-                  <a class="link-file" href="{{ file?.href }}" target="_blank"
-                    ><i class="bi bi-file-earmark-{{ file?.tipo }}-fill"></i
-                    >{{ file?.name }}</a
-                  >
+                  <div class="card text-bg-light mb-3">
+                    <div class="card-header" style="color: #004884">
+                      <b>{{ place.city }}</b>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">{{ place.name }}</h5> -->
+                      <p class="card-text">
+                        {{ place.name }} <br />
+                        <b>Dirección: </b>{{ place.address }}<br />
+                        <b>Teléfono: </b>{{ place.phone }}<br />
+                        <b>Horario de Atención: </b>{{ place.hours }}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div *ngFor="let file of documento.files; let i = index">
-              <a class="link-file" href="{{ file.href }}" target="_blank"
-                ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
-                >{{ file.name }}</a
-              >
-            </div>
-          </ng-template> -->
+          </ng-template>
         </div>
       </div>
     </div>

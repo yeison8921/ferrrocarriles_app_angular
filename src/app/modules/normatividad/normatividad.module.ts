@@ -8,18 +8,22 @@ import { CircularesComponent } from './circulares/circulares.component';
 const routes: Routes = [
   {
     path: '49',
+    title: 'Resoluciones',
     component: ResolucionesComponent,
   },
   {
     path: '233',
+    title: 'Leyes',
     component: LeyesComponent,
   },
   {
     path: '234',
+    title: 'Decretos',
     component: DecretosComponent,
   },
   {
     path: '235',
+    title: 'Circulares',
     component: CircularesComponent,
   },
 ];

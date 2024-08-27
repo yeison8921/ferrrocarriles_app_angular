@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "section": "Asignación de citas",
     "departments": [
       {
@@ -553,6 +554,7 @@
     ]
   },
   {
+    "id": 2,
     "section": "Gestión de órdenes de servicio",
     "departments": [
       {
@@ -1015,6 +1017,7 @@
     ]
   },
   {
+    "id": 3,
     "section": "Dispensación de medicamentos.",
     "departments": [
       {

@@ -12,6 +12,7 @@ interface City {
 }
 
 export interface Canal {
+  id: number;
   section: string;
   departments: City[];
 }

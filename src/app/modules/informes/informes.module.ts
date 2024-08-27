@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { IndicadoresGestionComponent } from './indicadores-gestion/indicadores-gestion.component';
-import { IndicadoresSaludComponent } from './indicadores-salud/indicadores-salud.component';
 import { InformesEmpalmeComponent } from './informes-empalme/informes-empalme.component';
 import { InformesAnualesComponent } from './informes-anuales/informes-anuales.component';
 import { MemoriasCongresoComponent } from './memorias-congreso/memorias-congreso.component';
@@ -29,11 +28,6 @@ const routes: Routes = [
     path: 'indicadores-de-gestion/62',
     title: 'Indicadores de Gestión',
     component: IndicadoresGestionComponent,
-  },
-  {
-    path: 'indicadores-de-salud/190',
-    title: 'Indicadores de salud',
-    component: IndicadoresSaludComponent,
   },
   {
     path: 'informes-fiscales/61',
