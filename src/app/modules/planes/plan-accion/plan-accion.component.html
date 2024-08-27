@@ -1,1 +1,37 @@
-<p>plan-accion works!</p>
+<h1 class="titulo-h1">PLAN DE ACCIÓN</h1>
+
+<P>Para dar cumplimiento a la Ley, el Fondo Pasivo Social publica el plan de acción de la vigencia
+  y los seguimientos trimestrales además de los históricos de acuerdo a la normatividad vigente<br/></P>
+
+  <h3 class="titulo-h3">
+    <span class="icon govco-server"></span>Listado de documentos
+  </h3>
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let item of items; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span
+          >{{ item.nombre }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <a
+              *ngFor="let file of item.files"
+              class="link-file"
+              href="{{ file.url }}"
+              target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+              >{{ file.nombre }}</a
+            >
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+
