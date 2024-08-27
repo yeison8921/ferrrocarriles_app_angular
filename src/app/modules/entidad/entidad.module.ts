@@ -9,28 +9,28 @@ import { GestionDocumentalComponent } from './gestion-documental/gestion-documen
 const routes: Routes = [
   {
     path: 'mision-y-vision/37',
-    title: 'Misión y visión',
     component: MisionVisionComponent,
+    title: 'Misión y visión'
   },
   {
     path: 'funciones/38',
-    title: 'Funciones',
     component: FuncionesComponent,
+    title: 'Funciones'
   },
   {
     path: 'politica-del-sistema-integrado-de-gestion/40',
-    title: 'Politica SIG',
     component: PoliticasigComponent,
+    title: 'Politica SIG'
   },
   {
     path: 'talento-humano/46',
-    title: 'Talento humano',
     component: TalentoHumanoComponent,
+    title: 'Talento humano'
   },
   {
     path: 'gestion-documental/51',
-    title: 'Gestión documental',
     component: GestionDocumentalComponent,
+    title: 'Gestión documental'
   },
 ];
 

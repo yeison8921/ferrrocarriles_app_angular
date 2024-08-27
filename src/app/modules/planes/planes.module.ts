@@ -21,78 +21,80 @@ import { GestionDocumentalComponent } from './gestion-documental/gestion-documen
 const routes: Routes = [
   {
     path: 'plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
-    title: 'Plan estrategico TIC',
     component: PlanEstrategicoTecComponent,
+    title: 'Plan estrategico TIC'
   },
   {
     path: 'plan-de-accion/64',
-    title: 'Plan de acción',
     component: PlanAccionComponent,
+    title: 'Plan de acción'
   },
   {
     path: 'plan-estrategico/63',
-    title: 'Plan estrategico',
     component: PlanEstrategicoComponent,
+    title: 'Plan estrategico'
   },
   {
     path: 'plan-de-anticorrupcion-y-atencion-al-ciudadano/74',
-    title: 'Plan anticorrupción',
     component: PlanAnticorrupcionComponent,
+    title: 'Plan anticorrupción'
   },
   {
     path: 'plan-de-riesgos/79',
-    title: 'Plan de riesgos',
     component: PlanRiesgosComponent,
+    title: 'Plan de riesgos'
   },
   {
     path: 'planes-de-mejoramiento/60',
-    title: 'Planes de mejoramiento',
     component: PlanMejoramientoComponent,
+    title: 'Planes de mejoramiento'
   },
   {
     path: 'plan-de-fortalecimiento/78',
-    title: 'Plan de fortalecimiento',
     component: PlanFortalecimientoComponent,
+    title: 'Plan de fortalecimiento'
   },
   {
     path: 'plan-gestion-humana/197',
-    title: 'Plan de gestión humana',
     component: PlanGestionHumanaComponent,
+    title: 'Plan de gestión humana'
+
   },
   {
     path: 'procedimientos-lineamientos-y-politicas-de-adquisicion-y-compras/84',
-    title: 'Procedimientos de compras',
     component: ProcedimientosComponent,
+    title: 'Procedimientos de compras'
+
   },
   {
     path: 'plan-anual-de-adquisiciones/198',
-    title: 'Plan de adquisiciones',
     component: PlanAdquisicionesComponent,
+    title: 'Plan de adquisiciones',
   },
   {
     path: 'plan-de-politica-sectorial-de-transparencia-e-integridad/231',
-    title: 'Plan de politica',
     component:PlanPoliticaComponent ,
+    title: 'Plan de politica'
   },
   {
     path: 'plan-de-participacion-ciudadana/73',
-    title: 'Plan de participación',
     component: PlanParticipacionComponent,
+    title: 'Plan de participación'
   },
   {
     path: 'plan-seguridad-y-privacidad-de-la-informacion/200',
-    title: 'Plan de seguridad',
     component: PlanSeguridadComponent,
+    title: 'Plan de seguridad'
   },
   {
     path: 'programas-y-proyectos-de-inversion/202',
-    title: 'Programas de inversión',
     component: ProyectosInversionComponent,
+    title: 'Programas de inversión'
   },
   {
     path: 'gestion-documental/203',
-    title: 'Gestión documental',
     component: GestionDocumentalComponent,
+    title: 'Gestión documental'
   },
 ];
 

@@ -6,14 +6,14 @@ import { PqrComponent } from './pqr/pqr.component';
 const routes: Routes = [
   {
     path: 'consulta-ciudadana/227',
-    title: 'Consulta ciudadana',
     component: ConsultaCiudadanaComponent,
+    title: 'Consulta ciudadana'
 
   },
   {
     path: 'pqr/222',
-    title: 'pqr',
     component: PqrComponent,
+    title: 'pqr',
 
   },
 ];
