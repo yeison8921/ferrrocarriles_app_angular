@@ -21,62 +21,77 @@ import { GestionDocumentalComponent } from './gestion-documental/gestion-documen
 const routes: Routes = [
   {
     path: 'plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
+    title: 'Plan estrategico TIC',
     component: PlanEstrategicoTecComponent,
   },
   {
     path: 'plan-de-accion/64',
+    title: 'Plan de acción',
     component: PlanAccionComponent,
   },
   {
     path: 'plan-estrategico/63',
+    title: 'Plan estrategico',
     component: PlanEstrategicoComponent,
   },
   {
     path: 'plan-de-anticorrupcion-y-atencion-al-ciudadano/74',
+    title: 'Plan anticorrupción',
     component: PlanAnticorrupcionComponent,
   },
   {
     path: 'plan-de-riesgos/79',
+    title: 'Plan de riesgos',
     component: PlanRiesgosComponent,
   },
   {
     path: 'planes-de-mejoramiento/60',
+    title: 'Planes de mejoramiento',
     component: PlanMejoramientoComponent,
   },
   {
     path: 'plan-de-fortalecimiento/78',
+    title: 'Plan de fortalecimiento',
     component: PlanFortalecimientoComponent,
   },
   {
     path: 'plan-gestion-humana/197',
+    title: 'Plan de gestión humana',
     component: PlanGestionHumanaComponent,
   },
   {
     path: 'procedimientos-lineamientos-y-politicas-de-adquisicion-y-compras/84',
+    title: 'Procedimientos de compras',
     component: ProcedimientosComponent,
   },
   {
     path: 'plan-anual-de-adquisiciones/198',
+    title: 'Plan de adquisiciones',
     component: PlanAdquisicionesComponent,
   },
   {
     path: 'plan-de-politica-sectorial-de-transparencia-e-integridad/231',
+    title: 'Plan de politica',
     component:PlanPoliticaComponent ,
   },
   {
     path: 'plan-de-participacion-ciudadana/73',
+    title: 'Plan de participación',
     component: PlanParticipacionComponent,
   },
   {
     path: 'plan-seguridad-y-privacidad-de-la-informacion/200',
+    title: 'Plan de seguridad',
     component: PlanSeguridadComponent,
   },
   {
     path: 'programas-y-proyectos-de-inversion/202',
+    title: 'Programas de inversión',
     component: ProyectosInversionComponent,
   },
   {
     path: 'gestion-documental/203',
+    title: 'Gestión documental',
     component: GestionDocumentalComponent,
   },
 ];
