@@ -1,0 +1,7 @@
+a {
+  text-decoration: none;
+  color: var(--azul-t);
+}
+a:hover{
+  color: var(--azul-o);
+}

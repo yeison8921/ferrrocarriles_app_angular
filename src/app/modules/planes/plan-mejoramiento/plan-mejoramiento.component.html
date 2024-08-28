@@ -1,4 +1,51 @@
-<div class="container">
-  <h3 class="titulo-h3">
-    <span class="icon govco-server"></span>Listado de documentos
+<h1 class="titulo-h1">PLANES DE MEJORAMIENTO</h1>
+
+<p style="text-align: justify;">
+	Para dar cumplimiento a la ResoluciÓn
+  No 5580 del 18 de mayo de 2004 de la Contraloría
+  General de la República, el Fondo Pasivo Social,
+  publica los Planes de Mejoramiento suscritos con
+  la Contraloría General de la República CGR y los correspondientes Informes de seguimiento</p>
+
+  <a class="btn-comun mb-4 mt-4" type="button"
+  href="https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-CO&amp;Page=login&amp;Country=CO&amp;SkinName=CCE"
+  target="_blank"
+  >
+    <span class="icon icon-documento"></span>
+    CONTRATACIÓN DEL FPSFNC - SECOP
+  </a>
+
+
+  <h3 class="titulo-h3 mt-2">
+    <span class="icon govco-server"></span>
+    Listado de documentos
   </h3>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let item of items; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span
+          >{{ item.nombre }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <a
+              *ngFor="let file of item.files"
+              class="link-file mb-2"
+              href="{{ file.url }}"
+              target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+              >{{ file.nombre }}</a
+            >
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>

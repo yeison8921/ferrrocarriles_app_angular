@@ -1,5 +1,59 @@
-<div class="container">
-  <h3 class="titulo-h3">
+<h1 class="titulo-h1">PROCEDIMIENTOS, LINEAMIENTOS Y POLITICAS DE ADQUISICIÓN Y COMPRAS</h1>
+
+<p style="text-align: justify;">
+	Para dar cumplimiento a la Ley, FPS publica Procedimientos,
+  Lineamientos y Politicas de Adquisicion Y Compras las últimas 5 vigencias.</p>
+
+  <a class="btn-comun mb-4 mt-4" type="button"
+  href="/assets/files/planes/Procedimientos_lineamientos/ESDESDIGPL05%20PLAN%20DE%20COMUNICACIONES%20DEL%20FPS%20FNC%20V1%20(1).pdf"
+  target="_blank"
+  >
+    <span class="icon icon-documento"></span>
+    Manual de contratación FPS-FNC
+  </a>
+  <a class="btn-comun mb-4 mt-4" type="button"
+  href="/assets/files/planes/Procedimientos_lineamientos/MANUAL%20DE%20CONTRATACION%20FONDO%20DE%20PASIVO%20SOCIAL%20DE%20FERROCARRILES%20NACIONALES%20DE%20COLOMBIA.pdf"
+  target="_blank"
+  >
+    <span class="icon icon-documento"></span>
+    Manual de contratación FPS-FNC 2023
+  </a>
+  <a class="btn-comun mb-4 mt-4" type="button"
+  href="./assets/files/planes/Procedimientos_lineamientos/ESDESDIGPL05%20PLAN%20DE%20COMUNICACIONES%20DEL%20FPS%20FNC%20V1%20(1).pdf"
+  target="_blank"
+  >
+    <span class="icon icon-documento"></span>
+    Procedimiento de publicación y actualización de información en medios electronicos (Pagina Web, Intranet) v6
+  </a>
+  <a class="btn-comun mb-4 mt-4" type="button"
+  href="./assets/files/planes/Procedimientos_lineamientos/ESDESDIGPL05%20PLAN%20DE%20COMUNICACIONES%20DEL%20FPS%20FNC%20V1%20(1).pdf"
+  target="_blank"
+  >
+    <span class="icon icon-documento"></span>
+    Plan de comunicaciones V1
+  </a>
+
+<h3 class="titulo-h3">PROCEDIMIENTOS TRÁMITES DE PRESTACIONES ECONOMICAS</h3>
+
+<p style="text-align: justify;">
+  Documentación referente a los trámites de prestaciones económicas</p>
+
+<h3 class="titulo-h3">
     <span class="icon govco-server"></span>Listado de documentos
-  </h3>
+</h3>
+
+<div
+    *ngFor="let item of items"
+  >
+    <a
+    class="link-file mb-2"
+    href="{{ item.url }}"
+    target="_blank"
+    >
+    <i class="bi bi-file-earmark-{{ item.tipo }}-fill"></i>
+    {{ item.nombre }}
+  </a>
+</div>
+
+
 

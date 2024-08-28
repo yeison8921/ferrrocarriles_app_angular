@@ -21,13 +21,13 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/01.%202024/FORMULACI%c3%93N%20PLAN%20DE%20ACCI%c3%93N%202024%20FPS.xlsx",
               nombre: "FORMULACIÓN PLAN DE ACCIÓN 2024 FPS.xlsx"
             },
             {
               id: 2,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/01.%202024/PLAN%20DE%20ACCI%c3%93N%202024%20FPS%20-%20CONSULTA%20A%20LA%20CIUDADAN%c3%8dA.xlsx",
               nombre: "PLAN DE ACCIÓN 2024 FPS - CONSULTA A LA CIUDADANÍA.xlsx"
             }
@@ -39,19 +39,19 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/02.%202023/01.%20PLAN%20DE%20ACCI%c3%93N%202023.xlsx",
               nombre: "01. PLAN DE ACCIÓN 2023.xlsx"
             },
             {
               id: 2,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/02.%202023/02.%20PLAN%20DE%20ACCI%c3%93N%20VERSI%c3%93N%201.0%2031-01-2023.xlsx",
               nombre: "02. PLAN DE ACCIÓN VERSIÓN 1.0 31-01-2023.xlsx"
             },
             {
               id: 3,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/02.%202023/03%20PLAN%20DE%20ACCI%c3%92N%20VIGENCIA%202023%20I%20-%20II%20SEMESTRE%20Y%20ANUAL.xlsx",
               nombre: "03 PLAN DE ACCIÒN VIGENCIA 2023 I - II SEMESTRE Y ANUAL.xlsx"
             }
@@ -63,13 +63,13 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/03.%202022/01%20PLAN%20DE%20ACCIO%cc%81N%202022%20-%20CONSULTA%20CIUDADANA.xlsx",
               nombre: "01 PLAN DE ACCIÓN 2022 - CONSULTA CIUDADANA.xlsx"
             },
             {
               id: 2,
-              tipo: "xlsx",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/03.%202022/02%20PLAN%20DE%20ACCIO%cc%81N%202022%20-%20APROBADO.xlsx",
               nombre: "02 PLAN DE ACCIÓN 2022 - APROBADO.xlsx"
             }
@@ -81,7 +81,7 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/04.%202021/01%20FORMULACI%c3%93N%20PLAN%20DE%20ACCION%20FPS%20FNC%20V1.0.xls",
               nombre: "01 FORMULACIÓN PLAN DE ACCION FPS FNC V1.0.xls"
             },
@@ -93,7 +93,7 @@ export class PlanAccionComponent {
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/04.%202021/02%20FORMULACION%20%20PLAN%20ESTRATEGICO%20FPS%20V2%20JUNIO.xls",
               nombre: "02 FORMULACION PLAN ESTRATEGICO FPS V2 JUNIO.xls"
             }
@@ -123,31 +123,31 @@ export class PlanAccionComponent {
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/06.%202019/PLAN_DE_ACCION%202019.xls",
               nombre: "PLAN_DE_ACCION 2019.xls"
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/06.%202019/PLAN_DE_ACCION%202019v2.xls",
               nombre: "PLAN_DE_ACCION 2019v2.xls"
             },
             {
               id: 4,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/06.%202019/PLAN_DE_ACCION_2019v3.xls",
               nombre: "PLAN_DE_ACCION_2019v3.xls"
             },
             {
               id: 5,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/06.%202019/PLAN_DE_ACCION_2019v4.xls",
               nombre: "PLAN_DE_ACCION_2019v4.xls"
             },
             {
               id: 6,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/06.%202019/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2019.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2019.xls"
             }
@@ -159,19 +159,19 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/07.%202018/PLAN_DE_ACCION_2018.xls",
               nombre: "PLAN_DE_ACCION_2018.xls"
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/07.%202018/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2018.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2018.xls"
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/07.%202018/SEGUIMIENTO%20PLAN%20DE%20ACCION%20II%20SEMESTRE2018.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION II SEMESTRE2018.xls"
             }
@@ -183,19 +183,19 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/08.%202017/PLAN_DE_ACCION_2017.xls",
               nombre: "PLAN_DE_ACCION_2017.xls"
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/08.%202017/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2017.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2017.xls"
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/08.%202017/SEGUIMIENTO%20PLAN%20DE%20ACCION%20II%20SEMESTRE2017.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION II SEMESTRE2017.xls"
             }
@@ -207,13 +207,13 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/09.%202016/PLAN_DE_ACCION_2016.xls",
               nombre: "PLAN_DE_ACCION_2016.xls"
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/09.%202016/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2016.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2016.xls"
             }
@@ -225,19 +225,19 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/10.%202015/PLAN_DE_ACCION_2015.xls",
               nombre: "PLAN_DE_ACCION_2015.xls"
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/10.%202015/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2015.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2015.xls"
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/10.%202015/SEGUIMIENTO%20PLAN%20DE%20ACCION%20II%20SEMESTRE2015.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION II SEMESTRE2015.xls"
             }
@@ -249,19 +249,19 @@ export class PlanAccionComponent {
           files: [
             {
               id: 1,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/11.%202014/PLAN_DE_ACCION_2014.xls",
               nombre: "PLAN_DE_ACCION_2014.xls"
             },
             {
               id: 2,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/11.%202014/SEGUIMIENTO%20PLAN%20DE%20ACCION%20I%20SEMESTRE2014.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION I SEMESTRE2014.xls"
             },
             {
               id: 3,
-              tipo: "xls",
+              tipo: "excel",
               url: "/assets/files/planes/plan_accion/11.%202014/SEGUIMIENTO%20PLAN%20DE%20ACCION%20II%20SEMESTRE2014.xls",
               nombre: "SEGUIMIENTO PLAN DE ACCION II SEMESTRE2014.xls"
             }
