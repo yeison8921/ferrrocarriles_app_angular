@@ -5,7 +5,7 @@ import { RouterOutlet } from '@angular/router';
 import { BreadcrumbsComponent } from '../../general/breadcrumbs/breadcrumbs.component';
 
 @Component({
-  selector: 'app-atencionusuario',
+  selector: 'app-informacion-ciudadano',
   standalone: true,
   imports: [
     BannerComponent,
@@ -13,9 +13,7 @@ import { BreadcrumbsComponent } from '../../general/breadcrumbs/breadcrumbs.comp
     RouterOutlet,
     BreadcrumbsComponent,
   ],
-  templateUrl: './atencionusuario.component.html',
-  styleUrl: './atencionusuario.component.css'
+  templateUrl: './informacion-ciudadano.component.html',
+  styleUrl: './informacion-ciudadano.component.css',
 })
-export class AtencionusuarioComponent {
-
-}
+export class InformacionCiudadanoComponent {}

@@ -1,1 +1,143 @@
-<p>tramites works!</p>
+<h1 class="titulo-h1">TRÁMITES Y SERVICIOS</h1>
+<h2 class="titulo-h2">PUBLICACIÓN DE HOJAS DE VIDA</h2>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 class="titulo-h2 mt-4">
+  INFORMACIÓN DE PAGOS REALIZADOS A LAS IPS Y PROVEEDORES DE SERVICIOS Y
+  TECNOLOGIAS EN SALUD
+</h2>
+<p>
+  La presente circular externa tiene como objetivo garantizar la integralidad y
+  gestión en la presentación de los servicios de la salud a través de un manejo
+  integrado de los recursos de la UPC, presupuestos máximos y demás ingresos
+  operacionales a cargo de las EPS y EOC ejecutados mediante la Contratación con
+  las IPS y proveedores de servicios y tecnologías en salud y garantizar el
+  manejo contable de las unidades de ingreso y gasto de cada una de las fuentes
+  de financiamiento. Lo anterior en cumplimiento al marco normativo señalado en
+  esta Circular.
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of pagos; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="titulo-h3 mt-4">SISTEMA ÚNICO DE INFORMACIÓN DE TRÁMITES - SUIT</h3>
+
+<div class="row">
+  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen">
+    <img src="/assets/img/links/btn03.png" alt="" />
+    <div>
+      <h5 class="text-white">
+        Sistema Único de Información de Trámites - SUIT
+      </h5>
+      <a
+        class="btn-azul-o"
+        target="_blank"
+        href="https://www1.funcionpublica.gov.co/web/suit/buscadortramites"
+      >
+        <i class="bi bi-search"></i>
+        Consultar aquí
+      </a>
+    </div>
+  </div>
+</div>
+<p class="mt-4">
+  A nuestros usuarios se les permite tener acceso a una base de datos
+  consolidada con información de los trámites, su estado y dependencia actual.
+</p>
+<a
+  class="btn-azul-o"
+  target="_blank"
+  href="https://132.255.23.84/orfeo/consultaWebMinSalud/"
+>
+  <i class="bi bi-search"></i>
+  Consulta de trámites posteriores al año 2010
+</a>
+<a
+  class="btn-azul-o mt-3"
+  target="_blank"
+  href="https://132.255.23.82:444/consultaWeb/index_web.php"
+>
+  <i class="bi bi-search"></i>
+  Consulta de trámites anteriores al año 2010
+</a>
+<a class="btn-comun-b mt-3" type="button" href="/servicios-salud/269">
+  <span class="icon icon-documento"></span>
+  Reporte Pensionados Fallecidos
+</a>
+
+<h3 class="titulo-h3 mt-4">
+  FORMULARIO ÚNICO PARA EL REPORTE DE NOVEDADES DE AFILIACIÓN
+</h3>
+<p>
+  Señor afilado descargue acá el Formulario único de afiliación y registro de
+  novedades al sistema general de seguridad social en salud, el cual debe
+  diligenciar y adjuntar junto con los documentos soporte de su novedad,
+  enviándolo al correo electrónico
+  <a href="mailto:correspondencia@fps.gov.co" target="_blank">{{
+    "correspondencia@fps.gov.co"
+  }}</a>
+  o
+  <a href="mailto:comunicaciones@fps.gov.co" target="_blank">{{
+    "comunicaciones@fps.gov.co"
+  }}</a>
+</p>
+<a class="btn-comun-b mt-3" type="button" href="/servicios-salud/269">
+  <span class="icon icon-documento"></span>
+  Formulario Reporte de Novedades de Afiliación
+</a>

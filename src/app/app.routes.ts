@@ -9,7 +9,7 @@ import { ParticipaComponent } from './modules/participa/participa.component';
 import { PlanesComponent } from './modules/planes/planes.component';
 import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component';
 import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
-import { AtencionusuarioComponent } from './modules/atencionusuario/atencionusuario.component';
+import { InformacionCiudadanoComponent } from './modules/informacion-ciudadano/informacion-ciudadano.component';
 
 export let routes: Routes = [
   {
@@ -68,7 +68,7 @@ export let routes: Routes = [
     component: NormatividadComponent,
     title: 'Normatividad',
     data: {
-      page: true,
+      page: false,
     },
     loadChildren: () =>
       import('./modules/normatividad/normatividad.module').then(
@@ -120,18 +120,18 @@ export let routes: Routes = [
       import('./modules/tramites-servicios/tramites-servicios.module').then(
         (m) => m.TramitesServiciosModule
       ),
-    },
-    {
+  },
+  {
     path: 'informacion-al-ciudadano',
-    component: AtencionusuarioComponent,
-    title: 'atención al ciudadano',
+    component: InformacionCiudadanoComponent,
+    title: 'Información al ciudadano',
     data: {
       page: false,
     },
     loadChildren: () =>
-      import('./modules/atencionusuario/atencionusuario.module').then(
-        (m) => m.AtencionusuarioModule
-      ),
-    },
+      import(
+        './modules/informacion-ciudadano/informacion-ciudadano.module'
+      ).then((m) => m.InformacionCiudadanoModule),
+  },
 ];
 export let AppRouterModule = RouterModule.forRoot(routes, {});

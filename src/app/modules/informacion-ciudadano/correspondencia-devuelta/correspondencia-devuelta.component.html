@@ -1,0 +1,10 @@
+<h1 class="titulo-h1 mb-4">CORRESPONDENCIA DEVUELTA</h1>
+<a
+  *ngFor="let item of items"
+  class="link-file mb-2"
+  href="{{ item.url }}"
+  target="_blank"
+>
+  <i class="bi bi-file-earmark-{{ item.tipo }}-fill"></i>
+  {{ item.nombre }}
+</a>

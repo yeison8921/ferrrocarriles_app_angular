@@ -12,6 +12,7 @@ import { InformeOficinaControlInternoComponent } from './informe-oficina-control
 import { InformesFiscalesComponent } from './informes-fiscales/informes-fiscales.component';
 import { InformeAuditoriaOficinaControlInternoComponent } from './informe-auditoria-oficina-control-interno/informe-auditoria-oficina-control-interno.component';
 import { RendicionCuentasComponent } from './rendicion-cuentas/rendicion-cuentas.component';
+import { InformeCamaraRepresentantesComponent } from './informe-camara-representantes/informe-camara-representantes.component';
 
 const routes: Routes = [
   {
@@ -73,6 +74,11 @@ const routes: Routes = [
     path: 'rendicion-de-cuentas/67',
     title: 'Rendición de Cuentas',
     component: RendicionCuentasComponent,
+  },
+  {
+    path: 'informe-camara-de-representantes/187',
+    title: 'Informe Cámara de Representantes',
+    component: InformeCamaraRepresentantesComponent,
   },
 ];
 

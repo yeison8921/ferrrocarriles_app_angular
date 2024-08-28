@@ -88,3 +88,11 @@
 .icon-normativa::before {
     content: "\ec18";
 }
+
+.icon-tramites::before {
+    content: "\e953";
+}
+
+.icon-informacion::before {
+    content: "\e85e";
+}
