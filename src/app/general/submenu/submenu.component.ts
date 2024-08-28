@@ -674,12 +674,6 @@ export class SubmenuComponent {
         icono: 'financiera',
         submenu: [
           {
-            id: 1,
-            nombre: 'Información Financiera Superintendencia Nacional de Salud',
-            url: '/informacion-contable-y-financiera/informacion-financiera-superintendencia-nacional-de-salud/207',
-            active: false,
-          },
-          {
             id: 2,
             nombre: 'Información Presupuestal y Financiera',
             url: '/informacion-contable-y-financiera/informacion-financiera/89',
@@ -695,6 +689,12 @@ export class SubmenuComponent {
             id: 4,
             nombre: 'Información Financiera Contaduría General de la Nación',
             url: '/informacion-contable-y-financiera/informacion-financiera-contaduria-general-de-la-nacion/208',
+            active: false,
+          },
+          {
+            id: 1,
+            nombre: 'Información Financiera Superintendencia Nacional de Salud',
+            url: '/informacion-contable-y-financiera/informacion-financiera-superintendencia-nacional-de-salud/207',
             active: false,
           },
           {
