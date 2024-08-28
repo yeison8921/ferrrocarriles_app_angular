@@ -9,6 +9,7 @@ import { ParticipaComponent } from './modules/participa/participa.component';
 import { PlanesComponent } from './modules/planes/planes.component';
 import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component';
 import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
+import { AtencionusuarioComponent } from './modules/atencionusuario/atencionusuario.component';
 
 export let routes: Routes = [
   {
@@ -119,6 +120,18 @@ export let routes: Routes = [
       import('./modules/tramites-servicios/tramites-servicios.module').then(
         (m) => m.TramitesServiciosModule
       ),
-  },
+    },
+    {
+    path: 'informacion-al-ciudadano',
+    component: AtencionusuarioComponent,
+    title: 'atención al ciudadano',
+    data: {
+      page: false,
+    },
+    loadChildren: () =>
+      import('./modules/atencionusuario/atencionusuario.module').then(
+        (m) => m.AtencionusuarioModule
+      ),
+    },
 ];
 export let AppRouterModule = RouterModule.forRoot(routes, {});
