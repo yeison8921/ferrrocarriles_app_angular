@@ -9,32 +9,35 @@
         font-size: 1rem;
         font-family: "WorkSans-Bold";
         text-decoration: none;
-        color: var(--azul-o);
-        transition: all 0.3s ease-in-out;
-        background-color: transparent;
         border: 0;
         padding: 0;
         min-height: auto;
-    }
-
-    a:hover,
-    button:hover {
-        color: var(--azul-t);
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
 
         span {
-            color: var(--azul-t);
+            font-family: "govco-font";
+            border-radius: 0;
+            width: auto;
+            height: auto;
+            background-color: transparent;
+            transition: all 0.3s ease-in-out;
         }
     }
 
-    span {
-        font-family: "govco-font";
-        background-color: transparent;
-        border-radius: 0;
+    .collapsed,
+    .collapsed span {
         color: var(--azul-o);
-        width: auto;
-        height: auto;
-        transition: all 0.3s ease-in-out;
     }
+}
+
+.accordion-header a:not(.collapsed),
+.accordion-header a:not(.collapsed) span,
+.accordion-header button:not(.collapsed),
+.accordion-header button:not(.collapsed) span,
+.accordion-collapse .link:hover,
+.accordion-collapse .link.active {
+    color: var(--azul-t);
 }
 
 .accordion-collapse {
@@ -46,10 +49,6 @@
         transition: all 0.3s ease-in-out;
         display: block;
         line-height: 1.2rem;
-    }
-
-    .link:hover {
-        color: var(--azul-t);
     }
 }
 

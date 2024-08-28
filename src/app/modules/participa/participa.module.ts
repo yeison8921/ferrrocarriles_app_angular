@@ -7,14 +7,12 @@ const routes: Routes = [
   {
     path: 'consulta-ciudadana/227',
     component: ConsultaCiudadanaComponent,
-    title: 'Consulta ciudadana'
-
+    title: 'Consulta ciudadana',
   },
   {
-    path: 'pqr/222',
+    path: 'pqrs/222',
     component: PqrComponent,
-    title: 'pqr',
-
+    title: 'Pqrs',
   },
 ];
 

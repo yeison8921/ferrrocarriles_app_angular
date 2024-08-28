@@ -1,24 +1,22 @@
-import { NgClass, NgFor, NgIf } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { NgClass, NgFor, NgIf, Location } from '@angular/common';
+import { Component } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { Menu } from '../../interfaces/header';
 
 @Component({
   selector: 'app-submenu',
   standalone: true,
-  imports: [NgbAccordionModule, NgFor, NgIf, NgClass, RouterLink],
+  imports: [NgbAccordionModule, NgFor, NgIf, NgClass],
   templateUrl: './submenu.component.html',
   styleUrl: './submenu.component.css',
 })
-export class SubmenuComponent implements OnInit {
-  @Input() arg!: any;
+export class SubmenuComponent {
   submenu: Menu[];
-  constructor() {
+  constructor(private location: Location) {
     this.submenu = [
       {
         id: 1,
-        nombre: 'INICIO',
+        nombre: 'Inicio',
         url: '/',
         urlactive: true,
         active: false,
@@ -27,7 +25,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 2,
-        nombre: 'TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA',
+        nombre: 'Transparencia y acceso a la información pública',
         url: '/corporativo/transparencia-y-acceso-a-la-informacion-publica/163',
         urlactive: true,
         active: false,
@@ -157,7 +155,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 3,
-        nombre: 'ATENCIÓN AL USUARIO',
+        nombre: 'Atención al usuario',
         url: '/',
         urlactive: false,
         active: false,
@@ -295,7 +293,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 3,
-        nombre: 'PARTICIPA',
+        nombre: 'Participa',
         url: '/',
         urlactive: false,
         active: false,
@@ -343,7 +341,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 4,
-        nombre: 'SALA DE PRENSA',
+        nombre: 'Sala de prensa',
         url: '/',
         urlactive: false,
         active: false,
@@ -389,7 +387,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 5,
-        nombre: 'SERVICIOS DE SALUD',
+        nombre: 'Servicios de salud',
         url: '/',
         urlactive: false,
         active: false,
@@ -441,7 +439,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 6,
-        nombre: 'PLANEACIÓN, GESTIÓN Y CONTROL',
+        nombre: 'Planeación, gestión y control',
         url: '/planeacion-gestion-y-control/53',
         urlactive: true,
         active: false,
@@ -669,7 +667,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 7,
-        nombre: 'INFORMACIÓN FINANCIERA',
+        nombre: 'Información Financiera',
         url: '/',
         urlactive: false,
         active: false,
@@ -709,7 +707,7 @@ export class SubmenuComponent implements OnInit {
       },
       {
         id: 7,
-        nombre: 'NORMATIVIDAD',
+        nombre: 'Normatividad',
         url: '/normatividad/47',
         urlactive: true,
         active: false,
@@ -742,12 +740,49 @@ export class SubmenuComponent implements OnInit {
         ],
       },
     ];
+    let path = this.location.path().split('/');
+    this.activarMenu(path[path.length - 1]);
   }
+
+  activarMenu(numberPath: string) {
+    this.submenu.forEach((item) => {
+      item.active = false;
+      let numberUrl = item.url.split('/')[item.url.split('/').length - 1];
+      if (item.submenu!.length > 0) {
+        item.submenu!.forEach((submenu) => {
+          submenu.active = false;
+          let numberSurl =
+            submenu.url.split('/')[submenu.url.split('/').length - 1];
+          if (numberSurl == numberPath) {
+            submenu.active = true;
+            item.active = true;
+          }
+          if (submenu.submenu != undefined) {
+            submenu.submenu!.forEach((subsubmenu) => {
+              subsubmenu.active = false;
+              let numberSurl =
+                subsubmenu.url.split('/')[subsubmenu.url.split('/').length - 1];
+              if (numberSurl == numberPath) {
+                subsubmenu.active = true;
+                submenu.active = true;
+                item.active = true;
+              }
+            });
+          }
+        });
+      }
+      if (item.urlactive) {
+        if (numberUrl == numberPath) {
+          item.active = true;
+        }
+      }
+    });
+  }
+
   cambio(index: number, active: boolean) {
     this.submenu.forEach((item) => {
       item.active = false;
     });
     this.submenu[index].active = !active;
   }
-  ngOnInit(): void {}
 }
