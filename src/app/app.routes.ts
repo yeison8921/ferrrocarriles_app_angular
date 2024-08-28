@@ -8,6 +8,7 @@ import { NormatividadComponent } from './modules/normatividad/normatividad.compo
 import { ParticipaComponent } from './modules/participa/participa.component';
 import { PlanesComponent } from './modules/planes/planes.component';
 import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component';
+import { AtencionusuarioComponent } from './modules/atencionusuario/atencionusuario.component';
 
 export let routes: Routes = [
   {
@@ -104,6 +105,18 @@ export let routes: Routes = [
     loadChildren: () =>
       import('./modules/sala-prensa/sala-prensa.module').then(
         (m) => m.SalaPrensaModule
+      ),
+  },
+  {
+    path: 'informacion-al-ciudadano',
+    component: AtencionusuarioComponent,
+    title: 'atención al ciudadano',
+    data: {
+      page: false,
+    },
+    loadChildren: () =>
+      import('./modules/atencionusuario/atencionusuario.module').then(
+        (m) => m.AtencionusuarioModule
       ),
   },
 ];
