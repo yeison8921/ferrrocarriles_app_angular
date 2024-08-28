@@ -1,0 +1,58 @@
+<div>
+  <h1 class="titulo-h1">OFERTAS LABORALES</h1>
+
+  <table class="table mb-4">
+    <tbody>
+      <tr>
+        <td class="td-bold">Convocatoria No:</td>
+        <td>1045 DE 2017</td>
+      </tr>
+
+      <tr>
+        <td class="td-bold">Fecha:</td>
+        <td>2019/12/28</td>
+      </tr>
+      <tr>
+        <td class="td-bold">Estado:</td>
+        <td>Abierto</td>
+      </tr>
+      <tr>
+        <td class="td-bold">Denominación:</td>
+        <td>Grado 8</td>
+      </tr>
+      <tr>
+        <td class="td-bold">Nombre:</td>
+        <td>Jefe de Oficina Asesora Juridica</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="titulo-h2">Documentos</h2>
+  <table class="table mb-4">
+    <thead>
+      <tr class="table-primary">
+        <th>Nombre</th>
+        <th>Adjunto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let documento of documentos; let i = index">
+        <td>{{ documento.title }}</td>
+        <td>
+          <a class="link-file" href="{{ documento.href }}" target="_blank">
+            <i class="bi bi-file-earmark-pdf-fill"></i
+          ></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div>
+    <a
+      class="link-file"
+      href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+      target="_blank"
+      >COMISIÓN NACIONAL DEL SERVICIOS CIVIL</a
+    >
+  </div>
+</div>

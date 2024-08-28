@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MisionVisionComponent } from './mision-vision/mision-vision.component';
+import { DirectorioGeneralFuncionariosComponent } from './directorio-general-funcionarios/directorio-general-funcionarios.component';
 import { FuncionesComponent } from './funciones/funciones.component';
 import { PoliticasigComponent } from './politicasig/politicasig.component';
 import { TalentoHumanoComponent } from './talento-humano/talento-humano.component';
@@ -37,6 +38,12 @@ const routes: Routes = [
     path: 'gestion-documental/51',
     component: GestionDocumentalComponent,
     title: 'Gestión documental',
+  },
+  {
+    path: 'directorio-general-funcionarios-fps/192',
+    title: 'Directorio General Funcionarios FPS',
+    component: DirectorioGeneralFuncionariosComponent,
+
   },
 ];
 

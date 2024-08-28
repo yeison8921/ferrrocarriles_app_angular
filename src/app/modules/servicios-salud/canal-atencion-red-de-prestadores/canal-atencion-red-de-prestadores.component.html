@@ -1,0 +1,93 @@
+<div>
+  <h1 class="titulo-h1">CANAL DE ATENCIÓN SERVICIOS DE SALUD</h1>
+
+  <p>
+    <a
+      class="link-file"
+      href="https://www.fps.gov.co/servicios-de-salud/afiliados/242"
+      target="_blank"
+      ><i class="bi bi-file-earmark-pdf-fill"></i> CARTA DE DERECHOS Y DEBERES
+      DE LA PERSONA AFILIADA Y EL PACIENTE</a
+    >
+  </p>
+  <p>
+    <a
+      class="link-file"
+      target="_blank"
+      href="https://www.youtube.com/watch?v=ZbRB_C9qebs"
+      ><i class="bi bi-youtube"></i> INTRODUCCIÓN APLICATIVO HORUS HEALTH</a
+    >
+  </p>
+
+  <p>
+    <a
+      class="link-file"
+      href="http://www.fps.gov.co/corporativo/entidades-que-nos-regulan/45"
+      target="_blank"
+      >Instancias a las que puede acudir el usuario cuando considere incumplido
+      el Plan de Beneficios y no obtenga respuesta a través de los canales de
+      contacto dispuestos por el FPSFNC.</a
+    >
+  </p>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let canal of canales; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          {{ canal.section }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <div *ngFor="let option of optionsDepartments">
+              <select
+                *ngIf="option[canal.id]"
+                class="form-select"
+                [(ngModel)]="selectedDepartment[canal.id]"
+              >
+                <option value="">Seleccione una opción</option>
+                <option *ngFor="let o of option[canal.id]" [value]="o.value">
+                  {{ o.value }}
+                </option>
+              </select>
+            </div>
+            <div
+              *ngFor="let department of canal.departments; let i = index"
+              class="mt-3"
+            >
+              <div
+                class="row"
+                *ngIf="department.name == selectedDepartment[canal.id]"
+              >
+                <div
+                  *ngFor="let place of department.places; let i = index"
+                  class="col-lg-12 mt-3"
+                >
+                  <div class="card text-bg-light mb-3">
+                    <div class="card-header" style="color: #004884">
+                      <b>{{ place.city }}</b>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">{{ place.name }}</h5> -->
+                      <p class="card-text">
+                        {{ place.name }} <br />
+                        <b>Dirección: </b>{{ place.address }}<br />
+                        <b>Teléfono: </b>{{ place.phone }}<br />
+                        <b>Horario de Atención: </b>{{ place.hours }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

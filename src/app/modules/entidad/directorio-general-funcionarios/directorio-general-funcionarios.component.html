@@ -1,0 +1,54 @@
+<h1 class="titulo-h1">DIRECTORIO GENERAL FUNCIONARIOS FPS</h1>
+
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let funcionario of funcionarios; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ funcionario.name }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div class="table-responsive">
+            <table class="table table-sm">
+              <thead>
+                <tr>
+                  <th>NOMBRE</th>
+                  <th>CARGO</th>
+                  <th>CORREO ELECTRÓNICO</th>
+                  <th>UBICACIÓN / SEDE</th>
+                  <th>CIUDAD</th>
+                  <th>EXTENSIÓN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let people of funcionario.people; let i = index">
+                  <td>{{ people.name }}</td>
+                  <td>{{ people.position }}</td>
+                  <td>
+                    <a
+                      *ngIf="people.email.includes('@'); else elseBlock"
+                      href="mailto:{{ people.email }}"
+                      >{{ people.email }}</a
+                    >
+                    <ng-template #elseBlock>
+                      <p>N/A</p>
+                    </ng-template>
+                  </td>
+                  <td>{{ people.location }}</td>
+                  <td>{{ people.city }}</td>
+                  <td>{{ people.phone }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
