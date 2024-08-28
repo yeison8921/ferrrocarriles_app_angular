@@ -23,3 +23,11 @@ export interface AcordionAnidadoFiles {
   acordion?: AcordionFiles[];
   files?: File[];
 }
+
+export interface AcordionAnidado
+{
+  id: number;
+  nombre: string;
+  acordion: AcordionAnidadoFiles[];
+  files?: File[];
+}

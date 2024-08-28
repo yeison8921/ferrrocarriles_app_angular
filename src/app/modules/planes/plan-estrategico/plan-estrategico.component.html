@@ -1,0 +1,57 @@
+
+<h1 class="titulo-h1 mb-2">Plan Estratégico</h1>
+<p style="text-align: justify; ">
+  El direccionamiento estratégico de una organización le permite planear acciones que la orienten al logro de la Misión
+  y Visión institucional y a mantener la competitividad. Lo invitamos a conocer aspectos generales del Plan Estratégico 2012-2014
+  que ha desarrollado el Fondo Pasivo Social. También encontrará los información básica del Plan Estratégico anterior y sus resultados.
+</p>
+
+<a
+  class="link-file mb-2 mt-2"    href="/assets/files/planes/plan_estrategico/FORMULACI%c3%93N%20PLAN%20DE%20ESTRAT%c3%89GICO%20INSTITUCIONAL%20%202023-2026%20FPS%20V%201_0.xlsx"
+  target="_blank"
+  >
+   <i class="bi bi-filetype-xlsx"></i>
+   Plan Estratégico Sectorial 2023 - 2026
+</a>
+
+
+<a
+  class="link-file"    href="/assets/files/planes/plan_estrategico/ESDESDIGPL01%20PLANESTRAT%c3%89GICOINSTITUCIONAL2023-2026%20V5.pdf"
+  target="_blank"
+  >
+   <i class="bi bi-filetype-pdf"></i>
+   Plan Estratégico Institucional 2023 - 2026
+</a>
+<br/>
+<h3 class="titulo-h3 mb-2 mt-2">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file mb-2"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,11 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ConsultaCiudadanaComponent } from './consulta-ciudadana/consulta-ciudadana.component';
+import { PqrComponent } from './pqr/pqr.component';
 
 const routes: Routes = [
   {
     path: 'consulta-ciudadana/227',
     component: ConsultaCiudadanaComponent,
+    title: 'Consulta ciudadana'
+
+  },
+  {
+    path: 'pqr/222',
+    component: PqrComponent,
+    title: 'pqr',
+
   },
 ];
 
