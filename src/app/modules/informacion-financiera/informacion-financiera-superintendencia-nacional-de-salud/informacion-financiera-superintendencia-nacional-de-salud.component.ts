@@ -22,7 +22,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'pdf',
-            url: '/assets/files/empalme/01. 2022/INFORME EMPLAME SECTORIAL ENTRE GOBIERNOS NACIONALES -Fonferrocarriles 15062022 ...pdf',
+            url: 'assets/files/informe_supersalud/01. 2022 - 2023/ESTADOS FINANCEROS 2022-2023 SUPERSALUD P.pdf',
             nombre:
               'ESTADOS FINANCIEROS 2022-2023 SUPERSALUD P.pdf',
           },
@@ -35,7 +35,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'pdf',
-            url: '/assets/files/empalme/02. 2018/INFORME_DE_EMPALME_PRESIDENCIA_2018.pdf',
+            url: 'assets/files/informe_supersalud/02. 2021 - 2022/INFORMACION FINANCIERA COMPARATIVA 2021-2022 SUPERSALUD.pdf',
             nombre: 'INFORMACIÓN FINANCIERA COMPARATIVA 2021-2022 SUPERSALUD.pdf',
           },
         ],
@@ -47,7 +47,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'zip',
-            url: '/assets/files/empalme/03. 2017/INFORME_DE_EMPALME_PRESIDENCIA_2017.zip',
+            url: 'assets/files/informe_supersalud/03. 2020 - 2021/INFORMACION  FINANCIERA   COMPARATVOS 2020-2021 SUPERSALUD.pdf',
             nombre: 'INFORMACIÓN FINANCIERA COMPARATIVA 2020-2021 SUPERSALUD.pdf',
           },
         ],
@@ -59,7 +59,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'zip',
-            url: '/assets/files/empalme/03. 2017/INFORME_DE_EMPALME_PRESIDENCIA_2017.zip',
+            url: 'assets/files/informe_supersalud/04. 2019 - 2020/Informacion Financiera Compartiva 2019-2020 SUPERSALUD.pdf',
             nombre: 'INFORMACIÓN FINANCIERA COMPARATIVA 2019-2020 SUPERSALUD.pdf',
           },
         ],
@@ -71,7 +71,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'zip',
-            url: '/assets/files/empalme/03. 2017/INFORME_DE_EMPALME_PRESIDENCIA_2017.zip',
+            url: 'assets/files/informe_supersalud/05. 2018 - 2019/Infromacion Financiera comparativa 2018 2019 SUPERSALUD.pdf',
             nombre: 'INFORMACIÓN FINANCIERA COMPARATIVA 2018-2019 SUPERSALUD.pdf',
           },
         ],
