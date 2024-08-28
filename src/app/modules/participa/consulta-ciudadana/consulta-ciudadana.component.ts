@@ -12,7 +12,6 @@ import { NgFor } from '@angular/common';
 })
 export class ConsultaCiudadanaComponent {
 
-
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
