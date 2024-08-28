@@ -1,1 +1,70 @@
-<p>consulta-ciudadana works!</p>
+<h1 class="titulo-h1">CONTENIDOS SOBRE CONSULTA CIUDADANA</h1>
+
+<p>
+  La entidad ha dispuesto los siguientes componentes de comunicación, donde
+  puedes encontrar lo referente a la participación ciudadana del Fondo de Pasivo
+  Social Ferracorriles Nacionales de Colombia.
+</p>
+
+<section class="mt-4 mb-4">
+  <a
+    class="btn-comun mb-4"
+    type="button"
+    href="/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240"
+  >
+    <span class="icon icon-documento"></span>
+    Normatividad
+  </a>
+  <a
+    class="btn-comun mb-4"
+    type="button"
+    href="/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240"
+  >
+    <span class="icon icon-documento"></span>
+    Contratación
+  </a>
+  <a
+    class="btn-comun mb-4"
+    type="button"
+    href="/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240"
+  >
+    <span class="icon icon-documento"></span>
+    Calendario de Actividades
+  </a>
+</section>
+
+<br />
+<section>
+  <h3 class="titulo-h3 mt-4">
+    <span class="icon govco-server"></span>Listado de documentos
+  </h3>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let item of items; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span
+          >{{ item.nombre }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <a
+              *ngFor="let file of item.files"
+              class="link-file"
+              href="{{ file.url }}"
+              target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+              >{{ file.nombre }}</a
+            >
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
