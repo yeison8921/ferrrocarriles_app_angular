@@ -8,6 +8,7 @@ import { NormatividadComponent } from './modules/normatividad/normatividad.compo
 import { ParticipaComponent } from './modules/participa/participa.component';
 import { PlanesComponent } from './modules/planes/planes.component';
 import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component';
+import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
 
 export let routes: Routes = [
   {
@@ -17,9 +18,10 @@ export let routes: Routes = [
   {
     path: 'corporativo',
     component: EntidadComponent,
-    title: 'Transaparecia y Acceso a la Información Pública',
+    title: 'Transparencia y acceso a la información pública',
     data: {
       page: true,
+      path: 'corporativo/transparencia-y-acceso-a-la-informacion-publica/163',
     },
     loadChildren: () =>
       import('./modules/entidad/entidad.module').then((m) => m.EntidadModule),
@@ -77,7 +79,7 @@ export let routes: Routes = [
     component: ParticipaComponent,
     title: 'Participa',
     data: {
-      page: true,
+      page: false,
     },
     loadChildren: () =>
       import('./modules/participa/participa.module').then(
@@ -104,6 +106,18 @@ export let routes: Routes = [
     loadChildren: () =>
       import('./modules/sala-prensa/sala-prensa.module').then(
         (m) => m.SalaPrensaModule
+      ),
+  },
+  {
+    path: 'tramites-y-servicios',
+    component: TramitesServiciosComponent,
+    title: 'Trámites y servicios',
+    data: {
+      page: false,
+    },
+    loadChildren: () =>
+      import('./modules/tramites-servicios/tramites-servicios.module').then(
+        (m) => m.TramitesServiciosModule
       ),
   },
 ];

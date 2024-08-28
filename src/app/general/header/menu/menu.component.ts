@@ -6,13 +6,11 @@ import {
 import { NgClass, NgFor, NgIf, Location } from '@angular/common';
 import { Menu } from '../../../interfaces/header';
 import { SearchComponent } from '../search/search.component';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
   standalone: true,
   imports: [
-    RouterLink,
     NgbCollapseModule,
     NgbDropdownModule,
     NgClass,
@@ -39,7 +37,7 @@ export class MenuComponent {
       {
         id: 2,
         nombre: 'TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA',
-        url: '/1',
+        url: '/corporativo/transparencia-y-acceso-a-la-informacion-publica/163',
         active: false,
         submenu: [],
       },
@@ -63,19 +61,12 @@ export class MenuComponent {
             active: false,
             submenu: [],
           },
-          {
-            id: 12,
-            nombre: 'PQRSDF',
-            url: '/1',
-            active: false,
-            submenu: [],
-          },
         ],
       },
       {
         id: 4,
         nombre: 'PARTICIPA',
-        url: '/1',
+        url: '/participa/pqrs/222',
         active: false,
         submenu: [],
       },
@@ -153,7 +144,7 @@ export class MenuComponent {
       {
         id: 8,
         nombre: 'PLANEACIÓN, GESTIÓN Y CONTROL',
-        url: '/1',
+        url: '/planeacion-gestion-y-control/53',
         active: false,
         submenu: [],
       },
@@ -188,5 +179,4 @@ export class MenuComponent {
       }
     });
   }
-  goPage() {}
 }

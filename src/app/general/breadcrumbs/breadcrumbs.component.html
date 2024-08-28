@@ -1,6 +1,6 @@
 <div class="mb-4">
   <a href="/">Inicio</a>
-  <a *ngIf="padre.nombre != titulo && padre.page" href="/{{ padre.url }}">{{
+  <a *ngIf="padre.nombre != titulo && padre.page" href="{{ padre.url }}">{{
     padre.nombre
   }}</a>
   <span *ngIf="padre.nombre != titulo && !padre.page">{{ padre.nombre }}</span>

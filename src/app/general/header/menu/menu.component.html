@@ -33,7 +33,7 @@
               *ngIf="item.submenu!.length == 0"
               class="nav-link dir-menu-govco"
               [ngClass]="item.active ? 'active' : ''"
-              routerLink="{{ item.url }}"
+              href="{{ item.url }}"
               role="button"
               (click)="
                 activarMenu(item.url.split('/')[item.url.split('/').length - 1])
@@ -58,7 +58,7 @@
                   ngbDropdownItem
                   class="dir-menu-govco"
                   [ngClass]="sitem.active ? 'active' : ''"
-                  routerLink="{{ sitem.url }}"
+                  href="{{ sitem.url }}"
                   role="button"
                   (click)="
                     activarMenu(

@@ -5,32 +5,38 @@ import { FuncionesComponent } from './funciones/funciones.component';
 import { PoliticasigComponent } from './politicasig/politicasig.component';
 import { TalentoHumanoComponent } from './talento-humano/talento-humano.component';
 import { GestionDocumentalComponent } from './gestion-documental/gestion-documental.component';
+import { TransparenciaComponent } from './transparencia/transparencia.component';
 
 const routes: Routes = [
   {
+    path: 'transparencia-y-acceso-a-la-informacion-publica/163',
+    component: TransparenciaComponent,
+    title: 'Transparencia y acceso a la información pública',
+  },
+  {
     path: 'mision-y-vision/37',
     component: MisionVisionComponent,
-    title: 'Misión y visión'
+    title: 'Misión y visión',
   },
   {
     path: 'funciones/38',
     component: FuncionesComponent,
-    title: 'Funciones'
+    title: 'Funciones',
   },
   {
     path: 'politica-del-sistema-integrado-de-gestion/40',
     component: PoliticasigComponent,
-    title: 'Politica SIG'
+    title: 'Politica SIG',
   },
   {
     path: 'talento-humano/46',
     component: TalentoHumanoComponent,
-    title: 'Talento humano'
+    title: 'Talento humano',
   },
   {
     path: 'gestion-documental/51',
     component: GestionDocumentalComponent,
-    title: 'Gestión documental'
+    title: 'Gestión documental',
   },
 ];
 

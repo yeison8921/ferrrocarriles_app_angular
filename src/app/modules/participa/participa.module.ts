@@ -10,9 +10,9 @@ import { ControlSocialComponent } from './control-social/control-social.componen
 const routes: Routes = [
 
   {
-    path: 'pqr/222',
-    title: 'pqr',
-    component: PqrComponent, 
+    path: 'pqrs/222',
+    component: PqrComponent,
+    title: 'Pqrs',
   },
   {
     path: 'participacion-y-presupuesto-participativo/226',
