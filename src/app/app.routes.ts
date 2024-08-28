@@ -8,7 +8,7 @@ import { NormatividadComponent } from './modules/normatividad/normatividad.compo
 import { ParticipaComponent } from './modules/participa/participa.component';
 import { PlanesComponent } from './modules/planes/planes.component';
 import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component';
-import path from 'path';
+import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
 
 export let routes: Routes = [
   {
@@ -106,6 +106,18 @@ export let routes: Routes = [
     loadChildren: () =>
       import('./modules/sala-prensa/sala-prensa.module').then(
         (m) => m.SalaPrensaModule
+      ),
+  },
+  {
+    path: 'tramites-y-servicios',
+    component: TramitesServiciosComponent,
+    title: 'Trámites y servicios',
+    data: {
+      page: false,
+    },
+    loadChildren: () =>
+      import('./modules/tramites-servicios/tramites-servicios.module').then(
+        (m) => m.TramitesServiciosModule
       ),
   },
 ];

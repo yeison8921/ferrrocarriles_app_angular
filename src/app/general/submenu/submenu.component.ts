@@ -447,7 +447,7 @@ export class SubmenuComponent {
         submenu: [
           {
             id: 1,
-            nombre: 'INFORMES',
+            nombre: 'Informes',
             url: '/informes/indicadores-de-salud/190',
             active: false,
             submenu: [
@@ -558,7 +558,7 @@ export class SubmenuComponent {
           },
           {
             id: 2,
-            nombre: 'PLANES Y PROGRAMAS',
+            nombre: 'Planes y programas',
             url: '/servicios-de-salud/gestion-del-riesgo/259',
             active: false,
             submenu: [
