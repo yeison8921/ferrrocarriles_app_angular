@@ -1,0 +1,173 @@
+<h1 class="titulo-h1 mb-4">TALENTO HUMANO</h1>
+<P
+  >Encontrará la información relacionada con el personal del Fondo Pasivo
+  Social</P
+>
+
+<div class="row m-0 d-flex justify-content-space-between gap-3">
+  <div class="btn-icono">
+    <a href="https://www.funcionpublica.gov.co/" target="_blank">
+      <i class="bi bi-telephone-fill"></i>
+      DIRECTORIO DE SERVIDORES PUBLICOS/CONTRATISTAS (SIGEP)
+    </a>
+  </div>
+  <div class="btn-icono btn-ofertas">
+    <a
+      href="https://www.cnsc.gov.co/convocatorias/en-desarrollo"
+      target="_blank"
+    >
+      <i class="bi bi-wallet-fill"></i>
+      OFERTAS DE EMPLEO
+    </a>
+  </div>
+  <div class="btn-icono btn-hojas-vida">
+    <a href="https://aspirantes.presidencia.gov.co/" target="_blank">
+      <i class="bi bi-person-vcard-fill"></i>
+      HOJAS DE VIDA
+    </a>
+  </div>
+</div>
+
+<h3 class="titulo-h3 mt-4">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion [closeOthers]="true">
+  @for (item of items; track item) {
+  <div ngbAccordionItem [collapsed]="true">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>{{ item.nombre }}</button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div class="pb-3" *ngFor="let list of item.acordion">
+            <h4 class="titulo-h4">
+              {{ list.nombre }}
+            </h4>
+            <div
+              class="mb-3"
+              *ngFor="let acordion of list.acordion; let i = index"
+            >
+              <h4 class="titulo-h4">
+                <span>{{ i + 1 }}</span>
+                {{ acordion.nombre }}
+              </h4>
+              <div>
+                <a
+                  class="link-file"
+                  *ngFor="let file of acordion.files"
+                  href="{{ file.url }}"
+                  target="_blank"
+                >
+                  <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                  {{ file.nombre }}
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--<div ngbAccordion>
+            <div
+              ngbAccordionItem
+              [collapsed]="true"
+              *ngFor="let list of item.acordion"
+            >
+              <div ngbAccordionHeader>
+                <button ngbAccordionButton>
+                  {{ list.nombre }}
+                </button>
+              </div>
+
+              <div ngbAccordionCollapse>
+                <div ngbAccordionBody>
+                  <ng-template>
+                    <div *ngFor="let acordion of list.acordion; let i = index">
+                      <h4 class="titulo-h4">
+                        <span>{{ i + 1 }}</span>
+                        {{ acordion.nombre }}
+                      </h4>
+                      <div class="mb-3">
+                        <a
+                          class="link-file"
+                          *ngFor="let file of acordion.files"
+                          href="{{ file.url }}"
+                          target="_blank"
+                        >
+                          <i
+                            class="bi bi-file-earmark-{{ file.tipo }}-fill"
+                          ></i>
+                          {{ file.nombre }}
+                        </a>
+                      </div>
+                    </div>
+                  </ng-template>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  }
+</div>
+
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item2 of items2">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item2.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div *ngFor="let acordion of item2.acordion; let i = index">
+            <h4 class="titulo-h4">
+              <span>{{ i + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item3 of items3; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item3.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item3.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -44,6 +44,7 @@
     border: 0;
 
     .link {
+        padding: 0;
         text-decoration: 0;
         color: var(--gris-o);
         transition: all 0.3s ease-in-out;

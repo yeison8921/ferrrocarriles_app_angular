@@ -1,6 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { EntidadComponent } from './modules/entidad/entidad.component';
 import { ServiciosSaludComponent } from './modules/servicios-salud/servicios-salud.component';
 import { InformacionFinancieraComponent } from './modules/informacion-financiera/informacion-financiera.component';
 import { InformesComponent } from './modules/informes/informes.component';
@@ -11,6 +10,7 @@ import { SalaPrensaComponent } from './modules/sala-prensa/sala-prensa.component
 import { AtencionUsuarioComponent } from './modules/atencion-al-usuario/atencion-al-usuario.component';
 import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
 import { InformacionCiudadanoComponent } from './modules/informacion-ciudadano/informacion-ciudadano.component';
+import { CorporativoComponent } from './modules/corporativo/corporativo.component';
 
 export let routes: Routes = [
   {
@@ -19,14 +19,16 @@ export let routes: Routes = [
   },
   {
     path: 'corporativo',
-    component: EntidadComponent,
+    component: CorporativoComponent,
     title: 'Transparencia y acceso a la información pública',
     data: {
       page: true,
       path: 'corporativo/transparencia-y-acceso-a-la-informacion-publica/163',
     },
     loadChildren: () =>
-      import('./modules/entidad/entidad.module').then((m) => m.EntidadModule),
+      import('./modules/corporativo/corporativo.module').then(
+        (m) => m.CorporativoModule
+      ),
   },
   {
     path: 'servicios-de-salud',
@@ -43,7 +45,7 @@ export let routes: Routes = [
   {
     path: 'informacion-contable-y-financiera',
     component: InformacionFinancieraComponent,
-    title: 'Información Presupuestal y Financiera',
+    title: 'Información Financiera',
     data: {
       page: false,
     },
@@ -139,7 +141,8 @@ export let routes: Routes = [
     component: InformacionCiudadanoComponent,
     title: 'Información al ciudadano',
     data: {
-      page: false,
+      page: true,
+      path: 'informacion-al-ciudadano/boletin-virtual/17',
     },
     loadChildren: () =>
       import(

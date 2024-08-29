@@ -43,7 +43,6 @@ const routes: Routes = [
     path: 'directorio-general-funcionarios-fps/192',
     title: 'Directorio General Funcionarios FPS',
     component: DirectorioGeneralFuncionariosComponent,
-
   },
 ];
 
@@ -51,4 +50,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class EntidadModule {}
+export class CorporativoModule {}

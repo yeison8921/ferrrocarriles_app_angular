@@ -46,7 +46,7 @@ export class PlaneacionGestionYControlComponent {
             id: 5,
             tipo: 'link',
             nombre: 'Memorias al Congreso de la República',
-            url: '/informes/-memorias-al-congreso-de-la-republica/66',
+            url: '/informes/memorias-al-congreso-de-la-republica/66',
           },
           {
             id: 6,

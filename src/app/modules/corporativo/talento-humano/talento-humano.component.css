@@ -1,0 +1,9 @@
+.btn-icono {
+  width: 10rem;
+  height: 10rem;
+}
+
+.btn-ofertas i,
+.btn-hojas-vida i {
+  font-size: 3.6rem;
+}

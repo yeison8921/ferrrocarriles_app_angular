@@ -12,7 +12,7 @@
             <img src="{{ urlSvg + info.id + disabledImg }}" />
           </a>
           } @else {
-          <a href="#">
+          <a href="{{ info.href }}">
             <img class="img-active" src="{{ info.url }}" />
             <img class="img-hover" src="{{ urlSvg + info.id + hover }}" />
           </a>

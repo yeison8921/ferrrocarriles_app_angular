@@ -21,19 +21,16 @@
     <div ngbAccordionCollapse>
       <div ngbAccordionBody>
         <ng-template>
-          <div *ngIf="documento.subaccordion" class="mb-3">
+          <div *ngIf="documento.subaccordion">
             <div
               *ngFor="let accordion of documento.subaccordion; let i = index"
-              class="mt-3"
+              class="mb-3"
             >
               <h4 class="titulo-h4">
                 <span>{{ i + 1 }}</span>
                 {{ accordion.name }}
               </h4>
-              <div
-                *ngFor="let file of accordion.files; let i = index"
-                class="ms-3"
-              >
+              <div *ngFor="let file of accordion.files; let i = index">
                 <a class="link-file" href="{{ file.href }}" target="_blank"
                   ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
                   >{{ file.name }}</a

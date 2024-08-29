@@ -9,36 +9,32 @@ import { ConciliacionDeCarteraParaIpsComponent } from './conciliacion-de-cartera
 const routes: Routes = [
   {
     path: 'estados-financieros/156',
-    title: 'Información presupuestal y financiera',
+    title: 'Estados financieros',
     component: EstadosFinancierosComponent,
   },
 
   {
     path: 'informacion-financiera/89',
-    title: 'Estados financieros',
-    component: InformacionFinancieraComponent
-    
+    title: 'Información Presupuestal y Financiera',
+    component: InformacionFinancieraComponent,
   },
 
   {
     path: 'informacion-financiera-contaduria-general-de-la-nacion/208',
     title: 'Información Financiera Contaduría General de la Nación',
-    component: InformacionFinancieraContaduriaGeneralDeLaNacionComponent
-    
+    component: InformacionFinancieraContaduriaGeneralDeLaNacionComponent,
   },
 
   {
     path: 'informacion-financiera-superintendencia-nacional-de-salud/207',
     title: 'Información financiera contaduría general de la nación',
-    component: InformacionFinancieraSuperintendenciaNacionalDeSaludComponent
-    
+    component: InformacionFinancieraSuperintendenciaNacionalDeSaludComponent,
   },
 
   {
     path: 'conciliacion-de-cartera-para-ips/239',
     title: 'Conciliación de cartera para IPS',
-    component: ConciliacionDeCarteraParaIpsComponent
-    
+    component: ConciliacionDeCarteraParaIpsComponent,
   },
 ];
 

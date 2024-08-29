@@ -25,12 +25,12 @@
         "href": "assets/files/servicios_salud/indicadores_salud/02. 2023/2. Indicadores de Oportunidad.pdf"
       },
       {
-        "type": "xlsb",
+        "type": "excel",
         "name": "3. Reporte de Red Integral de Servicios UT MAISFEN DICIEMBRE DE 2023 (1).xlsb",
         "href": "assets/files/servicios_salud/indicadores_salud/02. 2023/3. Reporte de Red Integral de Servicios UT MAISFEN DICIEMBRE DE 2023 (1).xlsb"
       },
       {
-        "type": "xlsx",
+        "type": "excel",
         "name": "4. INDICADORES DE GESTION FPSFCN 2023.xlsx",
         "href": "assets/files/servicios_salud/indicadores_salud/02. 2023/4. INDICADORES DE GESTION FPSFCN 2023.xlsx"
       },
@@ -57,12 +57,12 @@
     "subaccordion": [],
     "files": [
       {
-        "type": "xlsx",
+        "type": "excel",
         "name": "01. Datos resolución 1552 Enero a Abril 2021.xlsx",
         "href": "assets/files/servicios_salud/indicadores_salud/04. 2021/01. Datos resolución 1552 Enero a Abril 2021.xlsx"
       },
       {
-        "type": "xlsx",
+        "type": "excel",
         "name": "02. Indicadores de Resolución 1552-2013 - I Trimestre 2021.xlsx",
         "href": "assets/files/servicios_salud/indicadores_salud/04. 2021/02. Indicadores de Resolución 1552-2013 - I Trimestre 2021.xlsx"
       },
@@ -89,12 +89,12 @@
     "subaccordion": [],
     "files": [
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresCalidadISemestre2018.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/06. 2018/IndicadoresCalidadISemestre2018.xls"
       },
       {
-        "type": "xlsx",
+        "type": "excel",
         "name": "indicadorescalidadIIsemestre2018.xlsx",
         "href": "assets/files/servicios_salud/indicadores_salud/06. 2018/indicadorescalidadIIsemestre2018.xlsx"
       }
@@ -105,12 +105,12 @@
     "subaccordion": [],
     "files": [
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresCalidadIISemestre2017.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/07. 2017/IndicadoresCalidadIISemestre2017.xls"
       },
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresCalidadISemestre2017.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/07. 2017/IndicadoresCalidadISemestre2017.xls"
       }
@@ -121,22 +121,22 @@
     "subaccordion": [],
     "files": [
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresOportunidadIIITrimestre2016.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/08. 2016/IndicadoresOportunidadIIITrimestre2016.xls"
       },
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresOportunidadIITrimestre2016.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/08. 2016/IndicadoresOportunidadIITrimestre2016.xls"
       },
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresOportunidadITrimestre2016.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/08. 2016/IndicadoresOportunidadITrimestre2016.xls"
       },
       {
-        "type": "xls",
+        "type": "excel",
         "name": "IndicadoresOportunidadIVTrimestre2016.xls",
         "href": "assets/files/servicios_salud/indicadores_salud/08. 2016/IndicadoresOportunidadIVTrimestre2016.xls"
       }
@@ -149,12 +149,12 @@
         "name": "Semestre",
         "files": [
           {
-            "type": "xls",
+            "type": "excel",
             "name": "Indicadores Oportunidad I semestre 2015.xls",
             "href": "assets/files/servicios_salud/indicadores_salud/09. 2015/Semestre/Indicadores Oportunidad I semestre 2015.xls"
           },
           {
-            "type": "xls",
+            "type": "excel",
             "name": "Indicadores Oportunidad II semestre 2015.xls",
             "href": "assets/files/servicios_salud/indicadores_salud/09. 2015/Semestre/Indicadores Oportunidad II semestre 2015.xls"
           }
@@ -164,17 +164,17 @@
         "name": "Trimestre",
         "files": [
           {
-            "type": "xls",
+            "type": "excel",
             "name": "IndicadoresOportunidadIIITrimestre2015.xls",
             "href": "assets/files/servicios_salud/indicadores_salud/09. 2015/Trimeste/IndicadoresOportunidadIIITrimestre2015.xls"
           },
           {
-            "type": "xls",
+            "type": "excel",
             "name": "IndicadoresOportunidadIITrimestre2015.xls",
             "href": "assets/files/servicios_salud/indicadores_salud/09. 2015/Trimeste/IndicadoresOportunidadIITrimestre2015.xls"
           },
           {
-            "type": "xls",
+            "type": "excel",
             "name": "IndicadoresOportunidadIVTrimestre2015.xls",
             "href": "assets/files/servicios_salud/indicadores_salud/09. 2015/Trimeste/IndicadoresOportunidadIVTrimestre2015.xls"
           }

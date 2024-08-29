@@ -2,35 +2,46 @@
   <h1 class="titulo-h1">CANAL DE ATENCIÓN SERVICIOS DE SALUD</h1>
 
   <p>
-    <a
-      class="link-file"
-      href="https://www.fps.gov.co/servicios-de-salud/afiliados/242"
-      target="_blank"
-      ><i class="bi bi-file-earmark-pdf-fill"></i> CARTA DE DERECHOS Y DEBERES
-      DE LA PERSONA AFILIADA Y EL PACIENTE</a
+    <a class="btn-comun" href="/servicios-de-salud/afiliados/242"
+      ><i class="fa-sharp fa-solid fa-file-lines"></i> CARTA DE DERECHOS Y
+      DEBERES DE LA PERSONA AFILIADA Y EL PACIENTE</a
     >
   </p>
   <p>
     <a
-      class="link-file"
+      class="btn-comun"
       target="_blank"
       href="https://www.youtube.com/watch?v=ZbRB_C9qebs"
-      ><i class="bi bi-youtube"></i> INTRODUCCIÓN APLICATIVO HORUS HEALTH</a
+      ><i class="fa-brands fa-youtube"></i> INTRODUCCIÓN APLICATIVO
+      <b class="ms-1">HORUS HEALTH</b></a
     >
   </p>
 
   <p>
-    <a
-      class="link-file"
-      href="http://www.fps.gov.co/corporativo/entidades-que-nos-regulan/45"
-      target="_blank"
-      >Instancias a las que puede acudir el usuario cuando considere incumplido
-      el Plan de Beneficios y no obtenga respuesta a través de los canales de
-      contacto dispuestos por el FPSFNC.</a
-    >
+    Instancias a las que puede acudir el usuario cuando considere incumplido el
+    Plan de Beneficios y no obtenga respuesta a través de los canales de
+    contacto dispuestos por el FPSFNC.
   </p>
-
-  <div ngbAccordion>
+  <a
+    class="btn-comun-b mb-4"
+    href="http://www.fps.gov.co/corporativo/entidades-que-nos-regulan/45"
+    target="_blank"
+    >Entidades que nos regulan
+  </a>
+  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-logos">
+    <div class="row m-0">
+      <div class="col-5 imagen">
+        <img src="/assets/img/logos/maisfen.jpg" alt="" />
+      </div>
+      <div class="col-7 nombre">
+        <div>
+          <h4>IPS MAISFEN</h4>
+          <label>Territorio Nacional</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ngbAccordion class="mt-4">
     <div
       ngbAccordionItem
       [collapsed]="true"
@@ -42,12 +53,12 @@
         </button>
       </div>
       <div ngbAccordionCollapse>
-        <div ngbAccordionBody>
+        <div ngbAccordionBody class="pb-0">
           <ng-template>
-            <div *ngFor="let option of optionsDepartments">
+            <div *ngFor="let option of optionsDepartments" class="col-4">
               <select
                 *ngIf="option[canal.id]"
-                class="form-select"
+                class="form-select mb-4"
                 [(ngModel)]="selectedDepartment[canal.id]"
               >
                 <option value="">Seleccione una opción</option>
@@ -56,32 +67,22 @@
                 </option>
               </select>
             </div>
-            <div
-              *ngFor="let department of canal.departments; let i = index"
-              class="mt-3"
-            >
+            <div *ngFor="let department of canal.departments; let i = index">
               <div
                 class="row"
                 *ngIf="department.name == selectedDepartment[canal.id]"
               >
                 <div
                   *ngFor="let place of department.places; let i = index"
-                  class="col-lg-12 mt-3"
+                  class="col-lg-6"
                 >
-                  <div class="card text-bg-light mb-3">
-                    <div class="card-header" style="color: #004884">
-                      <b>{{ place.city }}</b>
-                    </div>
-                    <div class="card-body">
-                      <!-- <h5 class="card-title">{{ place.name }}</h5> -->
-                      <p class="card-text">
-                        {{ place.name }} <br />
-                        <b>Dirección: </b>{{ place.address }}<br />
-                        <b>Teléfono: </b>{{ place.phone }}<br />
-                        <b>Horario de Atención: </b>{{ place.hours }}
-                      </p>
-                    </div>
-                  </div>
+                  <h4 class="titulo-h4">{{ place.city }}</h4>
+                  <p class="mb-4">
+                    {{ place.name }} <br />
+                    <b>Dirección: </b>{{ place.address }}<br />
+                    <b>Teléfono: </b>{{ place.phone }}<br />
+                    <b>Horario de Atención: </b>{{ place.hours }}
+                  </p>
                 </div>
               </div>
             </div>

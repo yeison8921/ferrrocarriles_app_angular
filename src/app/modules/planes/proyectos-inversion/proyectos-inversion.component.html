@@ -1,15 +1,6 @@
 <h1 class="titulo-h1 mb-4">PROGRAMAS Y PROYECTOS DE INVERSIÓN</h1>
-
-
-
-<h2 class="titulo-h2 mb-4">Links de interés</h2>
-
 <div ngbAccordion>
-  <div
-    ngbAccordionItem
-    [collapsed]="true"
-    *ngFor="let item of items"
-  >
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item of items">
     <div ngbAccordionHeader>
       <button ngbAccordionButton>
         {{ item.nombre }}
@@ -22,7 +13,7 @@
             <h4 class="titulo-h4">
               <span>{{ i + 1 }}</span>
               {{ acordion.nombre }}
-              </h4>
+            </h4>
             <div class="mb-3">
               <a
                 class="link-file mt-2"
@@ -41,13 +32,13 @@
   </div>
 </div>
 
+<h2 class="titulo-h2 mt-4">Links de interés</h2>
+<a href="https://spi.dnp.gov.co/" class="btn-comun" target="_blank">
+  SEGUIMIENTO A LOS PROYECTOS DE INVERSIÓN - SPI
+</a>
 
-<h3 class="titulo-h3 mt-4">
-  <a href="https://spi.dnp.gov.co/" target="_blank">
-    SEGUIMIENTO A LOS PROYECTOS DE INVERSIÓN - SPI
-    </a></h3>
-
-<p style="text-align: justify;">
-  "Si quiere consultar más detalles de la ejecución de los proyectos, por favor ingresar a la plataforma
-  de Seguimiento a los Proyectos de Inversión - SPI del Departamento Nacional de Planeación -DNP - ingresar con usuario anónimo-"
+<p class="mt-4">
+  "Si quiere consultar más detalles de la ejecución de los proyectos, por favor
+  ingresar a la plataforma de Seguimiento a los Proyectos de Inversión - SPI del
+  Departamento Nacional de Planeación -DNP - ingresar con usuario anónimo-"
 </p>

@@ -34,13 +34,15 @@ export class SubmenuComponent {
           {
             id: 1,
             nombre: 'La Entidad',
-            url: '/corporativo/la-entidad/15',
+            //url: '/corporativo/la-entidad/15',
+            url: '',
             active: false,
           },
           {
             id: 2,
             nombre: 'Mapa del Sitio',
-            url: '/corporativo/mapa-del-sitio/238',
+            //url: '/corporativo/mapa-del-sitio/238',
+            url: '',
             active: false,
           },
           {
@@ -56,12 +58,6 @@ export class SubmenuComponent {
             active: false,
           },
           {
-            id: 5,
-            nombre: 'Código de buen gobierno',
-            url: '/corporativo/codigo-de-buen-gobierno/39',
-            active: false,
-          },
-          {
             id: 6,
             nombre: 'Política del Sistema Integrado de Gestión',
             url: '/corporativo/politica-del-sistema-integrado-de-gestion/40',
@@ -70,25 +66,29 @@ export class SubmenuComponent {
           {
             id: 7,
             nombre: 'Objetivos Institucionales',
-            url: '/corporativo/objetivos-institucionales/41',
+            //url: '/corporativo/objetivos-institucionales/41',
+            url: '',
             active: false,
           },
           {
             id: 8,
             nombre: 'Información General',
-            url: '/corporativo/informacion-general/42',
+            //url: '/corporativo/informacion-general/42',
+            url: '',
             active: false,
           },
           {
             id: 9,
             nombre: 'Entidades que nos regulan',
-            url: '/corporativo/entidades-que-nos-regulan/45',
+            //url: '/corporativo/entidades-que-nos-regulan/45',
+            url: '',
             active: false,
           },
           {
             id: 10,
             nombre: 'Asociaciones Ferrocarriles',
-            url: '/corporativo/asociaciones-ferrocarriles/249',
+            //url: '/corporativo/asociaciones-ferrocarriles/249',
+            url: '',
             active: false,
           },
           {
@@ -100,7 +100,8 @@ export class SubmenuComponent {
           {
             id: 12,
             nombre: 'Nuestros Directivos',
-            url: '/corporativo/nuestros-directivos/191',
+            //url: '/corporativo/nuestros-directivos/191',
+            url: '',
             active: false,
           },
           {
@@ -112,13 +113,15 @@ export class SubmenuComponent {
           {
             id: 14,
             nombre: 'Directorio Funcionarios Principales',
-            url: '/corporativo/directorio-funcionarios-principales/193',
+            //url: '/corporativo/directorio-funcionarios-principales/193',
+            url: '',
             active: false,
           },
           {
             id: 15,
             nombre: 'Organigrama',
-            url: '/corporativo/organigrama/48',
+            //url: '/corporativo/organigrama/48',
+            url: '',
             active: false,
           },
           {
@@ -130,19 +133,22 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Directorio de Entidades',
-            url: '/corporativo/directorio-de-entidades/209',
+            //url: '/corporativo/directorio-de-entidades/209',
+            url: '',
             active: false,
           },
           {
             id: 18,
             nombre: 'Directorio de Contratistas',
-            url: '/corporativo/directorio-de-contratistas-fps/221',
+            //url: '/corporativo/directorio-de-contratistas-fps/221',
+            url: '',
             active: false,
           },
           {
             id: 19,
             nombre: 'Registro de Publicaciones',
-            url: '/corporativo/registro-de-publicaciones/216',
+            //url: '/corporativo/registro-de-publicaciones/216',
+            url: '',
             active: false,
           },
           {
@@ -162,113 +168,87 @@ export class SubmenuComponent {
         icono: 'usuarios',
         submenu: [
           {
-            id: 1,
-            nombre:
-              'Canal de interacción de liberatoria para la participación ciudadana',
-            url: '/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240',
-            active: false,
-          },
-          {
-            id: 2,
-            nombre: 'Encuesta de satisfacción',
-            url: '/atencion-al-usuario/encuesta-de-satisfaccion/214',
-            active: false,
-          },
-          {
-            id: 3,
-            nombre:
-              'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
-            url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
-            active: false,
-          },
-          {
-            id: 4,
-            nombre: 'Encuesta de Usabilidad FPSFNC',
-            url: '/atencion-al-usuario/encuesta-de-usabilidad-fpsfnc/232',
-            active: false,
-          },
-          {
-            id: 5,
-            nombre: 'Solicitud de Información Pública',
-            url: '/atencion-al-usuario/solicitud-de-informacion-publica/9',
-            active: false,
-          },
-          {
-            id: 6,
-            nombre: 'Sondeo de Opinión',
-            url: '/atencion-al-usuario/sondeo-de-opinion/119',
-            active: false,
-          },
-          {
             id: 7,
             nombre: 'Peticiones',
-            url: '/atencion-al-usuario/peticiones/6',
+            //url: '/atencion-al-usuario/peticiones/6',
+            url: '',
             active: false,
           },
           {
             id: 8,
             nombre: 'Quejas',
-            url: '/atencion-al-usuario/quejas/7',
+            //url: '/atencion-al-usuario/quejas/7',
+            url: '',
             active: false,
           },
           {
             id: 9,
             nombre: 'Reclamos',
-            url: '/atencion-al-usuario/reclamos/8',
+            //url: '/atencion-al-usuario/reclamos/8',
+            url: '',
             active: false,
           },
           {
             id: 10,
             nombre: 'Sugerencias',
-            url: '/atencion-al-usuario/sugerencias/4',
+            //url: '/atencion-al-usuario/sugerencias/4',
+            url: '',
             active: false,
           },
           {
             id: 11,
             nombre: 'Denuncias',
-            url: '/atencion-al-usuario/denuncias/5',
+            //url: '/atencion-al-usuario/denuncias/5',
+            url: '',
             active: false,
           },
           {
             id: 12,
             nombre: 'Felicitaciones',
-            url: '/atencion-al-usuario/felicitaciones/3',
+            //url: '/atencion-al-usuario/felicitaciones/3',
+            url: '',
             active: false,
           },
           {
             id: 13,
             nombre: 'Solicitud de Información Pública',
-            url: '/atencion-al-usuario/solicitud-de-informacion-publica/9',
+            //url: '/atencion-al-usuario/solicitud-de-informacion-publica/9',
+            url: '',
             active: false,
           },
           {
             id: 14,
             nombre: 'Consulta de Solicitudes',
-            url: '/atencion-al-usuario/consulta-de-solicitudes/10',
+            //url: '/atencion-al-usuario/consulta-de-solicitudes/10',
+            url: '',
             active: false,
           },
           {
             id: 15,
             nombre: 'Actualización de datos',
-            url: '/atencion-al-usuario/actualizacion-de-datos/213',
-            active: false,
-          },
-          {
-            id: 16,
-            nombre: 'Preguntas Frecuentes',
-            url: '/atencion-al-usuario/preguntas-frecuentes/133',
+            //url: '/atencion-al-usuario/actualizacion-de-datos/213',
+            url: '',
             active: false,
           },
           {
             id: 17,
             nombre: 'Buzón Notificaciones Judiciales',
-            url: '/atencion-al-usuario/buzon-notificaciones-judiciales/43',
+            //url: '/atencion-al-usuario/buzon-notificaciones-judiciales/43',
+            url: '',
+            active: false,
+          },
+          {
+            id: 17,
+            nombre: 'Contratación',
+            //url: '/atencion-al-usuario/contratacion/97',
+            url: '',
             active: false,
           },
           {
             id: 18,
             nombre: 'Preguntas Frecuentes',
-            url: '/atencion-al-usuario/preguntas-frecuentes/121',
+            //url: '/atencion-al-usuario/preguntas-frecuentes/121',
+            url: '',
             active: false,
           },
           {
@@ -278,15 +258,59 @@ export class SubmenuComponent {
             active: false,
           },
           {
+            id: 6,
+            nombre: 'Sondeo de Opinión',
+            //url: '/atencion-al-usuario/sondeo-de-opinion/119',
+            url: '',
+            active: false,
+          },
+          {
             id: 20,
             nombre: 'Foro',
-            url: '/atencion-al-usuario/foro/126',
+            //url: '/atencion-al-usuario/foro/126',
+            url: '',
             active: false,
           },
           {
             id: 21,
             nombre: 'Glosario',
             url: '/atencion-al-usuario/glosario/117',
+            active: false,
+          },
+          {
+            id: 2,
+            nombre: 'Encuesta de satisfacción',
+            url: '/atencion-al-usuario/encuesta-de-satisfaccion/214',
+            active: false,
+          },
+          {
+            id: 4,
+            nombre: 'Encuesta de Usabilidad FPSFNC',
+            //url: '/atencion-al-usuario/encuesta-de-usabilidad-fpsfnc/232',
+            url: '',
+            active: false,
+          },
+          {
+            id: 3,
+            nombre:
+              'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
+            //url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
+            url: '',
+            active: false,
+          },
+          {
+            id: 3,
+            nombre: 'Contacto',
+            //url: '/atencion-al-usuario/contacto/2',
+            url: '',
+            active: false,
+          },
+          {
+            id: 1,
+            nombre:
+              'Canal de interacción de liberatoria para la participación ciudadana',
+            //url: '/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240',
+            url: '',
             active: false,
           },
         ],
@@ -402,37 +426,42 @@ export class SubmenuComponent {
           {
             id: 2,
             nombre: 'Afiliados',
-            url: '/servicios-de-salud/afiliados/242',
+            //url: '/servicios-de-salud/afiliados/242',
+            url: '',
             active: false,
           },
           {
             id: 3,
             nombre: 'Cobertura de Operación y Red de Prestadores de Salud',
-            url: '/servicios-de-salud/red-de-prestadores/44',
+            //url: '/servicios-de-salud/red-de-prestadores/44',
+            url: '',
             active: false,
           },
           {
             id: 4,
             nombre: 'Sistema de Afiliación Transaccional (SAT)',
-            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
+            //url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
+            url: '',
             active: false,
           },
           {
             id: 5,
             nombre: 'Ruta de Promoción y Mantenimiento de la Salud',
-            url: '/servicios-de-salud/programa-de-promocion-y-prevencion/132',
+            //url: '/servicios-de-salud/programa-de-promocion-y-prevencion/132',
+            url: '',
             active: false,
           },
           {
             id: 6,
             nombre: 'Indicadores de Salud',
-            url: '/informes/indicadores-de-salud/190',
+            url: '/servicios-de-salud/indicadores-de-salud/190',
             active: false,
           },
           {
             id: 7,
             nombre: 'Gestión del Riesgo',
-            url: '/servicios-de-salud/gestion-del-riesgo/259',
+            //url: '/servicios-de-salud/gestion-del-riesgo/259',
+            url: '',
             active: false,
           },
         ],
@@ -448,7 +477,7 @@ export class SubmenuComponent {
           {
             id: 1,
             nombre: 'Informes',
-            url: '/informes/indicadores-de-salud/190',
+            url: '',
             active: false,
             submenu: [
               {
@@ -478,7 +507,8 @@ export class SubmenuComponent {
               {
                 id: 5,
                 nombre: 'Información contable y financiera',
-                url: '/informes/informes-contaduria-general-de-la-nacion/65',
+                //url: '/informes/informes-contaduria-general-de-la-nacion/65',
+                url: '',
                 active: false,
               },
               {
@@ -509,13 +539,15 @@ export class SubmenuComponent {
                 id: 10,
                 nombre:
                   'Informe de Percepción de Satisfacción al Usuario Post Trámite',
-                url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
+                //url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
+                url: '',
                 active: false,
               },
               {
                 id: 11,
                 nombre: 'Informes del Estado del Control Interno',
-                url: '/informes/informes-del-estado-del-control-interno/68',
+                //url: '/informes/informes-del-estado-del-control-interno/68',
+                url: '',
                 active: false,
               },
               {
@@ -550,8 +582,16 @@ export class SubmenuComponent {
               },
               {
                 id: 17,
+                nombre: 'Código de Buen Gobierno',
+                //url: '/informes/codigo-de-buen-gobierno/39',
+                url: '',
+                active: false,
+              },
+              {
+                id: 17,
                 nombre: 'Código de Integridad',
-                url: '/informes/codigo-de-integridad/206',
+                //url: '/informes/codigo-de-integridad/206',
+                url: '',
                 active: false,
               },
             ],
@@ -559,14 +599,15 @@ export class SubmenuComponent {
           {
             id: 2,
             nombre: 'Planes y programas',
-            url: '/servicios-de-salud/gestion-del-riesgo/259',
+            url: '/',
             active: false,
             submenu: [
               {
                 id: 1,
                 nombre:
                   'Plan estratégico de tecnologías de la información y las comunicaciones',
-                url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
+                /*url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',*/
+                url: '',
                 active: false,
               },
               {
@@ -658,7 +699,8 @@ export class SubmenuComponent {
               {
                 id: 16,
                 nombre: 'Plan de Fortalecimiento del MIPG',
-                url: '/planeacion-gestion-y-control/gestion-documental/317',
+                //url: '/planeacion-gestion-y-control/gestion-documental/317',
+                url: '',
                 active: false,
               },
             ],
@@ -756,13 +798,15 @@ export class SubmenuComponent {
           {
             id: 3,
             nombre: 'Formatos',
-            url: '/tramites-y-servicios/formatos/165',
+            //url: '/tramites-y-servicios/formatos/165',
+            url: '',
             active: false,
           },
           {
             id: 4,
             nombre: 'Ventanilla Virtual',
-            url: '/tramites-y-servicios/ventanilla-virtual/55',
+            //url: '/tramites-y-servicios/ventanilla-virtual/55',
+            url: '',
             active: false,
           },
         ],
@@ -770,11 +814,18 @@ export class SubmenuComponent {
       {
         id: 7,
         nombre: 'Información al ciudadano',
-        url: '/',
+        url: '/informacion-al-ciudadano/boletin-virtual/17',
         urlactive: false,
         active: false,
         icono: 'informacion',
         submenu: [
+          {
+            id: 4,
+            nombre: 'Atención y servicios a la Ciudadanía',
+            /*url: '/informacion-al-ciudadano/nuestras-oficinas/115',*/
+            url: '',
+            active: false,
+          },
           {
             id: 2,
             nombre: 'Guías',
@@ -791,12 +842,6 @@ export class SubmenuComponent {
             id: 4,
             nombre: 'Correspondencia devuelta',
             url: '/informacion-al-ciudadano/correspondencia-devuelta/194',
-            active: false,
-          },
-          {
-            id: 4,
-            nombre: 'Atención y servicios a la Ciudadanía',
-            url: '/informacion-al-ciudadano/nuestras-oficinas/115',
             active: false,
           },
         ],

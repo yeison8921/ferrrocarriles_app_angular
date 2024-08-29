@@ -42,9 +42,21 @@
               class="link mb-2"
               [ngClass]="subitem.active ? 'active' : ''"
               *ngIf="
-                subitem.submenu == undefined || subitem.submenu?.length == 0
+                (subitem.submenu == undefined ||
+                  subitem.submenu?.length == 0) &&
+                subitem.url != ''
               "
               href="{{ subitem.url }}"
+              >{{ subitem.nombre }}</a
+            >
+            <a
+              class="link mb-2"
+              [ngClass]="subitem.active ? 'active' : ''"
+              *ngIf="
+                (subitem.submenu == undefined ||
+                  subitem.submenu?.length == 0) &&
+                subitem.url == ''
+              "
               >{{ subitem.nombre }}</a
             >
             <div
@@ -63,13 +75,23 @@
                 <div ngbAccordionCollapse>
                   <div ngbAccordionBody class="pb-0 pe-0">
                     <ng-template>
-                      <a
-                        *ngFor="let subsubitem of subitem.submenu"
-                        class="link mb-2"
-                        [ngClass]="subsubitem.active ? 'active' : ''"
-                        href="{{ subsubitem.url }}"
-                        >{{ subsubitem.nombre }}</a
-                      >
+                      <div *ngFor="let subsubitem of subitem.submenu">
+                        <a
+                          class="link mb-2"
+                          [ngClass]="subsubitem.active ? 'active' : ''"
+                          *ngIf="subsubitem.url != ''"
+                          href="{{ subsubitem.url }}"
+                          role="button"
+                          >{{ subsubitem.nombre }}</a
+                        >
+                        <a
+                          class="link mb-2"
+                          [ngClass]="subsubitem.active ? 'active' : ''"
+                          *ngIf="subsubitem.url == ''"
+                          role="button"
+                          >{{ subsubitem.nombre }}</a
+                        >
+                      </div>
                     </ng-template>
                   </div>
                 </div>

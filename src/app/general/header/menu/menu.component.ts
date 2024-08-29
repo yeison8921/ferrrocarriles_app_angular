@@ -93,7 +93,7 @@ export class MenuComponent {
           {
             id: 13,
             nombre: 'Canal de Atención Servicios de Salud',
-            url: '/#',
+            url: '/servicios-de-salud/canal-de-atencion-red-de-prestadores/244',
             active: false,
             submenu: [],
           },
@@ -121,7 +121,7 @@ export class MenuComponent {
           {
             id: 17,
             nombre: 'Indicadores de salud',
-            url: '/#',
+            url: '/servicios-de-salud/indicadores-de-salud/190',
             active: false,
             submenu: [],
           },
