@@ -112,6 +112,10 @@ export let routes: Routes = [
   },
   {
     path: 'atencion-al-usuario',
+    title: 'Atencion al usuario',
+    data: {
+      page: false,
+    },
     component: AtencionUsuarioComponent,
     loadChildren: () =>
       import('./modules/atencion-al-usuario/atencion-al-usuario.module').then(
