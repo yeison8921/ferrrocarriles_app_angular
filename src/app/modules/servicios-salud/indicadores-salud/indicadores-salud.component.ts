@@ -13,5 +13,4 @@ import { Documento } from './documento';
 })
 export class IndicadoresSaludComponent {
   documentos: Documento[] = arrayDocumentos;
-  
 }

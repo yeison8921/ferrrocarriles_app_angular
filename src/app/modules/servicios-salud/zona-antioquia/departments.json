@@ -1,0 +1,1089 @@
+[
+  {
+    "name": "DEPARTAMENTO ANTIOQUIA",
+    "cities": [
+      {
+        "name": "AMAGA",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "ESTEFANÍA VARGAS VÉLEZ",
+                "address": "",
+                "phone": "3173712087",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN FERNANDO",
+                "address": "Carrera 51 No. 52-81",
+                "phone": "8472926 - 8471384",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BELLO",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "DIANA VALDEZ",
+                "address": "",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE BELLO",
+                "address": "Calle 44 No. 49B-90 Int. Hosp. Marco Fidel Suarez",
+                "phone": "4114488",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE BELLO",
+                "address": "Calle 44 No. 49B-90 Int. Hosp. Marco Fidel Suarez",
+                "phone": "4114488",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE BELLO",
+                "address": "Calle 44 No. 49B-90 Int. Hosp. Marco Fidel Suarez",
+                "phone": "4114488",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL MARCO FIDEL SUAREZ",
+                "address": "Calle 44 No. 49B-90.",
+                "phone": "4547510",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL MARCO FIDEL SUAREZ",
+                "address": "Calle 44 No. 49B-90.",
+                "phone": "4547510",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE BELLO",
+                "address": "Calle 44 No. 49B-90 Int. Hosp. Marco Fidel Suarez",
+                "phone": "4114488",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BARBOSA",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "MARÍA ANGÉLICA OCHOA GÓMEZ",
+                "address": "",
+                "phone": "3183514231",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina general",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 17 No. 10-34.",
+                "phone": "4061341 - 4060996",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CALDAS",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "MANUELA PALACIO",
+                "address": "",
+                "phone": "3117443871",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SUMIMEDICAL SEDE CALDAS",
+                "address": "Carrera 48 No. 128 Sur - 67",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SUMIMEDICAL SEDE CALDAS",
+                "address": "Carrera 48 No. 128 Sur - 67",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SUMIMEDICAL SEDE CALDAS",
+                "address": "Carrera 48 No. 128 Sur - 67",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 48 No. 135 Sur - 41",
+                "phone": "3786301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 48 No. 135 Sur - 41",
+                "phone": "3786301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN VICENTE DE PAÚL",
+                "address": "Carrera 48 No. 135 Sur - 41",
+                "phone": "3786301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CARACOLI",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "LEIDY JOHANNA CASTRILLÓN GUTIÉRREZ",
+                "address": "",
+                "phone": "3176649317",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN PIO X",
+                "address": "Calle 21 No. 20-32",
+                "phone": "8336014 - 8336739",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CISNEROS",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "MARÍA ANGÉLICA OCHOA GÓMEZ",
+                "address": "",
+                "phone": "3183514231",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN ANTONIO",
+                "address": "Calle 18 No. 17-105",
+                "phone": "8631847 - 8632326",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "COPACABANA",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "DIANA VALDEZ",
+                "address": "",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE COPACABANA",
+                "address": "Calle 53 No. 56-30/34",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE COPACABANA",
+                "address": "Calle 53 No. 56-30/34",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA MARGARITA",
+                "address": "Carrera 64 No. 48-80 La Misericordia",
+                "phone": "4549303",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA MARGARITA",
+                "address": "Carrera 64 No. 48-80 La Misericordia",
+                "phone": "4549303",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA MARGARITA",
+                "address": "Carrera 64 No. 48-80 La Misericordia",
+                "phone": "4549303",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE COPACABANA",
+                "address": "Calle 53 No. 56-30/34",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FREDONIA",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "ESTEFANÍA VARGAS VÉLEZ",
+                "address": "",
+                "phone": "3173712087",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SANTA LUCIA",
+                "address": "Vereda El Edén, Calle 69 No. 50-220",
+                "phone": "8401101",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GIRARDOTA",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "MARÍA ANGÉLICA OCHOA GÓMEZ",
+                "address": "",
+                "phone": "3183514231",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL SAN RAFAEL",
+                "address": "Carrera 16 No. 11-011",
+                "phone": "4052440 Ext.115, 102 y 113 - 4052380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MEDELLIN",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "JORGE ALFREDO GUERRERO",
+                "address": "",
+                "phone": "5201040 Opción 1. Ext. 1130",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SEDE APOYO TERÁPEUTICO SUMIMEDICAL",
+                "address": "Calle 45E No. 73-40",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SEDE APOYO TERÁPEUTICO SUMIMEDICAL",
+                "address": "Calle 45E No. 73-40",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SEDE ESTADIO SUMIMEDICAL",
+                "address": "Calle 47D No. 70-113",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de muestras",
+            "places": [
+              {
+                "name": "LABORATORIO SAN MARCOS SEDE SAN JUAN",
+                "address": "",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SEDE ESTADIO SUMIMEDICAL",
+                "address": "Calle 47D No. 70-113",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA EL ROSARIO SEDE CENTRO",
+                "address": "",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA VICTORIANA",
+                "address": "Carrera 49 No. 58-19",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "SERVICIOS FARMACÉUTICOS ESTADIO",
+                "address": "Dirección: Carrera 73 No. 45E-7",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PUERTO BERRIO",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "SHIRLEY ESCOBAR",
+                "address": "",
+                "phone": "3117884136",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE PUERTO BERRIO",
+                "address": "Calle 45 No. 6-12 B. El Hoyo",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE PUERTO BERRIO",
+                "address": "Calle 45 No. 6-12 B. El Hoyo",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE PUERTO BERRIO",
+                "address": "Calle 45 No. 6-12 B. El Hoyo",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL CESAR URIBE PIEDRAHITA",
+                "address": "Carrera 20 No. 1A-100B. El Man",
+                "phone": "8392161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL CESAR URIBE PIEDRAHITA",
+                "address": "Carrera 20 No. 1A-100B. El Man",
+                "phone": "8392161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "SUMIMEDICAL S.A.S. SEDE PUERTO BERRIO",
+                "address": "Calle 45 No. 6-12 B. El Hoyo",
+                "phone": "5201040",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PUERTO NARE",
+        "areas": [
+          {
+            "name": "Coordinador",
+            "places": [
+              {
+                "name": "LEIDY JOHANNA CASTRILLÓN GUTIÉRREZ",
+                "address": "",
+                "phone": "3176649317",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ESE. HOSPITAL OCTAVIO OLIVARES",
+                "address": "Carrera 5 No. 45-103",
+                "phone": "8347208",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+<h1 class="titulo-h1">ZONA ANTIOQUIA</h1>
+
+<P class="text-center mb-3"
+  >FONDO DE PASIVO SOCIAL DE FERROCARRILES NACIONALES DE COLOMBIA</P
+>
+<P class="text-center mb-3">RED BASICA DE IPS POR LOCALIDAD</P>
+<P class="text-center mb-3">ZONA ANTIOQUIA</P>
+<P class="text-center mb-3">Coordinador Regional Dr. Alejandro García.</P>
+
+<div *ngFor="let department of departments; let i = index">
+  <h3 class="titulo-h3 mb-3 mt-3">{{ department.name }}</h3>
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let city of department.cities; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          {{ city.name }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <div *ngFor="let area of city.areas; let i = index" class="col-lg-6">
+            <h4 class="titulo-h4">{{ area?.name }}</h4>
+            <div
+              *ngFor="let place of area?.places; let i = index"
+              class="col-lg-12"
+            >
+              <p class="mb-4">
+                {{ place?.name }}<br />
+                <span *ngIf="place?.address != ''">
+                  Dirección: {{ place?.address }}<br />
+                </span>
+                <span *ngIf="place?.phone != ''">
+                  Teléfono: {{ place?.phone }}<br />
+                </span>
+                <span *ngIf="place?.phone2 != ''">
+                  Teléfonos Asignación Cita: {{ place?.phone2 }}<br />
+                </span>
+                <span *ngIf="place?.mobile != ''">
+                  Celular: {{ place?.mobile }}<br />
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

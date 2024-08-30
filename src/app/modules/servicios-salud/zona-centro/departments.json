@@ -1,0 +1,2875 @@
+[
+  {
+    "name": "DEPARTAMENTO BOGOTÁ",
+    "cities": [
+      {
+        "name": "BOGOTA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "EMCOSALUD IPS - SEDE COUNTRY",
+                "address": "Carrera 16A No. 85-29 Barrio Antiguo Country",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD IPS - SEDE CORFERIAS",
+                "address": "Carrera 40 No. 24D-07 Barrio Quinta Paredes",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "EMCOSALUD IPS - SEDE COUNTRY",
+                "address": "Carrera 16A No. 85-29 Barrio Antiguo Country",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD IPS - SEDE CORFERIAS",
+                "address": "Carrera 40 No. 24D-07 Barrio Quinta Paredes",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "EMCOSALUD IPS - SEDE COUNTRY",
+                "address": "Carrera 16A No. 85-29 Barrio Antiguo Country",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD IPS - SEDE CORFERIAS",
+                "address": "Carrera 40 No. 24D-07 Barrio Quinta Paredes",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL INFANTIL UNIVERSITARIO DE SÁN JOSÉ",
+                "address": "Carrera 52 No. 67A-71",
+                "phone": "4377540",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Carrera 8 No. 0-29 Sur",
+                "phone": "3371664",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SOCIEDAD DE CIRUGÍA DE BOGOTÁ - HOSPITAL DE SAN JOSÉ",
+                "address": "Calle 10 No. 18 - 75",
+                "phone": "3538000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "FUNDACION HOSPITAL SAN CARLOS",
+                "address": "Carrera 13 No. 32- 44 Sur",
+                "phone": "3730000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MEDICAL SAS",
+                "address": "Carrera 102 No. 49/57, Calle 36 Sur No. 77-33",
+                "phone": "3168757999",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "FUNDACIÓN HOSPITAL INFANTIL UNIVERSITARIO DE SAN JOSE",
+                "address": "Carrera 52 No. 67A - 71",
+                "phone": "4377540",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SOCIEDAD DE CIRUGÍA DE BOGOTÁ - HOSPITAL DE SAN JOSÉ",
+                "address": "Calle 10 No. 18-75",
+                "phone": "3538000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Carrera 8 No. 0-29 Sur",
+                "phone": "3371664",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "FUNDACION HOSPITAL SAN CARLOS",
+                "address": "Carrera 13N No. 32-44 Sur",
+                "phone": "3730000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA SAN FRANCISCO DE ASIS S.A.S",
+                "address": "Calle 16 No. 16-80",
+                "phone": "5190707",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL UNIVERSITARIO NACIONAL DE COLOMBIA",
+                "address": "Calle 44 No. 59-75",
+                "phone": "3904888",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CENTRO CARDIOVASCULAR COLOMBIANO SAS - SIGLA CC",
+                "address": "Carrera 71B No. 51-09",
+                "phone": "3002130706",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CENTRO DE EVALUACIÓN DIAGNÓSTICA Y REHABILITACIÓN NEUROCOGNITIVA S.A.S., SIGLA: CEREN S.A.S.",
+                "address": "Avenida Calle 13 No. 35-13",
+                "phone": "3123686296",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CENTRO DE INVESTIGACIONES ONCOLÓGICAS CLÍNICA SAN DIEGO",
+                "address": "Avenida Calle 33 No. 14-37",
+                "phone": "3208400",
+                "phone2": "Ext. 420 - 3204924655",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA MEDICAL S.A.S.",
+                "address": "Calle 36 Sur No. 77 - 33",
+                "phone": "3168757999",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "FUNDACIÓN PARA LA SALUD LA BIOETICA Y EL MEDIO AMBIENTE - FUNSABIAM",
+                "address": "Carrera 17 No. 36-62",
+                "phone": "3223791347",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "RED HUMANA",
+                "address": "Carrera 45A No. 94-71",
+                "phone": "2095042",
+                "phone2": "3166915562",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "EMCOSALUD IPS - SEDE COUNTRY",
+                "address": "Carrera 16A No. 85-29 Barrio Antiguo Country",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD IPS - SEDE CORFERIAS",
+                "address": "Carrera 40 No. 24D-07 Barrio Quinta Paredes",
+                "phone": "7560842",
+                "phone2": "39005418",
+                "mobile": ""
+              },
+              {
+                "name": "FARMACIA DE APOYO: EMCOFARMA",
+                "address": "Calle 57 Carrera 24",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO BOYACÁ",
+    "cities": [
+      {
+        "name": "CHIQUINQUIRA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "CLINICSALUD",
+                "address": "Calle 19 No. 9-12",
+                "phone": "3209034875",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Calle 16 No. 4-09",
+                "phone": "7261152",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "CLAUDIA MARCELA PEÑA SIERRA",
+                "address": "Calle 14 No. 7-78",
+                "phone": "7268014",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Calle 16 No. 4-09",
+                "phone": "7261152",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "CARVAJAL LABORATORIOS I.P.S. S.A.S.",
+                "address": "Carrera 13 No. 12A-54, Local 4, Edificio Torres de Sion",
+                "phone": "7493280",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "INSTITUTO DE DIAGNOSTICO MEDICO S.A.",
+                "address": "Carrera 9 No. 14-108",
+                "phone": "3438770",
+                "phone2": "3103298113",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Calle 16 No. 4-09",
+                "phone": "7261152",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Carrera 13 No. 18-60",
+                "phone": "7261999",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Carrera 13 No. 18-60",
+                "phone": "7261999",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "FARMAVIDACENTRO",
+                "address": "Carrera 9",
+                "phone": "3188623633",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL REGIONAL DE CHIQUINQUIRA",
+                "address": "Carrera 13 No. 18-60",
+                "phone": "7261999",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DUITAMA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACÁ LTDA (SIREB IPS)",
+                "address": "Carrera 16 No. 6-21",
+                "phone": "6087703039",
+                "phone2": "3157836971",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE DUITAMA",
+                "address": "Avenida Américas, Carrera 35",
+                "phone": "987632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACÁ LTDA (SIREB IPS)",
+                "address": "Carrera 16 No. 6-21",
+                "phone": "6087703039",
+                "phone2": "3157836971",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA ODONTOLOGICA DENTI FAMILY S.A.S",
+                "address": "Calle 14 No. 17-30, Local 201",
+                "phone": "3186009529",
+                "phone2": "3133591739",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "COLCAN S.A.S.",
+                "address": "Calle 9 No. 24-117",
+                "phone": "3153519082",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL REGIONAL DE DUITAMA",
+                "address": "Avenida Américas, Carrera 35",
+                "phone": "987632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE DUITAMA",
+                "address": "Avenida Las Américas, Carrera 35",
+                "phone": "7632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE DUITAMA",
+                "address": "Avenida Las Américas, Carrera 35",
+                "phone": "7632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE DUITAMA",
+                "address": "Avenida Las Américas, Carrera 35",
+                "phone": "7632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MONIQUIRA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA ESE",
+                "address": "Calle 4A No. 9-101, Barrio Ricaurte",
+                "phone": "7282630",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MONSALUD",
+                "address": "Calle 8 No. 8-53, Barbosa - Santander",
+                "phone": "7482822",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA ESE",
+                "address": "Calle 4A No. 9-101, Barrio Ricaurte",
+                "phone": "7282630",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MONSALUD",
+                "address": "Calle 8 No. 8-53, Barbosa - Santander",
+                "phone": "7482822",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "CARVAJAL LABORATORIOS IPS SAS",
+                "address": "Calle 24 No. 9-38",
+                "phone": "7434956",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA ESE",
+                "address": "Calle 4A No. 9-101, Barrio Ricaurte",
+                "phone": "7282630",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA",
+                "address": "Calle 19 No. 8-108",
+                "phone": "7632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA",
+                "address": "Calle 19 No. 8-108",
+                "phone": "7632323",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "DANSOSALUD",
+                "address": "Carrera 11 No. 11-51",
+                "phone": "3227678916",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL REGIONAL DE MONIQUIRA ESE",
+                "address": "Calle 4A No. 9-101, Barrio Ricaurte",
+                "phone": "7282630",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SOGAMOSO",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACÁ LTDA (SIREB IPS)",
+                "address": "Calle 9A No. 13-39",
+                "phone": "6087722714",
+                "phone2": "3157836971",
+                "mobile": "3158609790"
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACÁ LTDA (SIREB IPS)",
+                "address": "Calle 9A No. 13-39",
+                "phone": "6087722714",
+                "phone2": "3157836971",
+                "mobile": "3158609790"
+              },
+              {
+                "name": "ODONTOMEDICOS GRIJALBA SAS",
+                "address": "Calle 17 No. 10-39",
+                "phone": "3142170014",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ORTO-IMAGEN SERVICIOS ODONTOLOGICOS E.U.",
+                "address": "Calle 15 No. 11-87",
+                "phone": "3157470514",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "CARVAJAL LABORATORIOS IPS SAS",
+                "address": "Carrera 11 No. 14-14, Local 205",
+                "phone": "3112524825",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA EL LAGUITO S.A.S",
+                "address": "Calle 22 No. 11A-73",
+                "phone": "7707324",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL REGIONAL DE SOGAMOSO",
+                "address": "Calle 8 No. 11A-43",
+                "phone": "7702210",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA EL LAGUITO S.A.S",
+                "address": "Calle 22 No. 11A-73",
+                "phone": "7707324",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS LTDA.",
+                "address": "Carrera 9A No. 14-17",
+                "phone": "6087708686",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CLINICA EL LAGUITO S.A.S",
+                "address": "Calle 22 No. 11A-73",
+                "phone": "7707324",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS LTDA.",
+                "address": "Carrera 9A No. 14-17",
+                "phone": "6087708686",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "COLSUBSIDIO DROGUERIA SOGAMOSO A.C. – MIXTA",
+                "address": "Calle 13 No. 11-61",
+                "phone": "7-722180",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA EL LAGUITO S.A.S",
+                "address": "Calle 22 No. 11A-73",
+                "phone": "7707324",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TUNJA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "DANSOSALUD",
+                "address": "Carrera 11 No. 11-51",
+                "phone": "3227678916",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "AVANCEMOS CENTRO DE REHABILITACIÓN S.A.S",
+                "address": "Avenida Oriental No. 9-67",
+                "phone": "3167438467",
+                "phone2": "7462155",
+                "mobile": ""
+              },
+              {
+                "name": "IPS OXI CARE S.A.S",
+                "address": "Calle 26A No. 11-17",
+                "phone": "7471996",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACA LIMITADA - SIREB LTDA",
+                "address": "Avenida Colón No. 28-98",
+                "phone": "3157836971",
+                "phone2": "3158609790",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "ODONTOMEDICOS GRIJALBA SAS",
+                "address": "Carrera 1B No. 41A-24",
+                "phone": "3142170014",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "LABORATORIO CLÍNICO CARVAJAL LABORATORIOS IPS SAS",
+                "address": "Calle 24 No. 9-38",
+                "phone": "7434956",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA MEDILASER S.A.S.",
+                "address": "Carrera 2 Este No. 67B-90",
+                "phone": "8724100",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "INVERSIONES MEDICAS DE LOS ANDES S.A.S.",
+                "address": "Transversal 11 No. 30-61",
+                "phone": "7446060",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "CLINICA MEDILASER S.A.S.",
+                "address": "Carrera 2 Este No. 67B-90",
+                "phone": "8724100",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "INVERSIONES MEDICAS DE LOS ANDES S.A.S.",
+                "address": "Transversal 11 No. 30-61",
+                "phone": "7446060",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CLINICA MEDILASER S.A.S.",
+                "address": "Carrera 2 Este No. 67B-90",
+                "phone": "8724100",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "INVERSIONES MEDICAS DE LOS ANDES S.A.S.",
+                "address": "Transversal 11 No. 30-61",
+                "phone": "7446060",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "DANSOSALUD",
+                "address": "Carrera 11 No. 11-51",
+                "phone": "3227678916",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "COLSUBSIDIO SF. TUNJA",
+                "address": "Transversal 11 No. 31-34, Barrio Belalcazar",
+                "phone": "7-409022",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA MEDILASER S.A.S.",
+                "address": "Carrera 2 Este No. 67B-90",
+                "phone": "7453000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO CUNDINAMARCA",
+    "cities": [
+      {
+        "name": "CACHIPAY",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MESALUD LIMITADA",
+                "address": "Calle 4A No. 27-85",
+                "phone": "0918470994",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MESALUD LIMITADA",
+                "address": "Calle 4A No. 27-85",
+                "phone": "0918470994",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MESALUD LIMITADA",
+                "address": "Calle 4A No. 27-85",
+                "phone": "0918470994",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "CENTRO MÉDICO SAN JOSÉ",
+                "address": "Carrera 3B No. 3-24",
+                "phone": "0918443150",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CENTRO MÉDICO SAN JOSÉ",
+                "address": "Carrera 3B No. 3-24",
+                "phone": "0918443150",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ CENTRO",
+                "address": "Carrera 8 con Calle 4",
+                "phone": "3203026625",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MESALUD LIMITADA",
+                "address": "Calle 4A No. 27-85",
+                "phone": "0918470994",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CHOCONTA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "OSDOKSALUD SERVICIOS INTEGRALES EN SALUD EU",
+                "address": "Calle 6 No. 3-80",
+                "phone": "(091) 8562256",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "8561301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "OSDOKSALUD SERVICIOS INTEGRALES EN SALUD EU",
+                "address": "Calle 6 No. 3-80",
+                "phone": "(091) 8562256",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "8561301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "OSDOKSALUD SERVICIOS INTEGRALES EN SALUD EU",
+                "address": "Calle 6 No. 3-80",
+                "phone": "(091) 8562256",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "8561301",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "0918562223",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "0918562223",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "OSDOKSALUD SERVICIOS INTEGRALES EN SALUD EU",
+                "address": "Calle 6 No. 3-80",
+                "phone": "(091) 8562256",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ESE HOSPITAL SAN MARTIN DE PORRES DE CHOCONTA",
+                "address": "Carrera 4 No. 8-12",
+                "phone": "0918562223",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FACATATIVA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 15 No. 9-56 Barrio Pensilvania",
+                "phone": "6210905 - 6210910",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 15 No. 9-56 Barrio Pensilvania",
+                "phone": "6210905 – 6210910",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ODONTOESTETICA INTEGRAL SAS",
+                "address": "Carrera 3 No. 7-136 Local 2",
+                "phone": "8437038 - 3203014986",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 15 No. 9-56 Barrio Pensilvania",
+                "phone": "6210905 – 6210910",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MEDIFACA IPS S.A.S",
+                "address": "Carrera 7 No. 13-24",
+                "phone": "8439102",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "CLÍNICA SANTA ANA S.A.S",
+                "address": "Calle 3 No. 4-22",
+                "phone": "3108085424 - 8901231",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MEDIFACA IPS S.A.S",
+                "address": "Carrera 7 No. 13-24",
+                "phone": "8439102",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CLÍNICA SANTA ANA S.A.S",
+                "address": "Calle 3 No. 4-22",
+                "phone": "3108085424 - 8901231",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MEDIFACA IPS S.A.S",
+                "address": "Carrera 7 No. 13-24",
+                "phone": "8439102",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 15 No. 9-56 Barrio Pensilvania",
+                "phone": "6210905 - 6210910",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CAN 2005 S EN C",
+                "address": "Carrera 2 No. 1-80",
+                "phone": "8424537 - 3167447344 - 8058643",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E HOSPITAL SAN RAFAEL DE FACATATIVÁ",
+                "address": "Carrera 11 No. 13-24",
+                "phone": "8901818 - 3143952090",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FUSAGASUGA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SAN PABLO ANGEL S.A.S",
+                "address": "Calle 18 No. 11-27",
+                "phone": "3114560450",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SALUD MEDICOS ESPECIALISTAS S.A",
+                "address": "Transversal 12 No.17A-38",
+                "phone": "3133947297 - 8676458 - 8868214 - 8717155",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "CLÍNICA DENTALIS",
+                "address": "Carrera 7 No. 10-42",
+                "phone": "8718992",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "COLCAN",
+                "address": "Carrera 5 No. 6-49",
+                "phone": "8717092",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "AMI PALLIUM COLOMBIA SAS",
+                "address": "Calle 8 No. 26-66",
+                "phone": "8674317",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "SERVISALUD QCL",
+                "address": "Carrera 7 No. 17-73",
+                "phone": "8717071",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SOCIEDAD MEDICO QUIRÚRGICA NUESTRA SEÑORA DE BELÉN DE FUSAGASUGA S.A.S",
+                "address": "Calle 17 No. 12-38",
+                "phone": "8868888 - 3006385161",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GIRARDOT",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "EMCOSALUD IPS",
+                "address": "Calle 20 No. 8-28",
+                "phone": "3219068336",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD",
+                "address": "Calle 20 No. 8-48",
+                "phone": "3219068336",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "IDIME",
+                "address": "Carrera 7A No. 21-06",
+                "phone": "8350529",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA DE ESPECIALISTA",
+                "address": "Calle 13 No. 10-49",
+                "phone": "8335054 - 8335055 - 3107695051",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA DE ESPECIALISTA",
+                "address": "Calle 13 No. 10-49",
+                "phone": "8335054 - 8335055 - 3107695051",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MEDICOL PAC SAS",
+                "address": "Carrera 7B No. 30-53",
+                "phone": "3007079741",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD",
+                "address": "Calle 20 No. 8-48",
+                "phone": "3219068336",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DUMIAN MÉDICAL S.A.S",
+                "address": "Carrera 5 Calle 22 Esquina",
+                "phone": "8886000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GUADUAS",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL SAN JOSE DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVISALUD QCL GUADUAS",
+                "address": "Carrera 6 No. 4-20",
+                "phone": "8466026",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LA MESA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "MESALUD IPS",
+                "address": "Calle 4A No. 27-85",
+                "phone": "8471777",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "3172601556",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "MESALUD IPS",
+                "address": "Calle 4A No. 27-85",
+                "phone": "8471777",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "3172601556",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "MESALUD IPS",
+                "address": "Calle 4A No. 27-85",
+                "phone": "8471777",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL PEDRO LEON ALVAREZ DIAZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "3172601556",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL PEDRO LEÓN ÁLVAREZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "5878570",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "E.S.E HOSPITAL PEDRO LEÓN ÁLVAREZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "5878570",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "MESALUD IPS",
+                "address": "Calle 4A No. 27-85",
+                "phone": "8471777",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL PEDRO LEON ALVAREZ DIAZ",
+                "address": "Calle 8 No. 25-34",
+                "phone": "5878570",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "COLSUBSIDIO SF LA MESA",
+                "address": "Carrera. 25 No. 4A-47",
+                "phone": "8470002",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "UTICA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "UNIDAD MEDICA CENTRAL IPS",
+                "address": "Calle 5 No. 6-51",
+                "phone": "0918445513 Ext. 14",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "UNIDAD MEDICA CENTRAL IPS",
+                "address": "Calle 5 No. 6-51",
+                "phone": "0918445513 Ext. 14",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "UNIDAD MEDICA CENTRAL IPS",
+                "address": "Calle 5 No. 6-51",
+                "phone": "0918445513 Ext. 14",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 8444118",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN JOSÉ DE GUADUAS",
+                "address": "Calle 4 No. 12-41",
+                "phone": "8466366",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVISALUD QCL VILLETA",
+                "address": "Calle 7 No. 10-247",
+                "phone": "8445062 - 3115531613",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "VILLETA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "UNIDAD MEDICA CENTRAL IPS",
+                "address": "Calle 5 No. 6-51",
+                "phone": "3115389876 - 8444742",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 3118298657",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 8444118",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "UNIDAD MEDICA CENTRAL IPS",
+                "address": "Calle 5 No. 6-51",
+                "phone": "3115389876 - 8444742",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 8444118",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 8444118",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SALAZAR VILLETA",
+                "address": "Calle 1 No. 7-56",
+                "phone": "3185743159 - 8444118",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "DROGUERÍA COLSUBSIDIO",
+                "address": "Carrera 9 No. 4-27",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MALCA ZIPAQUIRA",
+                "address": "Calle 2 No. 9-24 Centro",
+                "phone": "8527945",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ZIPAQUIRA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 3 D No. 13-78",
+                "phone": "8813821",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 1 Sur No. 11-90 Barrio La Fraguita",
+                "phone": "4077075 Ext. 10702",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "IMPROVEQUALITY REDUCE COST SAVE LIFES AUDITORES SAS QCL AUDITORES",
+                "address": "Calle 3 D No. 13-78",
+                "phone": "8813821",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 1 Sur No. 11-90 Barrio La Fraguita",
+                "phone": "4077075 Ext. 10702",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "IDIME",
+                "address": "Carrera 7A No. 21",
+                "phone": "8350528",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 1 Sur No. 11-90 Barrio La Fraguita",
+                "phone": "4077075 Ext. 10702",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "ESE HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 10 No. 7-52",
+                "phone": "4077075 Ext. 10702 - 8522456",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 1 Sur No. 11-90 Barrio La Fraguita",
+                "phone": "4077075 Ext. 10702",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "ESE HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 10 No. 7-52",
+                "phone": "4077075 Ext. 10702 - 8522456",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "SERVISALUD QCL ZIPAQUIRA",
+                "address": "Calle 3D No. 13 - 78",
+                "phone": "8813821 - 3115533348",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+                "address": "Calle 1 Sur No. 11-90 Barrio La Fraguita",
+                "phone": "4077075 Ext. 10702",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "MALCA ZIPAQUIRA",
+                "address": "Calle 2 No. 9-24 Centro",
+                "phone": "8527945",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO HUILA",
+    "cities": [
+      {
+        "name": "NEIVA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD S.A.",
+                "address": "Calle 5 No. 6-73",
+                "phone": "(098) 8743080",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD S.A.",
+                "address": "Calle 5 No. 6-73",
+                "phone": "(098) 8743080",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD S.A.",
+                "address": "Calle 5 No. 6-73",
+                "phone": "(098) 8743080",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL UNIVERSITARIO HERNANDO MONCALEANO PERDOMO DE NEIVA",
+                "address": "Calle 9 No. 15-25",
+                "phone": "8715907 Ext. 1162",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD S.A.",
+                "address": "Calle 5 No. 6-73",
+                "phone": "(098) 8743080",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MEDILASER S.A.S.",
+                "address": "CRA 7 No. 11-65",
+                "phone": "3152197100",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL UNIVERSITARIO HERNANDO MONCALEANO PERDOMO DE NEIVA",
+                "address": "Calle 9 No. 15-25",
+                "phone": "8715907 Ext. 1162",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "SOCIEDAD CLÍNICA EMCOSALUD S.A.",
+                "address": "Calle 5 No. 6-73",
+                "phone": "(098) 8743080 - 8717404",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL UNIVERSITARIO HERNANDO MONCALEANO PERDOMO DE NEIVA",
+                "address": "Calle 9 No. 15-25",
+                "phone": "8715907 Ext. 1162",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "EMCOSALUD",
+                "address": "Carrera 7 No. 18A-26",
+                "phone": "(098) 8743080",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOFARMA",
+                "address": "Carrera 7 No. 16 A 05",
+                "phone": "8751754",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MEDILASER S.A.S.",
+                "address": "Carrera 7 No. 11-65",
+                "phone": "8724100",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO META",
+    "cities": [
+      {
+        "name": "VILLAVICENCIO",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "SERVICIOS MÉDICOS INTEGRALES DE SALUD",
+                "address": "Calle 33 No. 41-36, Barzal",
+                "phone": "(098) 6706810",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "SERVICIOS MÉDICOS INTEGRALES DE SALUD",
+                "address": "Calle 33 No. 41-36, Barzal",
+                "phone": "(098) 6706810",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ESTÉTICA ORAL DEL LLANO SAS",
+                "address": "Carrera 38 No. 26C-32",
+                "phone": "6685537",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "COLCAN S.A.S.",
+                "address": "Carrera 35 No. 35-18",
+                "phone": "316 2545676",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CORPORACIÓN CLÍNICA",
+                "address": "Calle 36 No. 35-70",
+                "phone": "6614300 ext. 201 - 3225216941",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVICIOS MÉDICOS INTEGRALES DE SALUD SAS SERVIMEDICOS SAS",
+                "address": "Calle 32 No. 40A-40",
+                "phone": "315 3806404 - 6623137",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "CLÍNICA ESPECIALIZADA EN SALUD MENTAL FÉNIX S.A.S.",
+                "address": "Kilómetro 04 Vía Puerto López",
+                "phone": "3203341170",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CORPORACIÓN CLÍNICA",
+                "address": "Calle 36 No. 35-70",
+                "phone": "6614300 ext. 201 - 3225216941",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVICIOS MÉDICOS INTEGRALES DE SALUD SAS SERVIMEDICOS SAS",
+                "address": "Calle 32 No. 40A-40",
+                "phone": "315 3806404 - 6623137",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL DEPARTAMENTAL DE VILLAVICENCIO",
+                "address": "Calle 37A No. 28-53, Barrio Barzal Alto",
+                "phone": "3155455991 - 6817901",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CORPORACIÓN CLÍNICA",
+                "address": "Calle 36 No. 35-70",
+                "phone": "6614300 ext. 201 - 3225216941",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVICIOS MÉDICOS INTEGRALES DE SALUD SAS SERVIMEDICOS SAS",
+                "address": "Calle 32 No. 40A-40",
+                "phone": "315 3806404 - 6623137",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "NUEVA CLÍNICA EL BARZAL S.A.S",
+                "address": "Carrera 37 No. 35-12",
+                "phone": "6726521",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "DROGUERÍA COLSUBSIDIO",
+                "address": "Calle 33 No. 36-50, local 105 Barzal",
+                "phone": "",
+                "phone2": "",
+                "mobile": "",
+                "hours": "Horario: 7:00 am - 7:00 pm"
+              },
+              {
+                "name": "NUEVA CLÍNICA EL BARZAL S.A.S",
+                "address": "Carrera 37 No. 35-12",
+                "phone": "6726521",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO SANTANDER",
+    "cities": [
+      {
+        "name": "PUENTE NACIONAL",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SAN ANTONIO",
+                "address": "Carrera 6 No. 8-61",
+                "phone": "3158887504",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL MONSALUD",
+                "address": "Carrera 5 No. 5-39",
+                "phone": "(098) 7587203",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SAN ANTONIO",
+                "address": "Carrera 6 No. 8-61",
+                "phone": "3158887504",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL MONSALUD",
+                "address": "Carrera 5 No. 5-39",
+                "phone": "(098) 7587203",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "SERVICIOS INTEGRALES DE REHABILITACION EN BOYACÁ LIMITADA - SIREB LTDA.",
+                "address": "Carrera 16 No. 6-21",
+                "phone": "3157836971",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "CARVAJAL LABORATORIOS IPS SAS",
+                "address": "Carrera 5 No. 5-39",
+                "phone": "(098) 7587203",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SAN ANTONIO",
+                "address": "Carrera 6 No. 8-61",
+                "phone": "3158887504",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SAN ANTONIO",
+                "address": "Carrera 6 No. 8-61",
+                "phone": "3158887504 - 7587588",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL MONSALUD",
+                "address": "Carrera 5 No. 5-39",
+                "phone": "(098) 7587203",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SAN ANTONIO",
+                "address": "Carrera 6 No. 8-61",
+                "phone": "3158887504 - 7587588",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL MONSALUD",
+                "address": "Carrera 5 No. 5-39",
+                "phone": "(098) 7587203",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "FARMAVIDA DROGUERÍA COMERCIALIZADORA",
+                "address": "Carrera 9 No. 17-69",
+                "phone": "3188623633",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DANSOSALUD",
+                "address": "Carrera 11 No. 11-51",
+                "phone": "3227678916",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO TOLIMA",
+    "cities": [
+      {
+        "name": "AMBALEMA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE AMBALEMA",
+                "address": "Carrera 5 No. 2-89, Barrio Campoalegre",
+                "phone": "3156519175",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DROGUERIAS COPIFAM AMBALEMA",
+                "address": "Carrera 4 No. 9-03, Local 01",
+                "phone": "2745960",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HONDA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "EMCOSALUD SEDE HONDA",
+                "address": "Calle 7 No. 22-40, Barrio La Aurora",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "EMCOSALUD SEDE HONDA",
+                "address": "Calle 7 No. 22-40, Barrio La Aurora",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN JUAN DE DIOS HONDA EMPRESA SOCIAL DEL ESTADO",
+                "address": "Carrera. 21/22, Calle 9",
+                "phone": "3124330041",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "MIRTHA YAMILE PULIDO",
+                "address": "Carrera 20 No. 9-97, Cuesta Padilla",
+                "phone": "3103493707 / 982512066",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA SAS",
+                "address": "Calle 10 No. 13A-53",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN JUAN DE DIOS HONDA EMPRESA SOCIAL DEL ESTADO",
+                "address": "Carrera. 21/22, Calle 9",
+                "phone": "3124330041",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL SAN JUAN DE DIOS HONDA E.S.E",
+                "address": "Calle 9A, Av. Centenario",
+                "phone": "982513100",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL SAN JUAN DE DIOS HONDA E.S.E",
+                "address": "Calle 9A, Av. Centenario",
+                "phone": "982513100",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "COPIFAM",
+                "address": "Calle 9 No. 22-05",
+                "phone": "982511278",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN JUAN DE DIOS HONDA E.S.E",
+                "address": "Calle 9A, Av. Centenario",
+                "phone": "982513100",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA COOPERATIVA DE SERVICIOS DE SALUD EMCOSALUD SEDE MARIQUITA",
+                "address": "Calle 9 No. 21-208, Av. Centenario",
+                "phone": "2513933",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IBAGUE",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "EMCOSALUD",
+                "address": "Cra. 8 No. 17-10, barrio Interlaken",
+                "phone": "2623081",
+                "phone2": "3219068344",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA INTERNACIONAL DE ALTA TECNOLOGIA CLINALTEC S.A.S.",
+                "address": "Km 6 Vía Ibagué - Espinal, sector Picaleña",
+                "phone": "3202712998",
+                "phone2": "3202710157",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA SAS",
+                "address": "Calle 32 No. 4B-38",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "JL DISTRISALUD IPS SAS",
+                "address": "Carrera 4 C No. 41-73",
+                "phone": "2761978",
+                "phone2": "3185640371",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "PROMOVER",
+                "address": "Cra. 4B No. 33-08, Barrio Cadiz",
+                "phone": "2739402 ext. 101 - 105 - 125",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD",
+                "address": "Carrera 5 No. 25-26 y 25-28",
+                "phone": "2623081",
+                "phone2": "3219068344",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA BIOINTEGRAL Y/O ANDRES FELIPE NAVARRO PALACINO",
+                "address": "Cra. 5 No. 41-16, Edificio F25 Cons 1203",
+                "phone": "2762162",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "CLINICA INTERNACIONAL DE ALTA TECNOLOGIA CLINALTEC S.A.S.",
+                "address": "Km 6 Vía Ibagué - Espinal, sector Picaleña",
+                "phone": "3202712998",
+                "phone2": "3202710157",
+                "mobile": ""
+              },
+              {
+                "name": "LABORATORIO CLINICO NAIZIR",
+                "address": "Calle 33 No. 4A-44, Barrio Cadiz",
+                "phone": "2643079",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMCOSALUD",
+                "address": "Cra. 8 No. 17-10, barrio Interlaken",
+                "phone": "2623081",
+                "phone2": "3219068344",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "CLINICA TOLIMA",
+                "address": "Cra. 1 No. 12-22, Ibagué, Tolima",
+                "phone": "2708000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "CLINICA TOLIMA",
+                "address": "Cra. 1 No. 12-22, Ibagué, Tolima",
+                "phone": "2708000",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL FEDERICO LLERAS ACOSTA E.S.E.",
+                "address": "Calle 33 No. 4A-50",
+                "phone": "2739805",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA IBAGUE S.A",
+                "address": "Cra. 5 No. 12-15",
+                "phone": "2639374",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "EMCOSALUD",
+                "address": "Cra. 8 No. 17-10, Barrio Interlaken",
+                "phone": "2623081",
+                "phone2": "3219068344",
+                "mobile": ""
+              },
+              {
+                "name": "DROGUERIAS COPIFAM CALLE 22",
+                "address": "Carrera 5 No. 21-101",
+                "phone": "2619191",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MARIQUITA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "EMCOSALUD SEDE MARIQUITA",
+                "address": "Carrera 2A No. 6-60 (al lado de Notaria Única)",
+                "phone": "3164728805",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN JOSE E.S.E.",
+                "address": "Carrera 4 Calles 10 y 11",
+                "phone": "(09) 82522485",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA SAS",
+                "address": "Calle 8 No. 2-80",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "EMCOSALUD SEDE MARIQUITA",
+                "address": "Carrera 2A No. 6-60 (al lado de Notaria Única)",
+                "phone": "3164728805",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN JOSE E.S.E.",
+                "address": "Carrera 4 Calles 10 y 11",
+                "phone": "(09) 82522485",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA SAS",
+                "address": "Calle 8 No. 2-80",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "SANDRA LERMA PASTRANA",
+                "address": "Calle 8 No. 4-50",
+                "phone": "3046539913",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DENTISTAR IPS S.A.S.",
+                "address": "Carrera 4 No. 8-24",
+                "phone": "2520569",
+                "phone2": "3127891469",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL SAN JOSE E.S.E.",
+                "address": "Carrera 4 Calles 10 y 11",
+                "phone": "(09) 82522485",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL SAN JOSE E.S.E.",
+                "address": "Carrera 4 Calles 10 y 11",
+                "phone": "(09) 82522485",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "EMCOSALUD SEDE MARIQUITA",
+                "address": "Carrera 2A No. 6-60 (al lado de Notaria Única)",
+                "phone": "3164728805",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DROGUERIAS COPIFAM MARIQUITA 3",
+                "address": "Carrera 4 No. 6-01 / 03",
+                "phone": "2651333",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NATAGAIMA",
+        "areas": [
+          {
+            "name": "MEDICINA GENERAL",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "ODONTOLOGÍA",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "LABORATORIO CLÍNICO",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "URGENCIAS",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "HOSPITALIZACIÓN",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "FARMACIA",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANTONIO DE NATAGAIMA",
+                "address": "Calle 6, Carrera 11 Esquina",
+                "phone": "2269829",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DROGUERIAS COPIFAM NATAGAIMA",
+                "address": "Calle 6 No. 4-96",
+                "phone": "2269921",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

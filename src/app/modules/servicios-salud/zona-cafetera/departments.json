@@ -1,0 +1,523 @@
+[
+  {
+    "name": "DEPARTAMENTO CALDAS",
+    "cities": [
+      {
+        "name": "MANIZALES",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "LIBARDO ANCIZAR RODRIGUEZ LÓPEZ",
+                "address": "Avenida Santander No. 65A - 41. Segundo piso, Parque Médico local T201 y Mezzanine",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CENTRO MÉDICO COSMITET LTDA MANIZALES",
+                "address": "Avenida Santander No. 65A - 41. Segundo piso, Parque Médico local T201 y Mezzanine",
+                "phone": "8915326",
+                "phone2": "3126914551",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CENTRO MÉDICO COSMITET LTDA MANIZALES",
+                "address": "Avenida Santander No. 65A - 41. Segundo piso, Parque Médico local T201 y Mezzanine",
+                "phone": "8915326",
+                "phone2": "3126914551",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SYNLAB MANIZALES",
+                "address": "Carrera 23 No. 19-70 Av. Santander Multicentro Estrella 9-10",
+                "phone": "6068900233",
+                "phone2": "3128133761",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB MANIZALES",
+                "address": "Carrera 23 No. 19-70 Av. Santander Multicentro Estrella 9-10",
+                "phone": "6068900233",
+                "phone2": "3128133761",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA SAN MARCEL",
+                "address": "Av. Alberto Mendoza No. 93-25",
+                "phone": "6068748680",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA AVIDANTI",
+                "address": "Calle 10 No. 2C-10B Barrio Villa Pilar",
+                "phone": "60689900000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA SAN MARCEL",
+                "address": "Av. Alberto Mendoza No. 93-25",
+                "phone": "6068748680",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA AVIDANTI",
+                "address": "Calle 10 No. 2C-10B Barrio Villa Pilar",
+                "phone": "60689900000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DUANA",
+                "address": "Av. Santander No. 65A-41 piso 1",
+                "phone": "6068902085",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LA DORADA",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ARMONY CLÍNICA DE ESPECIALISTAS Y CIRUGÍA S.A.S",
+                "address": "Calle 8a. No. 10-10",
+                "phone": "8370046",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "VICTORIA SAS CLÍNICA MEDICO QUIRURGICA",
+                "address": "Calle 11 No. 3-48",
+                "phone": "3113482039",
+                "phone2": "8576985",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL SAN FELIX LA DORADA CALDAS",
+                "address": "Carrera. 9 No. 46-19/23",
+                "phone": "018000941888",
+                "phone2": "8572391",
+                "mobile": "8392000"
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "VITA ODONTOLOGÍA SAS",
+                "address": "Carrera 4 No.11-47",
+                "phone": "8574406",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "DENTISTAR IPS S.A.S.",
+                "address": "Calle 12 No. 3-31",
+                "phone": "2520569",
+                "phone2": "3127891469",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA LA DORADA E.U.",
+                "address": "Calle 12 No. 5-31",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "LABORATORIO CLINICO, ANA MYLENA DEVIA",
+                "address": "Calle 11 No. 4-55",
+                "phone": "(036) 8573113",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "LABORATORIO CLINICO SANDRA PATRICIA CORDERO LEON",
+                "address": "Calle 11 No. 4-10",
+                "phone": "3148795812",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE ESPECIALISTAS DEL NORTE DEL TOLIMA LA DORADA E.U.",
+                "address": "Calle 12 No. 5-31",
+                "phone": "3102596006",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "EMPRESA SOCIAL DEL ESTADO E.S.E SALUD DORADA",
+                "address": "Calle 15 No. 2-25",
+                "phone": "8576950",
+                "phone2": "3153032130",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN FELIX",
+                "address": "Calle 12 No. 4-20",
+                "phone": "8571811",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA DE FRACTURAS VITA S.A.S",
+                "address": "Calle 12 No. 2-03",
+                "phone": "8570973",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA FLAVIO RESTREPO S.A.S",
+                "address": "Calle 12 No. 3-28",
+                "phone": "8576290",
+                "phone2": "8572207",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE HOSPITAL SAN FELIX",
+                "address": "Calle 12 No. 4-20",
+                "phone": "8571811",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA FLAVIO RESTREPO S.A.S",
+                "address": "Calle 12 No. 3-28",
+                "phone": "8576290",
+                "phone2": "8572207",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "EMCOFARMA",
+                "address": "Calle 12 No. 6-50 Centro",
+                "phone": "3118112336",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ESE HOSPITAL SAN FELIX",
+                "address": "Calle 12 No. 4-20",
+                "phone": "8571811",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CENTRO DE ATENCION INTEGRAL Y PSICOLOGICA INSIGHT S.A.S.",
+                "address": "Calle 12 No. 6-50 Centro",
+                "phone": "8391563",
+                "phone2": "3118112336",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO QUINDIO",
+    "cities": [
+      {
+        "name": "ARMENIA",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "LUIS FERNAN CARMONA",
+                "address": "Carrera 13A No. 1A Norte 65",
+                "phone": "3156992197",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE ARMENIA",
+                "address": "Carrera 13A No. 1A Norte 65",
+                "phone": "3156992197",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET SEDE ARMENIA",
+                "address": "Carrera 13A No. 1A Norte 65",
+                "phone": "3156992197",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "COSMITET SEDE ARMENIA",
+                "address": "Carrera 13A No. 1A Norte 65 piso 1",
+                "phone": "3185554115",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "LABORATORIO CLÍNICO COLCAN",
+                "address": "Carrera 13A No. 1A Norte 65 piso 1",
+                "phone": "3185554115",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA DEL CAFÉ",
+                "address": "Carrera 12 No. 0-75",
+                "phone": "7359448",
+                "phone2": "3147728554",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA CENTRAL",
+                "address": "Carrera 13 No. 1-35",
+                "phone": "6063690768",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA DEL CAFÉ",
+                "address": "Carrera 12 No. 0-75",
+                "phone": "7359448",
+                "phone2": "3147728554",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA CENTRAL",
+                "address": "Carrera 13 No. 1-35",
+                "phone": "6063690768",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET SEDE ARMENIA",
+                "address": "Carrera 13A No. 1A Norte piso 1",
+                "phone": "7451970",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO RISARALDA",
+    "cities": [
+      {
+        "name": "PEREIRA",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "DR. HERNAN LÓPEZ RESTREPO",
+                "address": "Carrera 14 Bis No. 10-17",
+                "phone": "3153219310",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina general",
+            "places": [
+              {
+                "name": "SEDE COSMITET",
+                "address": "Carrera 14 Bis No. 10-17",
+                "phone": "3153219310",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SEDE COSMITET",
+                "address": "Carrera 14 Bis No. 10-17",
+                "phone": "3153219310",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SEDE COSMITET",
+                "address": "Av. Juan B. Gutierréz No. 18-60 Piso 9 Consultorio 902-903",
+                "phone": "3153219310",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SEDE COSMITET",
+                "address": "Av. Juan B. Gutierréz No. 18-60 Piso 9 Consultorio 902-903",
+                "phone": "3153219310",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA LOS NEVADOS",
+                "address": "Calle 20 No. 5-70 Centro",
+                "phone": "6063386767",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA LOS ROSALES",
+                "address": "Carrera 9 No. 25-25",
+                "phone": "6063340073",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA LOS NEVADOS",
+                "address": "Calle 20 No. 5-70 Centro",
+                "phone": "6063386767",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA LOS ROSALES",
+                "address": "Carrera 9 No. 25-25",
+                "phone": "6063340073",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DUANA",
+                "address": "Calle 13 No. 12B-29",
+                "phone": "6068902085",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
