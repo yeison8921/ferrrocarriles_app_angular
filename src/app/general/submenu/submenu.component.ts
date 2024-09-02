@@ -507,8 +507,7 @@ export class SubmenuComponent {
               {
                 id: 5,
                 nombre: 'Información contable y financiera',
-                //url: '/informes/informes-contaduria-general-de-la-nacion/65',
-                url: '',
+                url: '/informes/informes-contaduria-general-de-la-nacion/65',
                 active: false,
               },
               {
@@ -539,8 +538,7 @@ export class SubmenuComponent {
                 id: 10,
                 nombre:
                   'Informe de Percepción de Satisfacción al Usuario Post Trámite',
-                //url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
-                url: '',
+                url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
                 active: false,
               },
               {

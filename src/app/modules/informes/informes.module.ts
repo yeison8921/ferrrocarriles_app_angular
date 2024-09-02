@@ -13,6 +13,8 @@ import { InformesFiscalesComponent } from './informes-fiscales/informes-fiscales
 import { InformeAuditoriaOficinaControlInternoComponent } from './informe-auditoria-oficina-control-interno/informe-auditoria-oficina-control-interno.component';
 import { RendicionCuentasComponent } from './rendicion-cuentas/rendicion-cuentas.component';
 import { InformeCamaraRepresentantesComponent } from './informe-camara-representantes/informe-camara-representantes.component';
+import { InformesPercepcionComponent } from './informes-percepcion/informes-percepcion.component';
+import { InformacionContableFinancieraComponent } from './informacion-contable-financiera/informacion-contable-financiera.component';
 
 const routes: Routes = [
   {
@@ -79,6 +81,16 @@ const routes: Routes = [
     path: 'informe-camara-de-representantes/187',
     title: 'Informe Cámara de Representantes',
     component: InformeCamaraRepresentantesComponent,
+  },
+  {
+    path: 'informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
+    title: 'Informe de Percepción de Satisfacción al Usuario Post Trámite',
+    component: InformesPercepcionComponent,
+  },
+  {
+    path: 'informes-contaduria-general-de-la-nacion/65',
+    title: 'Información contable y financiera',
+    component: InformacionContableFinancieraComponent,
   },
 ];
 
