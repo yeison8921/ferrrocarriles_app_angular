@@ -1,0 +1,70 @@
+<h1 class="titulo-h1">INFORMES DEL ESTADO DEL CONTROL INTERNO</h1>
+<p>
+  El Fondo Pasivo Social en cumplimiento a lo ordenado en la Ley 1474 de 2011,
+  presenta el Informe Pormenorizado del Estado del Control Interno.
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item of items">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+          <div *ngFor="let acordion of item.acordion; let i = index">
+            <h4 class="titulo-h4">
+              <span *ngIf="regex.test(acordion.nombre)">{{ i + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+              <div
+                class="ms-4"
+                *ngFor="let acordionanidado of acordion.acordion; let j = index"
+              >
+                <h4 class="titulo-h4">
+                  <span *ngIf="regex.test(acordionanidado.nombre)">{{
+                    j + 1
+                  }}</span>
+                  {{ acordionanidado.nombre }}
+                </h4>
+                <div class="mb-3">
+                  <a
+                    class="link-file"
+                    *ngFor="let file of acordionanidado.files"
+                    href="{{ file.url }}"
+                    target="_blank"
+                  >
+                    <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                    {{ file.nombre }}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

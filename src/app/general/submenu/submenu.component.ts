@@ -544,8 +544,7 @@ export class SubmenuComponent {
               {
                 id: 11,
                 nombre: 'Informes del Estado del Control Interno',
-                //url: '/informes/informes-del-estado-del-control-interno/68',
-                url: '',
+                url: '/informes/informes-del-estado-del-control-interno/68',
                 active: false,
               },
               {
