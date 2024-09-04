@@ -602,7 +602,7 @@ export class SubmenuComponent {
                 nombre:
                   'Plan estratégico de tecnologías de la información y las comunicaciones',
                 /*url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',*/
-                url: '',
+                url: '/planeacion-gestion-y-control/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
                 active: false,
               },
               {
@@ -695,7 +695,7 @@ export class SubmenuComponent {
                 id: 16,
                 nombre: 'Plan de Fortalecimiento del MIPG',
                 //url: '/planeacion-gestion-y-control/gestion-documental/317',
-                url: '',
+                url: '/planeacion-gestion-y-control/gestion-documental/317',
                 active: false,
               },
             ],
