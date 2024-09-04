@@ -580,15 +580,13 @@ export class SubmenuComponent {
               {
                 id: 17,
                 nombre: 'Código de Buen Gobierno',
-                //url: '/informes/codigo-de-buen-gobierno/39',
-                url: '',
+                url: '/informes/codigo-de-buen-gobierno/39',
                 active: false,
               },
               {
                 id: 17,
                 nombre: 'Código de Integridad',
-                //url: '/informes/codigo-de-integridad/206',
-                url: '',
+                url: '/informes/codigo-de-integridad/206',
                 active: false,
               },
             ],
