@@ -1,5 +1,42 @@
-<div class="container">
-  <h3 class="titulo-h3">
-    <span class="icon govco-server"></span>Listado de documentos
-  </h3>
-
+<h1 class="titulo-h1 mb-4">PLAN SEGURIDAD Y PRIVACIDAD DE LA INFORMACIÓN</h1>
+<P>Plan seguridad y privacidad de la información</P>
+<h3 class="titulo-h3 mt-4 mb-4">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div *ngFor="let acordion of item.acordion; let i = index">
+            <h4 class="titulo-h4">
+              <span>{{ i + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file mb-2"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
