@@ -7,6 +7,10 @@ import { PoliticasigComponent } from './politicasig/politicasig.component';
 import { TalentoHumanoComponent } from './talento-humano/talento-humano.component';
 import { GestionDocumentalComponent } from './gestion-documental/gestion-documental.component';
 import { TransparenciaComponent } from './transparencia/transparencia.component';
+import { InformacionGeneralComponent } from './informacion-general/informacion-general.component';
+import { OrganigramaComponent } from './organigrama/organigrama.component';
+import { DirectorioDeContratistasFpsComponent } from './directorio-de-contratistas-fps/directorio-de-contratistas-fps.component';
+import { RegistroDePublicacionesComponent } from './registro-de-publicaciones/registro-de-publicaciones.component';
 
 const routes: Routes = [
   {
@@ -44,6 +48,26 @@ const routes: Routes = [
     title: 'Directorio General Funcionarios FPS',
     component: DirectorioGeneralFuncionariosComponent,
   },
+  {
+    path: 'informacion-general/42',
+    title: 'Información General',
+    component: InformacionGeneralComponent,
+  }, 
+  {
+    path: 'organigrama/48',
+    title: 'Organigrama',
+    component: OrganigramaComponent,
+  },
+  {
+    path: 'directorio-de-contratistas-fps/221',
+    title: 'Directorio de contratistas FPS',
+    component: DirectorioDeContratistasFpsComponent,
+  }, 
+  {
+    path: 'registro-de-publicaciones/216',
+    title: 'Registro de publicaciones',
+    component: RegistroDePublicacionesComponent,
+  },   
 ];
 
 @NgModule({
