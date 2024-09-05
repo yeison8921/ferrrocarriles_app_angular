@@ -544,8 +544,7 @@ export class SubmenuComponent {
               {
                 id: 11,
                 nombre: 'Informes del Estado del Control Interno',
-                //url: '/informes/informes-del-estado-del-control-interno/68',
-                url: '',
+                url: '/informes/informes-del-estado-del-control-interno/68',
                 active: false,
               },
               {
@@ -581,15 +580,13 @@ export class SubmenuComponent {
               {
                 id: 17,
                 nombre: 'Código de Buen Gobierno',
-                //url: '/informes/codigo-de-buen-gobierno/39',
-                url: '',
+                url: '/informes/codigo-de-buen-gobierno/39',
                 active: false,
               },
               {
                 id: 17,
                 nombre: 'Código de Integridad',
-                //url: '/informes/codigo-de-integridad/206',
-                url: '',
+                url: '/informes/codigo-de-integridad/206',
                 active: false,
               },
             ],
@@ -605,7 +602,7 @@ export class SubmenuComponent {
                 nombre:
                   'Plan estratégico de tecnologías de la información y las comunicaciones',
                 /*url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',*/
-                url: '',
+                url: '/planeacion-gestion-y-control/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
                 active: false,
               },
               {
@@ -698,7 +695,7 @@ export class SubmenuComponent {
                 id: 16,
                 nombre: 'Plan de Fortalecimiento del MIPG',
                 //url: '/planeacion-gestion-y-control/gestion-documental/317',
-                url: '',
+                url: '/planeacion-gestion-y-control/gestion-documental/317',
                 active: false,
               },
             ],

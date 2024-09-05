@@ -15,6 +15,9 @@ import { RendicionCuentasComponent } from './rendicion-cuentas/rendicion-cuentas
 import { InformeCamaraRepresentantesComponent } from './informe-camara-representantes/informe-camara-representantes.component';
 import { InformesPercepcionComponent } from './informes-percepcion/informes-percepcion.component';
 import { InformacionContableFinancieraComponent } from './informacion-contable-financiera/informacion-contable-financiera.component';
+import { InformesEstadoControlInternoComponent } from './informes-estado-control-interno/informes-estado-control-interno.component';
+import { CodigoBuenGobiernoComponent } from './codigo-buen-gobierno/codigo-buen-gobierno.component';
+import { CodigoIntegridadComponent } from './codigo-integridad/codigo-integridad.component';
 
 const routes: Routes = [
   {
@@ -91,6 +94,21 @@ const routes: Routes = [
     path: 'informes-contaduria-general-de-la-nacion/65',
     title: 'Información contable y financiera',
     component: InformacionContableFinancieraComponent,
+  },
+  {
+    path: 'informes-del-estado-del-control-interno/68',
+    title: 'Informes del Estado del Control Interno',
+    component: InformesEstadoControlInternoComponent,
+  },
+  {
+    path: 'codigo-de-buen-gobierno/39',
+    title: 'Código de Buen Gobierno',
+    component: CodigoBuenGobiernoComponent,
+  },
+  {
+    path: 'codigo-de-integridad/206',
+    title: 'Código de Integridad',
+    component: CodigoIntegridadComponent,
   },
 ];
 

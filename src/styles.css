@@ -131,7 +131,8 @@
   }
 }
 
-p {
+p,
+li {
   color: var(--gris-o);
 }
 
@@ -545,6 +546,17 @@ a.link-file:hover {
         }
       }
     }
+  }
+}
+
+.lista-general {
+  li {
+    margin-bottom: 0.5rem;
+    line-height: normal;
+  }
+
+  li::marker {
+    color: var(--azul-t);
   }
 }
 
