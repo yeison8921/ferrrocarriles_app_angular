@@ -7,6 +7,8 @@ import { PoliticasigComponent } from './politicasig/politicasig.component';
 import { TalentoHumanoComponent } from './talento-humano/talento-humano.component';
 import { GestionDocumentalComponent } from './gestion-documental/gestion-documental.component';
 import { TransparenciaComponent } from './transparencia/transparencia.component';
+import { MapaSitioComponent } from './mapa-sitio/mapa-sitio.component';
+import { ObjetivosinstComponent } from './objetivosinst/objetivosinst.component';
 
 const routes: Routes = [
   {
@@ -43,6 +45,16 @@ const routes: Routes = [
     path: 'directorio-general-funcionarios-fps/192',
     title: 'Directorio General Funcionarios FPS',
     component: DirectorioGeneralFuncionariosComponent,
+  },
+  {
+    path: 'mapa-del-sitio/238',
+    title: 'Mapa del sitio',
+    component: MapaSitioComponent,
+  },
+  {
+    path: 'objetivos-institucionales/41',
+    title: 'Objetivos institucionales',
+    component: ObjetivosinstComponent,
   },
 ];
 
