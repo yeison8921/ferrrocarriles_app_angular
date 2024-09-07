@@ -1,0 +1,88 @@
+.titulo_h4 {
+  font-family: 'Montserrat-Bold';
+  text-align: start;
+  font-size: 1.2rem;
+
+  i {
+    background-color: var(--azul-t);
+    color: white;
+  }
+
+  span {
+    background-color: white;
+    color: var(--azul-t);
+    z-index: 1;
+  }
+}
+
+.titulo_h4::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  left: 0px;
+  top: 50%;
+  background: var(--azul-t);
+  z-index: 0;
+}
+
+.separador {
+  border-bottom: var(--azul-t) 2px solid;
+  margin-left: 40px;
+}
+
+.comment {
+  background-color: var(--blanco-o);
+
+  .header-comment {
+    border-bottom: var(--azul-c) 2px solid;
+
+    label {
+      font-family: 'Montserrat-Regular';
+      font-size: 1.2rem;
+      line-height: 1rem;
+    }
+
+    strong {
+      font-family: 'Montserrat-Bold';
+    }
+  }
+
+  .body-comment {
+    i {
+      font-size: 3rem;
+      color: var(--azul-t);
+    }
+
+    .user {
+      span {
+        font-family: 'WorkSans-Regular';
+      }
+
+      p {
+        font-family: "WorkSans-Light";
+      }
+    }
+  }
+
+  .header-comment,
+  .user,
+  .user p {
+    color: var(--azul-o);
+  }
+}
+
+.comment::before {
+  background: var(--amarillo);
+  content: '';
+  display: inline-block;
+  height: 60%;
+  left: -5.5px;
+  position: absolute;
+  top: calc(45% - 25%);
+  width: 10px;
+}
+
+.respuesta::before {
+  background: var(--azul-t);
+}

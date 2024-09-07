@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { EncuestaSatisfaccionComponent } from '../atencion-al-usuario/encuesta-satisfaccion/encuesta-satisfaccion.component';
 import { OfertasLaboralesComponent } from '../atencion-al-usuario/ofertas-laborales/ofertas-laborales.component';
 import { GlosarioComponent } from '../atencion-al-usuario/glosario/glosario.component';
+import { ForoComponent } from './foro/foro.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
     path: 'glosario/117',
     title: 'Glosario',
     component: GlosarioComponent,
+  },
+  {
+    path: 'foro/126',
+    title: 'Foro',
+    component: ForoComponent,
   },
 ];
 
