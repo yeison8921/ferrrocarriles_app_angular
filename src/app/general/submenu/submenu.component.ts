@@ -77,8 +77,7 @@ export class SubmenuComponent {
           {
             id: 9,
             nombre: 'Entidades que nos regulan',
-            //url: '/corporativo/entidades-que-nos-regulan/45',
-            url: '',
+            url: '/corporativo/entidades-que-nos-regulan/45',
             active: false,
           },
           {
@@ -129,8 +128,7 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Directorio de Entidades',
-            //url: '/corporativo/directorio-de-entidades/209',
-            url: '',
+            url: '/corporativo/directorio-de-entidades/209',
             active: false,
           },
           {
