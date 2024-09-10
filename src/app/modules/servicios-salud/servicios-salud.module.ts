@@ -22,6 +22,7 @@ import { GestionDelRiesgo262Component } from './gestion-del-riesgo-262/gestion-d
 import { GestionDelRiesgo263Component } from './gestion-del-riesgo-263/gestion-del-riesgo-263.component';
 import { GestionDelRiesgo264Component } from './gestion-del-riesgo-264/gestion-del-riesgo-264.component';
 import { GestionDelRiesgo265Component } from './gestion-del-riesgo-265/gestion-del-riesgo-265.component';
+import { AfiliadosComponent } from './afiliados/afiliados.component';
 
 const routes: Routes = [
   {
@@ -133,13 +134,11 @@ const routes: Routes = [
     title: 'Programa de atención para la Cesación de Tabaco',
     component: GestionDelRiesgo265Component,
   },
-
-  
-  
-  
-  
-  
-
+  {
+    path: 'afiliados/242',
+    title: 'Afiliados',
+    component: AfiliadosComponent,
+  },
 ];
 
 @NgModule({
