@@ -25,7 +25,7 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/01. 2023/INDICADORES ESTRATEGICOS 2023.pdf',
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2023/INDICADORES ESTRATEGICOS 2023.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES ESTRATEGICOS 2023.pdf',
               },
@@ -37,19 +37,19 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/02. 2020/FORMULACION DE INDICADORES_ESTRATEGICOS.PDF',
+                url: 'assets/files/indicador/Indicadores Estrategicos/02. 2020/FORMULACION DE INDICADORES_ESTRATEGICOS.pdf',
                 tipo: 'pdf',
-                nombre: 'FORMULACION DE INDICADORES_ESTRATEGICOS.PDF',
+                nombre: 'FORMULACION DE INDICADORES_ESTRATEGICOS.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/02. 2020/INDICADORES_ESTRATEGICOS_I2020.pdf',
+                url: 'assets/files/indicador/Indicadores Estrategicos/02. 2020/INDICADORES_ESTRATEGICOS_I2020.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES_ESTRATEGICOS_I2020.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/02. 2020/INDICADORES_ESTRATEGICOS_II2020.pdf',
+                url: 'assets/files/indicador/Indicadores Estrategicos/02. 2020/INDICADORES_ESTRATEGICOS_II2020.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES_ESTRATEGICOS_II2020.pdf',
               },
@@ -61,15 +61,15 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/03. 2019/INDICADORES_ESTRATEGICOS_I2019.PDF',
+                url: 'assets/files/indicador/Indicadores Estrategicos/03. 2019/INDICADORES_ESTRATEGICOS_I2019.pdf',
                 tipo: 'pdf',
-                nombre: 'INDICADORES_ESTRATEGICOS_I2019.PDF',
+                nombre: 'INDICADORES_ESTRATEGICOS_I2019.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores Estrategicos/03. 2019/INDICADORES_ESTRATEGICOS_II2019.PDF',
+                url: 'assets/files/indicador/Indicadores Estrategicos/03. 2019/INDICADORES_ESTRATEGICOS_II2019.pdf',
                 tipo: 'pdf',
-                nombre: 'INDICADORES_ESTRATEGICOS_II2019.PDF',
+                nombre: 'INDICADORES_ESTRATEGICOS_II2019.pdf',
               },
             ],
           },
@@ -85,7 +85,7 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de Gestión/01. 2023/INDICADORES DE GESTIÓN FPS FNC 2023 (1).pdf',
+                url: 'assets/files/indicador/Indicadores de Gestión/01. 2023/INDICADORES DE GESTIÓN FPS FNC 2023 (1).pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES DE GESTIÓN FPS FNC 2023 (1).pdf',
               },
@@ -97,13 +97,13 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de Gestión/02. 2022/01 MATRIZ DE INDICADORES  DE GESTIÓN 2022.xlsx',
+                url: 'assets/files/indicador/Indicadores de Gestión/02. 2022/01 MATRIZ DE INDICADORES  DE GESTIÓN 2022.xlsx',
                 tipo: 'excel',
                 nombre: 'ATRIZ DE INDICADORES DE GESTIÓN 2022.xlsx',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de Gestión/02. 2022/02 MATRIZ DE INDICADORES  DE GESTION II SEMESTRE 2022.xlsx',
+                url: 'assets/files/indicador/Indicadores de Gestión/02. 2022/02 MATRIZ DE INDICADORES  DE GESTION II SEMESTRE 2022.xlsx',
                 tipo: 'excel',
                 nombre:
                   '02 MATRIZ DE INDICADORES DE GESTION II SEMESTRE 2022.xlsx',
@@ -116,7 +116,7 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de Gestión/03. 2021/CONSOLIDADO INDICADORES DE GESTIÓN FPS SEMESTRE I Y II 2021.xlsx',
+                url: 'assets/files/indicador/Indicadores de Gestión/03. 2021/CONSOLIDADO INDICADORES DE GESTIÓN FPS SEMESTRE I Y II 2021.xlsx',
                 tipo: 'excel',
                 nombre:
                   'CONSOLIDADO INDICADORES DE GESTIÓN FPS SEMESTRE I Y II 2021.xlsx',
@@ -135,19 +135,19 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de procesos/01. 2020/FORMULACION DE INDICADORES_PROCESO.PDF',
+                url: 'assets/files/indicador/Indicadores de procesos/01. 2020/FORMULACION DE INDICADORES_PROCESO.pdf',
                 tipo: 'pdf',
-                nombre: 'FORMULACION DE INDICADORES_PROCESO.PDF',
+                nombre: 'FORMULACION DE INDICADORES_PROCESO.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de procesos/01. 2020/INDICADORES_POR_PROCESO_I2020.pdf',
+                url: 'assets/files/indicador/Indicadores de procesos/01. 2020/INDICADORES_POR_PROCESO_I2020.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES_POR_PROCESO_I2020.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de procesos/01. 2020/INDICADORES_POR_PROCESO_II2020.pdf',
+                url: 'assets/files/indicador/Indicadores de procesos/01. 2020/INDICADORES_POR_PROCESO_II2020.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES_POR_PROCESO_II2020.pdf',
               },
@@ -159,15 +159,15 @@ export class IndicadoresGestionComponent {
             files: [
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de procesos/02. 2019/INDICADORES_PROCESO_I2019.PDF',
+                url: 'assets/files/indicador/Indicadores de procesos/02. 2019/INDICADORES_PROCESO_I2019.pdf',
                 tipo: 'pdf',
-                nombre: 'INDICADORES_PROCESO_I2019.PDF',
+                nombre: 'INDICADORES_PROCESO_I2019.pdf',
               },
               {
                 id: 1,
-                url: '/files/indicador/Indicadores de procesos/02. 2019/INDICADORES_PROCESO_II2019.PDF',
+                url: 'assets/files/indicador/Indicadores de procesos/02. 2019/INDICADORES_PROCESO_II2019.pdf',
                 tipo: 'pdf',
-                nombre: 'INDICADORES_PROCESO_II2019.PDF',
+                nombre: 'INDICADORES_PROCESO_II2019.pdf',
               },
             ],
           },

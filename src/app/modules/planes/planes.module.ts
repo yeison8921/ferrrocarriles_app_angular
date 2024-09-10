@@ -16,6 +16,7 @@ import { ProyectosInversionComponent } from './proyectos-inversion/proyectos-inv
 import { PlanAdquisicionesComponent } from './plan-adquisiciones/plan-adquisiciones.component';
 import { GestionDocumentalComponent } from './gestion-documental/gestion-documental.component';
 import { PlaneacionGestionYControlComponent } from './planeacion-gestion-y-control/planeacion-gestion-y-control.component';
+import { PlanmipgComponent } from './planmipg/planmipg.component';
 
 const routes: Routes = [
   {
@@ -97,6 +98,11 @@ const routes: Routes = [
     path: 'gestion-documental/203',
     component: GestionDocumentalComponent,
     title: 'Gestión documental',
+  },
+  {
+    path: 'gestion-documental/317',
+    component: PlanmipgComponent,
+    title: 'Plan de fortalecimiento del MIPG',
   },
 ];
 

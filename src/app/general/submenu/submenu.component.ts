@@ -41,8 +41,7 @@ export class SubmenuComponent {
           {
             id: 2,
             nombre: 'Mapa del Sitio',
-            //url: '/corporativo/mapa-del-sitio/238',
-            url: '',
+            url: '/corporativo/mapa-del-sitio/238',
             active: false,
           },
           {
@@ -66,22 +65,19 @@ export class SubmenuComponent {
           {
             id: 7,
             nombre: 'Objetivos Institucionales',
-            //url: '/corporativo/objetivos-institucionales/41',
-            url: '',
+            url: '/corporativo/objetivos-institucionales/41',
             active: false,
           },
           {
             id: 8,
             nombre: 'Información General',
-            //url: '/corporativo/informacion-general/42',
-            url: '',
+            url: '/corporativo/informacion-general/42',
             active: false,
           },
           {
             id: 9,
             nombre: 'Entidades que nos regulan',
-            //url: '/corporativo/entidades-que-nos-regulan/45',
-            url: '',
+            url: '/corporativo/entidades-que-nos-regulan/45',
             active: false,
           },
           {
@@ -120,8 +116,7 @@ export class SubmenuComponent {
           {
             id: 15,
             nombre: 'Organigrama',
-            //url: '/corporativo/organigrama/48',
-            url: '',
+            url: '/corporativo/organigrama/48',
             active: false,
           },
           {
@@ -133,22 +128,19 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Directorio de Entidades',
-            //url: '/corporativo/directorio-de-entidades/209',
-            url: '',
+            url: '/corporativo/directorio-de-entidades/209',
             active: false,
           },
           {
             id: 18,
             nombre: 'Directorio de Contratistas',
-            //url: '/corporativo/directorio-de-contratistas-fps/221',
-            url: '',
+            url: '/corporativo/directorio-de-contratistas-fps/221',
             active: false,
           },
           {
             id: 19,
             nombre: 'Registro de Publicaciones',
-            //url: '/corporativo/registro-de-publicaciones/216',
-            url: '',
+            url: '/corporativo/registro-de-publicaciones/216',
             active: false,
           },
           {
@@ -267,8 +259,7 @@ export class SubmenuComponent {
           {
             id: 20,
             nombre: 'Foro',
-            //url: '/atencion-al-usuario/foro/126',
-            url: '',
+            url: '/atencion-al-usuario/foro/126',
             active: false,
           },
           {
@@ -507,8 +498,7 @@ export class SubmenuComponent {
               {
                 id: 5,
                 nombre: 'Información contable y financiera',
-                //url: '/informes/informes-contaduria-general-de-la-nacion/65',
-                url: '',
+                url: '/informes/informes-contaduria-general-de-la-nacion/65',
                 active: false,
               },
               {
@@ -539,15 +529,13 @@ export class SubmenuComponent {
                 id: 10,
                 nombre:
                   'Informe de Percepción de Satisfacción al Usuario Post Trámite',
-                //url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
-                url: '',
+                url: '/informes/informes-de-percepcion-de-la-satistfaccion-al-usuario-post-tramite/189',
                 active: false,
               },
               {
                 id: 11,
                 nombre: 'Informes del Estado del Control Interno',
-                //url: '/informes/informes-del-estado-del-control-interno/68',
-                url: '',
+                url: '/informes/informes-del-estado-del-control-interno/68',
                 active: false,
               },
               {
@@ -583,15 +571,13 @@ export class SubmenuComponent {
               {
                 id: 17,
                 nombre: 'Código de Buen Gobierno',
-                //url: '/informes/codigo-de-buen-gobierno/39',
-                url: '',
+                url: '/informes/codigo-de-buen-gobierno/39',
                 active: false,
               },
               {
                 id: 17,
                 nombre: 'Código de Integridad',
-                //url: '/informes/codigo-de-integridad/206',
-                url: '',
+                url: '/informes/codigo-de-integridad/206',
                 active: false,
               },
             ],
@@ -607,7 +593,7 @@ export class SubmenuComponent {
                 nombre:
                   'Plan estratégico de tecnologías de la información y las comunicaciones',
                 /*url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',*/
-                url: '',
+                url: '/planeacion-gestion-y-control/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
                 active: false,
               },
               {
@@ -700,7 +686,7 @@ export class SubmenuComponent {
                 id: 16,
                 nombre: 'Plan de Fortalecimiento del MIPG',
                 //url: '/planeacion-gestion-y-control/gestion-documental/317',
-                url: '',
+                url: '/planeacion-gestion-y-control/gestion-documental/317',
                 active: false,
               },
             ],

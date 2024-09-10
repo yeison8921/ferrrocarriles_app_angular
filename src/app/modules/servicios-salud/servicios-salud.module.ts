@@ -8,6 +8,8 @@ import { ZonaAntioquiaComponent } from './zona-antioquia/zona-antioquia.componen
 import { ZonaCafeteraComponent } from './zona-cafetera/zona-cafetera.component';
 import { ZonaCentroComponent } from './zona-centro/zona-centro.component';
 import { ZonaPacificoComponent } from './zona-pacifico/zona-pacifico.component';
+import { ServiciosExcluidosComponent } from './servicios-excluidos/servicios-excluidos.component';
+import { ServiciosIncluidosComponent } from './servicios-incluidos/servicios-incluidos.component';
 
 const routes: Routes = [
   {
@@ -48,6 +50,16 @@ const routes: Routes = [
     path: 'zona-pacifico/106',
     title: 'Zona Pacífico',
     component: ZonaPacificoComponent,
+  },
+  {
+    path: 'afiliados/256',
+    title: 'Servicios incluidos en el plan de beneficios',
+    component: ServiciosIncluidosComponent,
+  },
+  {
+    path: 'afiliados/257',
+    title: 'Servicios Excluidos en el Plan de Beneficios',
+    component: ServiciosExcluidosComponent,
   },
 
 ];

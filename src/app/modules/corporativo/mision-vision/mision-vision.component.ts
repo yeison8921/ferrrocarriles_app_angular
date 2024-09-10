@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './mision-vision.component.css',
 })
 export class MisionVisionComponent {
-  items = ['2022', '2021', '2020'];
+
 }

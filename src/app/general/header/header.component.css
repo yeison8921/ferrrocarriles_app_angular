@@ -4,6 +4,12 @@ header {
     top: 0;
 }
 
+.oculto {
+    position: relative;
+    opacity: 0;
+    z-index: -1000;
+}
+
 .div-logo {
     justify-content: center;
 }

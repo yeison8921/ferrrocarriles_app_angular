@@ -1,0 +1,41 @@
+<h1 class="titulo-h1 mb-4">MAPA DEL SITIO</h1>
+
+<h2>
+  <a class="titulo-h2" href="/">
+    Inicio
+  </a>
+</h2>
+
+  <ul class="lista-general" *ngFor="let item of items">
+    <h2>
+      <a class="titulo-h2" href="{{ item.url }}">
+        {{ item.name }}
+      </a>
+    </h2>
+
+
+    <section *ngFor="let pagina of item.paginas">
+      @if (pagina.pagina) {
+        <h3>
+          <a class="titulo-h3" href="{{ pagina.url }}">
+            {{ pagina.name }}
+          </a>
+        </h3>
+      }
+      @else {
+        <li>
+        <a href="{{ pagina.url }}"
+          >
+            {{ pagina.name }}
+        </a>
+      </li>
+    }
+        <li *ngFor="let pag of pagina.pagina">
+          <a
+              href="{{ pag.url }}"
+              >
+                {{ pag.name }}
+            </a>
+          </li>
+    </section>
+  </ul>

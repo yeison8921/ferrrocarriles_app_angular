@@ -24,10 +24,9 @@ export interface AcordionAnidadoFiles {
   files?: File[];
 }
 
-export interface AcordionAnidado
-{
+export interface AcordionAnidado {
   id: number;
   nombre: string;
-  acordion: AcordionAnidadoFiles[];
+  acordion?: AcordionAnidadoFiles[];
   files?: File[];
 }

@@ -6,6 +6,7 @@ import { GlosarioComponent } from '../atencion-al-usuario/glosario/glosario.comp
 import { CanalInteraccionComponent } from '../atencion-al-usuario/canal-interaccion/canal-interaccion.component';
 import { EncuestaEvaluacionComponent } from '../atencion-al-usuario/encuesta-evaluacion/encuesta-evaluacion.component';
 import { BuzonNotificacionesJudicialesComponent } from '../atencion-al-usuario/buzon-notificaciones-judiciales/buzon-notificaciones-judiciales.component';
+import { ForoComponent } from './foro/foro.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,11 @@ const routes: Routes = [
     path: 'buzon-notificaciones-judiciales/43',
     title: 'Buzón notificaciones judiciales',
     component: BuzonNotificacionesJudicialesComponent,
+  },
+  {
+    path: 'foro/126',
+    title: 'Foro',
+    component: ForoComponent,
   },
 ];
 
