@@ -41,8 +41,7 @@ export class SubmenuComponent {
           {
             id: 2,
             nombre: 'Mapa del Sitio',
-            //url: '/corporativo/mapa-del-sitio/238',
-            url: '',
+            url: '/corporativo/mapa-del-sitio/238',
             active: false,
           },
           {
@@ -66,22 +65,19 @@ export class SubmenuComponent {
           {
             id: 7,
             nombre: 'Objetivos Institucionales',
-            //url: '/corporativo/objetivos-institucionales/41',
-            url: '',
+            url: '/corporativo/objetivos-institucionales/41',
             active: false,
           },
           {
             id: 8,
             nombre: 'Información General',
-            //url: '/corporativo/informacion-general/42',
-            url: '',
+            url: '/corporativo/informacion-general/42',
             active: false,
           },
           {
             id: 9,
             nombre: 'Entidades que nos regulan',
-            //url: '/corporativo/entidades-que-nos-regulan/45',
-            url: '',
+            url: '/corporativo/entidades-que-nos-regulan/45',
             active: false,
           },
           {
@@ -120,8 +116,7 @@ export class SubmenuComponent {
           {
             id: 15,
             nombre: 'Organigrama',
-            //url: '/corporativo/organigrama/48',
-            url: '',
+            url: '/corporativo/organigrama/48',
             active: false,
           },
           {
@@ -133,22 +128,19 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Directorio de Entidades',
-            //url: '/corporativo/directorio-de-entidades/209',
-            url: '',
+            url: '/corporativo/directorio-de-entidades/209',
             active: false,
           },
           {
             id: 18,
             nombre: 'Directorio de Contratistas',
-            //url: '/corporativo/directorio-de-contratistas-fps/221',
-            url: '',
+            url: '/corporativo/directorio-de-contratistas-fps/221',
             active: false,
           },
           {
             id: 19,
             nombre: 'Registro de Publicaciones',
-            //url: '/corporativo/registro-de-publicaciones/216',
-            url: '',
+            url: '/corporativo/registro-de-publicaciones/216',
             active: false,
           },
           {
@@ -267,8 +259,7 @@ export class SubmenuComponent {
           {
             id: 20,
             nombre: 'Foro',
-            //url: '/atencion-al-usuario/foro/126',
-            url: '',
+            url: '/atencion-al-usuario/foro/126',
             active: false,
           },
           {

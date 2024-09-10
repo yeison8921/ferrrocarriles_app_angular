@@ -13,6 +13,8 @@ import { DirectorioDeContratistasFpsComponent } from './directorio-de-contratist
 import { RegistroDePublicacionesComponent } from './registro-de-publicaciones/registro-de-publicaciones.component';
 import { MapaSitioComponent } from './mapa-sitio/mapa-sitio.component';
 import { ObjetivosinstComponent } from './objetivosinst/objetivosinst.component';
+import { EntidadesRegulanComponent } from './entidades-regulan/entidades-regulan.component';
+import { DirectorioEntidadesComponent } from './directorio-entidades/directorio-entidades.component';
 
 const routes: Routes = [
   {
@@ -79,6 +81,16 @@ const routes: Routes = [
     path: 'objetivos-institucionales/41',
     title: 'Objetivos institucionales',
     component: ObjetivosinstComponent,
+  },
+  {
+    path: 'entidades-que-nos-regulan/45',
+    title: 'Entidades que nos regulan',
+    component: EntidadesRegulanComponent,
+  },
+  {
+    path: 'directorio-de-entidades/209',
+    title: 'Directorio de Entidades',
+    component: DirectorioEntidadesComponent,
   },
 ];
 

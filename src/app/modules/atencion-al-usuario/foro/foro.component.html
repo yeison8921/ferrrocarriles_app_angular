@@ -1,0 +1,62 @@
+<h1 class="titulo-h1">FORO</h1>
+<h3 class="titulo-h3">
+  AUDIENCIA PÚBLICA DE RENDICIÓN DE CUENTAS VIGENCIA 2023
+</h3>
+<p>
+  Buenos días, Usuarios, ciudadanía y demás grupos de interés del servicio que
+  presta el Fondo de Pasivo Social - Ferrocarriles Nacionales de Colombia, damos
+  la bienvenida a todos los que participarán en nuestra AUDIENCIA PÚBLICA DE
+  RENDICIÓN DE CUENTAS, espacio que nos permitirá tratar los temas concernientes
+  a la gestión vigencia 2023, recomendaciones y observaciones recibidas.
+</p>
+<h5 class="titulo-h5 pt-3 mb-2">
+  <span>
+    <i class="fa-regular fa-comment-dots"></i>
+    COMENTARIOS
+  </span>
+</h5>
+<div *ngFor="let comentario of comentarios" class="py-3 separador">
+  <div class="comment position-relative">
+    <div class="header-comment mx-3 pt-3">
+      <label class="col-12">Comentario</label>
+      <strong>N° {{ comentario.id }}</strong>
+    </div>
+    <div class="body-comment p-3 col-12 d-flex">
+      <i class="fa-sharp fa-regular fa-circle-user me-2"></i>
+      <div class="contenido">
+        <div class="user">
+          <span>{{ comentario.nombreUsuario }}</span>
+          <p>{{ comentario.fechaHora }}</p>
+        </div>
+        <p class="m-0">
+          {{ comentario.comentario }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    *ngFor="let respuesta of comentario.respuestas"
+    class="comment respuesta position-relative mt-3"
+  >
+    <div class="header-comment mx-3 pt-3">
+      <label class="col-12">Respuesta</label>
+      <strong>N° {{ comentario.id }}</strong>
+    </div>
+    <div class="body-comment p-3 col-12 d-flex">
+      <i class="fa-sharp fa-regular fa-circle-user me-2"></i>
+      <div class="contenido">
+        <div class="user">
+          <span>{{ respuesta.nombreUsuario }}</span>
+          <p>{{ respuesta.fechaHora }}</p>
+        </div>
+        <p>
+          Respetado(a) Señor(a):<br />
+          <b>{{ comentario.nombreUsuario }}</b>
+        </p>
+        <p class="m-0">
+          {{ respuesta.comentario }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

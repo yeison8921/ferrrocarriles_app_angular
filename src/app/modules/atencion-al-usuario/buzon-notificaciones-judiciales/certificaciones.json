@@ -1,0 +1,28 @@
+[
+  {
+    "name": "CERTIFICACIONES NOTIFICACIONES POR AVISO",
+    "files": [
+      {
+        "href": "assets/files/atencion_al_usuario/certificaciones/CERTIFICACION RES 0607.pdf",
+        "name": "CERTIFICACION RES 0607.pdf",
+        "type": "pdf"
+      },
+      {
+        "href": "assets/files/atencion_al_usuario/certificaciones/CERTIFICACION RES 1191.pdf",
+        "name": "CERTIFICACION RES 1191.pdf",
+        "type": "pdf"
+      },
+      {
+        "href": "assets/files/atencion_al_usuario/certificaciones/CERTIFICACION RES 1280.pdf",
+        "name": "CERTIFICACION RES 1280.pdf",
+        "type": "pdf"
+      },
+      {
+        "href": "assets/files/atencion_al_usuario/certificaciones/CERTIFICACION RES 1351.pdf",
+        "name": "CERTIFICACION RES 1351.pdf",
+        "type": "pdf"
+      }
+    ],
+    "subaccordion": []
+  }
+]

@@ -4,9 +4,6 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import arrayGlosario from './glosario.json';
 import { Glosario } from './glosario';
 
-
-
-
 @Component({
   selector: 'app-glosario',
   standalone: true,

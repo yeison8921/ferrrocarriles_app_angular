@@ -1,0 +1,84 @@
+<div>
+  <h1 class="titulo-h1">BUZÓN NOTIFICACIONES JUDICIALES</h1>
+
+  <p class="mb-3 mt-3">
+    De conformidad con lo previsto en el artículo 69 de la Ley 1437 de 2011 “Por
+    la cual se expide el Código de Procedimiento Administrativo y de lo
+    Contencioso Administrativo.” Que establece: "Cuando se desconozca la
+    información sobre el destinatario, el aviso, con copia íntegra del acto
+    administrativo, se publicará en la página electrónica y en todo caso en un
+    lugar de acceso al público de la respectiva entidad por el término de cinco
+    (5) días, con la advertencia de que la notificación se considerará surtida
+    al finalizar el día siguiente del retiro del aviso”.
+  </p>
+  <p class="mb-3 mt-3">
+    Buzón Notificaciones Judiciales:
+    <strong
+      ><a href="mailto:notificacionesjudiciales@fps.gov.co"
+        >notificacionesjudiciales&#64;fps.gov.co</a
+      ></strong
+    >
+  </p>
+
+  <h2 class="titulo-h2">
+    <span class="icon govco-server"></span>Listado de documentos
+  </h2>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let certificacion of certificaciones; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span>
+          {{ certificacion.name }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <div *ngIf="certificacion.subaccordion">
+              <a
+                class="link-file"
+                href="{{ file.href }}"
+                target="_blank"
+                *ngFor="let file of certificacion.files; let i = index"
+                ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+                >{{ file.name }}</a
+              >
+              <div
+                *ngFor="
+                  let accordion of certificacion.subaccordion;
+                  let i = index
+                "
+                class="mb-3 mt-3"
+              >
+                <h4 class="titulo-h4">
+                  <span>{{ i + 1 }}</span>
+                  {{ accordion.name }}
+                </h4>
+                <a
+                  class="link-file"
+                  *ngFor="let file of accordion.files; let i = index"
+                  href="{{ file.href }}"
+                  target="_blank"
+                  ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+                  >{{ file.name }}</a
+                >
+              </div>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngFor="let documento of documentos; let i = index" class="mt-3">
+    <a class="link-file" href="{{ documento.href }}" target="_blank"
+      ><i class="bi bi-file-earmark-{{ documento.type }}-fill"></i
+      >{{ documento.text }}</a
+    >
+  </div>
+</div>

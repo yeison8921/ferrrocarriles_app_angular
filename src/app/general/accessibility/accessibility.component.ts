@@ -69,13 +69,6 @@ export class AccessibilityComponent implements OnInit {
       var htmlElement = document.documentElement;
       htmlElement.classList.remove(this.class[previous]);
       htmlElement.classList.add(this.class[next]);
-      this.setHeight();
     }
-  }
-
-  private setHeight() {
-    let height = document.getElementById('header')?.offsetHeight;
-    this.renderer.setStyle(this.domElement, 'display', 'block');
-    this.renderer.setStyle(this.domElement, 'margin-top', `${height}px`);
   }
 }
