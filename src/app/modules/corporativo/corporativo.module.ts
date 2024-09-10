@@ -15,6 +15,7 @@ import { MapaSitioComponent } from './mapa-sitio/mapa-sitio.component';
 import { ObjetivosinstComponent } from './objetivosinst/objetivosinst.component';
 import { EntidadesRegulanComponent } from './entidades-regulan/entidades-regulan.component';
 import { DirectorioEntidadesComponent } from './directorio-entidades/directorio-entidades.component';
+import { EntidadComponent } from './entidad/entidad.component';
 
 const routes: Routes = [
   {
@@ -91,6 +92,11 @@ const routes: Routes = [
     path: 'directorio-de-entidades/209',
     title: 'Directorio de Entidades',
     component: DirectorioEntidadesComponent,
+  },
+  {
+    path: 'la-entidad/15',
+    title: 'La Entidad',
+    component: EntidadComponent,
   },
 ];
 
