@@ -73,7 +73,7 @@ export class MenuComponent {
       {
         id: 5,
         nombre: 'LA ENTIDAD',
-        url: '/#',
+        url: '/corporativo/la-entidad/15',
         active: false,
         submenu: [],
       },
@@ -100,7 +100,7 @@ export class MenuComponent {
           {
             id: 14,
             nombre: 'Cobertura de Operación y Red de Prestadores de Salud',
-            url: '/#',
+            url: '/servicios-de-salud/red-de-prestadores/44',
             active: false,
             submenu: [],
           },
@@ -128,7 +128,7 @@ export class MenuComponent {
           {
             id: 18,
             nombre: 'Afiliados',
-            url: '/#',
+            url: '/servicios-de-salud/afiliados/242',
             active: false,
             submenu: [],
           },

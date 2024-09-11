@@ -34,8 +34,7 @@ export class SubmenuComponent {
           {
             id: 1,
             nombre: 'La Entidad',
-            //url: '/corporativo/la-entidad/15',
-            url: '',
+            url: '/corporativo/la-entidad/15',
             active: false,
           },
           {
@@ -225,8 +224,7 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Buzón Notificaciones Judiciales',
-            //url: '/atencion-al-usuario/buzon-notificaciones-judiciales/43',
-            url: '',
+            url: '/atencion-al-usuario/buzon-notificaciones-judiciales/43',
             active: false,
           },
           {
@@ -285,8 +283,7 @@ export class SubmenuComponent {
             id: 3,
             nombre:
               'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
-            //url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
-            url: '',
+            url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
             active: false,
           },
           {
@@ -300,8 +297,7 @@ export class SubmenuComponent {
             id: 1,
             nombre:
               'Canal de interacción de liberatoria para la participación ciudadana',
-            //url: '/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240',
-            url: '',
+            url: '/atencion-al-usuario/canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240',
             active: false,
           },
         ],
@@ -415,17 +411,9 @@ export class SubmenuComponent {
             active: false,
           },
           {
-            id: 2,
-            nombre: 'Afiliados',
-            //url: '/servicios-de-salud/afiliados/242',
-            url: '',
-            active: false,
-          },
-          {
             id: 3,
             nombre: 'Cobertura de Operación y Red de Prestadores de Salud',
-            //url: '/servicios-de-salud/red-de-prestadores/44',
-            url: '',
+            url: '/servicios-de-salud/red-de-prestadores/44',
             active: false,
           },
           {
@@ -446,6 +434,12 @@ export class SubmenuComponent {
             id: 6,
             nombre: 'Indicadores de Salud',
             url: '/servicios-de-salud/indicadores-de-salud/190',
+            active: false,
+          },
+          {
+            id: 2,
+            nombre: 'Afiliados',
+            url: '/servicios-de-salud/afiliados/242',
             active: false,
           },
           {
@@ -592,7 +586,6 @@ export class SubmenuComponent {
                 id: 1,
                 nombre:
                   'Plan estratégico de tecnologías de la información y las comunicaciones',
-                /*url: '/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',*/
                 url: '/planeacion-gestion-y-control/plan-estrategico-de-tecnologias-de-la-informacion-y-las-comunicaciones/201',
                 active: false,
               },
@@ -685,7 +678,6 @@ export class SubmenuComponent {
               {
                 id: 16,
                 nombre: 'Plan de Fortalecimiento del MIPG',
-                //url: '/planeacion-gestion-y-control/gestion-documental/317',
                 url: '/planeacion-gestion-y-control/gestion-documental/317',
                 active: false,
               },
@@ -791,8 +783,7 @@ export class SubmenuComponent {
           {
             id: 4,
             nombre: 'Ventanilla Virtual',
-            //url: '/tramites-y-servicios/ventanilla-virtual/55',
-            url: '',
+            url: '/tramites-y-servicios/ventanilla-virtual/55',
             active: false,
           },
         ],
