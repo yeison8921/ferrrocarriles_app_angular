@@ -1,0 +1,347 @@
+.contenedor {
+  background: linear-gradient(#78d6e2, #1caec3);
+}
+
+.definicion,
+.compromiso {
+  background-image: url(/assets/img/kids/img-2.png);
+  background-position: center 60%;
+  background-repeat: no-repeat;
+
+  .texto {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "WorkSans-Bold";
+  }
+
+  h1 {
+    font-size: 1.2rem;
+
+    span {
+      color: #ffd234;
+    }
+  }
+
+  p {
+    color: white;
+    font-family: "Montserrat-Regular";
+    line-height: normal;
+    font-size: 0.8em;
+    width: 90%;
+    margin: auto;
+  }
+
+  .imagen {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider {
+    width: 100%;
+  }
+}
+
+.compromiso {
+  background-image: url(/assets/img/kids/img-4.png);
+  background-position: 20% 100%;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-color: #2267b7;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .slider {
+    padding-bottom: 2%;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: grab;
+
+    img,
+    >div {
+      display: inline-block;
+      -webkit-user-drag: none;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
+  }
+
+  .botones {
+    display: flex;
+    justify-content: center;
+
+    button {
+      font-size: 3rem;
+      color: white;
+    }
+
+    button:hover {
+      color: var(--azul-o);
+    }
+  }
+}
+
+.descarga {
+  background-image: url(/assets/img/kids/img-5.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  h1 {
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-family: "WorkSans-Bold";
+    color: white;
+
+    span {
+      color: #ffd234;
+    }
+  }
+
+  .div-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 30%;
+
+    .slide {
+      width: 80%;
+
+      .carousel-control-prev {
+        left: -15%;
+      }
+    }
+  }
+
+
+  .imagen-ninio,
+  .imagen-ninia {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 29%;
+  }
+
+  .imagen-ninia {
+    right: 10%;
+  }
+}
+
+.ministerio {
+  background-image: url(/assets/img/kids/img-8.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat-Regular";
+
+  a {
+    font-size: 2rem;
+    font-family: "WorkSans-Bold";
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--azul-o);
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .imagen {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 80%;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+
+  .definicion,
+  .compromiso {
+    margin-top: -5%;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1rem;
+      padding-top: 20px;
+    }
+  }
+
+  .descarga h1,
+  .compromiso h1 {
+    font-size: 2rem !important;
+  }
+
+  .imagen {
+    img {
+      width: 70%;
+    }
+  }
+
+  .compromiso {
+    background-position: 0 105%;
+    background-size: 100%;
+    margin-top: 0;
+
+    .texto {
+      width: 70% !important;
+    }
+
+    .slider img,
+    .slider>div {
+      width: 50%;
+    }
+  }
+
+  .ministerio .imagen img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .definicion,
+  .compromiso {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .descarga h1,
+  .compromiso h1,
+  .ministerio a {
+    font-size: 3rem !important;
+  }
+
+  .imagen {
+    img {
+      width: 50%;
+    }
+  }
+
+  .ministerio .imagen img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .definicion,
+  .compromiso {
+    background-image: none;
+    background-color: transparent;
+    margin-top: -10%;
+
+    .texto,
+    .imagen,
+    .slider {
+      position: absolute;
+    }
+
+    .texto {
+      width: 60%;
+      top: 15%;
+    }
+
+    .imagen {
+      right: 0;
+      bottom: 10%;
+      width: 40%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .compromiso {
+    margin-top: -15%;
+
+    .texto {
+      top: 25% !important;
+    }
+
+    .slider {
+      bottom: 0;
+      padding-bottom: 1%;
+    }
+
+    .botones {
+      position: absolute;
+      top: 40%;
+      right: 10%;
+
+      button {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .descarga {
+
+    .div-slider {
+      padding-bottom: 10%;
+
+      .slide {
+        width: 50%;
+      }
+    }
+
+    .imagen-ninio,
+    .imagen-ninia {
+      height: 50%;
+    }
+
+    .imagen-ninia {
+      right: 5%;
+    }
+  }
+
+  .ministerio .imagen img {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .definicion .texto {
+    top: 20%;
+  }
+
+  .compromiso {
+    margin-top: -25%;
+
+    .texto {
+      top: 30% !important;
+    }
+  }
+
+  .ministerio .imagen img {
+    width: 10%;
+  }
+}
