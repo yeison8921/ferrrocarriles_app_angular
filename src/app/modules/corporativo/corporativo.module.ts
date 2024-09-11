@@ -1,3 +1,4 @@
+import { AsociacionesFerrocarrilesComponent } from './asociaciones-ferrocarriles/asociaciones-ferrocarriles.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MisionVisionComponent } from './mision-vision/mision-vision.component';
@@ -97,6 +98,11 @@ const routes: Routes = [
     path: 'la-entidad/15',
     title: 'La Entidad',
     component: EntidadComponent,
+  },
+  {
+    path: 'asociaciones-ferrocarriles/249',
+    title: 'Aciociaciones ferrocarriles',
+    component: AsociacionesFerrocarrilesComponent,
   },
 ];
 
