@@ -1,0 +1,36 @@
+.cuadro-imagen {
+  background-image: linear-gradient(to right,  var(--azul-o),var(--azul-t), var(--azul-c));
+  border-radius: 20px;
+  width: 20rem;
+  height: 12rem;
+  margin: 1rem;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+/*background-image: linear-gradient(to right, var(--azul-t), var(--azul-c)), url('/assets/img/salud/infancia.jpg');
+.pri {
+  background-image: url('./../../../../assets/img/salud/primera infancia.jpg');
+ }
+ .infancia{
+  background-image:  url('./../../../../assets/img/salud/infancia.jpg');
+ }
+ .adolescencia{
+  background-image:  url('./../../../../assets/img/salud/adolescencia.jpg');
+ }
+ .juventud {
+  background-image:  url('./../../../../assets/img/salud/jovenes.jpg');
+ }
+ .adultez{
+  background-image:  url('./../../../../assets/img/salud/adultos.jpg');
+ }
+ .vejez{
+  background-image:  url('./../../../../assets/img/salud/adultos mayores.jpg');
+ }
+
+h5 {
+  color: var(--azul-o);
+  font-weight: bold;
+  }*/

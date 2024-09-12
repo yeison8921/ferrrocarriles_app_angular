@@ -23,6 +23,7 @@ import { GestionDelRiesgo263Component } from './gestion-del-riesgo-263/gestion-d
 import { GestionDelRiesgo264Component } from './gestion-del-riesgo-264/gestion-del-riesgo-264.component';
 import { GestionDelRiesgo265Component } from './gestion-del-riesgo-265/gestion-del-riesgo-265.component';
 import { AfiliadosComponent } from './afiliados/afiliados.component';
+import { ProgramaPromocionPrevencionComponent } from './programa-promocion-prevencion/programa-promocion-prevencion.component';
 
 const routes: Routes = [
   {
@@ -138,6 +139,11 @@ const routes: Routes = [
     path: 'afiliados/242',
     title: 'Afiliados',
     component: AfiliadosComponent,
+  },
+  {
+    path: 'programa-de-promocion-y-prevencion/132',
+    title: 'Ruta de Promoción y Mantenimiento de la Salud',
+    component: ProgramaPromocionPrevencionComponent
   },
 ];
 
