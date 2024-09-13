@@ -1,1 +1,17 @@
-<p>noticias works!</p>
+<h1 class="titulo-h1">NOTICIAS</h1>
+<div class="row m-0 mb-4 news" *ngFor="let noticia of noticias; let i = index">
+  <div
+    class="imagen"
+    [style]="'background-image: url(' + noticia.imagen + ')'"
+  ></div>
+  <div class="position-relative descripcion py-3 px-4">
+    <div class="header-descripcion pb-2 mb-2">
+      <h2>{{ noticia.titulo }}</h2>
+      <span>{{ noticia.fecha }}</span>
+    </div>
+    <p>
+      {{ noticia.descripcion }}
+    </p>
+    <a class="btn-comun" type="button" href="{{ noticia.url }}"> VER MÁS</a>
+  </div>
+</div>
