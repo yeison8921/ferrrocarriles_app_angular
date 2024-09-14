@@ -691,11 +691,68 @@ a label {
   width: 10px !important;
 }
 
+/*slider kids*/
+
+.descarga .div-slider .slide .carousel-control-prev,
+.descarga .div-slider .slide .carousel-control-next {
+  z-index: 1000;
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: contents;
+  }
+
+  span {
+    background-image: none;
+    font-size: 2rem;
+    color: white;
+  }
+
+  span::after {
+    font-family: "govco-font";
+    content: '\E81F';
+  }
+}
+
+.descarga .div-slider .slide .carousel-control-prev {
+  left: -20%;
+
+  span::after {
+    content: '\E81F';
+  }
+}
+
+.descarga .div-slider .slide .carousel-control-next {
+  right: -20%;
+
+  span::after {
+    content: '\E820';
+  }
+}
+
+/*fin slider kids*/
+
 /*fin slider*/
 
 @media (min-width: 576px) {
   .cuadro-imagen>div h5 {
     font-size: 1.5rem;
+  }
+
+  .descarga .div-slider .slide .carousel-control-prev,
+  .descarga .div-slider .slide .carousel-control-next {
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+
+  .descarga .div-slider .slide .carousel-control-prev {
+    left: -15%;
+  }
+
+  .descarga .div-slider .slide .carousel-control-next {
+    right: -15%;
   }
 }
 

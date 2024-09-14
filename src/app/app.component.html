@@ -1,5 +1,5 @@
-<app-header></app-header>
-<app-header tipo="oculto"></app-header>
+<app-header *ngIf="!kids"></app-header>
+<app-header *ngIf="!kids" tipo="oculto"></app-header>
 <app-accessibility />
 <router-outlet />
-<app-footer></app-footer>
+<app-footer *ngIf="!kids"></app-footer>

@@ -11,6 +11,7 @@ import { AtencionUsuarioComponent } from './modules/atencion-al-usuario/atencion
 import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
 import { InformacionCiudadanoComponent } from './modules/informacion-ciudadano/informacion-ciudadano.component';
 import { CorporativoComponent } from './modules/corporativo/corporativo.component';
+import { KidsComponent } from './kids/kids.component';
 
 export let routes: Routes = [
   {
@@ -148,6 +149,10 @@ export let routes: Routes = [
       import(
         './modules/informacion-ciudadano/informacion-ciudadano.module'
       ).then((m) => m.InformacionCiudadanoModule),
+  },
+  {
+    path: 'kids',
+    component: KidsComponent,
   },
 ];
 export let AppRouterModule = RouterModule.forRoot(routes, {});

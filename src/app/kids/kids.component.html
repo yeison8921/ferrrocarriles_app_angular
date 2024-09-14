@@ -1,0 +1,109 @@
+<main class="contenedor">
+  <section>
+    <img class="img-fluid" src="/assets/img/kids/img-1.jpg" alt="" />
+  </section>
+  <section class="definicion position-relative">
+    <img
+      class="d-none d-lg-block img-fluid"
+      src="/assets/img/kids/img-2.png"
+      alt=""
+    />
+    <div class="texto p-4">
+      <h1>
+        ¿Qué es el <span>Fondo de Pasivo Social</span> de Ferrocarriles
+        Nacionales de Colombia?
+      </h1>
+      <p>
+        El Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia acoge
+        a las personas que trabajaron con nuestros Ferrocarriles y a sus
+        familias. Así mismo, administramos los servicios de salud a los
+        pensionados y beneficiarios de la empresa liquidada Ferrocarriles
+        Nacionales y Puertos de Colombia.
+      </p>
+      <p>
+        Contamos con la infraestructura tecnológica y el talento humano
+        calificado y comprometido para brindar una excelente prestación de
+        nuestros servicios con calidad y transparencia.
+      </p>
+    </div>
+    <div class="imagen p-4">
+      <img class="img-fluid" src="/assets/img/kids/img-3.png" alt="" />
+    </div>
+  </section>
+  <section class="compromiso position-relative">
+    <img
+      class="d-none d-lg-block img-fluid"
+      src="/assets/img/kids/img-4.png"
+      alt=""
+    />
+    <div class="texto p-4">
+      <h1>COMPROMISO</h1>
+      <p>
+        Nuestro reto es consolidarnos como la entidad líder que asuma los
+        compromisos que le sean asignados, contribuyendo con las políticas de
+        gestión pública, para el cumplimiento de los fines esenciales del estado
+        en el sector de la seguridad social por eso contamos con:
+      </p>
+    </div>
+    <div class="botones">
+      <button class="btn p-0 me-3" (click)="mover(1)">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+      </button>
+      <button class="btn p-0" (click)="mover(0)">
+        <i class="fa-solid fa-circle-arrow-right"></i>
+      </button>
+    </div>
+    <div
+      #slider
+      class="slider"
+      (mousedown)="start($event)"
+      (mousemove)="move($event)"
+      (mouseleave)="end($event)"
+      (mouseup)="end($event)"
+      (touchstart)="start($event)"
+      (touchmove)="move($event)"
+      (touchend)="end($event)"
+    >
+      <div></div>
+      <img class="img-fluid" src="/assets/img/kids/slider/1.png" alt="" />
+      <img class="img-fluid" src="/assets/img/kids/slider/2.png" alt="" />
+      <img class="img-fluid" src="/assets/img/kids/slider/3.png" alt="" />
+      <img class="img-fluid" src="/assets/img/kids/slider/4.png" alt="" />
+      <img class="img-fluid" src="/assets/img/kids/slider/5.png" alt="" />
+    </div>
+  </section>
+  <section class="position-relative p-4 descarga">
+    <h1 class="pb-3 p-lg-4">Descarga y <span>Colorea</span></h1>
+    <div class="div-slider">
+      <ngb-carousel
+        #carousel
+        [interval]="10000"
+        [showNavigationArrows]="true"
+        [showNavigationIndicators]="false"
+      >
+        <ng-template ngbSlide *ngFor="let dibujo of dibujos">
+          <a target="_blank" href="/assets/img/kids/sliderImg/{{ dibujo.url }}">
+            <img
+              class="img-fluid"
+              src="/assets/img/kids/sliderImg/{{ dibujo.imagen }}"
+            />
+          </a>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <img class="imagen-ninio" src="/assets/img/kids/img-6.png" alt="" />
+    <img class="imagen-ninia" src="/assets/img/kids/img-7.png" alt="" />
+  </section>
+  <section class="ministerio p-4">
+    <h2 class="mb-4">Ingresa también a:</h2>
+    <a
+      target="_blank"
+      href="https://www.minsalud.gov.co/pais-protegido/home.html"
+      >MINISTERIO DE SALUD PARA NIÑOS</a
+    >
+    <h3 class="mt-4">Para más aprendizaje y diversión</h3>
+    <div class="imagen">
+      <img class="mt-4" src="/assets/img/kids/img-9.png" alt="" />
+    </div>
+  </section>
+</main>
