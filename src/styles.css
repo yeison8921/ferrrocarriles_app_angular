@@ -516,6 +516,16 @@ a.link-file:hover {
   color: var(--azul-t);
 }
 
+.cardButtons {
+  background-image: linear-gradient(to right,  var(--azul-o),var(--azul-t), var(--azul-c));
+  border-radius: 20px;
+  width: auto;
+  margin: 2rem;
+  img {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
 .cuadro-imagen {
   position: relative;
   margin-top: 1rem;

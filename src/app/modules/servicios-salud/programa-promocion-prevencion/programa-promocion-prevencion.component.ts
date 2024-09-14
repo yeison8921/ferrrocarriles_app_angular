@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { AcordionFiles } from './../../../interfaces/acordion';
+import {cardButtons} from './../../../interfaces/salud';
 import { Component } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -13,7 +14,53 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class ProgramaPromocionPrevencionComponent {
   items: AcordionFiles[]=[];
+  cards : cardButtons[]=[];
  constructor(){
+
+  this.cards =[
+    {
+      id:1,
+      texto: "Primera infancia",
+      texto2: "7 días - 5 años",
+      imagen:"/assets/img/salud/primera infancia.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/250"
+    },
+    {
+      id:2,
+      texto: "Infancia",
+      texto2: "6 - 11 años",
+      imagen:"/assets/img/salud/infancia.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/251"
+    },
+    {
+      id:3,
+      texto: "Adolescencia",
+      texto2: "12 - 17 años",
+      imagen:"/assets/img/salud/adolescencia.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/252"
+    },
+    {
+      id:4,
+      texto: "Juventud",
+      texto2: "18 - 28 años",
+      imagen:"/assets/img/salud/jovenes.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/253"
+    },
+    {
+      id:5,
+      texto: "Adultez",
+      texto2: "29 - 59 años",
+      imagen:"/assets/img/salud/adultos.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/254"
+    },
+    {
+      id:6,
+      texto: "Vejez",
+      texto2: " 60 años en adelante",
+      imagen:"/assets/img/salud/adultos mayores.jpg",
+      url:"/servicios-de-salud/programa-de-promocion-y-prevencion/255"
+    },
+  ]
 
   this.items=[
     {

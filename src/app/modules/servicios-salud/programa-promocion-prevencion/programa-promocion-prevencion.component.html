@@ -8,87 +8,28 @@
 <h3 class="titulo-h3 my-4">Actividades de promoción y prevención</h3>
 
 <div class="row">
-
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen pri">
-    <div>
-      <h5 >
-        Primera infancia <br/>
-        7 días - 5 años
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/250">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
-
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen infancia">
-    <div>
-      <h5 >
-        Infancia <br/>
-        6 - 11 años
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/251">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen adolescencia">
-
-    <div>
-      <h5 >
-        Adolescencia <br/>
-        12 - 17 años
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/252">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
-
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen juventud">
-    <div>
-      <h5 >
-        Juventud <br/>
-        18 - 28 años
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/253">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
-
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen adultez">
-
-    <div>
-      <h5 >
-        Adultez <br/>
-        29 - 59 años
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/254">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
-
-  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen vejez">
-
-    <div>
-      <h5 >
-        Vejez <br/>
-        60 años en adelante
-      </h5>
-      <a class="btn-azul-o" href="/servicios-de-salud/programa-de-promocion-y-prevencion/255">
-        <i class="bi bi-search"></i>
-        Consultar aquí
-      </a>
-     </div>
-  </div>
+  @for (card of cards; track card.id) {
+    <div class="col-lg-4 m4-">
+      <div class="card cardButtons m-4">
+        <img src="{{card.imagen}}" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="text-white">
+            {{card.texto}}
+             <br/>
+            {{card.texto2}}
+          </h5>
+        </div>
+        <div class="card-footer border-0 py-3">
+          <a class="btn-azul-o" href="{{card.url}}">
+            <i class="bi bi-search"></i>
+            Consultar aquí
+          </a>
+        </div>
+      </div>
+    </div>
+  }
 </div>
+
 
 <h3  class="titulo-h3 my-4">Información de interés para su salud</h3>
 <h3 class="titulo-h3">
