@@ -10,8 +10,22 @@
       <span>{{ noticia.fecha }}</span>
     </div>
     <p>
-      {{ noticia.descripcion }}
+      {{ noticia.estracto }}
     </p>
-    <a class="btn-comun" type="button" href="{{ noticia.url }}"> VER MÁS</a>
+    <a
+      class="btn-comun"
+      type="button"
+      href="/sala-de-prensa/noticias/{{ noticia.url }}"
+    >
+      VER MÁS</a
+    >
   </div>
 </div>
+<ngb-pagination
+  [collectionSize]="noticias.length"
+  [(page)]="page"
+  [maxSize]="5"
+  [rotate]="true"
+  [ellipses]="false"
+  [boundaryLinks]="true"
+/>

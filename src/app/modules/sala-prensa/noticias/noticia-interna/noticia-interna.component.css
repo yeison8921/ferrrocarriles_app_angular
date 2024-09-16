@@ -1,0 +1,16 @@
+.fecha {
+    font-family: WorkSans-Regular;
+    color: var(--azul-o);
+}
+
+.noticia-interna {
+    img {
+        object-fit: cover;
+        object-position: center;
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}
