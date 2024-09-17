@@ -621,6 +621,29 @@ a label {
   }
 }
 
+.pagination {
+  a {
+    color: var(--azul-o);
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover {
+    background-color: var(--azul-o);
+    border-color: var(--azul-o);
+    color: white;
+  }
+
+  .disabled a {
+    background-color: var(--gris-c);
+    color: var(--gris-o);
+  }
+
+  .active a {
+    background-color: var(--azul-o);
+    border-color: var(--azul-o);
+  }
+}
+
 /*accesibilidad*/
 .hight-contrast {
   -webkit-filter: invert(1);

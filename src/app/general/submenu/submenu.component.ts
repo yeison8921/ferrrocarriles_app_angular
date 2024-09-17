@@ -825,7 +825,11 @@ export class SubmenuComponent {
       },
     ];
     let path = this.location.path().split('/');
-    this.activarMenu(path[path.length - 1]);
+    if (this.location.path().indexOf('/noticias/') >= 0) {
+      this.activarMenu('57');
+    } else {
+      this.activarMenu(path[path.length - 1]);
+    }
   }
 
   activarMenu(numberPath: string) {
@@ -838,6 +842,7 @@ export class SubmenuComponent {
           let numberSurl =
             submenu.url.split('/')[submenu.url.split('/').length - 1];
           if (numberSurl == numberPath) {
+            console.log(numberSurl);
             submenu.active = true;
             item.active = true;
           }

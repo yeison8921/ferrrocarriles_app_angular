@@ -1,13 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NoticiasComponent } from './noticias/noticias.component';
+import arrayNoticias from './json/noticias.json';
+import { NoticiaInternaComponent } from './noticias/noticia-interna/noticia-interna.component';
 
-const routes: Routes = [
+let routes: Routes = [
   {
     path: 'noticias/57',
+    title: 'Noticias',
     component: NoticiasComponent,
   },
 ];
+
+arrayNoticias.forEach((noticia) => {
+  routes.push({
+    path: 'noticias/' + noticia.url,
+    title: noticia.titulo,
+    component: NoticiaInternaComponent,
+  });
+});
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
