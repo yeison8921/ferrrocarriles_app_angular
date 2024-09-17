@@ -25,6 +25,7 @@ import { GestionDelRiesgo265Component } from './gestion-del-riesgo-265/gestion-d
 import { AfiliadosComponent } from './afiliados/afiliados.component';
 import { ProgramaPromocionPrevencionComponent } from './programa-promocion-prevencion/programa-promocion-prevencion.component';
 import { GestionRiesgoComponent } from './gestion-riesgo/gestion-riesgo.component';
+import { GestionDelRiesgo266Component } from './gestion-del-riesgo-266/gestion-del-riesgo-266.component';
 
 const routes: Routes = [
   {
@@ -150,6 +151,11 @@ const routes: Routes = [
     path: 'gestion-del-riesgo/259',
     title: 'Gestión del riesgo',
     component: GestionRiesgoComponent
+  },
+  {
+    path: 'gestion-del-riesgo/266',
+    title: 'Programa de atención integral a Enfermedades Respiratorias Crónicas (Asma y EPOC)',
+    component: GestionDelRiesgo266Component,
   },
 ];
 
