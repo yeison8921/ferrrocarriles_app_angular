@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { GuiasComponent } from '../informacion-ciudadano/guias/guias.component';
 import { ManualesComponent } from '../informacion-ciudadano/manuales/manuales.component';
 import { CorrespondenciaDevueltaComponent } from './correspondencia-devuelta/correspondencia-devuelta.component';
+import { NuestrasOficinasComponent } from './nuestras-oficinas/nuestras-oficinas.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
     path: 'correspondencia-devuelta/194',
     component: CorrespondenciaDevueltaComponent,
     title: 'Correspondencia Devuelta',
+  },
+  {
+    path: 'nuestras-oficinas/115',
+    component: NuestrasOficinasComponent,
+    title: 'Atención y Servicios a la Ciudadanía',
   },
 ];
 

@@ -1,0 +1,26 @@
+<h1 class="titulo-h1 mb-4">DIRECTORIO FUNCIONARIOS PRINCIPALES</h1>
+
+<div class="table-responsive">
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th>NOMBRE</th>
+        <th>CARGO</th>
+        <th>DEPENDENCIA</th>
+        <th>CORREO ELECTRÓNICO</th>
+        <th>EXTENSIÓN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let funcionario of funcionarios; let i = index">
+        <td>{{funcionario.name}}</td>
+        <td>{{funcionario.position}}</td>
+        <td>{{funcionario.dependence}}</td>
+        <td>
+          <a href="mailto:funcionario.email">{{funcionario.email}}</a>
+        </td>
+        <td>{{funcionario.phone}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -16,6 +16,8 @@ import { ObjetivosinstComponent } from './objetivosinst/objetivosinst.component'
 import { EntidadesRegulanComponent } from './entidades-regulan/entidades-regulan.component';
 import { DirectorioEntidadesComponent } from './directorio-entidades/directorio-entidades.component';
 import { EntidadComponent } from './entidad/entidad.component';
+import { NuestrosDirectivosComponent } from './nuestros-directivos/nuestros-directivos.component';
+import { DirectorioFuncionariosPrincipalesComponent } from './directorio-funcionarios-principales/directorio-funcionarios-principales.component';
 
 const routes: Routes = [
   {
@@ -97,6 +99,16 @@ const routes: Routes = [
     path: 'la-entidad/15',
     title: 'La Entidad',
     component: EntidadComponent,
+  },
+  {
+    path: 'nuestros-directivos/191',
+    title: 'Nuestros directivos',
+    component: NuestrosDirectivosComponent,
+  },
+  {
+    path: 'directorio-funcionarios-principales/193',
+    title: 'Directorio funcionarios principales',
+    component: DirectorioFuncionariosPrincipalesComponent,
   },
 ];
 

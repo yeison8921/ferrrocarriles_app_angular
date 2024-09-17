@@ -1,0 +1,2114 @@
+[
+  {
+    "name": "DEPARTAMENTO CESAR",
+    "cities": [
+      {
+        "name": "Aguachica",
+        "areas": [
+          {
+            "name": "Trámites Administrativos Aguachica y Sur del Cesar",
+            "places": [
+              {
+                "name": "Maria Alejandra Sanchez Herrera, Atención al usuario Sur del Cesar",
+                "address": "Calle 5 No. 33 - 31 Barrio Alto Prado",
+                "phone": "",
+                "mobile": "3115387354",
+                "email": "gestiondesolicitudes.aguachica@sumimedical.com",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "IPS Servicios Médicos Especializados Prevenir IPS S.A.S",
+            "places": [
+              {
+                "name": "IPS Servicios Médicos Especializados Prevenir IPS S.A.S",
+                "address": "Carrera 32 No. 2-36 Barrio Maria Eugenia",
+                "phone": "",
+                "mobile": "3163861597",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Laboratorio Clínico",
+                  "Toma de muestras de laboratorio",
+                  "Fisioterapia",
+                  "Dermatología",
+                  "Gastroenterología",
+                  "Ginecobstetricia",
+                  "Medicina interna",
+                  "Odontología general",
+                  "Optometría",
+                  "Otorrinolaringología",
+                  "Urología",
+                  "Nutrición y dietética",
+                  "Psicología"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ESE Hospital Local de Aguachica",
+            "places": [
+              {
+                "name": "ESE Hospital Local de Aguachica",
+                "address": "Carrera 7 No. 160-56",
+                "phone": "605 5651854 / 605 5656839",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": ["Vacunación"]
+              }
+            ]
+          },
+          {
+            "name": "Hospital Regional José David Padilla Villafañe",
+            "places": [
+              {
+                "name": "Hospital Regional José David Padilla Villafañe",
+                "address": "Calle 5 No. 30A-56",
+                "phone": "605 5654854 / 605 5658522",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Cirugía general",
+                  "Gastroenterología",
+                  "Ortopedia y/o Traumatología",
+                  "Hospitalización"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Clínica Alta Complejidad de Aguachica",
+            "places": [
+              {
+                "name": "Clínica Alta Complejidad de Aguachica",
+                "address": "Calle 5 No. 26-42",
+                "phone": "323480163",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Fonoaudiología y/o Terapia del Lenguaje",
+                  "Imágenes Diagnosticas - Ionizantes",
+                  "Imágenes Diagnosticas - No Ionizantes",
+                  "Laboratorio Clínico",
+                  "Servicio Farmacéutico",
+                  "Terapia Respiratoria",
+                  "Fisioterapia",
+                  "Gestión Pre-Transfusional",
+                  "Hemodinamia e Intervencionismo",
+                  "Hemodiálisis",
+                  "Diagnóstico Vascular",
+                  "Transporte Asistencial Medicalizado",
+                  "Urgencias",
+                  "Atención del Parto",
+                  "Ortopedia Pediátrica",
+                  "Neuropediatría",
+                  "Neurocirugía",
+                  "Nefrología Pediátrica",
+                  "Cirugía de Tórax",
+                  "Cirigía de Cabeza y Cuello",
+                  "Urología",
+                  "Reumatología",
+                  "Otorrinolaringología",
+                  "Oftalmología",
+                  "Nutrición y Dietética",
+                  "Neurología",
+                  "Neumología",
+                  "Nefrología",
+                  "Hematología",
+                  "Dolor y Cuidados Paliativos",
+                  "Cirugía Pediátrica",
+                  "Vacunación",
+                  "Anestesia",
+                  "Cardiología Pediátrica",
+                  "Gastroenterología",
+                  "Dermatología",
+                  "Pediatría",
+                  "Ortopedia y/o Traumatología",
+                  "Medicina Interna",
+                  "Ginecobstetricia",
+                  "Cirugía General",
+                  "Cardiología",
+                  "Cuidado Intensivo Adultos",
+                  "Cuidado Intensivo Pediátrico",
+                  "Cuidado Intensivo Neonatal",
+                  "Hospitalización Pediátrica",
+                  "Hospitalización Adultos",
+                  "Cuidado Básico Neonatal",
+                  "Cuidado Intermedio Adultos",
+                  "Cuidado Intermedio Pediátrico",
+                  "Cuidado Intermedio Neonatal",
+                  "Cirugía Ginecológica",
+                  "Cirugía Plástica y Estética",
+                  "Cirugía Vascular y Angiológica",
+                  "Cirugía Cardiovascular",
+                  "Cirugía Oftalmológica",
+                  "Cirugía Otorrinolaringología",
+                  "Cirugía Pediátrica",
+                  "Cirugía Urológica",
+                  "Cirugía Dermatológica",
+                  "Neurocirugía",
+                  "Cirugía Ortopédica",
+                  "Cirugía Maxilofacial",
+                  "Cirugía General"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PHARMASAN",
+                "address": "Carrera 13 No. 3-38 Barrio Centro",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gamarra",
+        "areas": [
+          {
+            "name": "Consulta Externa de Medicina General",
+            "places": [
+              {
+                "name": "ESE Hospital Olaya Herrera",
+                "address": "Carrera 12 No. 8 - 44 Barrio San Jose",
+                "phone": "5626288 - 5651573 - 3172458489",
+                "mobile": "",
+                "email": "contactenos@hospitalgamarra-cesar.gov.co",
+                "hours": "",
+                "services": [
+                  "Laboratorio clínico",
+                  "Radiología e imágenes diagnósticas",
+                  "Toma de muestras de laboratorio clínico",
+                  "Terapia respiratoria",
+                  "Enfermería",
+                  "Medicina General",
+                  "Nutrición y dietética",
+                  "Odontología general",
+                  "Psicología",
+                  "Hospitalización",
+                  "Promoción y prevención",
+                  "Vacunación",
+                  "Servicio de urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Consulta Externa de Odontología",
+            "places": [
+              {
+                "name": "ESE Hospital Olaya Herrera",
+                "address": "Carrera 12 No. 8 - 44 Barrio San Jose",
+                "phone": "5626288 - 5651573 - 3172458489",
+                "mobile": "",
+                "email": "contactenos@hospitalgamarra-cesar.gov.co",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "ESE Hospital Olaya Herrera",
+                "address": "Carrera 12 No. 8 - 44 Barrio San Jose",
+                "phone": "5626288 - 5651573 - 3172458489",
+                "mobile": "",
+                "email": "contactenos@hospitalgamarra-cesar.gov.co",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE Hospital Olaya Herrera",
+                "address": "Carrera 12 No. 8 - 44 Barrio San Jose",
+                "phone": "5626288 - 5651573 - 3172458489",
+                "mobile": "",
+                "email": "contactenos@hospitalgamarra-cesar.gov.co",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE Hospital Olaya Herrera",
+                "address": "Carrera 12 No. 8 - 44 Barrio San Jose",
+                "phone": "5626288 - 5651573 - 3172458489",
+                "mobile": "",
+                "email": "contactenos@hospitalgamarra-cesar.gov.co",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PHARMASAN",
+                "address": "Calle 9 No. 11-72 Local 1 Barrio San José",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pailitas",
+        "areas": [
+          {
+            "name": "Consulta Externa de Medicina General",
+            "places": [
+              {
+                "name": "E.S.E Hospital Heli Moreno Blanco",
+                "address": "Calle 7B No. 5 - 123",
+                "phone": "5287003 - 5287183 - 5287491",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Laboratorio clínico",
+                  "Radiología e imágenes diagnósticas",
+                  "Toma de muestras de laboratorio clínico",
+                  "Terapia respiratoria",
+                  "Enfermería",
+                  "Odontología general",
+                  "Consulta prioritaria",
+                  "Hospitalización",
+                  "Vacunación",
+                  "Servicio de urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Consulta Externa de Odontología",
+            "places": [
+              {
+                "name": "E.S.E Hospital Heli Moreno Blanco",
+                "address": "Calle 7B No. 5 - 123",
+                "phone": "5287003 - 5287183 - 5287491",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "E.S.E Hospital Heli Moreno Blanco",
+                "address": "Calle 7B No. 5 - 123",
+                "phone": "5287003 - 5287183 - 5287491",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E Hospital Heli Moreno Blanco",
+                "address": "Calle 7B No. 5 - 123",
+                "phone": "5287003 - 5287183 - 5287491",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E Hospital Heli Moreno Blanco",
+                "address": "Calle 7B No. 5 - 123",
+                "phone": "5287003 - 5287183 - 5287491",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "Pharmasan Pailitas",
+                "address": "Calle 7 No. 5A-33 Barrio Pueblo Nuevo",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pelaya",
+        "areas": [
+          {
+            "name": "Servicios Médicos",
+            "places": [
+              {
+                "name": "ESE Local Hospital Francisco Canossa",
+                "address": "Calle 10 No. 10 – 75",
+                "phone": "5290025",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Odontología general",
+                  "Laboratorio clínico",
+                  "Enfermería",
+                  "Nutrición y dietética",
+                  "Psicología",
+                  "Consulta prioritaria",
+                  "Hospitalización",
+                  "Vacunación",
+                  "Promoción y prevención",
+                  "Servicio de urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE Local Hospital Francisco Canossa",
+                "address": "Calle 10 No. 10 – 75",
+                "phone": "5290025",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "ESE Local Hospital Francisco Canossa",
+                "address": "Calle 10 No. 10 – 75",
+                "phone": "5290025",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE Local Hospital Francisco Canossa",
+                "address": "Calle 10 No. 10 – 75",
+                "phone": "5290025",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE Local Hospital Francisco Canossa",
+                "address": "Calle 10 No. 10 – 75",
+                "phone": "5290025",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "Pharmasan Pelaya",
+                "address": "Calle 8 No. 9-67 Local 2 Barrio San Bernardo",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tamalameque",
+        "areas": [
+          {
+            "name": "Medicina general",
+            "places": [
+              {
+                "name": "ESE Hospital Tamalameque",
+                "address": "Calle 5 carrera 7 y 8",
+                "phone": "0355286005",
+                "mobile": "3008856731",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Laboratorio clínico",
+                  "Radiología e imágenes diagnosticas",
+                  "Terapia respiratoria",
+                  "Enfermería",
+                  "Nutrición y dietética",
+                  "Odontología general",
+                  "Optometría",
+                  "Psicología",
+                  "Consulta prioritaria",
+                  "Hospitalización",
+                  "Promoción y prevención",
+                  "Vacunación",
+                  "Servicio de urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ESE Hospital Tamalameque",
+                "address": "Calle 5 carrera 7 y 8",
+                "phone": "0355286005",
+                "mobile": "3008856731",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "ESE Hospital Tamalameque",
+                "address": "Calle 5 carrera 7 y 8",
+                "phone": "0355286005",
+                "mobile": "3008856731",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ESE Hospital Tamalameque",
+                "address": "Calle 5 carrera 7 y 8",
+                "phone": "0355286005",
+                "mobile": "3008856731",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE Hospital Tamalameque",
+                "address": "Calle 5 carrera 7 y 8",
+                "phone": "0355286005",
+                "mobile": "3008856731",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "Pharmasan",
+                "address": "Calle 5 No. 8-11 Barrio Flores de Sabana",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BOSCONIA",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN BOSCO",
+                "address": "Calle 20 No. 20-60",
+                "phone": "577802",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN BOSCO",
+                "address": "Calle 20 No. 20-60",
+                "phone": "577802",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN BOSCO",
+                "address": "Calle 20 No. 20-60",
+                "phone": "577802",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN BOSCO",
+                "address": "Calle 20 No. 20-60",
+                "phone": "577802",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN BOSCO",
+                "address": "Calle 20 No. 20-60",
+                "phone": "577802",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DROGAS LA ECONOMIA",
+                "address": "Calle 18 No. 18A - 32",
+                "phone": "5779364",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CHIRIGUANÁ",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "IPS SALUD HUMANA",
+                "address": "Calle 9 No. 3-157",
+                "phone": "5760769",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SALUD HUMANA",
+                "address": "Calle 9 No. 3-157",
+                "phone": "5760769",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "SALUD HUMANA",
+                "address": "Calle 9 No. 3-157",
+                "phone": "5760769",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN ANDRES",
+                "address": "Calle Bolívar Carrera 7",
+                "phone": "5760286",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN ANDRES",
+                "address": "Calle Bolívar Carrera 7",
+                "phone": "5760286",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "LIDER 1",
+                "address": "Carrera 5 No. 4-141",
+                "phone": "5760306",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CURUMANÍ",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "HOSPITAL CRISTIAN MORENO PALLARES DE CURUMANI",
+                "address": "Calle 9A, carrera 17 esquina",
+                "phone": "5750146 - 5750326",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "HOSPITAL CRISTIAN MORENO PALLARES DE CURUMANI",
+                "address": "Calle 9A, carrera 17 esquina",
+                "phone": "5750146 - 5750326",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "HOSPITAL CRISTIAN MORENO PALLARES DE CURUMANI",
+                "address": "Calle 9A, carrera 17 esquina",
+                "phone": "5750146 - 5750326",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "HOSPITAL CRISTIAN MORENO PALLARES DE CURUMANI",
+                "address": "Calle 9A, carrera 17 esquina",
+                "phone": "5750146 - 5750326",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "HOSPITAL CRISTIAN MORENO PALLARES DE CURUMANI",
+                "address": "Calle 9A, carrera 17 esquina",
+                "phone": "5750146 - 5750326",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "LIDER 1",
+                "address": "Calle 9 No. 15-49",
+                "phone": "5750075",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "VALLEDUPAR",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "IPS DAZALUD",
+                "address": "Calle 13B No. 13-100 Barrio Obrero",
+                "phone": "3116926630 - 3183294259",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "IPS DAZALUD",
+                "address": "Calle 13B No. 13-100 Barrio Obrero",
+                "phone": "3116926630 - 3183294259",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "NANCY FLOREZ (UNIDAD SANTA RITA 3 PISO)",
+                "address": "Carrera 15 No. 14-75",
+                "phone": "5704262",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA LAURA DANIELA",
+                "address": "Calle 19 No. 14-47 - San Vicente",
+                "phone": "5803535 – 5742772",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA LAURA DANIELA",
+                "address": "Calle 19 No. 14-47 - San Vicente",
+                "phone": "5803535 – 5742772",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "HOSPITAL ROSARIO PUMAREJO DE LÓPEZ",
+                "address": "Calle 16C No. 17 - 141 Barrio Santana (Avenida La Popa)",
+                "phone": "5748451 - 5712339",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLINICA MEDICOS S.A",
+                "address": "Calle 16B No. 11-33",
+                "phone": "5704747",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ECONOMIA (DISPENSARIO DE MEDICAMENTOS)",
+                "address": "Calle 18 No. 13-27",
+                "phone": "5840402",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO SANTANDER",
+    "cities": [
+      {
+        "name": "BARRANCABERMEJA",
+        "areas": [
+          {
+            "name": "Servicios",
+            "places": [
+              {
+                "name": "INTEGRAR SOLUCIONES EN SALUD IPS SAS",
+                "address": "Diagonal 56 No. 15B-40 Barrio Pueblo Nuevo",
+                "phone": "607 6015188",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Consulta Odontología",
+                  "Consulta de Medicina General",
+                  "Terapia Ocupacional",
+                  "Terapia Respiratoria",
+                  "Fisioterapia",
+                  "Fonoaudiología y/o Terapia del Lenguaje",
+                  "Toma de Muestras de Cuello Uterino y Ginecológicas",
+                  "Enfermería",
+                  "Ginecobstetricia",
+                  "Medicina Familiar",
+                  "Optometría",
+                  "Ortopedia y/o Traumatología",
+                  "Pediatría",
+                  "Psicología",
+                  "Hospitalización Paciente Crónico sin ventilador"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "UNIDAD CLINICA LA MAGDALENA",
+            "places": [
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Consulta Medicina General",
+                  "Laboratorio clínico",
+                  "Imágenes diagnósticas",
+                  "Cirugía ambulatoria",
+                  "Urgencias",
+                  "Hospitalización"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Imagenología ambulatoria",
+            "places": [
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "COLCAN",
+                "address": "Avenida Ferrocarril Calle 52 No. 19-35",
+                "phone": "3182268950 - 3153519082",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "UNIDAD CLINICA LA MAGDALENA",
+                "address": "Calle 50 No. 24-37, Barrancabermeja-Santander",
+                "phone": "(+57) (7)  6007000 - 6110809 - 6111982",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PHARMASAN BARRANCABERMEJA",
+                "address": "Calle 49 No. 19-82 Local 1 Barrio Colombia",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              },
+              {
+                "name": "OFFIMEDICAS Barrancabermeja",
+                "address": "Calle 49 No. 21-56 Barrio Colombia",
+                "phone": "6973918 Ext 6504",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "INTEGRAR SOLUCIONES EN SALUD IPS",
+                "address": "Diagonal 56 No. 15B-40 Barrio Pueblo Nuevo",
+                "phone": "607 6015188",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLINICA SAN JOSÉ",
+                "address": "Calle 47 No. 28-05, Barrancabermeja-Santander",
+                "phone": "6024545",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Servicios",
+            "places": [
+              {
+                "name": "CLINICA SAN JOSÉ",
+                "address": "Calle 47 No. 28-05, Barrancabermeja-Santander",
+                "phone": "6024545",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Odontología general",
+                  "Laboratorio clínico",
+                  "Radiología e imágenes diagnósticas",
+                  "Toma de muestras de laboratorio clínico",
+                  "Transfusión sanguínea",
+                  "Ultrasonido",
+                  "Terapia ocupacional",
+                  "Terapia respiratoria",
+                  "Fisioterapia",
+                  "Fonoaudiología y/o terapia del lenguaje",
+                  "Anestesia",
+                  "Cardiología",
+                  "Cirugía general",
+                  "Dermatología",
+                  "Enfermería",
+                  "Gastroenterología",
+                  "Ginecobstetricia",
+                  "Medicina familiar",
+                  "Medicina general",
+                  "Medicina interna",
+                  "Nutrición y dietética",
+                  "Ortopedia y/o traumatología",
+                  "Otorrinolaringología",
+                  "Pediatría",
+                  "Psicología",
+                  "Psiquiatría",
+                  "Urología",
+                  "Consulta prioritaria",
+                  "Cirugía plástica y estética",
+                  "Medicina del trabajo y medicina laboral",
+                  "Cirugía oral",
+                  "Cirugía maxilofacial",
+                  "Cirugía ginecológica",
+                  "Cirugía ortopédica",
+                  "Cirugía oftalmológica",
+                  "Cirugía otorrinolaringología",
+                  "Cirugía urológica",
+                  "Cirugía dermatológica"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BUCARAMANGA",
+        "areas": [
+          {
+            "name": "Medicina General Consulta Externa / Área Metropolitana de Bucaramanga",
+            "places": [
+              {
+                "name": "SUMIMEDICAL",
+                "address": "Calle 54 No. 31-122",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "Lunes a viernes de 7 a.m. a 1 p.m. y 2 p.m. a 5 p.m. Sábado 7 a.m. a 12 m.",
+                "services": [
+                  "Consulta externa de Medicina General",
+                  "Consulta no programada (prioritaria)",
+                  "Medicina Familiar",
+                  "Psiquiatría",
+                  "Odontología General",
+                  "Toma de Muestras de Laboratorio Clínico",
+                  "Programa Crónicos",
+                  "Promoción y Mantenimiento de la Salud",
+                  "Servicio farmacéutico"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Medico coordinador",
+            "places": [
+              {
+                "name": "DR. JUAN CARLOS RODRÍGUEZ",
+                "address": "",
+                "phone": "3106676917",
+                "mobile": "",
+                "email": "subdireccion.noriental@sumimedical.com",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CLINICA ODONTOLÓGICA BOCAS Y BOQUITAS S.A.S -PIEDECUESTA",
+                "address": "Calle 9 No.7 - 81 Local 222",
+                "phone": "6555000",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Consulta externa y operatoria",
+                  "Consulta prioritaria"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Servicios de Urgencia",
+            "places": [
+              {
+                "name": "CLÍNICA CHICAMOCHA",
+                "address": "Sede Calle 47 No. 27A-22 Sede avenida La Rosita / Sede Avenida Gonzalez Valencia 55B-10",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "HOSPITAL INTERNACIONAL DE COLOMBIA",
+                "address": "Km 7 Autopista Bucaramanga - Piedecuesta Valle de Menzulí",
+                "phone": "(7)  6393936",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLINICA MATERNO INFANTIL SAN LUIS",
+                "address": "Calle 48 No. 25-56 Barrio Sotomayor",
+                "phone": "+57 7 6430026",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacias",
+            "places": [
+              {
+                "name": "SUMIMEDICAL SEDE BUCARAMANGA",
+                "address": "Calle 54 No. 31-122",
+                "phone": "322 6163778",
+                "mobile": "",
+                "email": "",
+                "hours": "Lunes a Viernes 7 a.m - 1 p.m. y 2 p.m. - 5 p.m. Sábados 7 a.m. a 12 m.",
+                "services": []
+              },
+              {
+                "name": "PHARMASAN",
+                "address": "Calle 53 No. 35A-07 Bucaramanga",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              },
+              {
+                "name": "OFFIMEDICAS",
+                "address": "Calle 35 No. 24 - 28 Barrio Centro de Bucaramanga",
+                "phone": "6973918 Ext 6536",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "FLORIDABLANCA",
+            "places": [
+              {
+                "name": "REDINSALUD - GESTIONAR BIENESTAR",
+                "address": "Calle 30A N° 23-94. Barrio Cañaveral",
+                "phone": "6187808 Opción 2 - 1",
+                "mobile": "318-282-0063",
+                "email": "",
+                "hours": "Lunes a viernes de 7 a.m. a 6 p.m. y sábado de 7 a.m. a 12 m",
+                "services": [
+                  "Consulta Medicina General",
+                  "Consulta Prioritaria Medicina General",
+                  "Consulta Especialidades Básicas (Ginecología – Medicina Interna – Pediatría)",
+                  "Promoción, Prevención y Mantenimiento de la salud"
+                ]
+              },
+              {
+                "name": "REDINSALUD - GESTIONAR BIENESTAR - CLÍNICA ODONTOLÓGICA FLORIDABLANCA",
+                "address": "Carrera 24 N° 30-19 Barrio Cañaveral",
+                "phone": "6187808 Opción 2 - 1",
+                "mobile": "318-282-0063",
+                "email": "",
+                "hours": "Lunes a viernes de 7 a.m. a 12:00 y de 1:00 a 6:00 p.m. y sábado de 7:00 a.m. a 12 m",
+                "services": [
+                  "Consulta Odontología General",
+                  "Consulta Prioritaria Odontológica",
+                  "Cirugía Oral",
+                  "Endodoncia",
+                  "Consulta Odontopediatría",
+                  "Promoción y mantenimiento de la salud Oral"
+                ]
+              },
+              {
+                "name": "CLINICA ODONTOLOGICA BOCAS Y BOQUITAS S.A.S PIEDECUESTA",
+                "address": "CALLE 9 No.7 - 81 LOCAL 222",
+                "phone": "6555000",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Consulta externa y Operatoria",
+                  "Consulta Prioritaria",
+                  "Promoción y mantenimiento de la salud"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Servicios de Urgencias",
+            "places": [
+              {
+                "name": "CLINICA CHICAMOCHA",
+                "address": "Sede Calle 47 # 27A-22 Sede avenida La Rosita / Sede Avenida Gonzalez Valencia 55B-10",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "HOSPITAL INTERNACIONAL DE COLOMBIA",
+                "address": "Km 7 Autopista Bucaramanga - Piedecuesta Valle de Menzulí",
+                "phone": "(7)  6393936",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLINICA MATERNOINFANTIL SAN LUIS",
+                "address": "Calle 48 # 25-56 Barrio Sotomayor",
+                "phone": "+57 7 6430026",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacias",
+            "places": [
+              {
+                "name": "PHARMASAN",
+                "address": "Calle 53 # 35A-07 Bucaramanga",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              },
+              {
+                "name": "OFFIMEDICAS",
+                "address": "Calle 35 # 24 - 28 barrio Centro de BUCARAMANGA",
+                "phone": "6973918 Ext 6536",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "PIEDECUESTA",
+            "places": [
+              {
+                "name": "GESTIONAR BIENESTAR SEDE A",
+                "address": "Carrera 11 N° 8-58 Barrio San Rafael",
+                "phone": "6187808",
+                "mobile": "318-282-0063",
+                "email": "",
+                "hours": "Lunes a viernes de 7 a.m. a 5 p.m. y sábado de 8 a.m. a 12 m",
+                "services": [
+                  "Consulta Externa",
+                  "Consulta Prioritaria",
+                  "Promoción y mantenimiento de la salud"
+                ]
+              },
+              {
+                "name": "GESTIONAR BIENESTAR SEDE B",
+                "address": "Calle 5 N° 7-75 Barrio Hoyo Chiquito",
+                "phone": "6187808",
+                "mobile": "318-282-0063",
+                "email": "",
+                "hours": "Lunes a viernes de 7 a.m. a 5 p.m. y sábado de 8 a.m. a 12 m",
+                "services": [
+                  "Consulta Externa",
+                  "Consulta Prioritaria",
+                  "Promoción y mantenimiento de la salud"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PUERTO WILCHES",
+        "areas": [
+          {
+            "name": "Servicios",
+            "places": [
+              {
+                "name": "SALUDMAG IPS S.A.S. (SALUD DIAGNÓSTICA SAS)",
+                "address": "Calle 4C No. 10-29",
+                "phone": "3116743989",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Consulta Medicina General",
+                  "Consulta Prioritaria medicina general",
+                  "Consulta Especialidades Básicas (Ginecología – Medicina Interna – Pediatría)",
+                  "Promoción, Prevención y Mantenimiento de la salud",
+                  "Odontología General",
+                  "Laboratorio Clínico"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E EDMUNDO GERMAN ARIAS DUARTE",
+                "address": "Carrera 3 No. 2 - 56, Puerto Wilches, Santander",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E EDMUNDO GERMAN ARIAS DUARTE",
+                "address": "Carrera 3 No. 2 - 56, Puerto Wilches, Santander",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLINICA SAN JOSÉ",
+                "address": "Calle 47 No. 28-05, Barrancabermeja-Santander",
+                "phone": "6024545",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "OFFIMEDICAS",
+                "address": "Calle 6 No. 3-26 Barrio Centro",
+                "phone": "6433414 ext. 170",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SABANA DE TORRES",
+        "areas": [
+          {
+            "name": "Consulta externa de Medicina General",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SABANA DE TORRES",
+                "address": "Calle 14 No. 9 - 50. Barrio Carvajal",
+                "phone": "(7) 6293347",
+                "mobile": "3187352535",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Laboratorio clínico",
+                  "Odontología general",
+                  "Radiología e imágenes diagnosticas",
+                  "Toma de muestras de laboratorio clínico",
+                  "Enfermería",
+                  "Ginecobstetricia",
+                  "Medicina interna",
+                  "Nutrición y dietética",
+                  "Pediatría",
+                  "Psicología",
+                  "Consulta prioritaria",
+                  "Hospitalización",
+                  "Vacunación",
+                  "Servicio de Urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SABANA DE TORRES",
+                "address": "Calle 14 No. 9 - 50. Barrio Carvajal",
+                "phone": "(7) 6293347",
+                "mobile": "3187352535",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CENTRO CLÍNICO CARVAJAL LTDA",
+                "address": "Calle 14 No. 9 – 90",
+                "phone": "6293256 - 6293075",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SABANA DE TORRES",
+                "address": "Calle 14 No. 9 - 50. Barrio Carvajal",
+                "phone": "(7) 6293347",
+                "mobile": "3187352535",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CENTRO CLÍNICO CARVAJAL LTDA",
+                "address": "Calle 14 No. 9 – 90",
+                "phone": "6293256 - 6293075",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SABANA DE TORRES",
+                "address": "Calle 14 No. 9 - 50. Barrio Carvajal",
+                "phone": "(7) 6293347",
+                "mobile": "3187352535",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL INTEGRADO SABANA DE TORRES",
+                "address": "Calle 14 No. 9 - 50. Barrio Carvajal",
+                "phone": "(7) 6293347",
+                "mobile": "3187352535",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "OFFIMEDICAS",
+                "address": "Carrera 12 No. 15 - 24 Local 7 Y 8",
+                "phone": "6433414 ext. 170",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SAN GIL",
+        "areas": [
+          {
+            "name": "Servicios",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Consulta prioritaria",
+                  "Servicio de Urgencias",
+                  "Hospitalización",
+                  "Laboratorio Clínico",
+                  "Radiología e imágenes diagnosticas",
+                  "Toma de muestras de laboratorio clínico",
+                  "Ultrasonido",
+                  "Terapia ocupacional",
+                  "Terapia respiratoria",
+                  "Fisioterapia",
+                  "Fonoaudiología y/o terapia del lenguaje",
+                  "Anestesia",
+                  "Cirugía general",
+                  "Cirugía pediátrica",
+                  "Dermatología",
+                  "Enfermería",
+                  "Ginecobstetricia",
+                  "Medicina interna",
+                  "Nutrición y dietética",
+                  "Odontología General",
+                  "Oftalmología",
+                  "Optometría",
+                  "Ortopedia y/o traumatología",
+                  "Otorrinolaringología",
+                  "Pediatría",
+                  "Psicología",
+                  "Urología",
+                  "Cirugía maxilofacial",
+                  "Promoción y prevención",
+                  "Vacunacion"
+                ]
+              },
+              {
+                "name": "CLÍNICA SANTA CRUZ DE LA LOMA S.A.",
+                "address": "Calle 12 No. 12-20",
+                "phone": "7242100",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Consulta externa Medicina General",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLÍNICA SANTA CRUZ DE LA LOMA S.A.",
+                "address": "Calle 12 No. 12-20",
+                "phone": "7242100",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico Imagenologia",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLÍNICA SANTA CRUZ DE LA LOMA S.A.",
+                "address": "Calle 12 No. 12-20",
+                "phone": "7242100",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLÍNICA SANTA CRUZ DE LA LOMA S.A.",
+                "address": "Calle 12 No. 12-20",
+                "phone": "7242100",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL REGIONAL DE SAN GIL",
+                "address": "Carrera 5 No. 9-102",
+                "phone": "7243556",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "CLÍNICA SANTA CRUZ DE LA LOMA S.A.",
+                "address": "Calle 12 No. 12-20",
+                "phone": "7242100",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "FORPRESALUD",
+                "address": "Calle 14 No. 9-36 San Gil",
+                "phone": "",
+                "mobile": "3144518696",
+                "email": "",
+                "hours": "Lunes a Viernes 7:00 am a 6:00 pm / Sábado 08:00 am a 11:00 am",
+                "services": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO NORTE DE SANTANDER",
+    "cities": [
+      {
+        "name": "CUCUTA",
+        "areas": [
+          {
+            "name": "Consulta externa",
+            "places": [
+              {
+                "name": "NORDVITAL IPS SAS",
+                "address": "Calle 14A No. 2E-86",
+                "phone": "5741618",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Servicios primer Nivel",
+            "places": [
+              {
+                "name": "NORDVITAL IPS SAS",
+                "address": "Calle 14A No. 2E-86",
+                "phone": "5741618",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Odontología",
+                  "Enfermería",
+                  "Programas de Promoción y Mantenimiento de la Salud, Vacunación",
+                  "Laboratorio Clínico",
+                  "Optometría y servicios de Óptica",
+                  "Ayudas terapéuticas incluyendo Fisioterapia",
+                  "Rehabilitación",
+                  "Fonoaudiología",
+                  "Psicología",
+                  "Nutrición",
+                  "Medicina Interna",
+                  "Medicina Familiar",
+                  "Gineco-Obstetricia",
+                  "Pediatría",
+                  "Cirugía General",
+                  "Ortopedia",
+                  "Oftalmología",
+                  "Otorrinolaringología",
+                  "Neumología",
+                  "Cardiología",
+                  "Gastroenterología",
+                  "Dermatología",
+                  "Cirugía Plástica",
+                  "EKG",
+                  "Ecocardiograma",
+                  "Holter de Tensión Arterial",
+                  "Prueba de Esfuerzo",
+                  "Ecografía General y Obstétrica"
+                ]
+              },
+              {
+                "name": "CLINICA NORTE S.A.",
+                "address": "Avenida 1 No. 18-11 Barrio Blanco",
+                "phone": "5828222",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PHAMARSAN",
+                "address": "Calle 8 No. 1E - 125 Barrio Popular",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "NORDVITAL IPS SAS",
+                "address": "Calle 14A No. 2E-86",
+                "phone": "5741618",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "ODONTOCUCUTA SA",
+                "address": "Avenida 3E No. 13A-07 Caobos",
+                "phone": "5713966",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              },
+              {
+                "name": "INES LILIANA OSORIO PEREZ",
+                "address": "Calle 13 No. 1E-44 Consultorio 207B",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA NORTE SA",
+                "address": "Avenida 1 No. 18-11 Barrio Blanco",
+                "phone": "5828222",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA NORTE SA",
+                "address": "Avenida 1 No. 18-11 Barrio Blanco",
+                "phone": "5828222",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PAMPLONA",
+        "areas": [
+          {
+            "name": "Consulta externa de Medicina General",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Servicios",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": [
+                  "Medicina General",
+                  "Laboratorio Clínico",
+                  "Radiología e imágenes diagnosticas",
+                  "Terapia ocupacional",
+                  "Terapia respiratoria",
+                  "Fisioterapia",
+                  "Fonoaudiología y/o terapia del lenguaje",
+                  "Anestesia",
+                  "Cirugía general",
+                  "Enfermería",
+                  "Ginecobstetricia",
+                  "Medicina interna",
+                  "Nutrición y dietética",
+                  "Odontología general",
+                  "Pediatría",
+                  "Psicología",
+                  "Hospitalización",
+                  "Servicio de urgencias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PHARMASAN PAMPLONA",
+                "address": "Calle 6A No. 7-43 Parque Santa Inés Barrio Centro",
+                "phone": "",
+                "mobile": "",
+                "email": "",
+                "hours": "07:00 a 14:00",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL SAN JUAN DE DIOS DE PAMPLONA",
+                "address": "Carrera 9 No. 5-01 Barrio Ursua",
+                "phone": "5682486",
+                "mobile": "",
+                "email": "",
+                "hours": "",
+                "services": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

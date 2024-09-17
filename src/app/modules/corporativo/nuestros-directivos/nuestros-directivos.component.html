@@ -1,0 +1,86 @@
+<h1 class="titulo-h1">NUESTROS DIRECTIVOS</h1>
+
+<div class="row">
+  <div
+    *ngFor="let directivo of directivos; let i = index"
+    class="mb-3"
+    [ngClass]="{
+      'col-lg-4': i != 0,
+      'offset-2': i == 4
+    }"
+  >
+    <div class="row" *ngIf="i == 0">
+      <h3 class="titulo-h3 mt-4">{{ directivo.name }}</h3>
+      <div class="col-lg-3">
+        <img
+          alt=""
+          [src]="directivo.image"
+          style="width: 250px; height: 250px; margin: 8px"
+        />
+      </div>
+      <div class="col-lg-9" [innerHTML]="directivo.text"></div>
+    </div>
+
+    <div *ngIf="i != 0">
+      <a
+        data-bs-toggle="modal"
+        data-bs-target="#directivosModal"
+        style="text-decoration: none"
+        (click)="id = i"
+      >
+        <div class="card" style="width: 18rem; height: 450px">
+          <img
+            [src]="directivo.image"
+            class="card-img-top"
+            alt="Secretario general"
+          />
+          <div class="card-body text-center">
+            <p class="card-text">{{ directivo.position }}</p>
+            <h5 class="card-title titulo-h3">
+              <b>{{ directivo.name }}</b>
+            </h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="directivosModal"
+  tabindex="-1"
+  aria-labelledby="directivosModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="titulo-h3 mt-4" id="directivosModalLabel">
+          {{ directivos[id].name }}
+        </h1>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-3">
+            <img
+              [alt]="directivos[id].position"
+              [src]="directivos[id].image"
+              style="width: 250px; height: 250px; margin: 8px"
+            />
+          </div>
+          <div class="col-lg-9">
+            <h3 class="titulo-h3">{{ directivos[id].position }}</h3>
+            <div [innerHTML]="directivos[id].text"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

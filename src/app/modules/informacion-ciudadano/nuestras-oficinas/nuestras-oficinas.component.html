@@ -1,0 +1,162 @@
+<h1 class="titulo-h1 mb-4">ATENCIÓN Y SERVICIOS A LA CIUDADANÍA</h1>
+<h3 class="titulo-h3 mt-4">CANALES DE ATENCIÓN PRESENCIAL DEL FPS-FNC</h3>
+
+<div class="col-lg-12">
+  <p class="mb-4">
+    <b>Bogota D.C., Colombia</b><br />
+    <b>Dirección: </b> Calle 19 No 14 - 21 piso 1 Edificio CUDECOM
+    (Bogota-Colombia)<br />
+    <b>Código Postal: </b>1114111<br />
+    <b>Horarios de Atención Presencial: </b>08:00 a.m. a 04:30 p.m., de lunes a
+    viernes.<br />
+    <b>Horarios de Atención Virtual: </b>08:00 a.m., a 04:30 p.m., en jornada
+    continua días hábiles.<br />
+    <b>NIT: </b>800.112.806-2
+  </p>
+</div>
+
+<h3 class="titulo-h3 mt-4">CANALES DE ATENCIÓN TELEFÓNICOS DEL FPS-FNC</h3>
+
+<div class="col-lg-12">
+  <p class="mb-4">
+    <b> Orientación Telefónica Sede Principal: </b>+57 (601) 381 71 71 ext. 1900
+    en jornada continua día hábiles.<br />
+    <b> Línea de Atención 24 horas, Bogotá: </b>+57 (601) 208 83 39<br />
+    <b> Línea Gratuita (COVID-19), Nacional: </b>+57 01 8000 111322<br />
+    <b> Línea 24 horas Atención de Urgencias,Nacional: </b>+57 01 8000 111322<br />
+    <b> Atención PQRSD de Salud, Línea de Atención 24/7, Nacional: </b>+57 01
+    8000 111322<br />
+  </p>
+</div>
+
+<h3 class="titulo-h3 mt-4">
+  CANALES DE ATENCIÓN CORREOS ELECTRÓNICOS DEL FPS-FNC
+</h3>
+
+<div class="col-lg-12">
+  <p class="mb-4">
+    <b>E-mail para interponer una PQRSDF: </b
+    ><a href="mailto:correspondencia&#64;fps.gov.co"
+      >correspondencia&#64;fps.gov.co</a
+    ><br />
+    <b>E-mail Notificaciones Judiciales: </b
+    ><a href="mailto:notificacionesjudiciales&#64;fps.gov.co"
+      >notificacionesjudiciales&#64;fps.gov.co</a
+    ><br />
+    <b>E-mail Notificaciones actos administrativos: </b
+    ><a href="mailto:notificacionce&#64;fps.gov.co"
+      >notificacionce&#64;fps.gov.co</a
+    ><br />
+    <b>E-mail Denuncias por hechos de Corrupción: </b
+    ><a href="mailto:soy.transparente&#64;fps.gov.co"
+      >soy.transparente&#64;fps.gov.co</a
+    ><br />
+    <b>Correo Electrónico Atención de Urgencias 24 horas: </b
+    ><a href="mailto:fps&#64;enlazamos.com">fps&#64;enlazamos.com</a><br />
+  </p>
+</div>
+
+<h3 class="titulo-h3 mt-4">
+  CANALES DE ATENCIÓN PARA INTERPONER UNA PQRSDF DEL FPS-FNC
+</h3>
+
+<div class="row">
+  <div class="col-lg-3">
+    <div class="btn-icono">
+      <a href="/noticias/pqrs/222" target="_blank">
+        <i class="bi bi-1-circle"></i>
+        PETICIONES, QUEJAS Y RECLAMOS (PQRDSF)
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="btn-icono">
+      <a href="/atencion-al-usuario/consulta-de-solicitudes/10" target="_blank">
+        <i class="bi bi-1-circle"></i>
+        CONSULTA DE SOLICITUDES
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="btn-icono">
+      <a
+        href="/atencion-al-usuario/encuesta-de-satisfaccion/214"
+        target="_blank"
+      >
+        <i class="bi bi-1-circle"></i>
+        ENCUESTA DE SATISFACCIÓN
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="btn-icono">
+      <a
+        href="/atencion-al-usuario/encuesta-de-usabilidad-fpsfnc/232"
+        target="_blank"
+      >
+        <i class="bi bi-1-circle"></i>
+        ENCUESTA DE USABILIDAD
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-lg-12 mb-3">
+    <a
+      class="btn-comun"
+      type="button"
+      href="/corporativo/directorio-general-funcionarios-fps/192"
+      target="_blank"
+    >
+      <span class="icon icon-documento"></span>
+      Directorio Institucional
+    </a>
+  </div>
+  <div class="col-lg-12 mb-3">
+    <a
+      class="btn-comun"
+      type="button"
+      href="/atencion-al-usuario/calendario/114"
+      target="_blank"
+    >
+      <span class="icon icon-documento"></span>
+      Calendario de Actividades
+    </a>
+  </div>
+  <div class="col-lg-12">
+    <a
+      class="btn-comun"
+      type="button"
+      href="/corporativo/entidades-que-nos-regulan/45"
+      target="_blank"
+    >
+      <span class="icon icon-documento"></span>
+      Entidades que nos regula
+    </a>
+  </div>
+</div>
+
+<h3 class="titulo-h3 mt-4">CANALES DE ATENCIÓN DIVISIONES DEL FPS-FNC</h3>
+
+<div class="row mt-3">
+  <div *ngFor="let canal of canales; let i = index" class="col-lg-6">
+    <h4 class="titulo-h4">{{ canal.department }}</h4>
+    <div class="mb-4">
+      <b>Dirección: </b>{{ canal.address }}<br />
+      <div *ngFor="let p of canal.phone; let i = index">
+        <span *ngIf="i == 0"><b>Teléfono: </b></span>
+        {{ p }}<br />
+      </div>
+      <b>Email: </b>{{ canal.email }}
+    </div>
+  </div>
+</div>
+
+<iframe
+  src="assets/files/informacion_ciudadano/nuestras_oficinas/cartelera virtual (03May23).pdf"
+  width="100%"
+  height="600px"
+>
+  Your browser does not support iframes.
+</iframe>
