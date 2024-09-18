@@ -80,7 +80,7 @@ export class MenuComponent {
       {
         id: 6,
         nombre: 'SALA DE PRENSA',
-        url: '/#',
+        url: '/sala-de-prensa/noticias/57',
         active: false,
         submenu: [],
       },

@@ -12,7 +12,7 @@ export interface Infobtn {
 }
 
 export interface newsCard {
-  id: number;
+  id?: number;
   urlImage: string;
   info: string;
   date: string;

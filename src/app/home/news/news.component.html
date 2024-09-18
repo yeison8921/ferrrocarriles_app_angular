@@ -1,18 +1,20 @@
 <div class="container p-0">
   <h1 class="titleSection"><span class="pe-2">Noticias </span></h1>
   <div class="rowContainer">
-    @for (news of newsC; track news.id) { @if (news.id <= 3 ){
+    @for (news of newsC; track news) { @if ($index < 3 ){
     <div class="col-lg-4 m4-">
       <div class="card m-4">
-        <img src="{{ news.urlImage }}" class="card-img-top" />
+        <img src="{{ news.imagen }}" class="card-img-top" />
         <div class="card-body">
           <p class="card-text text-white">
-            {{ news.date }}<br />
-            <b>{{ news.info }}</b>
+            {{ news.fecha }}<br />
+            <b>{{ news.titulo }}</b>
           </p>
         </div>
         <div class="card-footer border-0 py-3">
-          <a href="#" class="btn-amarillo">Leer noticia completa</a>
+          <a href="/sala-de-prensa/noticias/{{ news.url }}" class="btn-amarillo"
+            >Leer noticia completa</a
+          >
         </div>
       </div>
     </div>
@@ -20,6 +22,8 @@
     } }
   </div>
   <div class="d-flex justify-content-center mb-5">
-    <button class="btn-comun" type="button">VER MÁS NOTICIAS</button>
+    <a href="/sala-de-prensa/noticias/57" class="btn-comun" type="button"
+      >VER MÁS NOTICIAS</a
+    >
   </div>
 </div>
