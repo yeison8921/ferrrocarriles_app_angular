@@ -16,3 +16,11 @@ export interface Comunicados {
   texto: string;
   file?: File;
 }
+
+export interface Videos {
+  titulo: string;
+  fecha: string;
+  descripcion: string;
+  url: string;
+  idVideo?: string;
+}

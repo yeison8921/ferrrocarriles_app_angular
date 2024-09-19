@@ -57,7 +57,7 @@ export class MenuComponent {
           {
             id: 11,
             nombre: 'Canales de Atención',
-            url: '/#',
+            url: '/informacion-al-ciudadano/nuestras-oficinas/115',
             active: false,
             submenu: [],
           },
@@ -107,14 +107,14 @@ export class MenuComponent {
           {
             id: 15,
             nombre: 'Sistema de Afiliación Transaccional (SAT)',
-            url: '/#',
+            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
             active: false,
             submenu: [],
           },
           {
             id: 16,
             nombre: 'Ruta de promoción y mantenimiento de la salud',
-            url: '/#',
+            url: '/servicios-de-salud/programa-de-promocion-y-prevencion/132',
             active: false,
             submenu: [],
           },
@@ -135,7 +135,7 @@ export class MenuComponent {
           {
             id: 19,
             nombre: 'Gestión del Riesgo',
-            url: '/#',
+            url: '/servicios-de-salud/gestion-del-riesgo/259',
             active: false,
             submenu: [],
           },

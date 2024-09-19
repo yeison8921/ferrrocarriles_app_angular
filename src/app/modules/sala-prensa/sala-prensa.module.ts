@@ -4,6 +4,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import arrayNoticias from './json/noticias.json';
 import { NoticiaInternaComponent } from './noticias/noticia-interna/noticia-interna.component';
 import { ComunicadosComponent } from './comunicados/comunicados.component';
+import { VideosComponent } from './videos/videos.component';
 
 let routes: Routes = [
   {
@@ -15,6 +16,11 @@ let routes: Routes = [
     path: 'comunicados/124',
     title: 'Comunicados',
     component: ComunicadosComponent,
+  },
+  {
+    path: 'videos/123',
+    title: 'Videos',
+    component: VideosComponent,
   },
 ];
 

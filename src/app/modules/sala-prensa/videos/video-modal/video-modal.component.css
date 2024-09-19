@@ -1,0 +1,9 @@
+.titulo {
+    border-left: var(--azul-t) 5px solid;
+    padding-left: 0.5rem;
+
+    .fecha {
+        font-family: WorkSans-Regular;
+        color: var(--azul-o);
+    }
+}
