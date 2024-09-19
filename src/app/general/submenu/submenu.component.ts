@@ -822,7 +822,6 @@ export class SubmenuComponent {
           let numberSurl =
             submenu.url.split('/')[submenu.url.split('/').length - 1];
           if (numberSurl == numberPath) {
-            console.log(numberSurl);
             submenu.active = true;
             item.active = true;
           }
