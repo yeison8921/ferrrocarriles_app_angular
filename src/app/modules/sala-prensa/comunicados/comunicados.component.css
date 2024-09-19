@@ -1,0 +1,53 @@
+.comunicados {
+  background-color: var(--blanco-o);
+
+  .imagen,
+  .descripcion {
+    min-height: 235px;
+  }
+
+  .imagen {
+    border: 2px solid var(--blanco-o);
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .imagen::before {
+    background: var(--azul-t);
+    content: '';
+    display: inline-block;
+    height: 60%;
+    left: -5.5px;
+    position: absolute;
+    top: calc(45% - 25%);
+    width: 10px;
+  }
+
+  .descripcion {
+    width: calc(100% - 200px);
+    padding: 0;
+
+    .header-descripcion {
+      background-color: var(--azul-o);
+      border: 2px solid var(--azul-o);
+      color: white;
+
+      h2 {
+        font-family: Montserrat-Bold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+
+      span {
+        color: var(--amarillo);
+      }
+    }
+
+    span,
+    p {
+      font-family: WorkSans-Regular;
+    }
+  }
+}

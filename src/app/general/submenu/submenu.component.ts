@@ -82,8 +82,7 @@ export class SubmenuComponent {
           {
             id: 10,
             nombre: 'Asociaciones Ferrocarriles',
-            //url: '/corporativo/asociaciones-ferrocarriles/249',
-            url: '',
+            url: '/corporativo/asociaciones-ferrocarriles/249',
             active: false,
           },
           {
@@ -95,8 +94,7 @@ export class SubmenuComponent {
           {
             id: 12,
             nombre: 'Nuestros Directivos',
-            //url: '/corporativo/nuestros-directivos/191',
-            url: '',
+            url: '/corporativo/nuestros-directivos/191',
             active: false,
           },
           {
@@ -108,8 +106,7 @@ export class SubmenuComponent {
           {
             id: 14,
             nombre: 'Directorio Funcionarios Principales',
-            //url: '/corporativo/directorio-funcionarios-principales/193',
-            url: '',
+            url: '/corporativo/directorio-funcionarios-principales/193',
             active: false,
           },
           {
@@ -383,12 +380,6 @@ export class SubmenuComponent {
             active: false,
           },
           {
-            id: 5,
-            nombre: 'Audios',
-            url: '/sala-de-prensa/audios/122',
-            active: false,
-          },
-          {
             id: 6,
             nombre: 'Calendario de Actividades',
             url: '/atencion-al-usuario/calendario/114',
@@ -419,15 +410,13 @@ export class SubmenuComponent {
           {
             id: 4,
             nombre: 'Sistema de Afiliación Transaccional (SAT)',
-            //url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
-            url: '',
+            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
             active: false,
           },
           {
             id: 5,
             nombre: 'Ruta de Promoción y Mantenimiento de la Salud',
-            //url: '/servicios-de-salud/programa-de-promocion-y-prevencion/132',
-            url: '',
+            url: '/servicios-de-salud/programa-de-promocion-y-prevencion/132',
             active: false,
           },
           {
@@ -445,8 +434,7 @@ export class SubmenuComponent {
           {
             id: 7,
             nombre: 'Gestión del Riesgo',
-            //url: '/servicios-de-salud/gestion-del-riesgo/259',
-            url: '',
+            url: '/servicios-de-salud/gestion-del-riesgo/259',
             active: false,
           },
         ],
@@ -774,13 +762,6 @@ export class SubmenuComponent {
             active: false,
           },
           {
-            id: 3,
-            nombre: 'Formatos',
-            //url: '/tramites-y-servicios/formatos/165',
-            url: '',
-            active: false,
-          },
-          {
             id: 4,
             nombre: 'Ventanilla Virtual',
             url: '/tramites-y-servicios/ventanilla-virtual/55',
@@ -799,8 +780,7 @@ export class SubmenuComponent {
           {
             id: 4,
             nombre: 'Atención y servicios a la Ciudadanía',
-            /*url: '/informacion-al-ciudadano/nuestras-oficinas/115',*/
-            url: '',
+            url: '/informacion-al-ciudadano/nuestras-oficinas/115',
             active: false,
           },
           {

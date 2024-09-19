@@ -1,0 +1,36 @@
+<h1 class="titulo-h1">COMUNICADOS</h1>
+<div
+  class="row m-0 mb-4 comunicados"
+  *ngFor="let comunicado of comunicados; let i = index"
+>
+  <div
+    class="position-relative imagen"
+    [style]="
+      i == 0
+        ? 'background-image: url(' +
+          comunicado.imagen +
+          '); background-size: cover;'
+        : 'background-image: url(' + comunicado.imagen + ');'
+    "
+  ></div>
+  <div class="descripcion">
+    <div class="header-descripcion p-3">
+      <h2>{{ comunicado.titulo }}</h2>
+      <span>{{ comunicado.fecha }}</span>
+    </div>
+    <div class="body-descripcion p-3">
+      <p>
+        {{ comunicado.texto }}
+      </p>
+      <a
+        *ngIf="comunicado.file != undefined"
+        class="btn-comun"
+        type="button"
+        href="{{ comunicado.file.url }}"
+        target="_blank"
+        ><i class="bi bi-file-earmark-{{ comunicado.file.tipo }}-fill"></i
+        >{{ comunicado.file.nombre }}</a
+      >
+    </div>
+  </div>
+</div>
