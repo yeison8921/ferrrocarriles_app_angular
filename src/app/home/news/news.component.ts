@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { newsCard } from '../../interfaces/home';
 import arrayNoticias from '../../modules/sala-prensa/json/noticias.json';
 import { Noticias } from '../../modules/sala-prensa/interfaces';
 
