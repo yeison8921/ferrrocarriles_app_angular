@@ -27,18 +27,27 @@
         data-bs-target="#directivosModal"
         style="text-decoration: none"
         (click)="id = i"
+        href="#"
       >
-        <div class="card" style="width: 18rem; height: 450px">
+        <div
+          class="card"
+          style="width: 18rem; height: 450px; background-color: #004884"
+        >
           <img
             [src]="directivo.image"
             class="card-img-top"
             alt="Secretario general"
           />
-          <div class="card-body text-center">
-            <p class="card-text">{{ directivo.position }}</p>
-            <h5 class="card-title titulo-h3">
+          <div
+            class="card-body text-center"
+            style="border-top: 4px #0da9c6 solid"
+          >
+            <h5 class="card-title titulo-h3" style="color: white">
               <b>{{ directivo.name }}</b>
             </h5>
+            <p class="card-text" style="color: #fbbc08">
+              {{ directivo.position }}
+            </p>
           </div>
         </div>
       </a>

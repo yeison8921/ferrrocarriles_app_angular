@@ -2,6 +2,8 @@ import { NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import arrayCanales from './canales.json';
 import { Canal } from './canal';
+import arrayBotones from './botones.json';
+import { Boton } from './boton';
 
 @Component({
   selector: 'app-nuestras-oficinas',
@@ -12,4 +14,5 @@ import { Canal } from './canal';
 })
 export class NuestrasOficinasComponent {
    canales: Canal[] = arrayCanales;
+   botones: Boton[] = arrayBotones;
 }
