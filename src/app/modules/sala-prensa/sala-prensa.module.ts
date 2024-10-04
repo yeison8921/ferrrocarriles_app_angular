@@ -14,7 +14,7 @@ let routes: Routes = [
     title: 'Noticias',
     component: NoticiasComponent,
   },
-<<<<<<< HEAD
+
   {
     path: 'comunicados/124',
     title: 'Comunicados',
@@ -24,13 +24,13 @@ let routes: Routes = [
     path: 'videos/123',
     title: 'Videos',
     component: VideosComponent,
-=======
+  },
 
   {
     path: 'eventos/120',
     title: 'Eventos',
     component: EventosComponent,
->>>>>>> juanDa
+
   },
 ];
 
