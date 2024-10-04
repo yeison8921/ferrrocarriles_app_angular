@@ -6,12 +6,15 @@ import { NoticiaInternaComponent } from './noticias/noticia-interna/noticia-inte
 import { ComunicadosComponent } from './comunicados/comunicados.component';
 import { VideosComponent } from './videos/videos.component';
 
+import { EventosComponent } from './eventos/eventos.component';
+
 let routes: Routes = [
   {
     path: 'noticias/57',
     title: 'Noticias',
     component: NoticiasComponent,
   },
+<<<<<<< HEAD
   {
     path: 'comunicados/124',
     title: 'Comunicados',
@@ -21,6 +24,13 @@ let routes: Routes = [
     path: 'videos/123',
     title: 'Videos',
     component: VideosComponent,
+=======
+
+  {
+    path: 'eventos/120',
+    title: 'Eventos',
+    component: EventosComponent,
+>>>>>>> juanDa
   },
 ];
 
