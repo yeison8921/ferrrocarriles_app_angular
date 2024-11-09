@@ -1,0 +1,52 @@
+<h1 class="titulo-h1">INDICADORES DE SALUD</h1>
+<p>
+  Aquí encontrará los Indicadores de calidad de los servicios de salud prestados
+  por el Fondo Pasivo Social
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let documento of documentos; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span>
+        {{ documento.name }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div *ngIf="documento.subaccordion">
+            <div
+              *ngFor="let accordion of documento.subaccordion; let i = index"
+              class="mb-3"
+            >
+              <h4 class="titulo-h4">
+                <span>{{ i + 1 }}</span>
+                {{ accordion.name }}
+              </h4>
+              <div *ngFor="let file of accordion.files; let i = index">
+                <a class="link-file" href="{{ file.href }}" target="_blank"
+                  ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+                  >{{ file.name }}</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div *ngFor="let file of documento.files; let i = index">
+            <a class="link-file" href="{{ file.href }}" target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+              >{{ file.name }}</a
+            >
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,105 @@
+<div ngbAccordion class="pe-3" [closeOthers]="true">
+  <div
+    ngbAccordionItem
+    class="mb-3"
+    *ngFor="let item of submenu; let i = index"
+    [collapsed]="!item.active"
+  >
+    <h2 ngbAccordionHeader>
+      <a
+        *ngIf="item.submenu!.length == 0"
+        href="{{ item.url }}"
+        role="button"
+        [ngClass]="item.active ? 'close' : 'collapsed'"
+        ><span class="icon-{{ item.icono }}"></span> {{ item.nombre }}</a
+      >
+      <a
+        ngbAccordionButton
+        *ngIf="item.submenu!.length > 0 && item.urlactive"
+        href="{{ item.url }}"
+        role="button"
+        class="accordion-button"
+        [ngClass]="item.active ? 'close' : 'collapsed'"
+        (click)="cambio(i, item.active)"
+      >
+        <span class="icon-{{ item.icono }}"></span> {{ item.nombre }}
+      </a>
+      <button
+        ngbAccordionButton
+        *ngIf="item.submenu!.length > 0 && !item.urlactive"
+        role="button"
+        [ngClass]="item.active ? 'close' : 'collapsed'"
+        (click)="cambio(i, item.active)"
+      >
+        <span class="icon-{{ item.icono }}"></span> {{ item.nombre }}
+      </button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="pb-0 pe-0">
+        <ng-template>
+          <div *ngFor="let subitem of item.submenu">
+            <a
+              class="link mb-2"
+              [ngClass]="subitem.active ? 'active' : ''"
+              *ngIf="
+                (subitem.submenu == undefined ||
+                  subitem.submenu?.length == 0) &&
+                subitem.url != ''
+              "
+              href="{{ subitem.url }}"
+              >{{ subitem.nombre }}</a
+            >
+            <a
+              class="link mb-2"
+              [ngClass]="subitem.active ? 'active' : ''"
+              *ngIf="
+                (subitem.submenu == undefined ||
+                  subitem.submenu?.length == 0) &&
+                subitem.url == ''
+              "
+              >{{ subitem.nombre }}</a
+            >
+            <div
+              ngbAccordion
+              [closeOthers]="true"
+              *ngIf="
+                subitem.submenu != undefined && subitem.submenu!.length > 0
+              "
+            >
+              <div ngbAccordionItem class="mb-3" [collapsed]="!subitem.active">
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton role="button">
+                    {{ subitem.nombre }}
+                  </button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody class="pb-0 pe-0">
+                    <ng-template>
+                      <div *ngFor="let subsubitem of subitem.submenu">
+                        <a
+                          class="link mb-2"
+                          [ngClass]="subsubitem.active ? 'active' : ''"
+                          *ngIf="subsubitem.url != ''"
+                          href="{{ subsubitem.url }}"
+                          role="button"
+                          >{{ subsubitem.nombre }}</a
+                        >
+                        <a
+                          class="link mb-2"
+                          [ngClass]="subsubitem.active ? 'active' : ''"
+                          *ngIf="subsubitem.url == ''"
+                          role="button"
+                          >{{ subsubitem.nombre }}</a
+                        >
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+<h1 class="titulo-h1">INFORME CÁMARA DE REPRESENTANTES</h1>
+<p>Informe Cámara de Representantes.</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div *ngFor="let acordion of item.acordion; let j = index">
+            <h4 class="titulo-h4">
+              <span>{{ j + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+          <a
+            class="link-file"
+            *ngFor="let file of item.files"
+            href="{{ file.url }}"
+            target="_blank"
+          >
+            <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+            {{ file.nombre }}
+          </a>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

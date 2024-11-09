@@ -1,0 +1,17 @@
+<div>
+  <h1 class="titulo-h1">CIRCULARES</h1>
+
+  <p class="mb-3 mt-3">
+    Circulares por las cuales se establecen lineamientos y procedimientos
+    internos del Fondo Pasivo Social
+  </p>
+
+  <div *ngFor="let circular of circulares; let i = index">
+    <h3 class="titulo-h3">{{ circular.title }}</h3>
+    <p>{{ circular.text }}</p>
+    <a class="link-file mb-3" href="{{ circular.href }}" target="_blank"
+      ><i class="bi bi-file-earmark-pdf-fill"></i>{{ circular.title }}</a
+    >
+    <hr />
+  </div>
+</div>

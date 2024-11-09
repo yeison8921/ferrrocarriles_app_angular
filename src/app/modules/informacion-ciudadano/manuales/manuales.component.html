@@ -1,0 +1,21 @@
+<h1 class="titulo-h1 mb-4">MANUALES</h1>
+
+<p >Manuales de la entidad</p>
+
+<h3 class="titulo-h3 mt-4">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+<div
+    *ngFor="let item of items"
+  >
+    <a
+    class="link-file mb-2"
+    href="{{ item.url }}"
+    target="_blank"
+    >
+    <i class="bi bi-file-earmark-{{ item.tipo }}-fill"></i>
+    {{ item.nombre }}
+  </a>
+</div>

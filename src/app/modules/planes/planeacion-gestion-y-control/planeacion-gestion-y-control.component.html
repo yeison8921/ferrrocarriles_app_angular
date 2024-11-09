@@ -1,0 +1,36 @@
+<h1 class="titulo-h1">PLANEACIÓN, GESTIÓN Y CONTROL</h1>
+<p style="text-align: justify">
+  Encuentre aquí todos los informes que presenta Fondo Pasivo Social sobre su
+  gestión comercial, administrativa, legal y financiera, a los diferentes entes
+  de control, a su junta directiva y a la comunidad en general.
+</p>
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item of items">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            [target]="file.tipo != 'link' ? '_blank' : ''"
+            ><i
+              [class]="
+                'bi bi-' +
+                (file.tipo == 'link-ext' || file.tipo == 'link'
+                  ? 'link-45deg'
+                  : 'file-earmark-' + file.tipo + '-fill')
+              "
+            ></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

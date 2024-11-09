@@ -1,0 +1,55 @@
+<h1 class="titulo-h1">VIDEOS</h1>
+<div class="videos">
+  @for (video of videos; track video) { @if(($index%5)==0||($index%5)==2) {
+  <div class="row" [ngClass]="$index % 5 == 0 ? 'corto' : 'alto'">
+    <div [ngClass]="$index % 10 == 0 ? 'col-8' : 'col-4'">
+      <img [src]="getThumb(video)" alt="" />
+      <div [ngClass]="$index % 2 == 0 ? 'azul-oscuro' : 'azul-claro'">
+        <div class="descripcion p-3">
+          <span class="fecha">{{ video.fecha }}</span>
+          <h3 class="mt-2 mb-0">{{ video.titulo }}</h3>
+        </div>
+        <a role="button" (click)="open(video)"
+          ><i class="fa-solid fa-circle-play"></i
+        ></a>
+      </div>
+    </div>
+    <div
+      *ngIf="$index + 1 < videos.length"
+      [ngClass]="($index + 1) % 10 == 6 ? 'col-8' : 'col-4'"
+    >
+      <img [src]="getThumb(videos[$index + 1])" alt="" />
+      <div [ngClass]="($index + 1) % 2 == 0 ? 'azul-oscuro' : 'azul-claro'">
+        <div class="descripcion p-3">
+          <span class="fecha">{{ videos[$index + 1].fecha }}</span>
+          <h3 class="mt-2 mb-0">{{ videos[$index + 1].titulo }}</h3>
+        </div>
+        <a role="button" (click)="open(videos[$index + 1])"
+          ><i class="fa-solid fa-circle-play"></i
+        ></a>
+      </div>
+    </div>
+    <div
+      *ngIf="
+        $index + 2 < videos.length &&
+        (($index + 2) % 10 == 4 || ($index + 2) % 10 == 9)
+      "
+      class="col-4"
+    >
+      <img [src]="getThumb(videos[$index + 2])" alt="" />
+      <div [ngClass]="($index + 2) % 2 == 0 ? 'azul-oscuro' : 'azul-claro'">
+        <div class="descripcion p-3">
+          <span class="fecha">{{ videos[$index + 2].fecha }}</span>
+          <h3 class="mt-2 mb-0">{{ videos[$index + 2].titulo }}</h3>
+        </div>
+        <a role="button" (click)="open(videos[$index + 2])"
+          ><i class="fa-solid fa-circle-play"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+  } }
+</div>
+<ng-template #content let-modal>
+  <app-video-modal></app-video-modal>
+</ng-template>

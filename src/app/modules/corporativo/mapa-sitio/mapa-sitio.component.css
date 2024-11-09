@@ -1,0 +1,11 @@
+li a {
+  color: var(--gris-o);
+}
+a {
+  text-decoration: 0;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+a:hover {
+  color: var(--azul-t);
+}

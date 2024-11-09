@@ -1,0 +1,51 @@
+<h1 class="titulo-h1 mb-4">GESTIÓN DOCUMENTAL</h1>
+ <p style="text-align: justify">
+  En ejercicio del Principio de Transparencia, en este espacio se pone,
+  a disposición de la ciudadanía, información sobre la Gestión Documental
+  del Ministerio Salud y Protección Social, que incluye el Programa de
+  Gestión Documental, el Cuadro de Clasificación Documental, las Tablas de
+  Retención Documental y los Inventario Documentales;
+  instrumentos que fortalecen la gestión administrativa de la entidad, y
+  garantizan el acceso a los documentos e información pública.
+ </p>
+ <h3 class="titulo-h3 mb-4 mt-4">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+<div ngbAccordion class="mb-4">
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file mt-2"
+            href="{{ file.url }}"
+            target="_blank"
+            >
+            <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+            {{ file.nombre }}
+          </a>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div *ngFor="let item2 of items2">
+  <a class="link-file mt-2" href="{{ item2.url }}" target="_blank">
+    <i class="bi bi-file-earmark-{{ item2.tipo }}-fill"></i>
+    {{ item2.nombre }}
+  </a>
+</div>

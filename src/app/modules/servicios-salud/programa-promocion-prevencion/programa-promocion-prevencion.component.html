@@ -1,0 +1,68 @@
+<h1 class="titulo-h1 mb-4">RUTA DE PROMOCIÓN Y MANTENIMIENTO DE LA SALUD</h1>
+<p>
+  En este módulo encontrará las orientaciones sobre acciones que los pueden
+  proteger de las enfermedades como la vacunación y como detectar tempranamente
+  alteraciones dependiendo de la edad en la que nos encontremos con el fin de
+  intentar corregirlas con apoyo de nuestros servicios de salud.
+</p>
+<h3 class="titulo-h3 my-4">Actividades de promoción y prevención</h3>
+
+<div class="row">
+  @for (card of cards; track card.id) {
+    <div class="col-lg-4 m4-">
+      <div class="card cardButtons m-4">
+        <img src="{{card.imagen}}" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="text-white">
+            {{card.texto}}
+             <br/>
+            {{card.texto2}}
+          </h5>
+        </div>
+        <div class="card-footer border-0 py-3">
+          <a class="btn-azul-o" href="{{card.url}}">
+            <i class="bi bi-search"></i>
+            Consultar aquí
+          </a>
+        </div>
+      </div>
+    </div>
+  }
+</div>
+
+
+<h3  class="titulo-h3 my-4">Información de interés para su salud</h3>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            >
+            <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+            {{ file.nombre }}
+          </a>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

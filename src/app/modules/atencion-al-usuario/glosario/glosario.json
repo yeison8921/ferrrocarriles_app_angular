@@ -1,0 +1,236 @@
+[
+  {
+    "letter": "A",
+    "words": [
+      {
+        "word": "Afiliación",
+        "definition": "Es el procedimiento mediante el cual los potenciales beneficiarios del Régimen Subsidiado y su núcleo familiar se vinculan al Sistema General de Seguridad Social en Salud."
+      },
+      {
+        "word": "Auxilio Funerario",
+        "definition": "Conjunto de servicios que se brindan a trabajadores y empresarios en el marco propio de los procesos de aseguramiento, así como las actividades, procedimientos e intervenciones en las fases de promoción de la salud en los centros de trabajo, prevención de daños a la salud derivados de factores de riesgo ocupacional, mejoramiento de condiciones de trabajo y rehabilitación integral de los trabajadores que han sufrido daños a su salud."
+      }
+    ]
+  },
+  {
+    "letter": "B",
+    "words": [
+      {
+        "word": "BDUA (Base Única de Afiliados)",
+        "definition": "Es la base que contiene la información de los afiliados plenamente identificados, del los distintos regímenes del Sistema de Seguridad Social en Salud. (Régimen Subsidiado, Contributivo y Regímenes especiales)."
+      },
+      {
+        "word": "Beneficiario",
+        "definition": "Personas que después de acreditar el derecho a recibir el pago de un auxilio funerario o de una pensión de sobrevivientes."
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "words": [
+      {
+        "word": "Cadena de Trámites",
+        "definition": "Asociación que se establece entre trámites -sectoriales e intra-sectoriales- comunes y/o complementarios, en función de facilitar a los usuarios la adquisición de derechos o el cumplimiento de obligaciones."
+      },
+      {
+        "word": "Cobertura",
+        "definition": "Es el derecho al aseguramiento a través de las administradoras de riesgos profesionales, quienes asumen los costos de prestaciones asistenciales y económicas derivadas de un accidente de trabajo o enfermedad profesional."
+      },
+      {
+        "word": "Comité Paritario de Salud Ocupacional (Copaso)",
+        "definition": "Organismo de vigilancia de las normas y reglamentos de la salud ocupacional dentro de la empresa, y no se ocupará por lo tanto de tramitar asuntos referentes a la relación contractual-laboral propiamente dicha, los problemas de personal, disciplinarios o sindicales; ellos se ventilan en otros organismos y están sujetos a reglamentación distinta."
+      },
+      {
+        "word": "Copagos",
+        "definition": "Los copagos son los aportes en dinero que corresponden a una parte del valor del servicio demandado y tienen como finalidad ayudar a financiar el sistema."
+      }
+    ]
+  },
+  {
+    "letter": "D",
+    "words": [
+      {
+        "word": "Discapacidad",
+        "definition": "Es toda restricción en la participación y relación con el entorno social o la limitación en la actividad de la vida diaria, debida a una deficiencia en la estructura o en la función motora, sensorial, cognitiva o mental. La discapacidad es vivida por cada individuo en forma diferente, dependiendo no solo de su alteración funcional, sino de las oportunidades que le ofrezca el entorno en el que se desarrolla."
+      }
+    ]
+  },
+  {
+    "letter": "E",
+    "words": [
+      {
+        "word": "EPS",
+        "definition": "Empresas Promotoras de Salud."
+      }
+    ]
+  },
+  {
+    "letter": "F",
+    "words": [
+      {
+        "word": "Factores de Riesgos Ocupacionales",
+        "definition": "Elemento, fenómeno o acción humana que puede provocar daño en la salud de los trabajadores, en los equipos o en las instalaciones."
+      },
+      {
+        "word": "Fármaco",
+        "definition": "Es el principio activo de un producto farmacéutico."
+      },
+      {
+        "word": "Fecha de Calificación de Invalidez",
+        "definition": "Momento en el cual queda en firme el dictamen emitido por la instancia competente sobre la pérdida de la capacidad laboral del afiliado."
+      },
+      {
+        "word": "Fondo de Riesgos Profesionales",
+        "definition": "Cuenta especial de la Nación, adscrita al Ministerio de la Protección Social, que tiene por objeto: Adelantar estudios, campañas y acciones de educación, prevención e investigación de los accidentes de trabajo y enfermedades profesionales en todo el territorio nacional, en especial el artículo 88 del Decreto 1295 de 1994."
+      },
+      {
+        "word": "FTP (File Transfer Protocol)",
+        "definition": "Es un protocolo de transferencia de archivos entre sistemas conectados a una red TCP entre un cliente y un servidor, en el cual desde el equipo de un cliente (Entidad territorial) se puede conectar a un servidor (Consorcio Fidufosyga) para descargar archivos desde él o para enviarle archivos (Archivo maestro o de novedades de afiliados)."
+      }
+    ]
+  },
+  {
+    "letter": "I",
+    "words": [
+      {
+        "word": "Interventoria",
+        "definition": "Es un proceso permanente dirigido a fortalecer la operación del Régimen Subsidiado y verificar el cumplimiento de las obligaciones del contrato de aseguramiento para garantizar el acceso de la población al Sistema General de Seguridad Social en Salud, bajo los principios de calidad, oportunidad, eficiencia y eficacia."
+      },
+      {
+        "word": "Invalidez",
+        "definition": "Se considera inválida la persona que por cualquier causa de origen no profesional, no provocada intencionalmente, hubiere perdido el 50 % o más de su capacidad laboral."
+      },
+      {
+        "word": "IPS",
+        "definition": "Son las Instituciones encargadas de prestar los servicios de salud en su nivel de atención correspondiente a los afiliados y beneficiarios dentro de los parámetros y principios señalados en la presente Ley."
+      }
+    ]
+  },
+  {
+    "letter": "M",
+    "words": [
+      {
+        "word": "Medicamento",
+        "definition": "Es aquél preparado farmacéutico obtenido a partir de principios activos, con o sin sustancias auxiliares, presentado bajo forma farmacéutica que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de la enfermedad. Los envases, rótulos, etiquetas y empaques hacen parte integral del medicamento, por cuanto éstos garantizan su calidad, estabilidad y uso adecuado."
+      },
+      {
+        "word": "Medicamento Esencial",
+        "definition": "Es aquel que reúne características de ser el más costo efectivo en el tratamiento de una enfermedad, en razón de su eficacia y seguridad farmacológica, por dar una respuesta más favorable a los problemas de mayor relevancia en el perfil de morbimortalidad de una comunidad y porque su costo se ajusta a las condiciones de la economía del país. Corresponden a los contenidos en el listado de medicamentos del Plan Obligatorio de Salud, POS, del Sistema de Seguridad Social en Salud."
+      },
+      {
+        "word": "Medicamento Génerico",
+        "definition": "Nombre empleado para distinguir el principio activo que no está amparado por una marca de fábrica. El nombre genérico corresponde generalmente con la Denominación Común Internacional recomendada por la OMS y es usado comúnmente por los fabricantes y reconocido por la autoridad competente para denominar productos farmacéuticos que tienen el mismo principio activo."
+      },
+      {
+        "word": "Medicamento Nuevo",
+        "definition": "Es aquel cuyo principio activo no ha sido incluido en el Manual de Normas Farmacológicas o aquel que, estando incluido en él corresponda a nuevas asociaciones o dosis fijas, o a nuevas indicaciones, o nuevas formas farmacéuticas, modificaciones que impliquen cambios en la farmacocinética, cambios en la vía de administración o en las condiciones de comercialización. Incluye también las sales, ésteres, solvatos u otros derivados no contemplados en los textos reconocidos científicamente en el país."
+      },
+      {
+        "word": "Medicamento Vital no Disponible",
+        "definition": "Es un medicamento indispensable e irremplazable para salvaguardar la vida o aliviar el sufrimiento de un paciente o un grupo de pacientes y que por condiciones de baja rentabilidad en su comercialización, no se encuentra disponible en el país o las cantidades no son suficientes."
+      },
+      {
+        "word": "Mesada adicional",
+        "definition": "Los pensionados por vejez o jubilación, invalidez y sustitución o sobrevivencia continuarán recibiendo cada año, junto con la mesada del mes de noviembre, en la primera quincena del mes de diciembre, el valor correspondiente a una mensualidad adicional a su pensión."
+      }
+    ]
+  },
+  {
+    "letter": "P",
+    "words": [
+      {
+        "word": "Persona Mayor",
+        "definition": "Persona sin distingo de género, mayor de 60 años; léase también como: Adulto mayor, persona de la tercera edad, anciano, entre otros."
+      },
+      {
+        "word": "Petición",
+        "definition": "Manifestación que hace un ciudadano con el fin de recibir una respuesta sobre los temas generales y particulares que son competencia de la entidad."
+      },
+      {
+        "word": "Porcentaje de Invalidez",
+        "definition": "Grado de pérdida de capacidad laboral."
+      },
+      {
+        "word": "POS-S (Plan Obligatorio de Salud-subsidiado)",
+        "definition": "Es el conjunto de actividades, procedimientos e intervenciones, servicios, insumos y medicamentos al que tienen derecho los afiliados al Régimen Subsidiado."
+      },
+      {
+        "word": "Prestaciones Asistenciales",
+        "definition": "Servicios médicos, quirúrgicos, terapéuticos, farmacéuticos, odontológicos y de hospitalización, suministro de medicamentos, servicios auxiliares de diagnóstico y tratamiento, prótesis y órtesis, su reparación, y su reposición solo en casos de deterioro o desadaptación, cuando a criterio de rehabilitación se recomiende, rehabilitaciones física y profesional y gastos de traslado, que se le suministran a un trabajador que haya sufrido un accidente o se le diagnostique una enfermedad profesional."
+      },
+      {
+        "word": "Prestaciones Económicas",
+        "definition": "Reconocimiento y pago de las prestaciones económicas que se le da un trabajador que sufra un accidente de trabajo o enfermedad profesional, las cuales son: Subsidio por Incapacidad Temporal; Indemnización por Incapacidad Permanente Parcial; Pensión de Invalidez; Pensión de sobrevivientes y Auxilio Funerario."
+      },
+      {
+        "word": "Prevención",
+        "definition": "Conjunto de acciones que tienen por objeto identificar, controlar, reducir o eliminar los riesgos derivados de la organización del trabajo, que pueden afectar la salud individual y colectiva en los lugares de trabajo, con el fin de de evitar que ocurran los accidentes laborales o enfermedades profesionales, u ocasionen mayores daños o secuelas en los trabajadores, en conclusión es detectar, evitar, controlar, minimizar, o eliminar los efectos y las consecuencias de los accidentes de trabajo y las enfermedades profesionales."
+      },
+      {
+        "word": "Programa de Salud Ocupacional",
+        "definition": "Planeación, organización, ejecución, control y evaluación de todas aquellas actividades tendientes a preservar, mantener y mejorar la salud individual y colectiva de los trabajadores con el fin de evitar accidentes de trabajo y enfermedades profesionales."
+      },
+      {
+        "word": "Promoción de la Salud",
+        "definition": "Busca establecer estilos de vida saludables, a fin de instaurar o fortalecer conductas que influyan en el mantenimiento de estados de salud óptimos en la persona, tenga o no una discapacidad."
+      }
+    ]
+  },
+  {
+    "letter": "Q",
+    "words": [
+      {
+        "word": "Queja",
+        "definition": "Es la manifestación de protesta, censura, descontento o inconformidad que formula una persona o usuario en relación a la conducta presumiblemente irregular cometida por uno o varios servidores públicos en desarrollo de sus funciones."
+      }
+    ]
+  },
+  {
+    "letter": "R",
+    "words": [
+      {
+        "word": "Reclamo",
+        "definition": "Es la manifestación de inconformidad que realiza un usuario, ya sea en forma verbal, escrita, o en medio electrónico, sobre el incumplimiento en la prestación de un servicio o sobre su insatisfacción acerca de los resultados o el desarrollo del servicio."
+      },
+      {
+        "word": "Régimen Contributivo",
+        "definition": "Es un conjunto de normas que rigen la vinculación de los individuos y las familias al Sistema General de Seguridad Social en Salud, cuando tal vinculación se hace a través del pago de una cotización, individual y familiar, o un aporte económico previo financiado directamente por el afiliado o en concurrencia entre éste y su empleador."
+      }
+    ]
+  },
+  {
+    "letter": "S",
+    "words": [
+      {
+        "word": "Servicio",
+        "definition": "Conjunto de actividades que buscan proporcionar valor agregado a los usuarios, al ofrecer un beneficio o satisfacer sus necesidades."
+      },
+      {
+        "word": "Servicio en Línea",
+        "definition": "Servicio que puede ser prestado por medios electrónicos a través del portal de una entidad."
+      }
+    ]
+  },
+  {
+    "letter": "T",
+    "words": [
+      {
+        "word": "Trámite",
+        "definition": "Conjunto o serie de pasos o acciones reguladas por el Estado, que deben efectuar los usuarios para adquirir un derecho o cumplir con una obligación prevista o autorizada por la ley. El trámite se inicia cuando ese particular activa el aparato público a través de una petición o solicitud expresa y termina (como trámite) cuando la administración pública se pronuncia sobre éste, aceptando o denegando la solicitud."
+      },
+      {
+        "word": "Trámite En Línea",
+        "definition": "Trámite que puede ser realizado por medios electrónicos a través del portal de una entidad, ya sea de manera parcial, en alguno de sus pasos o etapas, o total, hasta obtener completamente el resultado requerido."
+      }
+    ]
+  },
+  {
+    "letter": "V",
+    "words": [
+      {
+        "word": "Ventanilla Única Virtual",
+        "definition": "Sitio virtual desde el cual se gestiona de manera integrada la realización de trámites que están en cabeza de una o varias entidades."
+      }
+    ]
+  }
+]

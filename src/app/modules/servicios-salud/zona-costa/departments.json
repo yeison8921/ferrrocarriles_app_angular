@@ -1,0 +1,852 @@
+[
+  {
+    "name": "DEPARTAMENTO ATLÁNTICO",
+    "cities": [
+      {
+        "name": "BARRANQUILLA",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "DR. JORGE ENRIQUE BELEÑO GALVIS",
+                "address": "Calle 59 No 50-10",
+                "phone": "3092202",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A. SEDE PUERTO",
+                "address": "Calle 59 No 50-10",
+                "phone": "3091690 Ext. 1 Opc. 2.",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A. SEDE PUERTO",
+                "address": "Calle 59 No 50-10",
+                "phone": "3092202 Ext. 8.",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A. SEDE PUERTO",
+                "address": "Calle 59 No 50-10",
+                "phone": "3091999 Ext. 1 y 2.",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras de Laboratorio",
+            "places": [
+              {
+                "name": "CLÍNICA GENERAL DEL NORTE S.A",
+                "address": "Calle 59 No 50-10",
+                "phone": "3091999",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA GENERAL DEL NORTE",
+                "address": "Carrera 48 No 70 - 38",
+                "phone": "3091999",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA GENERAL DEL NORTE SEDE HOSPITALARIA 2",
+                "address": "Carrera 59 No. 50-10",
+                "phone": "3091999",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MURILLO",
+                "address": "Calle 45 No 20 - 77",
+                "phone": "3092138",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MEDIESP",
+                "address": "Carrera 49 C No 84 - 141",
+                "phone": "3092035",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CAAD DE LOS ANDES",
+                "address": "Calle 57 No. 25-105.",
+                "phone": "3860190 Ext. 12200",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "INVERCLINICAS SEDE SOLEDAD",
+                "address": "Calle 30 No 29-30",
+                "phone": "3930864",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA GENERAL DEL NORTE",
+                "address": "Carrera 48 No 70 - 38",
+                "phone": "3091999",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA GENERAL DEL NORTE SEDE HOSPITALARIA 2",
+                "address": "Carrera 59 No. 50-10",
+                "phone": "3091999",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MURILLO",
+                "address": "Calle 45 No 20 - 77",
+                "phone": "3092138",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA MEDIESP",
+                "address": "Carrera 49 C No 84 - 141",
+                "phone": "3092035",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "VILLA76 INSTITUTO DE PSICOTERAPIA S.A.S.",
+                "address": "Carrera 50 No. 86 - 36",
+                "phone": "3853557",
+                "phone2": "",
+                "mobile": "3185166512, 321880109"
+              },
+              {
+                "name": "CENTRO TERAPEUTICO REENCONTRARSE S.A.S.",
+                "address": "Carrera 45 No. 84 -197",
+                "phone": "3570684",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A. SEDE PUERTO",
+                "address": "Calle 59 No. 50-10",
+                "phone": "3222351847",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PUERTO COLOMBIA",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "DR. JORGE ENRIQUE BELEÑO GALVIS",
+                "address": "Calle 7 No. 7-03",
+                "phone": "3095290",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE PUERTO COLOMBIA",
+                "address": "Calle 7 No. 7-03",
+                "phone": "3095290",
+                "phone2": "Teléfono Asignación citas: 3095290",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE PUERTO COLOMBIA",
+                "address": "Calle 7 No. 7-03",
+                "phone": "3095290",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE PUERTO COLOMBIA",
+                "address": "Calle 7 No. 7-03",
+                "phone": "3095290",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "UNIDAD ETICA MEDICA IPS",
+                "address": "Calle 5 No 8 - 34",
+                "phone": "3096329",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ESE HOSPITAL DE PUERTO COLOMBIA",
+                "address": "Calle 2 No. 3 - 13, Calle 5 No. 8 - 34",
+                "phone": "3095032 - 3095517",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE PUERTO COLOMBIA",
+                "address": "Calle 7 No. 7-03",
+                "phone": "3095290",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO BOLIVAR",
+    "cities": [
+      {
+        "name": "CARTAGENA",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "DR. MISAEL ORTIZ",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6778000 Ext. 7100 - 7004",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CLINICA EL BOSQUE",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6056945969 / 3103157140",
+                "phone2": "Asistente virtual vía WhatsApp: 3009124728",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "CLINICA EL BOSQUE",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6778000 Ext. 7014",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA EL BOSQUE",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6778000 Ext. 7016",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA BLAS DE LEZO",
+                "address": "Transv 54 No 47-57 Carretera El Bosque",
+                "phone": "6632606",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLINICA SAN JOSE DE TORICES",
+                "address": "Cra. 14 No. 43-66",
+                "phone": "6569030",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA EL BOSQUE",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6778000 Ext. 7133",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA BLAS DE LEZO",
+                "address": "Transv 54 No 47 - 57 Carretera El Bosque",
+                "phone": "6632606",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA SAN JOSE DE TORICES",
+                "address": "Torices, Cra. 14 No. 43-66",
+                "phone": "6569030",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "CLÍNICA EL BOSQUE",
+                "address": "Transversal 54 No. 30 - 111 Carretera el Bosque.",
+                "phone": "6778000 Ext. 7030",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SOPLAVIENTO",
+        "areas": [
+          {
+            "name": "Coordinador médico Localidad",
+            "places": [
+              {
+                "name": "DRA. GLORIA ATENCIO SARMIENTO",
+                "address": "Calle 3 No 8 - 03",
+                "phone": "3107288780",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "SALUD SOCIAL LTDA",
+                "address": "Calle 3 No 8 - 03",
+                "phone": "3107288780",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "SALUD SOCIAL LTDA",
+                "address": "Calle 3 No 8 - 03",
+                "phone": "3107288780",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "LABORATORIO CLINICO SALUD SOCIAL LTDA",
+                "address": "Calle 3 No 8 - 03",
+                "phone": "3114250106",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. CENTRO DE SALUD CON CAMAS VITALIO SARA CASTILLO",
+                "address": "Calle 2 No. 5A-10",
+                "phone": "3003105626",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. CENTRO DE SALUD CON CAMAS VITALIO SARA CASTILLO",
+                "address": "Calle 2 No. 5A-10",
+                "phone": "3003105626",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "SALUD SOCIAL LTDA",
+                "address": "Calle 3 No 8 - 03",
+                "phone": "3145637798",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO MAGDALENA",
+    "cities": [
+      {
+        "name": "CIÉNAGA",
+        "areas": [
+          {
+            "name": "Coordinador médico Localidad",
+            "places": [
+              {
+                "name": "DRA. KAREN RENDÓN ÁLVAREZ",
+                "address": "Carrera 18B No. 18A – 15 Clínica General de Ciénaga Ltda.",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA S.A.S. SEDE AMBULATORIA",
+                "address": "Calle 13 No. 7-42",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": "3007447240"
+              }
+            ]
+          },
+
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA S.A.S. SEDE AMBULATORIA",
+                "address": "Calle 13 No. 7-42",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": "3007447240"
+              }
+            ]
+          },
+
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA LTDA.",
+                "address": "Carrera 18B No. 18A – 15",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA LTDA.",
+                "address": "Carrera 18B No. 18A – 15",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA LTDA.",
+                "address": "Carrera 18B No. 18A – 15",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "CLINICA GENERAL DE CIENAGA LTDA.",
+                "address": "Carrera 18B No. 18A – 15",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FUNDACIÓN",
+        "areas": [
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "MACONSALUD",
+                "address": "Calle 8 No. 8-16 Barrio Centro",
+                "phone": "3185218808",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "MACONSALUD",
+                "address": "Calle 8 No. 8-16 Barrio Centro",
+                "phone": "3185218808",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "MACONSALUD",
+                "address": "Calle 8 No. 8-16 Barrio Centro",
+                "phone": "3185218808",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA FUNDACIÓN SEDE 02",
+                "address": "Calle 8 No. 8-121",
+                "phone": "301241374",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN RAFAEL",
+                "address": "Calle 16 No. 5A – 46",
+                "phone": "4142354",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA FUNDACIÓN SEDE 02",
+                "address": "Calle 8 No. 8-121",
+                "phone": "301241374",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "HOSPITAL SAN RAFAEL",
+                "address": "Calle 16 No. 5A – 46",
+                "phone": "4142354",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "MEDISIN",
+                "address": "Calle 7 No. 9-02 local 2",
+                "phone": "3187151380",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SANTA MARTA",
+        "areas": [
+          {
+            "name": "Coordinador médico localidad",
+            "places": [
+              {
+                "name": "DR. CARLOS MARIO RÍOS LÓPEZ",
+                "address": "Avenida Libertador No. 13-12",
+                "phone": "4366111 Ext. 26150",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A - CENTRO DE ATENCIÓN AMBULATORIA SANTA MARTA",
+                "address": "Carrera Avenida Libertador No. 13-12",
+                "phone": "4366111",
+                "phone2": "4366111 Opción 1 y luego opción 2.",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A - CENTRO DE ATENCIÓN AMBULATORIA SANTA MARTA",
+                "address": "Carrera Avenida Libertador No. 13-12",
+                "phone": "4366111",
+                "phone2": "4366111 Opción 1 y luego opción 2.",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "CLINICA LA MILAGROSA SA",
+                "address": "Calle 22 No. 12-09",
+                "phone": "4351847 Ext. 24094",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA LA MILAGROSA SA",
+                "address": "Calle 22 No. 12-09",
+                "phone": "4351847 Ext. 24094",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA LA MILAGROSA SA",
+                "address": "Calle 22 No. 12-09",
+                "phone": "4351847 Ext. 24094",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "E.S.E. HOSPITAL JULIO MENDEZ BARRENECHE",
+                "address": "Carrera 14 No. 23-42",
+                "phone": "4315426",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ORGANIZACIÓN CLÍNICA GENERAL DEL NORTE S.A - UNIDAD DE ATENCION AMBULATORIA SANTA MARTA",
+                "address": "Carrera Avenida Libertador No. 13-12",
+                "phone": "4366111 eXT. 26128",
+                "phone2": "",
+                "mobile": "3116488124"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SEVILLA",
+        "areas": [
+          {
+            "name": "Coordinador médico Localidad",
+            "places": [
+              {
+                "name": "DRA. KAREN RENDÓN ÁLVAREZ",
+                "address": "Carrera 18B No. 18A – 15 Clínica General de Ciénaga Ltda.",
+                "phone": "4241283 - 4241696",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "QUIRUTRAUMAS DEL CARIBE S.A.S.",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "QUIRUTRAUMAS DEL CARIBE S.A.S.",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "QUIRUTRAUMAS DEL CARIBE S.A.S.",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "ZONA SALUD IPS SAS",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "ZONA SALUD IPS SAS",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "ZONA SALUD IPS SAS",
+                "address": "Calle 5 No. 7-42",
+                "phone": "3166971568",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

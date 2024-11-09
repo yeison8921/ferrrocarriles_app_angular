@@ -1,0 +1,1273 @@
+[
+  {
+    "name": "DEPARTAMENTO CAUCA",
+    "cities": [
+      {
+        "name": "POPAYAN",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "ELKIN BURBANO",
+                "address": "Calle 4 No. 1-26 Barrio La Pamba",
+                "phone": "(2) 8325071",
+                "phone2": "3216408812",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE POPAYÁN",
+                "address": "Calle 4 No. 0-55 Barrio La Pamba",
+                "phone": "3158684975",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET SEDE POPAYÁN",
+                "address": "Calle 4 No. 0-55 Barrio La Pamba",
+                "phone": "3158684975",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "LORENA VEJARANO",
+                "address": "Carrera 5A No. 10N-09 Barrio Bolivar",
+                "phone": "602 8353815",
+                "phone2": "3185701226",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA SATA GRACIA",
+                "address": "Calle 15 No. 15-49 Barrio Chingara",
+                "phone": "8375808",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA SATA GRACIA",
+                "address": "Calle 15 No. 15-49 Barrio Chingara",
+                "phone": "8375808",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET SEDE POPAYÁN",
+                "address": "Calle 4 No. 0-55 Barrio La Pamba",
+                "phone": "3158684975",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO NARIÑO",
+    "cities": [
+      {
+        "name": "PASTO",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "DRA. OLGA LUCIA CAMBACHÍ",
+                "address": "Calle 14 No. 34-24 IPS PROINSALUD",
+                "phone": "7296470",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "PROFESIONALES DE LA SALUD S.A. \"PROINSALUD S.A.\"",
+                "address": "Carrera 34 No. 14-53 Barrio San Ignacio",
+                "phone": "60272443",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TUMACO",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "KATHERINE DE HARO",
+                "address": "Calle Mosquera frente al Parque Colon",
+                "phone": "6027277631",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE TUMACO",
+                "address": "Calle Mosquera frente al Parque Colon",
+                "phone": "6027277631",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET SEDE TUMACO",
+                "address": "Calle Mosquera frente al Parque Colon",
+                "phone": "6027277631",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "LABORATORIO CLÍNICO ESPECIALIZADO ROSALBA MOLINEROS ORTIZ",
+                "address": "Calle Sucre frente a Banco de Bogotá",
+                "phone": "6027271525",
+                "phone2": "6027277631",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANDRÉS DE TUMACO",
+                "address": "Kilometro 23 Inguapi del Carmen",
+                "phone": "3107515220",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "HOSPITAL SAN ANDRÉS DE TUMACO",
+                "address": "Kilometro 23 Inguapi del Carmen",
+                "phone": "3107515220",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DUANA",
+                "address": "Calle Mosquera frente al Parque Colon",
+                "phone": "6027277631",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DEPARTAMENTO VALLE",
+    "cities": [
+      {
+        "name": "BUENAVENTURA",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "DRA. FRANCY ESTHER CANDELO MURILLO",
+                "address": "",
+                "phone": "6025185000 Ext. 3028-3151",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA",
+                "address": "Carrera 47 No. 4-02 Barrio Bellavista",
+                "phone": "3103157140 - 6025185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA",
+                "address": "Carrera 47 No. 4-02 Barrio Bellavista",
+                "phone": "3103157140 - 6025185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA",
+                "address": "Carrera 47 No. 4-02 Barrio Bellavista",
+                "phone": "3103157140 - 6025185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA SANTA SOFÍA DEL PACÍFICO",
+                "address": "Carrera 47 No. 4-02",
+                "phone": "6022421880",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA SANTA SOFÍA DEL PACÍFICO",
+                "address": "Carrera 47 No. 4-02",
+                "phone": "6022421880",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DUANA LTDA",
+                "address": "Centro Comercial La Montaña piso 6",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BUGA",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "LEIDY JOHANA BEJARANO RAMOS",
+                "address": "Carrera 16 No. 7-25",
+                "phone": "5185000 Ext. 2747",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE BUGA",
+                "address": "Carrera 16 No. 7-25",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET SEDE BUGA",
+                "address": "Carrera 16 No. 7-25",
+                "phone": "5185000 Ext. 2745",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "SIAU",
+            "places": [
+              {
+                "name": "COSMITET SEDE BUGA",
+                "address": "Carrera 16 No. 7-25",
+                "phone": "5185000 Ext. 2738",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB BUGA",
+                "address": "Carrera 12 No. 5-28",
+                "phone": "6607070",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CIC",
+                "address": "Carrera 13 No. 4-51",
+                "phone": "3173813101 - 2360100 Ext. 105",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "FUNDACION HOSPITAL SAN JOSE DE BUGA",
+                "address": "Carrera 8 No. 17-52, Guadalajara de Buga",
+                "phone": "2361000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "FUNDACION HOSPITAL SAN JOSE DE BUGA",
+                "address": "Carrera 8 No. 17-52, Guadalajara de Buga",
+                "phone": "2361000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET SEDE BUGA",
+                "address": "Carrera 16 No. 7-25",
+                "phone": "5185000 Ext. 2748",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CALI",
+        "areas": [
+          {
+            "name": "SEDE FERROCARRILES",
+            "places": [
+              {
+                "name": "DRA. SUBHIA WADI",
+                "address": "Carrera 5B No. 39 - 38",
+                "phone": "5185000 Ext. 2484",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE FERROCARRILES",
+                "address": "Carrera 5B No. 39 - 38",
+                "phone": "5185000 Ext. 2484",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología General",
+            "places": [
+              {
+                "name": "COSMITET SEDE FERROCARRILES",
+                "address": "Carrera 5B No. 39 - 38",
+                "phone": "5185000 Ext. 2484",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "COSMITET SEDE FERROCARRILES",
+                "address": "Carrera 5B No. 39 - 38",
+                "phone": "5185000 Ext. 2484",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET SEDE FERROCARRILES",
+                "address": "Carrera 5B No. 39 - 38",
+                "phone": "5185000 Ext. 2484",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "SEDE PUERTOS",
+            "places": [
+              {
+                "name": "Agendamiento de Citas",
+                "address": "",
+                "phone": "6024850268 - 3103157140 - 018000183863",
+                "phone2": "",
+                "mobile": "3009124782"
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET SEDE PUERTOS",
+                "address": "Carrera 40 No. 5C-102",
+                "phone": "5185000 Ext. 2252",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología General",
+            "places": [
+              {
+                "name": "COSMITET SEDE PUERTOS",
+                "address": "Carrera 40 No. 5C-102",
+                "phone": "5185000 Ext. 2252",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "COSMITET SEDE PUERTOS",
+                "address": "Carrera 40 No. 5C-102",
+                "phone": "5185000 Ext. 2252",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio Clínico",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLINICA REY DAVID",
+                "address": "Carrera 34 No. 7-00",
+                "phone": "5185000",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET SEDE PUERTOS",
+                "address": "Carrera 40 No. 5C-102",
+                "phone": "5185000 Ext. 2252",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CARTAGO",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "ADRIANA MORENO NARANJO",
+                "address": "Calle 8 Bis No. 3B-13",
+                "phone": "6025185000 Ext. 2728",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CORPORACION DE SERVICIOS MÉDICOS INTERNACIONALES (CARTAGO)",
+                "address": "Calle 8 Bis No. 3B-13",
+                "phone": "6025185000 Ext. 2709",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CORPORACION DE SERVICIOS MÉDICOS INTERNACIONALES (CARTAGO)",
+                "address": "Calle 8 Bis No. 3B-13",
+                "phone": "6025185000 Ext. 2709",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SYNLAB CARTAGO",
+                "address": "Calle 8 No. 4-25 Parque Guadalupe",
+                "phone": "3116377761",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB CARTAGO",
+                "address": "Calle 8 No. 4-25 Parque Guadalupe",
+                "phone": "3116377761",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "HOSPITAL DE SAN JUAN DE DIOS",
+                "address": "Carrera 3B No. 1-80 Collarejo",
+                "phone": "6022147122 Opción 5 o Ext. 103",
+                "phone2": "",
+                "mobile": "3106715920"
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "HOSPITAL DE SAN JUAN DE DIOS",
+                "address": "Carrera 3B No. 1-80 Collarejo",
+                "phone": "6022147122 Opción 5 o Ext. 103",
+                "phone2": "",
+                "mobile": "3106715920"
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "CORPORACION DE SERVICIOS MÉDICOS INTERNACIONALES (CARTAGO)",
+                "address": "Calle 8 Bis No. 3B-13",
+                "phone": "6025185000 Ext. 2709",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DAGUA",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "DR. DIEGO GARCÍA",
+                "address": "Calle 8 No.12-52",
+                "phone": "312288619",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CENTRO MEDICO DAGUA",
+                "address": "Calle 8 No. 12-52",
+                "phone": "312288619",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CLÍNICA ODONTOLÓGICA MARIA CONSUELO",
+                "address": "Calle 8 No. 12-67",
+                "phone": "3165339054",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "CENTRO MEDICO DAGUA",
+                "address": "Calle 8 No. 12-52",
+                "phone": "312288619",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "HOSPITAL LOCAL JOSÉ RUFINO VIVAS E.S.E",
+                "address": "Calle 10 No. 21-48",
+                "phone": "3116171156 - 3009839737",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DROGERIA DAGUA LTDA",
+                "address": "Calle 8 No. 13-02",
+                "phone": "3174383146",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PALMIRA",
+        "areas": [
+          {
+            "name": "Coordinador Médico Localidad",
+            "places": [
+              {
+                "name": "DR. LUIS FERNANDO PARRA",
+                "address": "",
+                "phone": "3176665051",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CORPORACION DE SERVICIOS MÉDICOS THEM Y CIA. LTDA. COSMITET LTDA, SEDE 7652004064- CENTRO MEDICO PALMIRA",
+                "address": "Carrera 32 No. 30-36 Centro",
+                "phone": "5185000 Ext. 2905",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "COMFANDI IPS",
+                "address": "Calle 32 No. 25-46",
+                "phone": "PBX Palmira: 6022879056",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CORPORACION DE SERVICIOS MÉDICOS THEM Y CIA. LTDA. COSMITET LTDA, SEDE 7652004064- CENTRO MEDICO PALMIRA",
+                "address": "Carrera 32 No. 30-36 Centro",
+                "phone": "5185000 Ext. 2905",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "COMFANDI IPS",
+                "address": "Calle 32 No. 25-46",
+                "phone": "PBX Palmira: 6022879056",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "SYNLAB INSTITUCIONAL PALMIRA",
+                "address": "Calle 27 No. 30-41",
+                "phone": "6607070",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB INSTITUCIONAL PALMIRA",
+                "address": "Calle 27 No. 30-41",
+                "phone": "6607070",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA PALMIRA S.A",
+                "address": "Carrera 31 No. 31-62",
+                "phone": "2834065",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "ESE HOSPITAL RAUL OREJUELA BUENO",
+                "address": "Carrera 33A No. 30-57 piso 2",
+                "phone": "2743419",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "DUANA & CIA LTDA",
+                "address": "Carrera 31 No. 25-76 Barrio Nuevo",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TULUA",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "DIANA LORENA PATIÑO RODRÍGUEZ",
+                "address": "Calle 26 No. 39-20 Local 2 piso 2",
+                "phone": "5185000 Ext. 2751 - 2757",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET LTDA CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES (TULUÁ)",
+                "address": "Calle 26 No. 39-20 Local 2 piso 2",
+                "phone": "5185000 Ext. 2751 - 2757",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET LTDA CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES (TULUÁ)",
+                "address": "Calle 26 No. 39-20 Local 2 piso 2",
+                "phone": "5185000 Ext. 2751 - 2757",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB TULUÁ",
+                "address": "Calle 25 No. 35-26",
+                "phone": "3103033388",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CIC",
+                "address": "Calle 26 No. 32-05",
+                "phone": "2250349",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "CLÍNICA MARIÁNGEL",
+                "address": "Carrera 40 Calle 26 La Variante",
+                "phone": "2359606 Ext. 4003 - 31039911944",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA SAN FRANCISCO",
+                "address": "Calle 26 No. 34-60",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "CLÍNICA MARIÁNGEL",
+                "address": "Carrera 40 Calle 26 La Variante",
+                "phone": "2359606 Ext. 4003 - 31039911944",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "CLÍNICA SAN FRANCISCO",
+                "address": "Calle 26 No. 34-60",
+                "phone": "",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET LTDA CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES (TULUÁ)",
+                "address": "Calle 26 No. 39-20 Local 2 piso 2",
+                "phone": "5185000 Ext. 2751 - 2757",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "YUMBO",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "LUIS FERNANDO PARRA",
+                "address": "Carrera 4 No. 3-23",
+                "phone": "6025185000 Ext. 2737",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA, SEDE CENTRO MEDICO COSMITE LTDA YUMBO",
+                "address": "Carrera 4 No. 3-23",
+                "phone": "6025185000 Ext. 2737",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA, SEDE CENTRO MEDICO COSMITE LTDA YUMBO",
+                "address": "Carrera 4 No. 3-23",
+                "phone": "6025185000 Ext. 2737",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Toma de Muestras",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA, SEDE CENTRO MEDICO COSMITE LTDA YUMBO",
+                "address": "Carrera 4 No. 3-23",
+                "phone": "6025185000 Ext. 2737",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "SYNLAB YUMBO",
+                "address": "Carrera 5 No. 6-45",
+                "phone": "6026607070",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "HOSPITAL LA BUENA ESPERANZA",
+                "address": "Carrera 6 Calle 10 Esquina",
+                "phone": "6026955644",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "HOSPITAL LA BUENA ESPERANZA",
+                "address": "Carrera 6 Calle 10 Esquina",
+                "phone": "6026955644",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "COSMITET LTDA ,CORPORACION DE SERVICIOS MEDICOS INTERNACIONALES THEM Y COMPAÑIA LTDA, SEDE CENTRO MEDICO COSMITE LTDA YUMBO",
+                "address": "Carrera 4 No. 2-30",
+                "phone": "6025185000 Ext. 2369",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ZARZAL",
+        "areas": [
+          {
+            "name": "Coordinador Medico Localidad",
+            "places": [
+              {
+                "name": "KELLY JOHANA JIMÉNEZ",
+                "address": "Calle 9 No. 7-44",
+                "phone": "6022207096",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Medicina General",
+            "places": [
+              {
+                "name": "CENTRO MEDICO COSMITET – ZARZAL",
+                "address": "Calle 9 No. 7-44",
+                "phone": "6022207096",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Odontología",
+            "places": [
+              {
+                "name": "CENTRO MEDICO COSMITET – ZARZAL",
+                "address": "Calle 9 No. 7-44",
+                "phone": "6022207096 Ext. 2780",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Laboratorio clínico",
+            "places": [
+              {
+                "name": "LABORATORIO ISABEL CRISTINA MOLINA",
+                "address": "Calle 9 No. 7-100",
+                "phone": "6022208639",
+                "phone2": "",
+                "mobile": ""
+              },
+              {
+                "name": "LABORATORIO CIC",
+                "address": "Carrera 10 No. 5-19",
+                "phone": "3160176055",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Urgencias",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL DEPARTAMENTAL SAN RAFAEL",
+                "address": "Calle 5 No. 6-32",
+                "phone": "6022220046 Ext. 106 - 2220043",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Hospitalización",
+            "places": [
+              {
+                "name": "E.S.E. HOSPITAL DEPARTAMENTAL SAN RAFAEL",
+                "address": "Calle 5 No. 6-32",
+                "phone": "6022220046 Ext. 106 - 2220043",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          },
+          {
+            "name": "Farmacia",
+            "places": [
+              {
+                "name": "CENTRO MEDICO COSMITET – ZARZAL",
+                "address": "Calle 9 No. 7-44",
+                "phone": "6022035600",
+                "phone2": "",
+                "mobile": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

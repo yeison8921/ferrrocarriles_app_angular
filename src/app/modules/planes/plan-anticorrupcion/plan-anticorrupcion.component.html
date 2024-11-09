@@ -1,0 +1,48 @@
+<h1 class="titulo-h1">Plan de Anticorrupción y Atención al Ciudadano</h1>
+
+<p style="text-align: justify">
+  Para dar cumplimiento a la Ley, el Fondo Pasivo Social publica el Plan de
+  Anticorrupción y Atención al Ciudadano
+</p>
+
+<a
+  class="link-file"
+  type="button"
+  href="\assets\files\planes\plan_anticorrupcion\ESTRATEGIA_RENDICION_CUENTAS(1).pdf"
+  target="_blank"
+  ><i class="bi bi-file-earmark-pdf-fill"></i>
+  Estrategia de rencdición de cuentas del FPS
+</a>
+
+<h3 class="titulo-h3 mb-4 mt-4">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file mb-2"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

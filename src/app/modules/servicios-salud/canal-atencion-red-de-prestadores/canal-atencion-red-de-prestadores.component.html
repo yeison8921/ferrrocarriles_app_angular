@@ -1,0 +1,94 @@
+<div>
+  <h1 class="titulo-h1">CANAL DE ATENCIÓN SERVICIOS DE SALUD</h1>
+
+  <p>
+    <a class="btn-comun" href="/servicios-de-salud/afiliados/242"
+      ><i class="fa-sharp fa-solid fa-file-lines"></i> CARTA DE DERECHOS Y
+      DEBERES DE LA PERSONA AFILIADA Y EL PACIENTE</a
+    >
+  </p>
+  <p>
+    <a
+      class="btn-comun"
+      target="_blank"
+      href="https://www.youtube.com/watch?v=ZbRB_C9qebs"
+      ><i class="fa-brands fa-youtube"></i> INTRODUCCIÓN APLICATIVO
+      <b class="ms-1">HORUS HEALTH</b></a
+    >
+  </p>
+
+  <p>
+    Instancias a las que puede acudir el usuario cuando considere incumplido el
+    Plan de Beneficios y no obtenga respuesta a través de los canales de
+    contacto dispuestos por el FPSFNC.
+  </p>
+  <a
+    class="btn-comun-b mb-4"
+    href="http://www.fps.gov.co/corporativo/entidades-que-nos-regulan/45"
+    target="_blank"
+    >Entidades que nos regulan
+  </a>
+  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-logos">
+    <div class="row m-0">
+      <div class="col-5 imagen">
+        <img src="/assets/img/logos/maisfen.jpg" alt="" />
+      </div>
+      <div class="col-7 nombre">
+        <div>
+          <h4>IPS MAISFEN</h4>
+          <label>Territorio Nacional</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ngbAccordion class="mt-4">
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let canal of canales; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          {{ canal.section }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody class="pb-0">
+          <ng-template>
+            <div *ngFor="let option of optionsDepartments" class="col-4">
+              <select
+                *ngIf="option[canal.id]"
+                class="form-select mb-4"
+                [(ngModel)]="selectedDepartment[canal.id]"
+              >
+                <option value="">Seleccione una opción</option>
+                <option *ngFor="let o of option[canal.id]" [value]="o.value">
+                  {{ o.value }}
+                </option>
+              </select>
+            </div>
+            <div *ngFor="let department of canal.departments; let i = index">
+              <div
+                class="row"
+                *ngIf="department.name == selectedDepartment[canal.id]"
+              >
+                <div
+                  *ngFor="let place of department.places; let i = index"
+                  class="col-lg-6"
+                >
+                  <h4 class="titulo-h4">{{ place.city }}</h4>
+                  <p class="mb-4">
+                    {{ place.name }} <br />
+                    <b>Dirección: </b>{{ place.address }}<br />
+                    <b>Teléfono: </b>{{ place.phone }}<br />
+                    <b>Horario de Atención: </b>{{ place.hours }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

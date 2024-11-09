@@ -1,0 +1,51 @@
+<h1 class="titulo-h1">PLANES DE PARTICIPACIÓN CIUDADANA</h1>
+
+<p style="text-align: justify">
+  Lo invitamos a que conozca las iniciativas y temas que se adelantarán en
+  participación ciudadana, consultando el documento de la estrategia para la
+  implementación de dichos espacios de participación.
+</p>
+
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+
+<div ngbAccordion class="mb-4">
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let doc of docu">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ doc.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div *ngFor="let acordion of doc.acordion; let i = index">
+            <h4 class="titulo-h4">
+              <span>{{ i + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngFor="let item of items">
+  <a class="link-file mt-2" href="{{ item.url }}" target="_blank">
+    <i class="bi bi-file-earmark-{{ item.tipo }}-fill"></i>
+    {{ item.nombre }}
+  </a>
+</div>

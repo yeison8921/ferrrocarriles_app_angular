@@ -1,0 +1,57 @@
+<h1 class="titulo-h1">CONCILIACIÓN DE CARTERA PARA IPS</h1>
+
+<p>
+  Respetado Prestador de servicios de salud, En el FPS tiene como objetivo
+  realizar la conciliación y depuración de cuentas por pagar para así realizar
+  el saneamiento definitivo de las cuentas por servicios de salud con las IPS -
+  Ejecución y atención a conciliaciones de cartera y glosas. <br />
+  - Aclaraciones de estados de cartera.<br />
+  - Aclaración y/o soportes de Pago.<br />
+  - Cumplimiento de la CIRCULAR 011 de 2020.<br />
+
+  Para mayor información comunícate al (57-1) 3817171 Ext. 1981<br />
+</p>
+<a class="btn-comun-b" href="/normatividad/235" type="button">
+  <i class="bi bi-1-circle"></i>
+  Circular externa 000011 de 2020
+</a>
+
+<h3 class="titulo-h3 mt-4">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+<div ngbAccordion [closeOthers]="true">
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let acordion of files; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ acordion.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <div
+            class="mb-4"
+            *ngFor="let acordionInterno of acordion.acordion; let j = index"
+          >
+            <h4 class="titulo-h4">
+              <span>{{ j + 1 }}</span> {{ acordionInterno.nombre }}
+            </h4>
+            <div *ngFor="let file of acordionInterno.files; let k = index">
+              <a class="link-file" href="{{ file.url }}">
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,69 @@
+<h1 class="titulo-h1">INFORMES FISCALES CONTRALORÍA GENERAL DE LA REPÚBLICA</h1>
+<p>
+  De acuerdo con la Resolución No 5544 de la Contraloría General de la
+  República, se reglamenta la Rendición de Cuenta, y se unifica la forma en que
+  se debe presentar, para tal fin se diseñaron los formatos que se deben
+  diligenciar y la fecha de su presentación.
+</p>
+<h3 class="titulo-h3"><i class="bi bi-link-45deg"></i>Link de Interés</h3>
+<div class="row mb-4">
+  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen">
+    <img src="/assets/img/links/btn03.png" alt="" />
+    <div>
+      <h5 class="text-white">Informes contraloría general de la república</h5>
+      <a
+        class="btn-azul-o"
+        target="_blank"
+        href="https://www.contraloria.gov.co/resultados/proceso-auditor/auditorias-liberadas/sector-social/auditorias-social-liberadas-ano-2019/-/asset_publisher/b5mCbBCyUQ8V/document/id/1098513?inheritRedirect=false&redirect=https://www.contraloria.gov.co:443/resultados/proceso-auditor/auditorias-liberadas/sector-social/auditorias-social-liberadas-ano-2018%3Fp_p_id%3D101_INSTANCE_b5mCbBCyUQ8V%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3D_118_INSTANCE_ssfLRJBnaAvd__column-1%26p_p_col_count%3D1%26_101_INSTANCE_b5mCbBCyUQ8V_advancedSearch%3Dfalse%26_101_INSTANCE_b5mCbBCyUQ8V_keywords%3D%26_101_INSTANCE_b5mCbBCyUQ8V_delta%3D20%26p_r_p_564233524_resetCur%3Dfalse%26_101_INSTANCE_b5mCbBCyUQ8V_cur%3D3%26_101_INSTANCE_b5mCbBCyUQ8V_andOperator%3Dtrue"
+      >
+        <i class="bi bi-search"></i>
+        Consultar aquí
+      </a>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen">
+    <img src="/assets/img/links/btn07.png" alt="" />
+    <div>
+      <h5>Informes Superintendencia de Salud</h5>
+      <a
+        class="btn-azul-o"
+        target="_blank"
+        href="https://www.supersalud.gov.co/es-co/normatividad/circular-unica"
+      >
+        <i class="bi bi-search"></i>
+        Consultar aquí
+      </a>
+    </div>
+  </div>
+</div>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div
+    ngbAccordionItem
+    [collapsed]="true"
+    *ngFor="let item of items; let i = index"
+  >
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        <span>{{ i + 1 }}</span
+        >{{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            target="_blank"
+            ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

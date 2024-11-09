@@ -1,0 +1,123 @@
+<h1 class="titulo-h1">FORMATOS</h1>
+
+<h4 class="titulo-h4">PUBLICACIÓN DE HOJAS DE VIDA</h4>
+
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item of items">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            [target]="file.tipo != 'link' ? '_blank' : ''"
+            ><i
+              [class]="
+                'bi bi-' +
+                (file.tipo == 'link-ext' || file.tipo == 'link'
+                  ? 'link-45deg'
+                  : 'file-earmark-' + file.tipo + '-fill')
+              "
+            ></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<h4 class="titulo-h4">
+  INFORMACIÓN DE PAGOS REALIZADOS A LAS IPS Y PROVEEDORES DE SERVICIOS Y
+  TECNOLOGIAS EN SALUD
+</h4>
+<p>
+  La presente circular externa tiene como objetivo garantizar la integralidad y
+  gestión en la presentación de los servicios de la salud a través de un manejo
+  integrado de los recursos de la UPC, presupuestos máximos y demás ingresos
+  operacionales a cargo de las EPS y EOC ejecutados mediante la Contratación con
+  las IPS y proveedores de servicios y tecnologías en salud y garantizar el
+  manejo contable de las unidades de ingreso y gasto de cada una de las fuentes
+  de financiamiento. Lo anterior en cumplimiento al marco normativo señalado en
+  esta Circular.
+</p>
+
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item2 of items2">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item2.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item2.files"
+            class="link-file"
+            href="{{ file.url }}"
+            [target]="file.tipo != 'link' ? '_blank' : ''"
+            ><i
+              [class]="
+                'bi bi-' +
+                (file.tipo == 'link-ext' || file.tipo == 'link'
+                  ? 'link-45deg'
+                  : 'file-earmark-' + file.tipo + '-fill')
+              "
+            ></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p></p>
+PRESTACIONES SOCIALES
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >FORMULARIO UNICO</a
+  >
+</div>
+
+<p></p>
+SALUD
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >FORMULARIO SOLICITUD DE VALORACIÓN MÉDICA PARA USUARIOS DEL FPSFCN</a
+  >
+</div>
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >FORMATO SOLICITUD REEMBOLSO - EXAMENES VALORACIONES MÉDICAS</a
+  >
+</div>

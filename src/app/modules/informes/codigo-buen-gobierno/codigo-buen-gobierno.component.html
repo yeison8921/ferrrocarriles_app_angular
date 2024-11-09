@@ -1,0 +1,20 @@
+<h1 class="titulo-h1">CÓDIGO DE BUEN GOBIERNO</h1>
+<p>
+  En el ejercicio de esta atribución, el señor Presidente de FPS debe adoptar y
+  dar a conocer por medios idóneos y mantener actualizado de manera permanente
+  el Código de Buen Gobierno, teniendo en cuenta las disposiciones vigentes y
+  funciones relacionadas con la administración, conducta y suministro de la
+  información destinada al cumplimiento de las normas, prácticas y políticas
+  vigentes para revelar de manera oportuna y veraz la información necesaria para
+  el funcionamiento.
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<a
+  *ngFor="let file of files"
+  class="link-file"
+  href="{{ file.url }}"
+  target="_blank"
+  ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>{{ file.nombre }}</a
+>

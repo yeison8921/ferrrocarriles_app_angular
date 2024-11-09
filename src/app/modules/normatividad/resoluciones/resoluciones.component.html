@@ -1,0 +1,63 @@
+<div>
+  <h1 class="titulo-h1">RESOLUCIONES</h1>
+
+  <div *ngFor="let resolucion of resoluciones; let i = index">
+    <a class="link-file" href="{{ resolucion.href }}" target="_blank"
+      ><i class="bi bi-file-earmark-pdf-fill"></i>{{ resolucion.title }}</a
+    >
+  </div>
+
+  <p class="mb-3 mt-3">
+    Resoluciones por las cuales se establecen lineamientos y procedimientos
+    internos del Fondo Pasivo Social
+  </p>
+
+  <h2 class="titulo-h2">Listado de documentos</h2>
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let documento of documentos; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span>
+          {{ documento.name }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <div *ngIf="documento.subaccordion">
+              <a
+                class="link-file"
+                href="{{ file.href }}"
+                target="_blank"
+                *ngFor="let file of documento.files; let i = index"
+                ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+                >{{ file.name }}</a
+              >
+              <div
+                *ngFor="let accordion of documento.subaccordion; let i = index"
+                class="mb-3 mt-3"
+              >
+                <h4 class="titulo-h4">
+                  <span>{{ i + 1 }}</span>
+                  {{ accordion.name }}
+                </h4>
+                <a
+                  class="link-file"
+                  *ngFor="let file of accordion.files; let i = index"
+                  href="{{ file.href }}"
+                  target="_blank"
+                  ><i class="bi bi-file-earmark-{{ file.type }}-fill"></i
+                  >{{ file.name }}</a
+                >
+              </div>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div>
+  <h1 class="titulo-h1">GLOSARIO</h1>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let g of glosario; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          {{ g.letter }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <div *ngFor="let word of g.words; let i = index">
+              <h5>{{ word.word }}</h5>
+              <p>{{ word.definition }}</p>
+            </div>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

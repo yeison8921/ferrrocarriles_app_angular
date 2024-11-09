@@ -1,0 +1,23 @@
+<h1 class="titulo-h1">NOTICIAS</h1>
+<h2 class="titulo-h2 mb-0">{{ noticia![0].titulo }}</h2>
+<span class="fecha f-6 mb-4">{{ noticia![0].fecha }}</span>
+<div class="noticia-interna mb-4 mt-4">
+  <img src="/assets/files/news/news_images/1134.png" alt="" />
+  <p [innerHTML]="noticia![0].estracto"></p>
+  <div [innerHTML]="noticia![0].contenido">
+    <p>
+      CIRCULAR 202403100000924, la cual hace referencia a la APERTURA PROCESO DE
+      RENOVACIÓN O ASIGNACIÓN DE CÓDIGO DE DESCUENTO PARA OPERADORES DE LIBRANZA
+      2024-2025, que va dirigida a las COOPERATIVAS, SOCIEDADES, ENTIDADES
+      FINANCIERAS, PATRIMONIOS AUTÓNOMOS.
+    </p>
+    <p>
+      <a
+        href="/assets/files/news/news_files/CIRCULAR RENOVACION DE CÓDIGOS 2024 - 2025 (3).pdf"
+        target="_blank"
+        >Circular</a
+      >
+    </p>
+    <p></p>
+  </div>
+</div>

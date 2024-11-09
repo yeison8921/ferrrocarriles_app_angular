@@ -1,0 +1,47 @@
+.textP {
+  color: var(--azul-o);
+  font-family: "WorkSans-Bold";
+  font-size: 1.3rem;
+}
+
+.icon-normativa::before {
+  content: "\ec18";
+}
+
+.icon-rendicion::before {
+  content: "\ecf5";
+}
+
+.icon-anticorrupcion::before {
+  content: "\e83a";
+}
+
+.icon-peticiones::before {
+  content: "\ec0c";
+}
+
+.icon-contratacion::before {
+  content: "\ebaa";
+}
+
+.icon-documento::before {
+  content: "\e949";
+}
+
+.icon-invoice::before {
+  content: "\e94c";
+}
+
+.icon-download::before {
+  content: "\e947";
+}
+
+.borde-sombra {
+  height: 100%;
+  width: 9px;
+  box-shadow: 5px 0 5px -2px #888;
+}
+
+.justify-items-center {
+  justify-items: center;
+}

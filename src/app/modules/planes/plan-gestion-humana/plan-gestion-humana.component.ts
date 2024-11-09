@@ -1,0 +1,702 @@
+import { Component } from '@angular/core';
+import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
+import { AcordionAnidadoFiles } from '../../../interfaces/acordion';
+import { NgFor } from '@angular/common';
+
+@Component({
+  selector: 'app-plan-gestion-humana',
+  standalone: true,
+  imports: [NgbAccordionModule, NgFor],
+  templateUrl: './plan-gestion-humana.component.html',
+  styleUrl: './plan-gestion-humana.component.css'
+})
+export class PlanGestionHumanaComponent {
+  items: AcordionAnidadoFiles[] = [];
+  constructor() {
+    this.items = [
+      {
+        id:1,
+        nombre:"PLAN DE GESTIÓN HUMANA - PLAN DE BIENESTAR",
+        acordion:
+        [
+          {
+
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/01.%20PLAN%20DE%20GESTI%c3%93N%20HUMANA%20-%20PLAN%20DE%20BIENESTAR/01.%202024/PLAN%20DE%20BIENESTAR%202024%20x%20f%20(1).pdf",
+                nombre:"PLAN DE BIENESTAR 2024 x f (1).pdf",
+              },
+            ]
+          },
+      {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/01.%20PLAN%20DE%20GESTI%c3%93N%20HUMANA%20-%20PLAN%20DE%20BIENESTAR/02.%202023/PLAN%20DE%20BIENESTAR%202023%20modif%2021112023_signed.pdf",
+                nombre:"PLAN DE BIENESTAR 2023 modif 21112023_signed.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:2,
+        nombre:"PLAN DE ACCIÓN CODIGO DE INTEGRIDAD",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/02.%20PLAN%20DE%20ACCI%c3%93N%20CODIGO%20DE%20INTEGRIDAD/8.%20PLAN%20DE%20ACCION%20CODIGO%20DE%20INTEGRADAD%202022.pdf",
+                nombre:"8. PLAN DE ACCION CODIGO DE INTEGRADAD 2022.pdf"
+              },
+            ]
+          }
+        ]
+      },
+      {
+        id:3,
+        nombre:"PLAN DE CAPACITACIONES DE SEGURIDAD",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/03.%20PLAN%20DE%20CAPACITACIONES%20DE%20SEGURIDAD/5-PLAN%20DE%20CAPACITACIONES%20DE%20SEGURIDAD%202022.pdf",
+                nombre:"5-PLAN DE CAPACITACIONES DE SEGURIDAD 2022.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id:4,
+        nombre:"PLAN_ANUAL_VACANTES",
+        acordion:
+         [
+          {
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/01.%202024/PLAN%20ANUAL%20DE%20VACANTES%20Y%20PREVISI%c3%93N%20DE%20TALENTO%20HUMANO%20FPS-FNC%202024.pdf",
+                nombre:"PLAN ANUAL DE VACANTES Y PREVISIÓN DE TALENTO HUMANO FPS-FNC 2024.pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/02.%202023/PLAN%20ANUAL%20DE%20VACANTES%20Y%20PREVISI%c3%93N%20DE%20TALENTO%20HUMANO%20FPS-FNC%202023.pdf",
+                nombre:"PLAN ANUAL DE VACANTES Y PREVISIÓN DE TALENTO HUMANO FPS-FNC 2023.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/03.%202022/1.%20PLAN%20ANUAL%20DE%20VACANTES%202022.pdf",
+                nombre:"1. PLAN ANUAL DE VACANTES 2022.pdf"
+              },
+            ]
+          },
+          {
+            id:4,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/04.%202021/PLAN%20ANUAL%20DE%20VACANTES%202021.pdf",
+                nombre:"PLAN ANUAL DE VACANTES 2021.pdf"
+              },
+            ]
+          },
+          {
+            id:5,
+            nombre:"2020",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/05.%202020/PLAN%20%20ANUAL%20DE%20VACANTES%202020.pdf",
+                nombre:"PLAN  ANUAL DE VACANTES 2020.pdf"
+              },
+            ]
+          },
+          {
+            id:6,
+            nombre:"2018",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/06.%202018/PlanVacantes2018.pdf",
+                nombre:"PlanVacantes2018.pdf"
+              },
+            ]
+          },
+          {
+            id:7,
+            nombre:"2019",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/04.%20PLAN_ANUAL_VACANTES/07.%202019/PlanVacantes2019.pdf",
+                nombre:"PlanVacantes2019.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:5,
+        nombre:"PLAN_BIENESTAR_SOCIAL",
+        acordion:
+         [
+          {
+            id:1,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/01.%202023/PLAN%20DE%20BIENESTAR%20SOCIAL%202023.pdf",
+                nombre:"PLAN DE BIENESTAR SOCIAL 2023.pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/02.%202022/PLAN%20DE%20BIENESTAR%20SOCIAL%202022.pdf",
+                nombre:"PLAN DE BIENESTAR SOCIAL 2022.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/03.%202021/PLAN%20DE%20BIENESTAR%20E%20INCENTIVOS%202021.pdf",
+                nombre:"PLAN DE BIENESTAR E INCENTIVOS 2021.pdf"
+              },
+            ]
+          },
+          {
+            id:4,
+            nombre:"2020",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/04.%202020/PLAN%20DE%20BIENESTAR%20SOCIAL%20E%20INCENTIVOS%202020.pdf",
+                nombre:"PLAN DE BIENESTAR SOCIAL E INCENTIVOS 2020.pdf"
+              },
+            ]
+          },
+          {
+            id:5,
+            nombre:"2019",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/05.%202019/PLAN%20DE%20BIENESTAR%20SOCIAL%202019.pdf",
+                nombre:"PLAN DE BIENESTAR SOCIAL 2019.PDF"
+              },
+            ]
+          },
+          {
+            id:6,
+            nombre:"2018",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/05.%20PLAN_BIENESTAR_SOCIAL/06.%202018/PLAN%20BIENESTAR%20SOCIAL%202018.pdf",
+                nombre:"PLAN BIENESTAR SOCIAL 2018.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:6,
+        nombre:"PLAN_ESTRATEGICO_RECURSOS_HUMANOS",
+        acordion:
+         [
+          {
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/01.%202024/PLAN%20ESTRATEGICO%20DE%20TALENTO%20HUMANO%20FPS-FNC%202024.pdf",
+                nombre:"PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2024.pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/02.%202023/PLAN%20ESTRATEGICO%20DE%20TALENTO%20HUMANO%20FPS-FNC%202023.pdf",
+                nombre:"PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2023.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/03.%202022/2.%20PLAN%20ESTRATEGICO%20DE%20TALENTO%20HUMANO%202022.pdf",
+                nombre:"2. PLAN ESTRATEGICO DE TALENTO HUMANO 2022.pdf"
+              },
+            ]
+          },
+          {
+            id:4,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/04.%202021/PLAN%20ESTRATEGICO%20DE%20TALENTO%20HUMANO%202021.pdf",
+                nombre:"PLAN ESTRATEGICO DE TALENTO HUMANO 2021.pdf"
+              },
+            ]
+          },
+          {
+            id:5,
+            nombre:"2020",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/05.%202020/PLAN%20%20ESTRATEGICO%20DE%20TALENTO%20HUMANO%202020.pdf",
+                nombre:"PLAN  ESTRATEGICO DE TALENTO HUMANO 2020.pdf"
+              },
+            ]
+          },
+          {
+            id:6,
+            nombre:"2019",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/06.%202019/PlanEstrategicoRecursosHumanos2019.pdf",
+                nombre:"PlanEstrategicoRecursosHumanos2019.pdf"
+              },
+            ]
+          },
+          {
+            id:7,
+            nombre:"2018",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/06.%20PLAN_ESTRATEGICO_RECURSOS_HUMANOS/07.%202018/PlanEstrategicoRecursosHumanos.pdf",
+                nombre:"PlanEstrategicoRecursosHumanos.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:7,
+        nombre:"PLAN_INSTITUCIONAL_DE_CAPACITACIONES",
+        acordion:
+         [
+          {
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/01.%202024/PLAN%20INSTITUCIONAL%20DE%20CAPACITACIONES%202024.pdf",
+                nombre:"PLAN INSTITUCIONAL DE CAPACITACIONES 2024.pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/02.%202023/01%20PLAN%20INSTITUCIONAL%20DE%20CAPACITACI%c3%93N%202023.pdf",
+                nombre:"01 PLAN INSTITUCIONAL DE CAPACITACIÓN 2023.pdf"
+              },
+
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/02.%202023/02%20CONSOLIDADO%20PLAN%20INSTITUCIONAL%20DE%20CAPACITACI%c3%93N%202023.pdf",
+                nombre:"02 CONSOLIDADO PLAN INSTITUCIONAL DE CAPACITACIÓN 2023.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/03.%202022/CONSOLIDADO%20PLAN%20INSTITUCIONAL%20DE%20CAPACITACION%202022.pdf",
+                nombre:"CONSOLIDADO PLAN INSTITUCIONAL DE CAPACITACION 2022.pdf"
+              },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/03.%202022/PLAN%20INSTITUCIONAL%20DE%20CAPACITACION%202022.pdf",
+                nombre:"PLAN INSTITUCIONAL DE CAPACITACION 2022.pdf"
+              },
+            ]
+
+          },
+          {
+            id:4,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/04.%202021/PLAN%20DE%20ACCI%c3%93N%20SINAPSIS%202021%20.pdf",
+                nombre:"PLAN DE ACCIÓN SINAPSIS 2021 .pdf"
+              },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/04.%202021/PLAN%20INSTITUCIONAL%20DE%20CAPACITACI%c3%93N%202021.pdf",
+                nombre:"PLAN INSTITUCIONAL DE CAPACITACIÓN 2021.pdf"
+              },
+            ]
+          },
+          {
+            id:5,
+            nombre:"2020",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/05.%202020/PLAN%20CAPACITACION%20SST%202020.pdf",
+                nombre:"PLAN CAPACITACION SST 2020.pdf"
+          },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/05.%202020/PLAN%20DE%20CAPACITACIONES%202020.pdf",
+                nombre:"PLAN DE CAPACITACIONES 2020.pdf"
+              },
+            ]
+          },
+          {
+            id:6,
+            nombre:"2019",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/06.%202019/PLAN%20INSTIUCIONAL%20DE%20CAPACITACACION%202019.pdf",
+                nombre: "PLAN INSTIUCIONAL DE CAPACITACACION 2019.pdf"
+
+              },
+            ]
+
+          },
+          {
+            id:7,
+            nombre:"2018",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/07.%202018/CronogramaEventosCapacitaci%c3%b3n2018.pdf",
+                nombre:"CronogramaEventosCapacitación2018.pdf"
+              },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/07.%202018/PLAN_INSTITU_CAPACITA_2018.pdf",
+                nombre: "PLAN_INSTITU_CAPACITA_2018.pdf"
+              },
+            ]
+          },
+          {
+            id:8,
+            nombre:"2017",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/08.%202017/CronogramaEventosCapacitaci%c3%b3n2017.pdf",
+                nombre:"CronogramaEventosCapacitación2017.pdf"
+              },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/07.%20PLAN_INSTITUCIONAL_DE_CAPACITACIONES/08.%202017/PLAN_INSTITU_CAPACITA_2017.pdf",
+                nombre: "PLAN_INSTITU_CAPACITA_2017.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:8,
+        nombre:"PLAN_INSTITUCIONAL_DE_INCENTIVOS",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/08.%20PLAN_INSTITUCIONAL_DE_INCENTIVOS/01.%202024/PLAN%20INSTITUCIONAL%20DE%20INCENTIVOS%202024.pdf",
+                nombre: "PLAN INSTITUCIONAL DE INCENTIVOS 2024.pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/08.%20PLAN_INSTITUCIONAL_DE_INCENTIVOS/02.%202023/PLAN%20INSTITUCIONAL%20DE%20INCENTIVOS.pdf",
+                nombre: "PLAN INSTITUCIONAL DE INCENTIVOS.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/08.%20PLAN_INSTITUCIONAL_DE_INCENTIVOS/03.%202022/7.%20PLAN%20DE%20INSTITUCIONAL%20DE%20INCENTIVOS%202022%c2%a0.pdf",
+                nombre: "7. PLAN DE INSTITUCIONAL DE INCENTIVOS 2022 .pdf"
+              },
+            ]
+          },
+          {
+            id:4,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/08.%20PLAN_INSTITUCIONAL_DE_INCENTIVOS/04.%202021/PLAN%20DE%20INCENTIVOS%202021%20-%20Resoluci%c3%b3n.pdf",
+                nombre: "PLAN DE INCENTIVOS 2021 - Resolución.pdf"
+              },
+            ]
+          }
+        ]
+      },
+      {
+        id:9,
+        nombre:"PLAN_REINDUCCION",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/09.%20PLAN_REINDUCCION/01.%202023/PLAN%20DE%20REINDUCCI%c3%93N%202023%20(2).pdf",
+                nombre: "PLAN DE REINDUCCIÓN 2023 (2).pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2020",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/09.%20PLAN_REINDUCCION/02.%202020/PLAN%20DE%20REINDUCCI%c3%93N%20DEL%20FONDO%20DE%20PASIVO%20SOCIAL%20DE%20FNC%202020.pdf",
+                nombre: "PLAN DE REINDUCCIÓN DEL FONDO DE PASIVO SOCIAL DE FNC 2020.pdf"
+              },
+            ]
+          },
+          {
+            id:3,
+            nombre:"2018",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/09.%20PLAN_REINDUCCION/03.%202018/PlanReinduccion2018.pdf",
+                nombre: "PlanReinduccion2018.pdf"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        id:10,
+        nombre:"PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2024",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/01.%202024/PLAN%20%20ANUAL%20DE%20TRABAJO%20SST%202024%20x%20f%20(1).pdf",
+                nombre: "PLAN  ANUAL DE TRABAJO SST 2024 x f (1).pdf"
+              },
+            ]
+          },
+          {
+            id:2,
+            nombre:"2023",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/02.%202023/PLAN%20%20ANUAL%20DE%20TRABAJO%20SST%202023.pdf",
+                nombre: "PLAN  ANUAL DE TRABAJO SST 2023.pdf"
+              },
+            ]
+
+          },
+          {
+            id:3,
+            nombre:"2022",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/03.%202022/6-PLAN%20DE%20TRABAJO%20EN%20SEGURIDAD%20Y%20SALUD%20EN%20EL%20TRABAJO%202022.pdf",
+                nombre: "6-PLAN DE TRABAJO EN SEGURIDAD Y SALUD EN EL TRABAJO 2022.pdf"
+              },
+            ]
+          },
+          {
+            id:4,
+            nombre:"2021",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/04.%202021/ASIGNACION%20RESPONSABLE%20SG-SST.pdf",
+                nombre:"ASIGNACION RESPONSABLE SG-SST.pdf"
+              },
+              {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/04.%202021/PLAN%20DE%20CAPACITACION%20SGSST%202021.pdf",
+                nombre:"PLAN DE CAPACITACION SGSST 2021.pdf"
+              },
+              {
+                id:3,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_gestion_humana/10.%20PLAN_SEGURIDAD_Y_SALUD_EN_EL_TRABAJO/04.%202021/PLAN%20DE%20TRABAJO%20ANUAL%202021.pdf",
+                nombre:"PLAN DE TRABAJO ANUAL 2021.pdf"
+              },
+            ]
+          }
+        ]
+      }
+    ];
+  }
+}

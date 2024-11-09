@@ -1,0 +1,61 @@
+<h1 class="titulo-h1">CONTROL SOCIAL</h1>
+
+<p>
+  La entidad ha dispuesto los siguientes componentes de comunicación, donde
+  puedes encontrar lo referente a la participación ciudadana del Fondo de Pasivo
+  Social Ferracorriles Nacionales de Colombia.
+</p>
+
+<section class="mt-4 mb-4">
+  <a
+    class="btn-comun-b mb-4"
+    type="button"
+    href="/planeacion-gestion-y-control/53"
+  >
+    <span class="icon icon-documento"></span>
+    Planeación, Gestion y Control
+  </a>
+  <a
+    class="btn-comun-b mb-4"
+    type="button"
+    href="/planeacion-gestion-y-control/plan-de-participacion-ciudadana/73"
+  >
+    <span class="icon icon-documento"></span>
+    Plan de Participación Ciudadana
+  </a>
+</section>
+<br />
+<section>
+  <h3 class="titulo-h3 mt-4">
+    <span class="icon govco-server"></span>Listado de documentos
+  </h3>
+
+  <div ngbAccordion>
+    <div
+      ngbAccordionItem
+      [collapsed]="true"
+      *ngFor="let item of items; let i = index"
+    >
+      <div ngbAccordionHeader>
+        <button ngbAccordionButton>
+          <span>{{ i + 1 }}</span
+          >{{ item.nombre }}
+        </button>
+      </div>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <a
+              *ngFor="let file of item.files"
+              class="link-file"
+              href="{{ file.url }}"
+              target="_blank"
+              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
+              >{{ file.nombre }}</a
+            >
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+<div>
+  <p class="mb-3 mt-3">
+    Al hacer click en el boton "Enviar" manifiesto que conozco,
+    <a
+      href="https://www.fps.gov.co/autorizacion_y_tratamiento_de_uso_de_datos_personales"
+      target="_blank"
+      >acepto y autorizo el tratamiento de uso de datos personales</a
+    >
+  </p>
+  <h1 class="titulo-h1">
+    CANAL DE INTERACCIÓN DE LIBERATORIA PARA LA PARTICIPACIÓN CIUDADANA
+  </h1>
+
+  <p class="mb-3 mt-3">
+    En el Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia, tiene
+    dispuestos diversos canales de interacción de liberatoria para la
+    participación ciudadana, donde se tiene en cuenta la percepción de los
+    usuarios externos que impactan la gestión anual de la entidad.
+  </p>
+  <p class="mb-3 mt-3">
+    De igual forma, invitamos a toda la ciudadanía que se comuniquen, por medio
+    de nuestros canales digitales de redes sociales.
+  </p>
+
+  <div *ngFor="let page of pages; let i = index">
+    <p class="mb-3 mt-3">
+      <a class="link-file" href="{{ page.href }}" target="_blank">{{
+        page.text
+      }}</a>
+    </p>
+  </div>
+</div>
