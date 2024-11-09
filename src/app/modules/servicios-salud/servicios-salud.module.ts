@@ -26,6 +26,7 @@ import { AfiliadosComponent } from './afiliados/afiliados.component';
 import { ProgramaPromocionPrevencionComponent } from './programa-promocion-prevencion/programa-promocion-prevencion.component';
 import { GestionRiesgoComponent } from './gestion-riesgo/gestion-riesgo.component';
 import { GestionDelRiesgo266Component } from './gestion-del-riesgo-266/gestion-del-riesgo-266.component';
+import { AfiliacionesComponent } from './afiliaciones/afiliaciones.component';
 
 const routes: Routes = [
   {
@@ -156,6 +157,11 @@ const routes: Routes = [
     path: 'gestion-del-riesgo/266',
     title: 'Programa de atención integral a Enfermedades Respiratorias Crónicas (Asma y EPOC)',
     component: GestionDelRiesgo266Component,
+  },
+  {
+    path: 'afiliaciones/223',
+    title: 'Sistema de Afiliación Transaccional (SAT)',
+    component: AfiliacionesComponent,
   },
 ];
 

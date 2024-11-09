@@ -1,0 +1,235 @@
+<h1 class="titulo-h1">SISTEMA DE AFILIACIÓN TRANSACCIONAL (SAT)</h1>
+
+<p>
+  El Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia, como
+  Entidad Adaptada en salud del régimen contributivo presta los servicios de
+  salud a los extrabajadores y sus grupos familiares de las extintas empresas
+  Ferrocarriles Nacionales de Colombia y Puertos de Colombia únicamente. A
+  continuación encontrara todo lo relacionado para la Afiliación al Fondo
+</p>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>Listado de documentos
+</h3>
+<div ngbAccordion>
+  <div ngbAccordionItem [collapsed]="true" *ngFor="let item of items">
+    <div ngbAccordionHeader>
+      <button ngbAccordionButton>
+        {{ item.nombre }}
+      </button>
+    </div>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            href="{{ file.url }}"
+            [target]="file.tipo != 'link' ? '_blank' : ''"
+            ><i
+              [class]="
+                'bi bi-' +
+                (file.tipo == 'link-ext' || file.tipo == 'link'
+                  ? 'link-45deg'
+                  : 'file-earmark-' + file.tipo + '-fill')
+              "
+            ></i
+            >{{ file.nombre }}</a
+          >
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >Formulario de Afiliación</a
+  >
+</div>
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >Sistemas de Información Transaccional</a
+  >
+</div>
+<p></p>
+<div>
+  <a
+    class="btn-comun"
+    type="button"
+    href="https://www.cnsc.gov.co/index.php/convocatorias/en-desarrollo"
+    target="_blank"
+    >Negación de Servicios de Salud</a
+  >
+</div>
+<p></p>
+<br />
+<h4 class="titulo-h4">
+  Valor POS Adicional Regimén Contributivo Vigencia 2024
+</h4>
+<p>
+  De conformidad con lo establecido en el Artículo 2.1.4.5 del Decreto Único
+  Reglamentario 780 de 2016 y de acuerdo con los artículos 1 al 4 de la
+  Resolución 2364 del 29 de Diciembre de 2023 del Ministerio de Salud y
+  Protección Social, por la cual se fija el valor de la Unidad de Pago por
+  Capitación - UPC para la cobertura el Plan de Beneficios en Salud de los
+  Regímenes Contributivo y Subsidiado en la vigencia 2024, a continuación se dan
+  a conocer los valores de la UPC adicional, de acuerdo con la edad, género y
+  zona geográfica de cada afiliado, que regirán a partir del 01 de Enero de
+  2024:
+</p>
+<table class="table mb-4">
+  <thead>
+    <tr class="table-primary">
+      <th>GRUPO DE EDAD</th>
+      <th>UPC ADICIONAL ZONA NORMAL</th>
+      <th>UPC ADICIONAL ZONA ESPECIAL</th>
+      <th>UPC ADICIONAL CIUDADES</th>
+      <th>
+        UPC ADICIONAL SAN ANDRES,<br />
+        PROVIDENCIA Y <br />
+        SANTA CATALINA
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Menores de 1 año</td>
+      <td>398.900</td>
+      <td>438.600</td>
+      <td>438.000</td>
+      <td>549.300</td>
+    </tr>
+    <tr>
+      <td>De 1 a 4 años</td>
+      <td>116.300</td>
+      <td>127.800</td>
+      <td>127.600</td>
+      <td>159.600</td>
+    </tr>
+    <tr>
+      <td>De 5 a 14 años</td>
+      <td>48.300</td>
+      <td>52.900</td>
+      <td>52.800</td>
+      <td>65.700</td>
+    </tr>
+    <tr>
+      <td>De 15 a 18 años (H)</td>
+      <td>46.700</td>
+      <td>51.000</td>
+      <td>51.000</td>
+      <td>63.500</td>
+    </tr>
+    <tr>
+      <td>De 15 a 18 años (M)</td>
+      <td>71.900</td>
+      <td>78.800</td>
+      <td>78.800</td>
+      <td>98.300</td>
+    </tr>
+    <tr>
+      <td>De 19 a 44 años (H)</td>
+      <td>78.800</td>
+      <td>86.400</td>
+      <td>86.400</td>
+      <td>107.900</td>
+    </tr>
+    <tr>
+      <td>De 19 a 44 años (M)</td>
+      <td>143.700</td>
+      <td>157.600</td>
+      <td>157.600</td>
+      <td>197.300</td>
+    </tr>
+    <tr>
+      <td>De 45 a 49 años</td>
+      <td>146.600</td>
+      <td>160.800</td>
+      <td>160.800</td>
+      <td>201.300</td>
+    </tr>
+    <tr>
+      <td>De 50 a 54 años</td>
+      <td>184.900</td>
+      <td>202.900</td>
+      <td>202.900</td>
+      <td>254.100</td>
+    </tr>
+    <tr>
+      <td>De 55 a 59 años</td>
+      <td>218.500</td>
+      <td>239.800</td>
+      <td>239.800</td>
+      <td>300.400</td>
+    </tr>
+    <tr>
+      <td>De 60 a 64 años</td>
+      <td>279.900</td>
+      <td>307.200</td>
+      <td>307.200</td>
+      <td>385.100</td>
+    </tr>
+    <tr>
+      <td>De 65 a 69 años</td>
+      <td>346.100</td>
+      <td>380.000</td>
+      <td>380.000</td>
+      <td>476.500</td>
+    </tr>
+    <tr>
+      <td>De 70 a 74 años</td>
+      <td>418.100</td>
+      <td>459.600</td>
+      <td>459.100</td>
+      <td>575.700</td>
+    </tr>
+    <tr>
+      <td>De 75 y más años</td>
+      <td>521.000</td>
+      <td>572.900</td>
+      <td>572.200</td>
+      <td>717.600</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  ** Valores aproximados a la centena superior - Art. 3.2.1.5 Decreto 780 de
+  2016.
+</p>
+<p>
+  (1) Zona Normal: Todos los municipios del país a excepción de los registrados
+  como zona especial, zona alejada y grandes ciudades y conurbados.
+</p>
+<p>
+  (2) Zona Especial: Comprende los municipios del anexo 1 de la Resolución 2364
+  del 29 de Diciembre de 2023.
+</p>
+<p>
+  (3) Grandes Ciudades y Conurbados: Comprende las ciudades de Armenia,
+  Barrancabermeja, Distrito Especial, Industrial y Portuario de Barranquilla,
+  Bello, Bogotá, Distrito Capital, Bucaramanga, Buenaventura Distrito Especial,
+  Industrial, Portuario, Biodiverso y Ecoturístico, Cartagena de Indias,
+  Distrito Turístico y Cultural, Cartago, Cúcuta, Dosquebradas, Floridablanca,
+  Guadalajara de Buga, Ibagué́, Itagüí, Manizales, Medellín, Montería, Neiva,
+  Palmira, Pasto, Pereira, Popayán, Riohacha, Santa Marta Distrito Turístico,
+  Cultural e Histórico, Santiago de Cali, Sincelejo, Soacha, Soledad, Tuluá,
+  Valledupar y Villavicencio.
+</p>
+<p>
+  (4) Zona Alejada: Comprende el Departamento Archipiélago de San Andrés,
+  Providencia y Santa Catalina.
+</p>
+<p>
+  Lo anterior aplica para los municipios y ciudades donde el Fondo de Pasivo
+  Social de Ferrocarriles Nacionales de Colombia, tiene autorización de atención
+  a su población afiliada.
+</p>
