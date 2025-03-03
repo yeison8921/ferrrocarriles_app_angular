@@ -227,8 +227,7 @@ export class SubmenuComponent {
           {
             id: 17,
             nombre: 'Contratación',
-            //url: '/atencion-al-usuario/contratacion/97',
-            url: '',
+            url: '/atencion-al-usuario/contratacion/97',
             active: false,
           },
           {

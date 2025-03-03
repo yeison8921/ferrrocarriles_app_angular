@@ -82,8 +82,8 @@ export class TramitesComponent {
           {
             id: 1,
             tipo: 'pdf',
-            nombre: 'OFICIO VINCULACIÓN A TERCEROS (1).pdf',
-            url: '/assets/files/hojas_de_vida/Documentos 2024/OFICIO VINCULACIÓN A TERCEROS (1).pdf',
+            nombre: 'OFICIO VINCULACIÓN A TERCEROS (1).pdf',
+            url: '/assets/files/hojas_de_vida/Documentos 2024/OFICIO VINCULACIÓN A TERCEROS (1).pdf',
           },
         ],
       },
@@ -126,8 +126,8 @@ export class TramitesComponent {
           {
             id: 6,
             tipo: 'excel',
-            nombre: '06. PAGOS SERVICIOS DE SALUD JUNIO 2024 .xlsx',
-            url: '/assets/files/pagos_ips_y_salud/01. 2024/06. PAGOS SERVICIOS DE SALUD JUNIO 2024 .xlsx',
+            nombre: '06. PAGOS SERVICIOS DE SALUD JUNIO 2024 -version 2.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/06. PAGOS SERVICIOS DE SALUD JUNIO 2024 -version 2.xlsx',
           },
           {
             id: 7,
@@ -137,6 +137,37 @@ export class TramitesComponent {
           },
           {
             id: 8,
+            tipo: 'excel',
+            nombre: '08. PAGOS SERVICIOS DE SALUD AGOSTO 2024.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/08. PAGOS SERVICIOS DE SALUD AGOSTO 2024.xlsx',
+          },
+          {
+            id: 9,
+            tipo: 'excel',
+            nombre: '09. PAGOS SERVICIOS DE SALUD SEPTIEMBRE 2024.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/09. PAGOS SERVICIOS DE SALUD SEPTIEMBRE 2024.xlsx',
+          },
+          {
+            id: 10,
+            tipo: 'excel',
+            nombre: '10. PAGOS SERVICIOS DE SALUD OCTUBRE 2024.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/10. PAGOS SERVICIOS DE SALUD OCTUBRE 2024.xlsx',
+          },
+          {
+            id: 11,
+            tipo: 'excel',
+            nombre:
+              '11. PAGOS SERVICIOS DE SALUD NOVIEMBRE 2024 version 2.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/11. PAGOS SERVICIOS DE SALUD NOVIEMBRE 2024 version 2.xlsx',
+          },
+          {
+            id: 12,
+            tipo: 'excel',
+            nombre: '12. PAGOS SERVICIOS DE SALUD DICIEMBRE 2024.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/01. 2024/12. PAGOS SERVICIOS DE SALUD DICIEMBRE 2024.xlsx',
+          },
+          {
+            id: 13,
             tipo: 'excel',
             nombre: 'PORCENTAJE DEL INCREMENTO 2024.xlsx',
             url: '/assets/files/pagos_ips_y_salud/01. 2024/PORCENTAJE DEL INCREMENTO 2024.xlsx',

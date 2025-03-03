@@ -1,0 +1,82 @@
+[
+  {
+    "department": "ANTIOQUIA",
+    "address": "Cra. 55 # 40 A - 20 Oficina 912 Medellin",
+    "phone": [
+      "+57 (604) 484 05 15",
+      "+57( 604) 484 04 54",
+      "+57 (601) 381 71 71 ext. 1991"
+    ],
+    "email": "antioquia@fps.gov.co"
+  },
+
+  {
+    "department": "BARRANQUILLA",
+    "address": "Kr 43 N° 84 - 12 local 102",
+    "phone": ["+57 (605) 359 84 69", "+57 (601) 381 71 71 ext 1995"],
+    "email": "barranquilla@fps.gov.co"
+  },
+
+  {
+    "department": "BOGOTÁ (CENTRAL)",
+    "address": "Calle 19 No 14 - 21 piso 1, Edificio CUDECOM",
+    "phone": ["+57 (601) 381 71 71 ext. 1949"],
+    "email": "central@fps.gov.co"
+  },
+
+  {
+    "department": "BUENAVENTURA",
+    "address": "Carrera 3B N° 8 - 47 Oficina 1 Edificio Antiguo Normal",
+    "phone": ["+57 (602) 240 42 57"],
+    "email": "buenaventura@fps.gov.co"
+  },
+
+  {
+    "department": "CALI",
+    "address": "Calle 25 Norte N°. 4 N- 28",
+    "phone": [
+      "+57 (602) 668 77 51 ext. 1990",
+      "+57 (602) 667 80 00 ext. 1990",
+      "+57 (601) 381 71 71 ext 1990"
+    ],
+    "email": "pacifico@fps.gov.co"
+  },
+
+  {
+    "department": "CARTAGENA",
+    "address": "Avenida Pedro Heredia Centro Medico los Ejecutivos Sector T Local 103",
+    "phone": [
+      "+57 (605) 661 08 56",
+      "+57 (300) 343 57 24",
+      "+57 (601) 381 71 71 ext 1993"
+    ],
+    "email": "cartagena@fps.gov.co"
+  },
+
+  {
+    "department": "SANTANDER",
+    "address": "Calle 22 # 23 - 45 Barrio Alarcón. Bucaramanga",
+    "phone": ["+57 (607) 682 00 49 ext 1992", "+57 (601) 381 71 71 ext. 1992"],
+    "email": "santander@fps.gov.co"
+  },
+
+  {
+    "department": "SANTA MARTA",
+
+    "address": "Oficina Principal Kr 4 N° 26-40 Oficina 507 ciudadela Comercial Rocío Plaza",
+    "phone": [
+      "+57 (605) 421 50 64",
+      "+57 (605) 431 74 54",
+      "+57 (314) 650 70 45",
+      "+57 (601) 381 71 71 ext 1994"
+    ],
+    "email": "magdalena@fps.gov.co"
+  },
+
+  {
+    "department": "TUMACO",
+    "address": "Calle Mosquera Souvleth Local N°. 9",
+    "phone": ["+57 (602) 727 69 77"],
+    "email": "Correo tumaco@fps.gov.co"
+  }
+]

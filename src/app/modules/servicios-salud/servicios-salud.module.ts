@@ -12,10 +12,10 @@ import { ServiciosExcluidosComponent } from './servicios-excluidos/servicios-exc
 import { ServiciosIncluidosComponent } from './servicios-incluidos/servicios-incluidos.component';
 import { InfanciaComponent } from './infancia/infancia.component';
 import { Infancia2Component } from './infancia2/infancia2.component';
-import { AdolescenciaComponent} from './adolescencia/adolescencia.component';
+import { AdolescenciaComponent } from './adolescencia/adolescencia.component';
 import { JuventudComponent } from './juventud/juventud.component';
 import { AdultezComponent } from './adultez/adultez.component';
-import { VejezComponent }  from './vejez/vejez.component';
+import { VejezComponent } from './vejez/vejez.component';
 import { GestionDelRiesgo260Component } from './gestion-del-riesgo-260/gestion-del-riesgo-260.component';
 import { GestionDelRiesgo261Component } from './gestion-del-riesgo-261/gestion-del-riesgo-261.component';
 import { GestionDelRiesgo262Component } from './gestion-del-riesgo-262/gestion-del-riesgo-262.component';
@@ -27,6 +27,7 @@ import { ProgramaPromocionPrevencionComponent } from './programa-promocion-preve
 import { GestionRiesgoComponent } from './gestion-riesgo/gestion-riesgo.component';
 import { GestionDelRiesgo266Component } from './gestion-del-riesgo-266/gestion-del-riesgo-266.component';
 import { AfiliacionesComponent } from './afiliaciones/afiliaciones.component';
+import { ReportePensionadosFallecidosComponent } from './reporte-pensionados-fallecidos/reporte-pensionados-fallecidos.component';
 
 const routes: Routes = [
   {
@@ -120,12 +121,14 @@ const routes: Routes = [
   },
   {
     path: 'gestion-del-riesgo/262',
-    title: 'Ruta de Atención Integral Salud Mental y Consumo de Sustancias Psicoactivas',
+    title:
+      'Ruta de Atención Integral Salud Mental y Consumo de Sustancias Psicoactivas',
     component: GestionDelRiesgo262Component,
   },
   {
     path: 'gestion-del-riesgo/263',
-    title: 'Ruta de Atención integral a Victimas de violencia, Agresiones o Traumas',
+    title:
+      'Ruta de Atención integral a Victimas de violencia, Agresiones o Traumas',
     component: GestionDelRiesgo263Component,
   },
   {
@@ -135,7 +138,7 @@ const routes: Routes = [
   },
   {
     path: 'gestion-del-riesgo/265',
-    title: 'Programa de atención para la Cesación de Tabaco',
+    title: 'Programa de atención integral para personas que viven con VIH',
     component: GestionDelRiesgo265Component,
   },
   {
@@ -146,22 +149,28 @@ const routes: Routes = [
   {
     path: 'programa-de-promocion-y-prevencion/132',
     title: 'Ruta de Promoción y Mantenimiento de la Salud',
-    component: ProgramaPromocionPrevencionComponent
+    component: ProgramaPromocionPrevencionComponent,
   },
   {
     path: 'gestion-del-riesgo/259',
     title: 'Gestión del riesgo',
-    component: GestionRiesgoComponent
+    component: GestionRiesgoComponent,
   },
   {
     path: 'gestion-del-riesgo/266',
-    title: 'Programa de atención integral a Enfermedades Respiratorias Crónicas (Asma y EPOC)',
+    title:
+      'Programa de atención integral a Enfermedades Respiratorias Crónicas (Asma y EPOC)',
     component: GestionDelRiesgo266Component,
   },
   {
     path: 'afiliaciones/223',
     title: 'Sistema de Afiliación Transaccional (SAT)',
     component: AfiliacionesComponent,
+  },
+  {
+    path: 'reporte-pensionados-fallecidos/269',
+    title: 'Reporte Pensionados Fallecidos',
+    component: ReportePensionadosFallecidosComponent,
   },
 ];
 

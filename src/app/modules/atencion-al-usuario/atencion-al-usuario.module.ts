@@ -7,6 +7,7 @@ import { CanalInteraccionComponent } from '../atencion-al-usuario/canal-interacc
 import { EncuestaEvaluacionComponent } from '../atencion-al-usuario/encuesta-evaluacion/encuesta-evaluacion.component';
 import { BuzonNotificacionesJudicialesComponent } from '../atencion-al-usuario/buzon-notificaciones-judiciales/buzon-notificaciones-judiciales.component';
 import { ForoComponent } from './foro/foro.component';
+import { ContratacionComponent } from './contratacion/contratacion.component';
 
 const routes: Routes = [
   {
@@ -26,12 +27,14 @@ const routes: Routes = [
   },
   {
     path: 'canal-de-interaccion-de-liberatoria-para-la-participacion-ciudadana/240',
-    title: 'Canal de interacción de liberatoria para la participación ciudadana',
+    title:
+      'Canal de interacción de liberatoria para la participación ciudadana',
     component: CanalInteraccionComponent,
   },
   {
     path: 'encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
-    title: 'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
+    title:
+      'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
     component: EncuestaEvaluacionComponent,
   },
   {
@@ -43,6 +46,11 @@ const routes: Routes = [
     path: 'foro/126',
     title: 'Foro',
     component: ForoComponent,
+  },
+  {
+    path: 'contratacion/97',
+    title: 'Contratación',
+    component: ContratacionComponent,
   },
 ];
 

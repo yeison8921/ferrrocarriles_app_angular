@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { TramitesComponent } from './tramites/tramites.component';
 import { FormatosComponent } from './formatos/formatos.component';
+import { VentanillaVirtualComponent } from './ventanilla-virtual/ventanilla-virtual.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,11 @@ const routes: Routes = [
     path: 'formatos/165',
     title: 'Formatos',
     component: FormatosComponent,
+  },
+  {
+    path: 'ventanilla-virtual/55',
+    title: 'ventanilla virtual',
+    component: VentanillaVirtualComponent,
   },
 ];
 

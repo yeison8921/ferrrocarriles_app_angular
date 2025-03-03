@@ -1,5 +1,6 @@
 <h1 class="titulo-h1">NOTICIAS</h1>
-<div class="row m-0 mb-4 news" *ngFor="let noticia of noticias; let i = index">
+@for (noticia of noticias; track noticia;) { @if(getPage($index)){
+<div class="row m-0 mb-4 news">
   <div
     class="imagen"
     [style]="'background-image: url(' + noticia.imagen + ')'"
@@ -21,10 +22,10 @@
     >
   </div>
 </div>
+} }
 <ngb-pagination
   [collectionSize]="noticias.length"
   [(page)]="page"
-  [maxSize]="5"
   [rotate]="true"
   [ellipses]="false"
   [boundaryLinks]="true"

@@ -11,7 +11,7 @@ import { Slider } from '../../interfaces/home';
 @Component({
   selector: 'app-slider',
   standalone: true,
-  imports: [NgbCarouselModule, NgFor],
+  imports: [NgbCarouselModule],
   templateUrl: './slider.component.html',
   styleUrl: './slider.component.css',
 })
@@ -29,13 +29,18 @@ export class SliderComponent {
     this.slider = [
       {
         id: 1,
-        imagen: '/assets/img/Home/sliderHome/145.jpg',
+        imagen: '/assets/img/Home/sliderHome/157.jpg',
         url: '',
+      },
+      {
+        id: 1,
+        imagen: '/assets/img/Home/sliderHome/145.jpg',
+        url: '/servicios-de-salud/reporte-pensionados-fallecidos/269',
       },
       {
         id: 3,
         imagen: '/assets/img/Home/sliderHome/146.jpg',
-        url: '',
+        url: '/servicios-de-salud/reporte-pensionados-fallecidos/269',
       },
     ];
   }
