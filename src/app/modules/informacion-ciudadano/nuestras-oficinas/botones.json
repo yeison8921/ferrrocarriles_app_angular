@@ -1,0 +1,45 @@
+[
+  {
+    "title": "PETICIONES, QUEJAS Y RECLAMOS (PQRDSF)",
+    "href": "/participa/pqrs/222",
+    "iconClass": "fas fa-comments",
+    "grid": "col-lg-3"
+  },
+
+  {
+    "title": "CONSULTA DE SOLICITUDES",
+    "href": "#",
+    "iconClass": "fas fa-mouse",
+    "grid": "col-lg-3"
+  },
+  {
+    "title": "ENCUESTA DE SATISFACCIÓN",
+    "href": "/atencion-al-usuario/encuesta-de-satisfaccion/214",
+    "iconClass": "fas fa-poll-h",
+    "grid": "col-lg-3"
+  },
+  {
+    "title": "ENCUESTA DE USABILIDAD",
+    "href": "#",
+    "iconClass": "bi bi-search-heart",
+    "grid": "col-lg-3"
+  },
+  {
+    "title": "Directorio Institucional",
+    "href": "/corporativo/directorio-general-funcionarios-fps/192",
+    "iconClass": "fas fa-address-book",
+    "grid": "col-lg-4"
+  },
+  {
+    "title": "Calendario de Actividades",
+    "href": "#",
+    "iconClass": "fas fa-calendar",
+    "grid": "col-lg-4"
+  },
+  {
+    "title": "Entidades que nos regula",
+    "href": "/corporativo/entidades-que-nos-regulan/45",
+    "iconClass": "fas fa-building",
+    "grid": "col-lg-4"
+  }
+]

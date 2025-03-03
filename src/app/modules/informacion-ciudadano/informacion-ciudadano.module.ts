@@ -4,7 +4,7 @@ import { GuiasComponent } from '../informacion-ciudadano/guias/guias.component';
 import { ManualesComponent } from '../informacion-ciudadano/manuales/manuales.component';
 import { CorrespondenciaDevueltaComponent } from './correspondencia-devuelta/correspondencia-devuelta.component';
 import { BoletinVirtualComponent } from './boletin-virtual/boletin-virtual.component';
-
+import { NuestrasOficinasComponent } from './nuestras-oficinas/nuestras-oficinas.component';
 
 const routes: Routes = [
   {
@@ -26,6 +26,11 @@ const routes: Routes = [
     path: 'boletin-virtual/17',
     component: BoletinVirtualComponent,
     title: 'Información al ciudadano',
+  },
+  {
+    path: 'nuestras-oficinas/115',
+    component: NuestrasOficinasComponent,
+    title: 'Atención y Servicios a la Ciudadanía',
   },
 ];
 
