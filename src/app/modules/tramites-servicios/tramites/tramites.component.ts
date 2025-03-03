@@ -83,7 +83,7 @@ export class TramitesComponent {
             id: 1,
             tipo: 'pdf',
             nombre: 'OFICIO VINCULACIÓN A TERCEROS (1).pdf',
-            url: '/assets/files/hojas_de_vida/Documentos 2024/OFICIO VINCULACIÓN A TERCEROS (1).pdf',
+            url: '/assets/files/hojas_de_vida/Documentos 2024/OFICIO VINCULACION A TERCEROS (1).pdf',
           },
         ],
       },
