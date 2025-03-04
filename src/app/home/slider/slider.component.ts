@@ -28,6 +28,11 @@ export class SliderComponent {
   constructor() {
     this.slider = [
       {
+        id: 4,
+        imagen: '/assets/img/Home/sliderHome/EMCO-BANNER.png',
+        url: '',
+      },
+      {
         id: 1,
         imagen: '/assets/img/Home/sliderHome/157.jpg',
         url: '',
@@ -41,11 +46,6 @@ export class SliderComponent {
         id: 3,
         imagen: '/assets/img/Home/sliderHome/146.jpg',
         url: '/servicios-de-salud/reporte-pensionados-fallecidos/269',
-      },
-      {
-        id: 4,
-        imagen: '/assets/img/Home/sliderHome/EMCO-BANNER.png',
-        url: '',
       },
     ];
   }
