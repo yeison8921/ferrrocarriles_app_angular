@@ -89,8 +89,33 @@ export class TramitesComponent {
       },
     ];
     this.pagos = [
+
       {
-        id: 4,
+        id: 6,
+        nombre: '2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            nombre: '00 PORCENTAJE DEL INCREMENTO 2025.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/00 PORCENTAJE DEL INCREMENTO 2025.xlsx',
+          },
+          {
+            id: 2,
+            tipo: 'excel',
+            nombre: '01 PAGOS SERVICIOS DE SALUD ENERO 2025.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/01 PAGOS SERVICIOS DE SALUD ENERO 2025.xlsx',
+          },
+          {
+            id: 3,
+            tipo: 'excel',
+            nombre: '02 PAGOS SERVICIOS DE SALUD FEBRERO 2025.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/02 PAGOS SERVICIOS DE SALUD FEBRERO 2025.xlsx',
+          }
+        ],
+      },
+      {
+        id: 5,
         nombre: '2024',
         files: [
           {
@@ -175,7 +200,7 @@ export class TramitesComponent {
         ],
       },
       {
-        id: 5,
+        id: 4,
         nombre: '2023',
         files: [
           {
@@ -271,7 +296,7 @@ export class TramitesComponent {
         ],
       },
       {
-        id: 2,
+        id: 3,
         nombre: '2022',
         files: [
           {
@@ -427,7 +452,7 @@ export class TramitesComponent {
         ],
       },
       {
-        id: 3,
+        id: 2,
         nombre: '2021',
         files: [
           {
@@ -577,7 +602,7 @@ export class TramitesComponent {
         ],
       },
       {
-        id: 5,
+        id: 1,
         nombre: '2020',
         files: [
           {
