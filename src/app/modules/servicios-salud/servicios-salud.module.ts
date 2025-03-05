@@ -163,7 +163,7 @@ const routes: Routes = [
     component: GestionDelRiesgo266Component,
   },
   {
-    path: 'afiliaciones/223',
+    path: 'sistema-de-afiliacion-transaccional-sat/223',
     title: 'Sistema de Afiliación Transaccional (SAT)',
     component: AfiliacionesComponent,
   },

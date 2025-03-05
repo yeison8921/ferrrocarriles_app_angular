@@ -409,7 +409,7 @@ export class SubmenuComponent {
           {
             id: 4,
             nombre: 'Sistema de Afiliación Transaccional (SAT)',
-            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-(SAT)/223',
+            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-sat/223',
             active: false,
           },
           {
