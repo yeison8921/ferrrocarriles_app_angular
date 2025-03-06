@@ -1,21 +1,20 @@
 <h1 class="titulo-h1">ASOCIACION FERROCARRILES</h1>
 
-<p style="text-align: justify;">
-  Dando cumplimiento a lo establecido en el Literal b,
-  numeral 3.2. del Título VII de la Circular Externa 0008
-  de 2018 de la Superintendencia Nacional de Salud, el Fondo
-  de Pasivo Social de Ferrocarriles Nacionales de Colombia previo
-  requerimiento realizado a cada uno de las Asociaciones de Usuarios
+<p style="text-align: justify">
+  Dando cumplimiento a lo establecido en el Literal b, numeral 3.2. del Título
+  VII de la Circular Externa 0008 de 2018 de la Superintendencia Nacional de
+  Salud, el Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia
+  previo requerimiento realizado a cada uno de las Asociaciones de Usuarios
   pública y presenta la información relacionada con las Asociaciones
-  conformadas,  con el fin de promocionar y promover los mecanismos
-  de participación ciudadana, control social y de protección al usuario
-  del servicio de salud.
+  conformadas, con el fin de promocionar y promover los mecanismos de
+  participación ciudadana, control social y de protección al usuario del
+  servicio de salud.
 </p>
 
 <div ngbAccordion>
   <div
     ngbAccordionItem
-    [collapsed]="true"
+    [collapsed]="false"
     *ngFor="let info of infor; let i = index"
   >
     <div ngbAccordionHeader>
@@ -26,30 +25,30 @@
     <div ngbAccordionCollapse>
       <div ngbAccordionBody>
         <ng-template>
-         <p>
-          <strong>Direccion:</strong>
-          {{ info.direccion }}
-        </p>
+          <p>
+            <strong>Direccion:</strong>
+            {{ info.direccion }}
+          </p>
 
-         <p *ngIf="info.horario">
-          <strong>Horarios de atención:</strong>
-          {{ info.horario }}
-        </p>
+          <p *ngIf="info.horario">
+            <strong>Horarios de atención:</strong>
+            {{ info.horario }}
+          </p>
 
-         <p *ngIf="info.datos">
-          <strong>Datos de contacto:</strong>
-          {{ info.datos }}</p>
+          <p *ngIf="info.datos">
+            <strong>Datos de contacto:</strong>
+            {{ info.datos }}
+          </p>
 
-         <p>
-          <strong>Teléfono de contacto:</strong>
-          {{ info.telefono }}
-        </p>
+          <p>
+            <strong>Teléfono de contacto:</strong>
+            {{ info.telefono }}
+          </p>
 
-         <p *ngIf="info.correo">
-          <strong>Correo electrónico:</strong>
-          {{ info.correo }}
-        </p>
-
+          <p *ngIf="info.correo">
+            <strong>Correo electrónico:</strong>
+            <a href="mailto:{{ info.correo }}">{{ info.correo }}</a>
+          </p>
         </ng-template>
       </div>
     </div>
@@ -60,7 +59,6 @@
   <span class="icon govco-server"></span>
   Listado de documentos
 </h3>
-
 
 <div ngbAccordion>
   <div
@@ -77,19 +75,34 @@
       <div ngbAccordionBody>
         <ng-template>
           <section *ngFor="let file of item.files">
-
             <a
-            [attr.href]="file.url || null"
-            [ngClass]="{ 'disabled': !file.url }"
-            class="link-file"
-            href="{{ file.url }}"
-            target="_blank"
+              [attr.href]="file.url || null"
+              [ngClass]="{ disabled: !file.url }"
+              class="link-file"
+              href="{{ file.url }}"
+              target="_blank"
             >
-            <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
-            {{ file.nombre }}
-          </a>
+              <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+              {{ file.nombre }}
+            </a>
           </section>
-
+          <div *ngFor="let acordion of item.acordion; let i = index">
+            <h4 class="titulo-h4">
+              <span>{{ i + 1 }}</span>
+              {{ acordion.nombre }}
+            </h4>
+            <div class="mb-3">
+              <a
+                class="link-file"
+                *ngFor="let file of acordion.files"
+                href="{{ file.url }}"
+                target="_blank"
+              >
+                <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+                {{ file.nombre }}
+              </a>
+            </div>
+          </div>
         </ng-template>
       </div>
     </div>

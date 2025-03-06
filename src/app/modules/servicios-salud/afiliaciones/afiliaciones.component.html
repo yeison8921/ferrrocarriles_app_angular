@@ -21,7 +21,7 @@
       <div ngbAccordionBody>
         <ng-template>
           <a
-            *ngFor="let file of item.files"
+            *ngFor="let file of item.files; let i = index"
             class="link-file"
             href="{{ file.url }}"
             [target]="file.tipo != 'link' ? '_blank' : ''"
