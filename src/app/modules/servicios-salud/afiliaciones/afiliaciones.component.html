@@ -21,7 +21,7 @@
       <div ngbAccordionBody>
         <ng-template>
           <a
-            *ngFor="let file of item.files"
+            *ngFor="let file of item.files; let i = index"
             class="link-file"
             href="{{ file.url }}"
             [target]="file.tipo != 'link' ? '_blank' : ''"
@@ -69,7 +69,7 @@
   >Negación de Servicios de Salud</a
 >
 <h3 class="titulo-h3">
-  Valor POS Adicional Regimén Contributivo Vigencia 2024
+  Valor POS Adicional Regimén Contributivo Vigencia 2025
 </h3>
 <p>
   De conformidad con lo establecido en el Artículo 2.1.4.5 del Decreto Único
