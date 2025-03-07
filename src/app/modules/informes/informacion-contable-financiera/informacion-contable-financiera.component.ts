@@ -234,6 +234,172 @@ export class InformacionContableFinancieraComponent {
               },
             ],
           },
+          {
+            id: 8,
+            nombre: 'Agosto',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION DE CUENTAS XPAGAR A AGOSTO 31 2024.pdf',
+                url: '/assets/files/presupuesto/01. 2024/08 Agosto/EJECUCION DE  CUENTAS XPAGAR  A AGOSTO 31 2024.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'EJECUCION DE GASTO MES DE AGOSTO 31 2024.pdf',
+                url: '/assets/files/presupuesto/01. 2024/08 Agosto/EJECUCION DE GASTO MES DE AGOSTO 31 2024.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'EJECUCION DE INGRESOS AGOSTO 31 (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/08 Agosto/EJECUCION DE INGRESOS  AGOSTO 31 (1).pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'EJECUCION DE RESERVAS A AGOSTO 31 2024.pdf',
+                url: '/assets/files/presupuesto/01. 2024/08 Agosto/EJECUCION DE RESERVAS  A AGOSTO 31 2024.pdf',
+              },
+            ],
+          },
+          {
+            id: 9,
+            nombre: 'Septiembre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'EJECUCION VIGENCIA DECRETO LIQUIDACION FFNN A SEPT 30 2024- (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/09 Septiembre/EJECUCION VIGENCIA DECRETO LIQUIDACION FFNN A SEPT 30 2024- (1).pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  'InformeEjecucionPresupuestal INGRESOSFFNN DECRETO LIQUIDACION A SEPT 30 2024)-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/09 Septiembre/InformeEjecucionPresupuestal INGRESOSFFNN DECRETO LIQUIDACION A SEPT 30 2024)-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestalAgregada CUENTAS POR PAGAR DECRETO LIQUIDACION A SEPT 30-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/09 Septiembre/REP_EPG034_EjecucionPresupuestalAgregada CUENTAS POR PAGAR DECRETO LIQUIDACION A SEPT 30-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestalAgregada RESERVAS DECRETO LIQUIDACION A SEPT 30-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/09 Septiembre/REP_EPG034_EjecucionPresupuestalAgregada RESERVAS DECRETO LIQUIDACION A SEPT 30-.pdf',
+              },
+            ],
+          },
+          {
+            id: 10,
+            nombre: 'Octubre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'EjecucionPresupuestal FFNN CXP DECRETO LIQUIDACION A OCT 31  WEB- (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/10 Octubre/EjecucionPresupuestal FFNN CXP DECRETO LIQUIDACION A OCT 31  WEB- (1).pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  'EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION A OCT 31  WEB- (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/10 Octubre/EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION A OCT 31  WEB- (1).pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre:
+                  'EjecucionPresupuestal VIGENCIA DECRETO LIQUIDACION  A OCT 31  - 2024-11-01 WEB- (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/10 Octubre/EjecucionPresupuestal VIGENCIA DECRETO LIQUIDACION  A OCT 31  - 2024-11-01 WEB- (1).pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:
+                  'InformeEjecucion INGRESOS FFNN  A OCTUBRE 31 DECRETO LIQUIDACION WEB- (1).pdf',
+                url: '/assets/files/presupuesto/01. 2024/10 Octubre/InformeEjecucion INGRESOS FFNN  A OCTUBRE 31 DECRETO LIQUIDACION WEB- (1).pdf',
+              },
+            ],
+          },
+          {
+            id: 11,
+            nombre: 'Noviembre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION  - 2024-12-02 A NOV 30-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/11 Noviembre/REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION  - 2024-12-02 A NOV 30-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2024-12-02 A NOV 30-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/11 Noviembre/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2024-12-02 A NOV 30-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal VIGENCIA A NOV 30 FFNN DECRETO LIQUIDACION - 2024-12-02-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/11 Noviembre/REP_EPG034_EjecucionPresupuestal VIGENCIA A NOV 30 FFNN DECRETO LIQUIDACION - 2024-12-02-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:
+                  'REP_ING031_InformeEjecucionINGRESOS A NOV 30 2024 DECRETO LIQUIDACION-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/11 Noviembre/REP_ING031_InformeEjecucionINGRESOS A NOV 30 2024 DECRETO LIQUIDACION-.pdf',
+              },
+            ],
+          },
+          {
+            id: 12,
+            nombre: 'Diciembre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'EJECUCION PRESUPUESTAL VIGENCIA DECRETO DE LIQUIDACION A DIC 31 2024 EXTR ENERO 18 25-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/12 Diciembre/EJECUCION PRESUPUESTAL VIGENCIA DECRETO DE LIQUIDACION A DIC 31 2024 EXTR ENERO 18 25-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION  - 2025-01-02 A DICIEMBRE 31-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/12 Diciembre/REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION  - 2025-01-02 A DICIEMBRE 31-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO DE LIQUIDACION - A 31 DIC 2024 EXTRAIDA ENERO 28 2025-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/12 Diciembre/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO DE LIQUIDACION - A 31 DIC 2024 EXTRAIDA ENERO 28 2025-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:
+                  'REP_ING031_InformeEjecucion INGRESOS VIGENCIA DECRETO LIQUIDACION DIC 31 2024 EXTRAIDA EN ENERO 27 2025-.pdf',
+                url: '/assets/files/presupuesto/01. 2024/12 Diciembre/REP_ING031_InformeEjecucion INGRESOS VIGENCIA DECRETO LIQUIDACION DIC 31 2024 EXTRAIDA EN ENERO 27 2025-.pdf',
+              },
+            ],
+          },
         ],
       },
       {
@@ -3663,6 +3829,156 @@ export class InformacionContableFinancieraComponent {
               },
             ],
           },
+          {
+            id: 7,
+            nombre: 'Julio',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA JULIO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/07 Julio/1. ESTADO DE SITUACION FINANCIERA JULIO 2024-2023-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA JULIO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/07 Julio/2. ESTADO DE SITUACION FINANCIERA JULIO 2024-2023-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS JULIO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/07 Julio/3. ESATADO DE RESULTADOS JULIO 2024-2023-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS JULIO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/07 Julio/4. ESTADO DE RESULTADOS JULIO 2024-2023-.pdf',
+              },
+            ],
+          },
+          {
+            id: 8,
+            nombre: 'Agosto',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA AGOSTO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/08 Agosto/1. ESTADO DE SITUACION FINANCIERA AGOSTO 2024-2023-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA AGOSTO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/08 Agosto/2. ESTADO DE SITUACION FINANCIERA AGOSTO 2024-2023-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS AGOSTO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/08 Agosto/3. ESATADO DE RESULTADOS AGOSTO 2024-2023-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS AGOSTO 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/08 Agosto/4. ESTADO DE RESULTADOS AGOSTO 2024-2023-.pdf',
+              },
+            ],
+          },
+          {
+            id: 9,
+            nombre: 'Septiembre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA SEPTIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/09 Septiembre/1. ESTADO DE SITUACION FINANCIERA SEPTIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA SEPTIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/09 Septiembre/2. ESTADO DE SITUACION FINANCIERA SEPTIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS SEPTIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/09 Septiembre/3. ESTADO DE RESULTADOS SEPTIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS SEPTIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/09 Septiembre/4. ESTADO DE RESULTADOS SEPTIEMBRE 2024-2023-.pdf',
+              },
+            ],
+          },
+          {
+            id: 10,
+            nombre: 'Octubre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA OCTUBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/10 Octubre/1. ESTADO DE SITUACION FINANCIERA OCTUBRE 2024-2023-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA OCTUBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/10 Octubre/2. ESTADO DE SITUACION FINANCIERA OCTUBRE 2024-2023-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS OCTUBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/10 Octubre/3. ESATADO DE RESULTADOS OCTUBRE 2024-2023-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS OCTUBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/10 Octubre/4. ESTADO DE RESULTADOS OCTUBRE 2024-2023-.pdf',
+              },
+            ],
+          },
+          {
+            id: 11,
+            nombre: 'Noviembre',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/11 Noviembre/1. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/11 Noviembre/2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS NOVIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/11 Noviembre/3. ESATADO DE RESULTADOS NOVIEMBRE 2024-2023-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'ESTADO DE RESULTADOS NOVIEMBRE 2024-2023',
+                url: '/assets/files/estados_financieros/01. 2024/11 Noviembre/4. ESTADO DE RESULTADOS NOVIEMBRE 2024-2023-.pdf',
+              },
+            ],
+          },
         ],
       },
       {
@@ -5042,6 +5358,18 @@ export class InformacionContableFinancieraComponent {
     ];
 
     this.informacionSalud = [
+      {
+        id: 1,
+        nombre: '2023 - 2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'ESTADOS FINANCIEROS 2024-2023 SUPERSALUD.pdf',
+            url: '/assets/files/informe_contaduria/2023-2024/ESTADOS FINANCIEROS 2024-2023 SUPERSALUD.pdf',
+          },
+        ],
+      },
       {
         id: 1,
         nombre: '2022 - 2023',

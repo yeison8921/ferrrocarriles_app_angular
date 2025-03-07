@@ -30,14 +30,42 @@ export class TalentoHumanoComponent {
             acordion: [
               {
                 id: 1,
+                nombre: '2024 ',
+                files: [
+                  {
+                    id: 1,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
+                  },
+                  {
+                    id: 2,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf ',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf',
+                  },
+                  {
+                    id: 3,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf ',
+
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf',
+                  },
+                ],
+              },
+              {
+                id: 1,
                 nombre: '2023 ',
                 files: [
                   {
                     id: 1,
                     tipo: 'pdf',
                     nombre:
-                      ' CONCERTACION OBJETIVOS GERENCIALES 2023 SUBDIRECTOR DE PRESTACIONES SOCIALES.pdf ',
-                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/01.%202023/CONCERTACION%20OBJETIVOS%20GERENCIALES%202023%20SUBDIRECTOR%20DE%20PRESTACIONES%20SOCIALES.aa6.delay',
+                      'CONCERTACION OBJETIVOS GERENCIALES 2023 SUBDIRECTOR DE PRESTACIONES SOCIALES.pdf ',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/01.%202023/CONCERTACION OBJETIVOS GERENCIALES 2023 SUBDIRECTOR DE PRESTACIONES SOCIALES.pdf',
                   },
                   {
                     id: 2,
@@ -293,6 +321,34 @@ export class TalentoHumanoComponent {
             id: 2,
             nombre: 'EVALUACION ACUERDOS DE GESTION ',
             acordion: [
+              {
+                id: 1,
+                nombre: '2024 ',
+                files: [
+                  {
+                    id: 1,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/EVALUACION ACUERDOS DE GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
+                  },
+                  {
+                    id: 2,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf ',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/EVALUACION ACUERDOS DE GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf',
+                  },
+                  {
+                    id: 3,
+                    tipo: 'pdf',
+                    nombre:
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf ',
+
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/EVALUACION ACUERDOS DE GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf',
+                  },
+                ],
+              },
               {
                 id: 1,
                 nombre: '2023',

@@ -205,6 +205,24 @@ export class InformesDefensaJudicialComponent {
         acordion: [
           {
             id: 2,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: '01. AUDIENCIAS ENERO DE 2025 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/2025/01. AUDIENCIAS ENERO DE 2025 CONCILIACIÓN.xls',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre: '02.  AUDIENCIAS FEBRERO DE 2025 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/2025/02.  AUDIENCIAS FEBRERO DE 2025 CONCILIACIÓN.xls',
+              },
+            ],
+          },
+          {
+            id: 2,
             nombre: '2024',
             files: [
               {

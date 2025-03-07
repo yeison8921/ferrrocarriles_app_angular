@@ -614,7 +614,7 @@ export class SubmenuComponent {
               },
               {
                 id: 8,
-                nombre: 'Plan Gestión Humana',
+                nombre: 'Planes de Gestión Humana',
                 url: '/planeacion-gestion-y-control/plan-gestion-humana/197',
                 active: false,
               },
