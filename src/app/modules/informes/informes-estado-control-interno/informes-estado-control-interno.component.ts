@@ -456,6 +456,116 @@ export class InformesEstadoControlInternoComponent {
       },
       {
         id: 1,
+        nombre: 'Informe Derechos de Autor',
+        acordion: [
+          {
+            id: 1,
+            nombre: '01. 2017',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'InfoDerechosAutor2017.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe Derechos de Autor/01. 2017/InfoDerechosAutor2017.pdf',
+              },
+            ],
+          },
+          {
+            id: 2,
+            nombre: '02. 2016',
+            files: [
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'InfoDerechosAutor2016.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe Derechos de Autor/02. 2016/InfoDerechosAutor2016.pdf',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 2,
+        nombre: 'Informe Ejecutivo Contable',
+        files: [
+          {
+            id: 3,
+            tipo: 'pdf',
+            nombre:
+              '01. RESULTADOS EVALUACION SISTEMA DE CONTROL INTERNO CONTABLE 2024.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/01. RESULTADOS EVALUACION SISTEMA DE CONTROL INTERNO CONTABLE 2024.pdf',
+          },
+          {
+            id: 4,
+            tipo: 'pdf',
+            nombre:
+              '02. INFORME EVALUACION CONTROL INTERNO CONTABLE VIGENCIA 2023.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/02. INFORME EVALUACION CONTROL INTERNO CONTABLE VIGENCIA 2023.pdf',
+          },
+          {
+            id: 5,
+            tipo: 'pdf',
+            nombre: '03. InfoEjecutivoContable2022.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/03. InfoEjecutivoContable2022.pdf',
+          },
+          {
+            id: 6,
+            tipo: 'pdf',
+            nombre: '04. InfoEjecutivoContable2021.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/04. InfoEjecutivoContable2021.pdf',
+          },
+          {
+            id: 7,
+            tipo: 'pdf',
+            nombre: '05. InfoEjecutivoContable2020.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/05. InfoEjecutivoContable2020.pdf',
+          },
+          {
+            id: 8,
+            tipo: 'pdf',
+            nombre: '06. InfoEjecutivoContable2019.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/06. InfoEjecutivoContable2019.pdf',
+          },
+          {
+            id: 9,
+            tipo: 'pdf',
+            nombre: '07. InfoEjecutivoContable2018.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/07. InfoEjecutivoContable2018.pdf',
+          },
+          {
+            id: 10,
+            tipo: 'pdf',
+            nombre: '08. InfoEjecutivoContable2017.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/08. InfoEjecutivoContable2017.pdf',
+          },
+          {
+            id: 11,
+            tipo: 'pdf',
+            nombre: '09. InfoEjecutivoContable2016.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/09. InfoEjecutivoContable2016.pdf',
+          },
+          {
+            id: 12,
+            tipo: 'pdf',
+            nombre: '10. InfoEjecutivoContable2013.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/10. InfoEjecutivoContable2013.pdf',
+          },
+          {
+            id: 13,
+            tipo: 'pdf',
+            nombre: '11. InfoEjecutivoContable2012.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/11. InfoEjecutivoContable2012.pdf',
+          },
+          {
+            id: 14,
+            tipo: 'pdf',
+            nombre: '12. InfoEjecutivoContable2011.pdf',
+            url: '/assets/files/estado_sistema_oci/Informe Ejecutivo Contable/12. InfoEjecutivoContable2011.pdf',
+          },
+        ],
+      },
+      {
+        id: 1,
         nombre: 'Informe Ejecutivo MECI',
         acordion: [
           {
@@ -822,6 +932,19 @@ export class InformesEstadoControlInternoComponent {
         acordion: [
           {
             id: 18,
+            nombre: '2024',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'ESDESDIGFO23 FORMATO PLAN DE ACCION DE AUSTERIDAD EN EL GASTO PUBLICO   2024.xlsx',
+                url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/2024/ESDESDIGFO23 FORMATO PLAN DE ACCION DE AUSTERIDAD EN EL GASTO PUBLICO   2024.xlsx',
+              },
+            ],
+          },
+          {
+            id: 18,
             nombre: '2019',
             acordion: [
               {
@@ -832,7 +955,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 20,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreII2019.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/01. 2019/segundo trimestre/InfoAusteridadGPtrimestreII2019.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/01. 2019/segundo trimestre/InfoAusteridadGPtrimestreII2019.pdf',
                   },
                 ],
               },
@@ -844,7 +967,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 22,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreIII2019.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/01. 2019/tecer trimestre/InfoAusteridadGPtrimestreIII2019.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/01. 2019/tecer trimestre/InfoAusteridadGPtrimestreIII2019.pdf',
                   },
                 ],
               },
@@ -862,7 +985,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 25,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreIV2018.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/02. 2018/cuarto trimestre/InfoAusteridadGPtrimestreIV2018.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/02. 2018/cuarto trimestre/InfoAusteridadGPtrimestreIV2018.pdf',
                   },
                 ],
               },
@@ -874,7 +997,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 27,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreI2018.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/02. 2018/primer trimestre/InfoAusteridadGPtrimestreI2018.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/02. 2018/primer trimestre/InfoAusteridadGPtrimestreI2018.pdf',
                   },
                 ],
               },
@@ -886,7 +1009,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 29,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreII2018.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/02. 2018/segundo trimestre/InfoAusteridadGPtrimestreII2018.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/02. 2018/segundo trimestre/InfoAusteridadGPtrimestreII2018.pdf',
                   },
                 ],
               },
@@ -898,7 +1021,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 31,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreIII2018.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/02. 2018/tercer trimestre/InfoAusteridadGPtrimestreIII2018.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/02. 2018/tercer trimestre/InfoAusteridadGPtrimestreIII2018.pdf',
                   },
                 ],
               },
@@ -916,7 +1039,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 34,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreIV2017.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/03. 2017/cuarto trimestre/InfoAusteridadGPtrimestreIV2017.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/03. 2017/cuarto trimestre/InfoAusteridadGPtrimestreIV2017.pdf',
                   },
                 ],
               },
@@ -928,7 +1051,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 36,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreI2017.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/03. 2017/primer trimestre/InfoAusteridadGPtrimestreI2017.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/03. 2017/primer trimestre/InfoAusteridadGPtrimestreI2017.pdf',
                   },
                 ],
               },
@@ -940,7 +1063,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 38,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreII2017.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/03. 2017/segundo trimestre/InfoAusteridadGPtrimestreII2017.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/03. 2017/segundo trimestre/InfoAusteridadGPtrimestreII2017.pdf',
                   },
                 ],
               },
@@ -952,7 +1075,7 @@ export class InformesEstadoControlInternoComponent {
                     id: 40,
                     tipo: 'pdf',
                     nombre: 'InfoAusteridadGPtrimestreIII2017.pdf',
-                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Público/03. 2017/tercer trimestre/InfoAusteridadGPtrimestreIII2017.pdf',
+                    url: '/assets/files/estado_sistema_oci/Informe de Austeridad en el Gasto Publico/03. 2017/tercer trimestre/InfoAusteridadGPtrimestreIII2017.pdf',
                   },
                 ],
               },
@@ -974,6 +1097,12 @@ export class InformesEstadoControlInternoComponent {
                 tipo: 'pdf',
                 nombre: 'Evaluación Independiente del SCI I semestre 2024.pdf',
                 url: '/assets/files/estado_sistema_oci/Informe de Evaluación Independiente del Sistema de Control Interno/01. 2024/Evaluación Independiente del SCI I semestre 2024.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'Evaluación Independiente del SCI II semestre 2024.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe de Evaluación Independiente del Sistema de Control Interno/01. 2024/Evaluación Independiente del SCI II semestre 2024.pdf',
               },
             ],
           },
@@ -1023,13 +1152,37 @@ export class InformesEstadoControlInternoComponent {
         id: 10,
         nombre:
           'Informe y certificación de la Información Litigiosa del Estado Ekogui',
-        files: [
+        acordion: [
           {
-            id: 11,
-            tipo: 'excel',
-            nombre:
-              'Inf ekogui 2 sem 2023 Fondo Pasivo Social FNC (1) (1).xlsx',
-            url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/Inf ekogui 2 sem 2023 Fondo Pasivo Social FNC (1) (1).xlsx',
+            id: 1,
+            nombre: '2024',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'Certificacion firmada FPSFNC Control Interno.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Certificacion firmada FPSFNC Control Interno.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre:
+                  'plantilla_control_interno_22072024 Fondo de Pasivo Social FNC.xlsx',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/plantilla_control_interno_22072024 Fondo de Pasivo Social FNC.xlsx',
+              },
+            ],
+          },
+          {
+            id: 1,
+            nombre: '2023',
+            files: [
+              {
+                id: 11,
+                tipo: 'excel',
+                nombre: 'Inf ekogui 2 sem 2023 Fondo Pasivo Social FNC.xlsx',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/02. 2023/Inf ekogui 2 sem 2023 Fondo Pasivo Social FNC.xlsx',
+              },
+            ],
           },
         ],
       },
