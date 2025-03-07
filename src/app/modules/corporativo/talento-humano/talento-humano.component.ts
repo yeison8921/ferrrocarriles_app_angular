@@ -43,8 +43,8 @@ export class TalentoHumanoComponent {
                     id: 2,
                     tipo: 'pdf',
                     nombre:
-                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf ',
-                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA PRESTACIONES SOCIALES 2024.pdf',
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2024.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2024.pdf',
                   },
                   {
                     id: 3,
@@ -329,8 +329,8 @@ export class TalentoHumanoComponent {
                     id: 1,
                     tipo: 'pdf',
                     nombre:
-                      'EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
-                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/EVALUACION ACUERDOS DE GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2024.pdf',
+                      'EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2024.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/EVALUACION ACUERDOS DE GESTION/2024/EVALUACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2024.pdf',
                   },
                   {
                     id: 2,
