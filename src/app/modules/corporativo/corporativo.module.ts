@@ -17,6 +17,8 @@ import { ObjetivosinstComponent } from './objetivosinst/objetivosinst.component'
 import { EntidadesRegulanComponent } from './entidades-regulan/entidades-regulan.component';
 import { DirectorioEntidadesComponent } from './directorio-entidades/directorio-entidades.component';
 import { EntidadComponent } from './entidad/entidad.component';
+import { DirectorioFuncionariosPrincipalesComponent } from './directorio-funcionarios-principales/directorio-funcionarios-principales.component';
+import { NuestrosDirectivosComponent } from './nuestros-directivo/nuestros-directivos.component';
 
 const routes: Routes = [
   {
@@ -50,9 +52,19 @@ const routes: Routes = [
     title: 'Gestión documental',
   },
   {
+    path: 'nuestros-directivos/191',
+    title: 'Nuestros Directivos',
+    component: NuestrosDirectivosComponent,
+  },
+  {
     path: 'directorio-general-funcionarios-fps/192',
     title: 'Directorio General Funcionarios FPS',
     component: DirectorioGeneralFuncionariosComponent,
+  },
+  {
+    path: 'directorio-funcionarios-principales/193',
+    title: 'Directorio Funcionarios Principales',
+    component: DirectorioFuncionariosPrincipalesComponent,
   },
   {
     path: 'informacion-general/42',
