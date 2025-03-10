@@ -205,6 +205,24 @@ export class InformesDefensaJudicialComponent {
         acordion: [
           {
             id: 2,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: '01. AUDIENCIAS ENERO DE 2025 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/2025/01. AUDIENCIAS ENERO DE 2025 CONCILIACIÓN.xls',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre: '02.  AUDIENCIAS FEBRERO DE 2025 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/2025/02.  AUDIENCIAS FEBRERO DE 2025 CONCILIACIÓN.xls',
+              },
+            ],
+          },
+          {
+            id: 2,
             nombre: '2024',
             files: [
               {
@@ -248,6 +266,36 @@ export class InformesDefensaJudicialComponent {
                 tipo: 'excel',
                 nombre: '07. AUDIENCIAS JULIO DE 2024 CONCILIACIÓN.xls',
                 url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/07. AUDIENCIAS JULIO DE 2024 CONCILIACIÓN.xls',
+              },
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: '08. AUDIENCIAS AGOSTO DE 2024 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/08. AUDIENCIAS AGOSTO DE 2024 CONCILIACIÓN.xls',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre: '09. AUDIENCIAS SEPTIEMBRE DE 2024 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/09. AUDIENCIAS SEPTIEMBRE DE 2024 CONCILIACIÓN.xls',
+              },
+              {
+                id: 3,
+                tipo: 'excel',
+                nombre: '10. AUDIENCIAS OCTUBRE DE 2024 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/10. AUDIENCIAS OCTUBRE DE 2024 CONCILIACIÓN.xls',
+              },
+              {
+                id: 4,
+                tipo: 'excel',
+                nombre: '11. AUDIENCIAS NOVIEMBRE DE 2024 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/11. AUDIENCIAS NOVIEMBRE DE 2024 CONCILIACIÓN.xls',
+              },
+              {
+                id: 5,
+                tipo: 'excel',
+                nombre: '12. AUDIENCIAS DICIEMBRE DE 2024 CONCILIACIÓN.xls',
+                url: '/assets/files/informes_defensa_judicial/PROGRAMACION AUDIENCIAS/01. 2024/12. AUDIENCIAS DICIEMBRE DE 2024 CONCILIACIÓN.xls',
               },
             ],
           },

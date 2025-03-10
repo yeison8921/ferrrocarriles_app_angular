@@ -6,7 +6,7 @@ import { NgFor, NgIf } from '@angular/common';
 @Component({
   selector: 'app-transparencia',
   standalone: true,
-  imports: [NgbAccordionModule, NgFor, NgIf],
+  imports: [NgbAccordionModule, NgFor],
   templateUrl: './transparencia.component.html',
   styleUrl: './transparencia.component.css',
 })
@@ -223,6 +223,24 @@ export class TransparenciaComponent {
             tipo: 'link',
             nombre: 'Planes Estratégicos',
             url: '/planeacion-gestion-y-control/plan-estrategico/63',
+          },
+          {
+            id: 8,
+            tipo: 'excel',
+            nombre: 'Plan Anual de Austeriedad en el Gasto Público 2024',
+            url: '/assets/files/transparencia/ESDESDIGFO23 FORMATO PLAN DE ACCION DE AUSTERIDAD EN EL GASTO PUBLICO   2024 (1).xlsx',
+          },
+          {
+            id: 8,
+            tipo: 'pdf',
+            nombre: 'Informe Austeridad del Gasto I Semestre 2024',
+            url: '/assets/files/transparencia/INFORME AUSTERIDAD I SEMESTRE SG.docx.pdf',
+          },
+          {
+            id: 8,
+            tipo: 'pdf',
+            nombre: 'Informe Austeridad del Gasto II Semestre 2024',
+            url: '/assets/files/transparencia/INFORME II SEMESTRE 2024 AUSTERIDAD EN EL GASTO PUBLICO (2).pdf',
           },
           {
             id: 6,

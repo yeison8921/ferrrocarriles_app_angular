@@ -35,7 +35,7 @@
               <span>{{ j + 1 }}</span> {{ acordionInterno.nombre }}
             </h4>
             <div *ngFor="let file of acordionInterno.files; let k = index">
-              <a class="link-file" href="{{ file.url }}">
+              <a class="link-file" target="_blank" href="{{ file.url }}">
                 <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
                 {{ file.nombre }}
               </a>
