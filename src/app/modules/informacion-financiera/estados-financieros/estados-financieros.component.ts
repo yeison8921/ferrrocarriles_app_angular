@@ -371,6 +371,44 @@ export class EstadosFinancierosComponent {
               },
             ],
           },
+          {
+            id: 8,
+            nombre: 'DICIEMBRE',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  '1. ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/1 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  '2. ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/2 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/3 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: '4. ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/4 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+              },
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '5. ESTADO DE CAMBIO EN EL PATRIMONIO 2024 -2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/5 ESTADO DE CAMBIO EN EL PATRIMONIO 2024 -2023.pdf',
+              },
+            ],
+          },
         ],
       },
 
