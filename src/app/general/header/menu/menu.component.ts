@@ -55,6 +55,20 @@ export class MenuComponent {
             submenu: [],
           },
           {
+            id: 20,
+            nombre: 'PQRSDF',
+            url: 'https://sedevirtual.fps.gov.co',
+            active: false,
+            submenu: [],
+          },
+          {
+            id: 20,
+            nombre: 'Prestaciones Economicas',
+            url: 'https://sedevirtual.fps.gov.co/prestini',
+            active: false,
+            submenu: [],
+          },
+          {
             id: 11,
             nombre: 'Canales de Atención',
             url: '/informacion-al-ciudadano/nuestras-oficinas/115',

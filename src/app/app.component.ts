@@ -28,17 +28,5 @@ export class AppComponent implements OnInit {
   }
   ngOnInit(): void {
     window.scrollTo(0, 0);
-    this.loadTawkTo();
-  }
-  loadTawkTo() {
-    var Tawk_API: any = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    var script = document.createElement('script');
-    script.async = true;
-    script.src =
-      'https://embed.tawk.to/05a20243a5baddc6545dcf3bde75f28e95dfaa10/default';
-    script.charset = 'UTF-8';
-    script.setAttribute('crossorigin', '*');
-    document.body.appendChild(script);
   }
 }
