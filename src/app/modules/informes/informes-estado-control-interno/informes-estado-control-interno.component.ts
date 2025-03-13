@@ -1161,7 +1161,7 @@ export class InformesEstadoControlInternoComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'Certificacion firmada FPSFNC Control Interno.pdf',
-                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Certificacion firmada FPSFNC Control Interno.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Certificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC (1).pdf',
               },
               {
                 id: 2,
