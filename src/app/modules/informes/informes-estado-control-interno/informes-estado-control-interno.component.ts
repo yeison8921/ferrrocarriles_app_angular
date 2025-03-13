@@ -1160,11 +1160,26 @@ export class InformesEstadoControlInternoComponent {
               {
                 id: 1,
                 tipo: 'pdf',
+                nombre:
+                  'ertificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC .pdf',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/ertificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC (1).pdf',
+              },
+
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre:
+                  'Plantilla_CI_II semestre 2024 Fondo de Pasivo Social Ferrocarriles Nacionales de Colombia .xlsx',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Plantilla_CI_II semestre 2024 Fondo de Pasivo Social Ferrocarriles Nacionales de Colombia (1).xlsx',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
                 nombre: 'Certificacion firmada FPSFNC Control Interno.pdf',
                 url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Certificacion firmada FPSFNC Control Interno.pdf',
               },
               {
-                id: 2,
+                id: 4,
                 tipo: 'excel',
                 nombre:
                   'plantilla_control_interno_22072024 Fondo de Pasivo Social FNC.xlsx',
