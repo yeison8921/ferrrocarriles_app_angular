@@ -1162,7 +1162,7 @@ export class InformesEstadoControlInternoComponent {
                 tipo: 'pdf',
                 nombre:
                   'Certificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC .pdf',
-                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/certificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC (1).pdf',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/01. 2024/Certificacion Ekogui II Semestre 2024 Fondo Pasivo Social FNC (1).pdf',
               },
 
               {
