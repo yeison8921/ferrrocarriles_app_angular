@@ -92,6 +92,12 @@ export class ContratacionComponent {
                 nombre: 'Contratos a 31 de enero de 2025 - PWeb.xlsx',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/Contratos a 31 de enero de 2025 - PWeb.xlsx',
               },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre: 'CONTRATOS FEBRERO DE 2025.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS FEBRERO DE 2025.xlsx',
+              },
             ],
           },
           {
