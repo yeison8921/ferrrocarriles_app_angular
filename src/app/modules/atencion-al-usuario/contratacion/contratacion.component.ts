@@ -113,14 +113,14 @@ export class ContratacionComponent {
               {
                 id: 4,
                 tipo: 'excel',
-                nombre: '03 BASE DE DATOS FPS 2024.xlsm',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/03 BASE DE DATOS FPS 2024.xlsm',
+                nombre: '03 BASE DE DATOS FPS 2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/03 BASE DE DATOS FPS 2024.xlsx',
               },
               {
                 id: 5,
                 tipo: 'excel',
-                nombre: '04 BASE DE DATOS FPS 2024.xlsm',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/04 BASE DE DATOS FPS 2024.xlsm',
+                nombre: '04 BASE DE DATOS FPS 2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/04 BASE DE DATOS FPS 2024.xlsx',
               },
               /*{
                 id: 6,
