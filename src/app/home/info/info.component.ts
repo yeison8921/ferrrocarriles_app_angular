@@ -37,7 +37,7 @@ export class InfoComponent {
       },
       {
         id: 4,
-        href: 'http://132.255.23.86/FondoWeb/Login.aspx',
+        href: '/tramites-y-servicios/ventanilla-virtual/55',
         url: this.urlSvg + '4.svg',
         state: 'undisabled',
       },
