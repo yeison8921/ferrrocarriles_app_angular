@@ -15,6 +15,77 @@ export class InformacionFinancieraComponent {
 
   constructor() {
     this.files = [
+
+      {
+        id: 1,
+        nombre: '2025',
+        acordion: [
+          {
+            id: 1,
+            nombre: 'ENERO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'Ejecución Cuentas por Pagar Enero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/01%20ENERO/Ejecuci%c3%b3n%20Cuentas%20por%20Pagar%20Enero_2023.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre: 'Ejecución Gastos Enero_2023 x.pdf',
+                url: 'assets/files/presupuesto/02.%202023/01%20ENERO/Ejecuci%c3%b3n%20Gastos%20Enero_2023%20x.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'Ejecución Ingresos Enero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/01%20ENERO/Ejecuci%c3%b3n%20Ingresos%20Enero_2023.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: 'Ejecución Reservas Enero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/01%20ENERO/Ejecuci%c3%b3n%20Reservas%20Enero_2023.pdf',
+              },
+            ],
+          },
+          {
+            id: 2,
+            nombre: 'FEBRERO',
+            files: [
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: 'Ejecución Cuentas por Pagar Febrero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/02%20FEBRERO/Ejecuci%c3%b3n%20Cuentas%20por%20Pagar%20Febrero_2023.pdf',
+              },
+              {
+                id: 6,
+                tipo: 'pdf',
+                nombre: 'Ejecución Gastos Febrero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/02%20FEBRERO/Ejecuci%c3%b3n%20Gastos%20Febrero_2023.pdf',
+              },
+              {
+                id: 7,
+                tipo: 'pdf',
+                nombre: 'Ejecución Ingresos Febrero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/02%20FEBRERO/Ejecuci%c3%b3n%20Ingresos%20Febrero_2023.pdf',
+              },
+              {
+                id: 8,
+                tipo: 'pdf',
+                nombre: 'Ejecución Reservas Febrero_2023.pdf',
+                url: 'assets/files/presupuesto/02.%202023/02%20FEBRERO/Ejecuci%c3%b3n%20Reservas%20Febrero_2023.pdf',
+              },
+            ],
+          },
+          
+         
+          
+        ],
+      },
+
       {
         id: 1,
         nombre: '2024',
