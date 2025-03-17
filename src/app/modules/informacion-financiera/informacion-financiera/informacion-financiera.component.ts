@@ -76,7 +76,7 @@ export class InformacionFinancieraComponent {
                 id: 8,
                 tipo: 'pdf',
                 nombre: 'REP_ING031_Informe Ejecucion INGRESOS VIGENCIA DECRETO LIQUIDACION - 2025-03-04 A FEBRERO 28 2025-.pdf',
-                url: 'assets/files/presupuesto/11.2025/02.FEBRERO/REP_ING031_InformeEjecucionINGRESOSVIGENCIADECRETOLIQUIDACION-2025-03-04AFEBRERO282025-.pdf',
+                url: 'assets/files/presupuesto/11.2025/02.FEBRERO/REP_ING031_InformeEjecucionINGRESOSVIGENCIADECRETOLIQUIDACION-2025-03-04AFEBRERO282025-.pdf'
               },
             ],
           },
