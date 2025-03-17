@@ -83,6 +83,18 @@ export class ContratacionComponent {
         nombre: 'CONTRATACIÓN DIRECTA',
         acordion: [
           {
+            id: 1,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: 'CONTRATOS A 31 DE ENERO 2025.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS A 31 DE ENERO 2025.xlsx',
+              },
+            ],
+          },
+          {
             id: 2,
             nombre: '2024',
             files: [
