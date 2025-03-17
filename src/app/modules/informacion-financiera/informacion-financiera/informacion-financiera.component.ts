@@ -28,7 +28,7 @@ export class InformacionFinancieraComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pd',
-                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pd',
+                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal.pdf',
               },
               {
                 id: 2,
@@ -64,7 +64,7 @@ export class InformacionFinancieraComponent {
                 id: 6,
                 tipo: 'pdf',
                 nombre: 'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
-                url: 'assets/files/presupuesto/202025/FEBRERO/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
+                url: 'assets/files/presupuesto/2025/FEBRERO/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
               },
               {
                 id: 7,
