@@ -52,7 +52,7 @@ export class PlaneacionGestionYControlComponent {
             id: 6,
             tipo: 'link',
             nombre: 'Informes PQRS',
-            url: '/informes/informes-pqrs/180',
+            url: '/informes/informes-PQRS/180',
           },
           {
             id: 7,
