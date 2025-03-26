@@ -89,8 +89,14 @@ export class ContratacionComponent {
               {
                 id: 1,
                 tipo: 'excel',
-                nombre: 'Contratos a 31 de enero de 2025 - PWeb.xlsx',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/Contratos a 31 de enero de 2025 - PWeb.xlsx',
+                nombre: 'CONTRATOS A 31 DE ENERO 2025.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS A 31 DE ENERO 2025.xlsx',
+              },
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: 'CONTRATOS FEBRERO DE 2025.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS FEBRERO DE 2025.xlsx',
               },
               {
                 id: 2,
@@ -119,16 +125,16 @@ export class ContratacionComponent {
               {
                 id: 4,
                 tipo: 'excel',
-                nombre: '03 BASE DE DATOS FPS 2024.xlsm',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/03 BASE DE DATOS FPS 2024.xlsm',
+                nombre: '03 BASE DE DATOS FPS 2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/03 BASE DE DATOS FPS 2024.xlsx',
               },
               {
                 id: 5,
                 tipo: 'excel',
-                nombre: '04 BASE DE DATOS FPS 2024.xlsm',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/04 BASE DE DATOS FPS 2024.xlsm',
+                nombre: '04 BASE DE DATOS FPS 2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/04 BASE DE DATOS FPS 2024.xlsx',
               },
-              {
+              /*{
                 id: 6,
                 tipo: 'excel',
                 nombre: '05 BASE DE DATOS FPS 2024.xlsm',
@@ -151,18 +157,18 @@ export class ContratacionComponent {
                 tipo: 'excel',
                 nombre: '08 BASE DE DATOS FPS 2024.xlsx',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/08 BASE DE DATOS FPS 2024.xlsx',
-              },
+              },*/
               {
                 id: 10,
                 tipo: 'excel',
-                nombre: '09 CONTRATOS OCTUBRE.xlsx',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/09 CONTRATOS OCTUBRE.xlsx',
+                nombre: 'BASE DE DATOS CONTRATOS OCTUBRE  2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/BASE DE DATOS CONTRATOS OCTUBRE  2024.xlsx',
               },
               {
                 id: 11,
                 tipo: 'excel',
-                nombre: '10 CONTRATOS DICIEMBRE 2024.xlsx',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/10 CONTRATOS DICIEMBRE 2024.xlsx',
+                nombre: 'CONTRATOS  DICIEMBRE 2024.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/02. 2024/CONTRATOS  DICIEMBRE 2024.xlsx',
               },
             ],
           },

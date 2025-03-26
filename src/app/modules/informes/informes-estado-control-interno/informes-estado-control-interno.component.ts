@@ -37,6 +37,20 @@ export class InformesEstadoControlInternoComponent {
         id: 2,
         nombre: 'Derechos de autor de software',
         acordion: [
+
+          {
+            id: 3,
+            nombre: '2024',
+            files: [
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:
+                  'INFORME DE DERECHOS DE AUTOR DE SOFTWARE  VIGENCIA 2024',
+                url: '/assets/files/estado_sistema_oci/Derechos de autor de software/2024/INFORME DE DERECHOS DE AUTOR DE SOFTWARE  VIGENCIA 2024.pdf',
+              },
+            ],
+          },
           {
             id: 3,
             nombre: '2023',
