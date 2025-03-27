@@ -7,6 +7,7 @@ import { ComunicadosComponent } from './comunicados/comunicados.component';
 import { VideosComponent } from './videos/videos.component';
 
 import { EventosComponent } from './eventos/eventos.component';
+import { CalendarioComponent } from './calendario/calendario.component';
 
 let routes: Routes = [
   {
@@ -25,12 +26,15 @@ let routes: Routes = [
     title: 'Videos',
     component: VideosComponent,
   },
-
   {
     path: 'eventos/120',
     title: 'Eventos',
     component: EventosComponent,
-
+  },
+  {
+    path: 'calendario/114',
+    title: 'Calendario',
+    component: CalendarioComponent,
   },
 ];
 

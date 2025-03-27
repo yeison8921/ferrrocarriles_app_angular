@@ -381,7 +381,7 @@ export class SubmenuComponent {
           {
             id: 6,
             nombre: 'Calendario de Actividades',
-            url: '/atencion-al-usuario/calendario/114',
+            url: '/sala-de-prensa/calendario/114',
             active: false,
           },
         ],

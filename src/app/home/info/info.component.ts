@@ -41,7 +41,12 @@ export class InfoComponent {
         url: this.urlSvg + '4.svg',
         state: 'undisabled',
       },
-      { id: 5, href: '', url: this.urlSvg + '5.svg', state: 'disabled' },
+      {
+        id: 5,
+        href: '/sala-de-prensa/calendario/114',
+        url: this.urlSvg + '5.svg',
+        state: 'undisabled',
+      },
       {
         id: 6,
         href: '/tramites-y-servicios/tramites/54',
