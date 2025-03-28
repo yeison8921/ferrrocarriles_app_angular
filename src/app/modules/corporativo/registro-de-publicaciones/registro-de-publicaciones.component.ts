@@ -14,6 +14,30 @@ export class RegistroDePublicacionesComponent {
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+      {
+        id: 5,
+        nombre: "2024",
+        files: [
+            {
+              id: 1,
+              tipo: "pdf",
+              url: "/assets/files/corporativo/registro_de_publicaciones/01. 2024/CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2024.pdf",
+              nombre: "CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2024.pdf"
+            }
+          ],
+        },
+      {
+        id: 5,
+        nombre: "2023",
+        files: [
+            {
+              id: 1,
+              tipo: "pdf",
+              url: "/assets/files/corporativo/registro_de_publicaciones/01. 2023/CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2023.pdf",
+              nombre: "CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2023.pdf"
+            }
+          ],
+        },
        {
         id: 1,
         nombre: "2022",
