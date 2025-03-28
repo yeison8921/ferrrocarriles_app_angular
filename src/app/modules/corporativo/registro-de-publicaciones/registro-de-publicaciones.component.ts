@@ -15,7 +15,7 @@ export class RegistroDePublicacionesComponent {
   constructor() {
     this.items = [
       {
-        id: 5,
+        id: 6,
         nombre: "2024",
         files: [
             {
@@ -45,7 +45,7 @@ export class RegistroDePublicacionesComponent {
             {
               id: 1,
               tipo: "pdf",
-              url: "/assets/files/corporativo/registro_de_publicaciones/01. 2022/CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2022.pdf",
+              url: "/assets/files/corporativo/registro_de_publicaciones/01. 2022/CONTROLYREGISTRODEPUBLICACIONESPAGINAWEB2022.pdf",
               nombre: "CONTROL Y REGISTRO DE PUBLICACIONES PAGINA WEB 2022.pdf"
             }
           ],
