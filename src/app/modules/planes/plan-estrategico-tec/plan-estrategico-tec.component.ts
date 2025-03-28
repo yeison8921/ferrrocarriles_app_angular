@@ -15,6 +15,28 @@ export class PlanEstrategicoTecComponent {
   constructor() {
     this.items = [
       {
+        id:6,
+        nombre: "2023 - 2026",
+        files:
+        [
+
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/05. 2023 - 2026/APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf",
+              nombre: "01. APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf"
+            },
+            {
+              id:2,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/05. 2023 - 2026/MAPA DE RUTA PETIC_ 2025_2026.pdf",
+              nombre: "02. MAPA DE RUTA PETIC_ 2025_2026.pdf"
+            }
+            
+        ]
+      },
+
+      {
         id:1,
         nombre: "2022 - 2023",
         files:
