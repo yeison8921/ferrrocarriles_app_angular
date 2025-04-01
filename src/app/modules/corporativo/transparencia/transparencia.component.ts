@@ -636,13 +636,13 @@ export class TransparenciaComponent {
             id: 26,
             tipo: 'link',
             nombre: 'Canal de Atención Servicios de Salud',
-            url: '/corporativo/mapa-del-sitio/244',
+            url: '/servicios-de-salud/canal-de-atencion-red-de-prestadores/244',
           },
           {
             id: 27,
             tipo: 'link',
             nombre: 'Cobertura de Operación y Red de Prestadores de Salud',
-            url: '/servicios/servicios-de-salud/44',
+            url: '/servicios-de-salud/red-de-prestadores/44',
           },
           {
             id: 28,
