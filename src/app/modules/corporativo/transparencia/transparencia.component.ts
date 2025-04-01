@@ -648,7 +648,7 @@ export class TransparenciaComponent {
             id: 28,
             tipo: 'link',
             nombre: 'Afiliaciones',
-            url: '/servicios-de-salud/afiliaciones/223',
+            url: '/servicios-de-salud/sistema-de-afiliacion-transaccional-sat/223',
           },
           {
             id: 29,
