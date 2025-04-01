@@ -14,6 +14,20 @@ export class RendicionCuentasComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+    
+      {
+        id: 1,
+        nombre: '2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '01. INFORME DE GESTION ANUAL 2024',
+            url: '/assets/files/rendicion_cuentas/01. 2024/INFORME DE GESTION ANUAL 2024.pdf',
+          },
+        ]
+      },
+
       {
         id: 1,
         nombre: '2023',
