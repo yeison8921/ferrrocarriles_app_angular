@@ -542,10 +542,10 @@ export class TransparenciaComponent {
             url: '/planeacion-gestion-y-control/plan-seguridad-y-privacidad-de-la-informacion/200',
           },
           {
-            id: 19,
+            id: 33,
             tipo: 'pdf',
             nombre:
-              'USO Y APROPIACIÓN DE LAS TECNOLOGIAS',
+              'Uso y Apropiación de las Tecnologías',
             url: '/assets/files/transparencia/PLAN DE CAPACITACIONES TI 2024.pdf',
           },
           {
