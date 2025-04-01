@@ -542,10 +542,17 @@ export class TransparenciaComponent {
             url: '/planeacion-gestion-y-control/plan-seguridad-y-privacidad-de-la-informacion/200',
           },
           {
+            id: 19,
+            tipo: 'pdf',
+            nombre:
+              'USO Y APROPIACIÓN DE LAS TECNOLOGIAS',
+            url: '/assets/files/transparencia/PLAN DE CAPACITACIONES TI 2024.pdf',
+          },
+          {
             id: 13,
             tipo: 'excel',
             nombre: 'Esquema de Publicación de la Información',
-            url: '/assets/files/transparencia/Esquema de publicación de lnformacion FPS 2023.xlsx',
+            url: '/assets/files/transparencia/Esquema de publicación de lnformacion FPS 2024.xlsx',
           },
           {
             id: 14,
