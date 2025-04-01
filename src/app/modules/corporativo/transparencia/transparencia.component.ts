@@ -605,7 +605,7 @@ export class TransparenciaComponent {
             id: 20,
             tipo: 'link',
             nombre: 'Menú Participa',
-            url: '/participa/222',
+            url: 'participa/pqrs/222',
           },
           {
             id: 21,
