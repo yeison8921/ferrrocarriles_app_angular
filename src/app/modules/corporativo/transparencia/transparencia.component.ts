@@ -489,7 +489,7 @@ export class TransparenciaComponent {
             id: 3,
             tipo: 'link',
             nombre: 'Código de Integridad',
-            url: '/corporativo/codigo-de-integridad/206',
+            url: '/assets/files/transparencia/APGTHGTHCE01  CODIGO DE INTEGRIDAD DEL FPS.pdf',
           },
           {
             id: 4,
@@ -519,7 +519,7 @@ export class TransparenciaComponent {
             id: 8,
             tipo: 'link',
             nombre: 'Política de privacidad para aplicaciones móviles',
-            url: '/corporativo/politica-de-privacidad-para-aplicaciones-moviles/237',
+            url: '/assets/files/transparencia/fps_app_politicas_privacidad.pdf',
           },
           {
             id: 9,
