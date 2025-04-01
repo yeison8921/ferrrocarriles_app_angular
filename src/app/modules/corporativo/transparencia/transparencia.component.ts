@@ -581,6 +581,14 @@ export class TransparenciaComponent {
             url: 'https://www.datos.gov.co/Salud-y-Protecci-n-Social/INVENTARIO-DE-ACTIVOS-DE-INFORMACI-N/didz-ds82',
           },
           {
+            id: 34,
+            tipo: 'excel',
+            nombre:
+              'Catalogo de Sistemas de Información_2024.xlsx',
+            url: '/assets/files/transparencia/Catalogo de Sistemas de Información_2024.xlsx',
+          },
+
+          {
             id: 18,
             tipo: 'link',
             nombre: 'Registro de Publicaciones',
