@@ -202,7 +202,7 @@ export class PlanGestionHumanaComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2025.pdf',
-                url: '/assets/files/planes/plan_gestion_humana/03. Plan Estratégico de Talento Humano/01. 2025/PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2025 V2-.pdf',
+                 url: '/assets/files/planes/plan_gestion_humana/03. Plan Estratégico de Talento Humano/01. 2025/PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2025 V2-.pdf',
               },
             ],
           },
