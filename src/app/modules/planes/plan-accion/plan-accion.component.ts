@@ -48,6 +48,13 @@ export class PlanAccionComponent {
             url: '/assets/files/planes/plan_accion/01.%202024/PLAN%20DE%20ACCI%c3%93N%202024%20FPS%20-%20CONSULTA%20A%20LA%20CIUDADAN%c3%8dA.xlsx',
             nombre: 'PLAN DE ACCIÓN 2024 FPS - CONSULTA A LA CIUDADANÍA.xlsx',
           },
+
+          {
+            id: 3,
+            tipo: 'excel',
+            url: '/assets/files/planes/plan_accion/01.%202024/PLAN DE ACCIO_N 2024 II SEM Y ANUAL.xlsx',
+            nombre: 'PLAN DE ACCIÓN 2024 II SEM Y ANUAL.xlsx',
+          },
         ],
       },
       {
