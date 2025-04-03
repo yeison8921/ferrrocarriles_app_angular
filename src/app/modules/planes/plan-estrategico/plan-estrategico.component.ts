@@ -49,7 +49,7 @@ export class PlanEstrategicoComponent {
             tipo: 'excel',
             url: '/assets/files/planes/plan_estrategico/01.%202024/SEGUIMIENTO PLAN ESTRATA_GICO I Y II SEM 2024.xlsx',
             nombre:
-              '03. SEGUIMIENTO PLAN ESTRATEGICO I Y II SEM 2024.xlsx',
+              '03. SEGUIMIENTO PLAN ESTRATÉGICO I Y II SEM 2024.xlsx',
           },
         ],
       },
