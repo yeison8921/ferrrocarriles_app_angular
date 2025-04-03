@@ -44,6 +44,13 @@ export class PlanEstrategicoComponent {
             nombre:
               '02. PLAN DE ESTRATÉGICO 2024- FPS - CONSULTA A LA CIUDADANÍA.xlsx',
           },
+          {
+            id: 3,
+            tipo: 'excel',
+            url: '/assets/files/planes/plan_estrategico/01.%202024/SEGUIMIENTO PLAN ESTRATA_GICO I Y II SEM 2024.xlsx',
+            nombre:
+              '03. SEGUIMIENTO PLAN ESTRATEGICO I Y II SEM 2024.xlsx',
+          },
         ],
       },
       {
