@@ -115,7 +115,7 @@ export class TramitesComponent {
           {
             id: 4,
             tipo: 'excel',
-            nombre: '3. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
+            nombre: '03. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/3. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
           }
         ],
