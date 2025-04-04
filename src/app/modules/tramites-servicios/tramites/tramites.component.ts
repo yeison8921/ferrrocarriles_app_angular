@@ -111,6 +111,12 @@ export class TramitesComponent {
             tipo: 'excel',
             nombre: '02 PAGOS SERVICIOS DE SALUD FEBRERO 2025.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/02 PAGOS SERVICIOS DE SALUD FEBRERO 2025.xlsx',
+          },
+          {
+            id: 4,
+            tipo: 'excel',
+            nombre: '3. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/3. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
           }
         ],
       },
