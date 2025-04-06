@@ -15,6 +15,15 @@ export class PlanMejoramientoComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+      {
+        id: 13,
+        nombre:"2024",
+        files: [
+
+         
+          
+        ]
+      },
         {
         id: 1,
         nombre:"2023",
