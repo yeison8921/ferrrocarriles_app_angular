@@ -20,7 +20,53 @@ export class PlanMejoramientoComponent {
         nombre:"2024",
         files: [
 
+          {
+            id: 1,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/PLAN DE MEJORAMIENTO INSTITUCIONAL I TRIMESTRE 2024 (3).xlsx",
+            nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL I TRIMESTRE 2024.xlsx"
+          },
+          {
+            id: 2,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/PLAN DE MEJORAMIENTO INSTITUCIONAL II TRIMESTRE (6).xlsx",
+            nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL II TRIMESTRE 2024.xlsx"
+          },   
+          
+          {
+            id: 3,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/PLAN DE MEJORAMIENTO SUPERSALUD III TRIMESTRE 2024.xlsx (1).xlsx",
+            nombre: "PLAN DE MEJORAMIENTO SUPERSALUD III TRIMESTRE 2024.xlsx"
+          },  
+          {
+            id: 4,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/PLAN DE MEJORAMIENTOS INSTITUCIONAL III TRIMESTRE 2024 (2).xlsx",
+            nombre: "PLAN DE MEJORAMIENTOS INSTITUCIONAL III TRIMESTRE 2024 .xlsx"
+          },
+          {
+            id: 5,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/MONITOREO PM CGR III TRIMESTRE2024.xlsx",
+            nombre: "MONITOREO PM CGR III TRIMESTRE 2024.xlsx"
+          }, 
+          {
+            id: 6,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/MONITOREO PM INSTITUCIONAL IV TRIMESTRE 2024 (1).xlsx",
+            nombre: "MONITOREO PM INSTITUCIONAL IV TRIMESTRE 2024.xlsx"
+          }, 
+          {
+            id: 7,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/14. 2024/MONITOREO PM CGRIV TRIMESTRE (3).xlsx",
+            nombre: "MONITOREO PM CGR IV TRIMESTRE 2024.xlsx"
+          }, 
+
          
+
+
           
         ]
       },
