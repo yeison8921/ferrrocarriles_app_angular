@@ -19,12 +19,6 @@ export class InformesPercepcionComponent {
         nombre: '2024',
         files: [
           {
-            id: 1,
-            tipo: 'pdf',
-            nombre: 'Informe POST TRÁMITE I SEMESTRE 2024.pdf',
-            url: '/assets/files/percepcion_satisfaccion_ciudadano/01. 2024/Informe POST TRÁMITE I SEMESTRE 2024.pdf',
-          },
-          {
             id: 2,
             tipo: 'pdf',
             nombre: 'INFORME PERCEPCIÓN POS TRAMITE DE LOS SERVICIOS PRESTADOS POR LA ENTIDAD II SEMESTRE 2024.pdf',
