@@ -93,7 +93,7 @@ export class ContratacionComponent {
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS A 31 DE ENERO 2025.xlsx',
               },
               {
-                id: 1,
+                id: 2,
                 tipo: 'excel',
                 nombre: 'CONTRATOS FEBRERO DE 2025.xlsx',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS FEBRERO DE 2025.xlsx',
@@ -101,9 +101,10 @@ export class ContratacionComponent {
               {
                 id: 2,
                 tipo: 'excel',
-                nombre: 'CONTRATOS FEBRERO DE 2025.xlsx',
+                nombre: 'CONTRATOS SUSCRITOS MARZO DE 2025',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS FEBRERO DE 2025.xlsx',
               },
+
             ],
           },
           {
