@@ -15,6 +15,23 @@ export class PlanMejoramientoComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+
+
+      {
+        id: 14,
+        nombre:"2025",
+        files: [
+
+          {
+            id: 1,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/15. 2025/PLAN DE MEJORAMIENTO INSTITUCIONAL Y CGR I TRIMESTRE 2025.xlsx",
+            nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL Y CGR I TRIMESTRE 2025.xlsx"
+          }
+          
+        ]
+      },
+
       {
         id: 13,
         nombre:"2024",
