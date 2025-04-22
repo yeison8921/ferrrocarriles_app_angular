@@ -109,6 +109,13 @@ export class PlaneacionGestionYControlComponent {
             nombre: 'Reporte de Auditoria ITA',
             url: '/corporativo/reporte-de-auditoria-ita/258',
           },
+
+          {
+            id: 16,
+            tipo: 'pdf',
+            nombre: 'Política Admon Riesgo De Gestión Corrupción Y Seguridad Digital V1',
+            url: '/assets/files/planeacion-gestion-y-control/ESDESDIGPL01 POLITICA ADMON RIESGO DE GESTION CORRUPCION Y SEGURIDAD DIGITAL V1.pdf',
+          },
         ],
       },
       {
