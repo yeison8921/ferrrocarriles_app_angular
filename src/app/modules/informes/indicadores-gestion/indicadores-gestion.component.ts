@@ -31,7 +31,7 @@ export class IndicadoresGestionComponent {
               },
 
               {
-                id: 1,
+                id: 2,
                 url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 2-2024.pdf',
                 tipo: 'pdf',
                 nombre: 'RESPORTE INDICADORES SEMESTRE 2-2024',
@@ -47,6 +47,12 @@ export class IndicadoresGestionComponent {
                 url: 'assets/files/indicador/Indicadores Estrategicos/01. 2023/INDICADORES ESTRATEGICOS 2023.pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES ESTRATEGICOS 2023.pdf',
+              },
+              {
+                id: 2,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2023/RESPORTE INDICADORES SEMESTRE 2-2023.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2023',
               },
             ],
           },
