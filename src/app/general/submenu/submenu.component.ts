@@ -1,5 +1,5 @@
 import { NgClass, NgFor, NgIf, Location } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, HostListener, Renderer2 } from '@angular/core';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { Menu } from '../../interfaces/header';
 
@@ -11,8 +11,8 @@ import { Menu } from '../../interfaces/header';
   styleUrl: './submenu.component.css',
 })
 export class SubmenuComponent {
-  submenu: Menu[];
-  constructor(private location: Location) {
+  submenu: Menu[] = [];
+  constructor(private location: Location, private renderer: Renderer2) {
     this.submenu = [
       {
         id: 1,
@@ -811,6 +811,11 @@ export class SubmenuComponent {
     }
   }
 
+  @HostListener('document:scroll', ['$event'])
+  moveFiltro() {
+    this.ajusteDiv();
+  }
+
   activarMenu(numberPath: string) {
     this.submenu.forEach((item) => {
       item.active = false;
@@ -851,5 +856,100 @@ export class SubmenuComponent {
       item.active = false;
     });
     this.submenu[index].active = !active;
+  }
+
+  ajusteDiv() {
+    if (window.innerWidth >= 992) {
+      this.fijarDiv(
+        window.scrollY,
+        document.getElementById('submenu'),
+        true,
+        true,
+        document.getElementById('submenu')?.parentElement?.offsetTop,
+        document.getElementById('submenu')?.parentElement?.clientWidth,
+        0
+      );
+    }
+  }
+
+  fijarDiv(
+    scroll: any,
+    div: any,
+    fijarHeight: boolean,
+    fijar: boolean,
+    top: any,
+    width: any,
+    adicional?: number
+  ) {
+    let heightHeader = document.getElementById('menu')?.clientHeight;
+    let topFooter = document.getElementById('footer')?.offsetTop;
+    let topDiv = heightHeader;
+    if (adicional != undefined) {
+      topDiv! += adicional;
+    }
+    if (div) {
+      let heightWindow = window.innerHeight;
+      let divMarginTop = parseFloat(
+        getComputedStyle(div).marginTop.split('p')[0]
+      );
+      let divMarginBottom = parseFloat(
+        getComputedStyle(div).marginBottom.split('p')[0]
+      );
+
+      if (fijar) {
+        if (fijarHeight) {
+          this.renderer.setStyle(
+            div,
+            'height',
+            heightWindow - heightHeader! - divMarginTop - divMarginBottom + 'px'
+          );
+        }
+
+        if (scroll >= top! - heightHeader!) {
+          //se empieza fijar cuando el scroll baja al top del div
+          this.renderer.setStyle(div, 'width', width + 'px');
+          this.renderer.setStyle(div, 'position', 'fixed');
+          this.renderer.setStyle(div, 'top', topDiv + 'px');
+          this.renderer.removeStyle(div, 'bottom');
+
+          let divHeight = div.clientHeight;
+          if (fijarHeight) {
+            if (divHeight > div.children[0].clientHeight) {
+              divHeight = div.children[0].clientHeight;
+            }
+          }
+
+          // cuando el scroll llega al footer
+          if (
+            topFooter! -
+              heightHeader! -
+              divHeight -
+              divMarginTop -
+              divMarginBottom <=
+            scroll
+          ) {
+            if (divHeight <= div.clientHeight) {
+              this.renderer.removeStyle(div, 'height');
+            }
+            this.renderer.setStyle(div, 'width', width + 'px');
+            this.renderer.setStyle(div, 'position', 'absolute');
+            this.renderer.removeStyle(div, 'top');
+            this.renderer.setStyle(div, 'bottom', '0');
+          }
+        } else {
+          // se normaliza cuando el srcoll no llega al div
+          this.renderer.removeStyle(div, 'width');
+          this.renderer.removeStyle(div, 'position');
+          this.renderer.removeStyle(div, 'top');
+          this.renderer.removeStyle(div, 'bottom');
+        }
+      } else {
+        this.renderer.removeStyle(div, 'height');
+        this.renderer.removeStyle(div, 'width');
+        this.renderer.removeStyle(div, 'position');
+        this.renderer.removeStyle(div, 'top');
+        this.renderer.removeStyle(div, 'bottom');
+      }
+    }
   }
 }

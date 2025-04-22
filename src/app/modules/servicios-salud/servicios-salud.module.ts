@@ -28,6 +28,7 @@ import { GestionRiesgoComponent } from './gestion-riesgo/gestion-riesgo.componen
 import { GestionDelRiesgo266Component } from './gestion-del-riesgo-266/gestion-del-riesgo-266.component';
 import { AfiliacionesComponent } from './afiliaciones/afiliaciones.component';
 import { ReportePensionadosFallecidosComponent } from './reporte-pensionados-fallecidos/reporte-pensionados-fallecidos.component';
+import { ZonaCesarSantanderComponent } from './zona-cesar-santander/zona-cesar-santander.component';
 
 const routes: Routes = [
   {
@@ -65,9 +66,9 @@ const routes: Routes = [
     component: ZonaCentroComponent,
   },
   {
-    path: 'zona-pacifico/106',
-    title: 'Zona Pacífico',
-    component: ZonaPacificoComponent,
+    path: 'zona-cesar-santander/108',
+    title: 'Zona Cesar Santander',
+    component: ZonaCesarSantanderComponent,
   },
   {
     path: 'afiliados/256',
