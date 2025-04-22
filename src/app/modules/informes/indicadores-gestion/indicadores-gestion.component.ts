@@ -21,6 +21,25 @@ export class IndicadoresGestionComponent {
         acordion: [
           {
             id: 1,
+            nombre: '2024',
+            files: [
+              {
+                id: 1,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 1-2024.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 1-2024',
+              },
+
+              {
+                id: 1,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 2-2024.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2024',
+              },
+            ],
+          },
+          {
+            id: 1,
             nombre: '2023',
             files: [
               {
