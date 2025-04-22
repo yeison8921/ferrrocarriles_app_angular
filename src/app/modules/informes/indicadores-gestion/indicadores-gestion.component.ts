@@ -19,25 +19,7 @@ export class IndicadoresGestionComponent {
         id: 1,
         nombre: 'Indicadores Estrategicos',
         acordion: [
-          {
-            id: 1,
-            nombre: '2024',
-            files: [
-              {
-                id: 1,
-                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 1-2024.pdf',
-                tipo: 'pdf',
-                nombre: 'RESPORTE INDICADORES SEMESTRE 1-2024',
-              },
-
-              {
-                id: 2,
-                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 2-2024.pdf',
-                tipo: 'pdf',
-                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2024',
-              },
-            ],
-          },
+          
           {
             id: 1,
             nombre: '2023',
@@ -48,12 +30,7 @@ export class IndicadoresGestionComponent {
                 tipo: 'pdf',
                 nombre: 'INDICADORES ESTRATEGICOS 2023.pdf',
               },
-              {
-                id: 2,
-                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2023/RESPORTE INDICADORES SEMESTRE 2-2023.pdf',
-                tipo: 'pdf',
-                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2023',
-              },
+             
             ],
           },
           {
@@ -104,6 +81,27 @@ export class IndicadoresGestionComponent {
         id: 1,
         nombre: 'Indicadores de Gestión',
         acordion: [
+           
+          {
+            id: 1,
+            nombre: '2024',
+            files: [
+              {
+                id: 1,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 1-2024.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 1-2024',
+              },
+
+              {
+                id: 2,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2024/RESPORTE INDICADORES SEMESTRE 2-2024.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2024',
+              },
+            ],
+          },
+
           {
             id: 1,
             nombre: '2023',
@@ -113,6 +111,13 @@ export class IndicadoresGestionComponent {
                 url: 'assets/files/indicador/Indicadores de Gestión/01. 2023/INDICADORES DE GESTIÓN FPS FNC 2023 (1).pdf',
                 tipo: 'pdf',
                 nombre: 'INDICADORES DE GESTIÓN FPS FNC 2023 (1).pdf',
+              },
+
+              {
+                id: 2,
+                url: 'assets/files/indicador/Indicadores Estrategicos/01. 2023/RESPORTE INDICADORES SEMESTRE 2-2023.pdf',
+                tipo: 'pdf',
+                nombre: 'RESPORTE INDICADORES SEMESTRE 2-2023',
               },
             ],
           },
