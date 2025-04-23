@@ -22,9 +22,16 @@ export class RendicionCuentasComponent {
           {
             id: 1,
             tipo: 'pdf',
-            nombre: '01. INFORME DE GESTION ANUAL 2024',
+            nombre: '01. CRONOGRAMA AUDIENCIA PÚBLICA 2025.',
+            url: '/assets/files/rendicion_cuentas/01. 2024/CRONOGRAMA AUDIENCIA PÚBLICA 2025.pdf',
+          },
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '02. INFORME DE GESTION ANUAL 2024',
             url: '/assets/files/rendicion_cuentas/01. 2024/INFORME DE GESTION ANUAL 2024.pdf',
           },
+          
         ]
       },
 
