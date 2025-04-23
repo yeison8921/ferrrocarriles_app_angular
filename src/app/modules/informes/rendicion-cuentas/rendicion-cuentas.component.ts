@@ -23,7 +23,7 @@ export class RendicionCuentasComponent {
             id: 1,
             tipo: 'pdf',
             nombre: '01. CRONOGRAMA AUDIENCIA PÚBLICA 2025.',
-            url: '/assets/files/rendicion_cuentas/01. 2024/CRONOGRAMA AUDIENCIA PÚBLICA 2025.pdf',
+            url: '/assets/files/rendicion_cuentas/01. 2024/CRONOGRAMA AUDIENCIA PUBLICA 2025.pdf',
           },
           {
             id: 1,
