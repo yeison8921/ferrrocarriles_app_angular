@@ -16,6 +16,26 @@ export class PlanEstrategicoTecComponent {
     this.items = [
       {
         id:1,
+        nombre: "2023 - 2024",
+        files:
+        [
+
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/06.2023_2024/INFORME DE EJECUCIÓN PETIC I SEMESTRE 2023.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC I SEMESTRE 2023.pdf"
+            },
+            {
+              id:2,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/06.2023_2024/INFORME DE EJECUCIÓN PETIC II SEMESTRE 2023.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC II SEMESTRE 2023.pdf"
+            }
+        ]
+      },
+      {
+        id:1,
         nombre: "2022 - 2023",
         files:
         [
