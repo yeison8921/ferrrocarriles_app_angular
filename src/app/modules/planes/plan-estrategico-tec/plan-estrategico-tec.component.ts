@@ -29,7 +29,7 @@ export class PlanEstrategicoTecComponent {
             {
               id:2,
               tipo:"pdf",
-              url:"/assets/files/planes/plan_tic/06.2023_2024/MAPA DE RUTA PETIC_ 2025_2026.pdf",
+              url:"/assets/files/planes/plan_tic/06.2023_2024/MAPADERUTAPETIC_ 2025_2026.pdf",
               nombre: "MAPA DE RUTA PETIC_ 2025_2026.pdf"
             }
         ]
