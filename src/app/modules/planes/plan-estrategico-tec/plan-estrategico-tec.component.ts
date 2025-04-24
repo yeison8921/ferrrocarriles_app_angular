@@ -23,14 +23,8 @@ export class PlanEstrategicoTecComponent {
             {
               id:1,
               tipo:"pdf",
-              url:"/assets/files/planes/plan_tic/07.2025_2026/APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf",
-              nombre: "APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf"
-            },
-            {
-              id:2,
-              tipo:"pdf",
-              url:"/assets/files/planes/plan_tic/07.2025_2026/MAPADERUTAPETIC_ 2025_2026.pdf",
-              nombre: "MAPA DE RUTA PETIC_ 2025_2026.pdf"
+              url:"/assets/files/planes/plan_tic/07.2025_2026/INFORME DE EJECUCIÓN PETIC A JUNIO 2024.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC A JUNIO 2024.pdf"
             }
         ]
       },
