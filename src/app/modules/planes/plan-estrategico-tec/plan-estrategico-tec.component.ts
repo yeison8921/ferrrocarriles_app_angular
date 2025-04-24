@@ -14,6 +14,28 @@ export class PlanEstrategicoTecComponent {
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+
+      {
+        id:1,
+        nombre: "2025 - 2026",
+        files:
+        [
+
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf",
+              nombre: "APGTSOPSPL01-PLAN ESTRATEGICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES-PETIC-V4.pdf"
+            },
+            {
+              id:2,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/MAPADERUTAPETIC_ 2025_2026.pdf",
+              nombre: "MAPADERUTAPETIC_ 2025_2026.pdf"
+            }
+           
+        ]
+      },
       {
         id:1,
         nombre: "2024 - 2025",
