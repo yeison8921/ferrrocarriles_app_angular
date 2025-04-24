@@ -30,8 +30,15 @@ export class InformesPqrsComponent {
             nombre: 'INFORME PQRSDF II TRIMESTRE 2024.pdf',
             url: '/assets/files/pqrs/01. 2024/INFORME PQRSDF II TRIMESTRE 2024.pdf',
           },
+
           {
             id: 3,
+            tipo: 'pdf',
+            nombre: 'INFORME PQRSDF III TRIMESTRE 2024.pdf',
+            url: '/assets/files/pqrs/01. 2024/INFORME PQRSD III TRIMESTRE 2024.pdf',
+          },
+          {
+            id: 4,
             tipo: 'pdf',
             nombre: 'INFORME PQRSDF IV TRIMESTRE 2024.pdf',
             url: '/assets/files/pqrs/01. 2024/INFORME PQRSDF IV TRIMESTRE 2024 mm.pdf',
