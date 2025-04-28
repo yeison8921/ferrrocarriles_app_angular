@@ -17,6 +17,18 @@ export class InformacionFinancieraContaduriaGeneralDeLaNacionComponent {
     this.items = [
       {
         id: 1,
+        nombre: '2023 - 2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            url: 'assets/files/informe_contaduria/06. 2023-2024/ESTADOS FINANCIEROS CERTIFICADOS VIGENCIA 2023- 2024.pdf',
+            nombre:'ESTADOS FINANCIEROS CERTIFICADOS VIGENCIA 2023- 2024.pdf',
+          },
+        ],
+      },
+      {
+        id: 1,
         nombre: '2022 - 2023',
         files: [
           {
