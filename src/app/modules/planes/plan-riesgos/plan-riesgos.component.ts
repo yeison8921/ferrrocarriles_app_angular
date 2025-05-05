@@ -16,6 +16,19 @@ export class PlanRiesgosComponent {
     this.items = [
       {
         id:1,
+        nombre:"2025",
+        files:
+        [
+          {
+            id:1,
+            tipo:"excel",
+            url:"/assets/files/planes/riesgo/14.2025/PM RIESGOS Y OPORTUNIDADES I TRIMESTRE 2025 DEF.xlsx",
+            nombre:"PM RIESGOS Y OPORTUNIDADES I TRIMESTRE 2025 DEF.xlsx"
+          }
+        ]
+      },
+      {
+        id:1,
         nombre:"2024",
         files:
         [
