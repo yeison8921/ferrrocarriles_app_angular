@@ -22,7 +22,7 @@ export class InformacionFinancieraSuperintendenciaNacionalDeSaludComponent {
           {
             id: 1,
             tipo: 'pdf',
-            url: 'assets/files/informe_supersalud/2023-202/ESTADOS FINANCIEROS 2024-2023 SUPERSALUD.pdf',
+            url: 'assets/files/informe_supersalud/2023 - 2024/ESTADOS FINANCIEROS 2024-2023 SUPERSALUD.pdf',
             nombre:
               'ESTADOS FINANCIEROS 2024-2023 SUPERSALUD.pdf',
           },
