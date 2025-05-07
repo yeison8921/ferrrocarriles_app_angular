@@ -15,6 +15,7 @@ export class TramitesComponent {
   pagos: AcordionFiles[] = [];
   constructor() {
     this.items = [
+     
       {
         id: 1,
         nombre: 'Aspirantes 2023',
@@ -117,6 +118,12 @@ export class TramitesComponent {
             tipo: 'excel',
             nombre: '03. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/3. PAGOS SERVICIOS DE SALUD MARZO 2025.xlsx',
+          },
+          {
+            id: 5,
+            tipo: 'excel',
+            nombre: '04. PAGOS SERVICIOS DE SALUD ABRIL.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/4. PAGOS SERVICIOS DE SALUD ABRIL.xlsx',
           }
         ],
       },
