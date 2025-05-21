@@ -28,6 +28,11 @@ export class SliderComponent {
   constructor() {
     this.slider = [
       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/rendicioncuenta.jpeg',
+        url: '',
+      },
+      {
         id: 5,
         imagen: '/assets/img/Home/sliderHome/mivacuna.png',
         url: 'https://mivacuna.sispro.gov.co/MiVacuna?v1',
