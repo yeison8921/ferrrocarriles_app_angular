@@ -14,6 +14,20 @@ export class InformesPqrsComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+
+      {
+        id: 1,
+        nombre: '2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'INFORME PQRSD I TRI 2025.pdf',
+            url: '/assets/files/pqrs/12. 2025/MEMO E INFORME PQRSD I TRI 2025.pdf',
+          }
+          
+        ],
+      },
       {
         id: 1,
         nombre: '2024',
