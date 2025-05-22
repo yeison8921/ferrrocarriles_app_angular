@@ -15,6 +15,51 @@ export class TramitesComponent {
   pagos: AcordionFiles[] = [];
   constructor() {
     this.items = [
+
+      {
+        id: 2,
+        nombre: 'Aspirantes 2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA EDGARDO ARRIETA.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2025/HOJA DE VIDA EDGARDO ARRIETA.pdf',
+          },
+          
+        ],
+      },
+
+      {
+        id: 2,
+        nombre: 'Aspirantes 2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA HIEDY YULI SANCHEZ GONZALEZ.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA HIEDY YULI SANCHEZ GONZALEZ.pdf',
+          },
+          {
+            id: 2,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA JOSE PUMAREJO.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA JOSE PUMAREJO.pdf',
+          },
+          {
+            id: 3,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA NICOLÁS ORTEGA MORAT.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA NICOLÁS ORTEGA MORAT.pdf',
+          },
+          {
+            id: 4,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA SIGEP ERNESTO ALBARRACÍN GÓMEZ.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA SIGEP ERNESTO ALBARRACÍN GÓMEZ.pdf',
+          },
+        ],
+      },
      
       {
         id: 1,
@@ -46,36 +91,7 @@ export class TramitesComponent {
           },
         ],
       },
-      {
-        id: 2,
-        nombre: 'Aspirantes 2024',
-        files: [
-          {
-            id: 1,
-            tipo: 'pdf',
-            nombre: 'HOJA DE VIDA HIEDY YULI SANCHEZ GONZALEZ.pdf',
-            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA HIEDY YULI SANCHEZ GONZALEZ.pdf',
-          },
-          {
-            id: 2,
-            tipo: 'pdf',
-            nombre: 'HOJA DE VIDA JOSE PUMAREJO.pdf',
-            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA JOSE PUMAREJO.pdf',
-          },
-          {
-            id: 3,
-            tipo: 'pdf',
-            nombre: 'HOJA DE VIDA NICOLÁS ORTEGA MORAT.pdf',
-            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA NICOLÁS ORTEGA MORAT.pdf',
-          },
-          {
-            id: 4,
-            tipo: 'pdf',
-            nombre: 'HOJA DE VIDA SIGEP ERNESTO ALBARRACÍN GÓMEZ.pdf',
-            url: '/assets/files/hojas_de_vida/ASPIRANTES 2024/HOJA DE VIDA SIGEP ERNESTO ALBARRACÍN GÓMEZ.pdf',
-          },
-        ],
-      },
+     
       {
         id: 3,
         nombre: 'Documentos 2024',
