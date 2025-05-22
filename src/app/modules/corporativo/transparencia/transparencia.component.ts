@@ -136,7 +136,7 @@ export class TransparenciaComponent {
             id: 22,
             tipo: 'link-ext',
             nombre: 'Hojas de Vida',
-            url: 'https://aspirantes.presidencia.gov.co/',
+            url: '/tramites-y-servicios/tramites/54',
           },
         ],
       },
