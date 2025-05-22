@@ -30,6 +30,32 @@ export class TalentoHumanoComponent {
             acordion: [
               {
                 id: 1,
+                nombre: '2025 ',
+                files: [
+                  {
+                    id: 1,
+                    tipo: 'pdf',
+                    nombre:
+                      'CONCERTACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2025.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2025/CONCERTACIÓN ACUERDOS DE GESTIÓN SECRETARIO GENERAL 2025.pdf',
+                  },
+                  {
+                    id: 2,
+                    tipo: 'pdf',
+                    nombre: 'CONCERTACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2025.pdf',
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2025/CONCERTACIÓN ACUERDOS DE GESTIÓN SUBDIRECTOR FINANCIERO 2025.pdf',
+                  },
+                  {
+                    id: 3,
+                    tipo: 'pdf',
+                    nombre: 'CONCERTACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA DE PRESTACIONES SOCIALES 2025.pdf ',
+
+                    url: '/assets/files/corporativo/talento-humano/ACUERDOS%20DE%20GESTION/CONCERTACION%20ACUERDOS%20DE%20GESTION/2025/CONCERTACIÓN ACUERDOS DE GESTIÓN SUBDIRECTORA DE PRESTACIONES SOCIALES 2025.pdf',
+                  },
+                ],
+              },
+              {
+                id: 1,
                 nombre: '2024 ',
                 files: [
                   {
