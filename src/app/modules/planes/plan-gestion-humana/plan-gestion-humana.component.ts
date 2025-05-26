@@ -548,7 +548,7 @@ export class PlanGestionHumanaComponent {
         files: [
           {
             id: 1,
-            tipo: 'img',
+            tipo: 'pdf',
             nombre: 'PLAN DE ACCIÓN - CÓDIGO DE INTEGRIDAD 2025.JPG',
             url: '/assets/files/planes/plan_gestion_humana/07. Plan de Acción Código de Integridad/Plan de acción - Código de integridad 2025.jpg',
           },
