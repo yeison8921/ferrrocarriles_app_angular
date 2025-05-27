@@ -28,6 +28,11 @@ export class SliderComponent {
   constructor() {
     this.slider = [
       {
+        id: 7,
+        imagen: '/assets/img/Home/sliderHome/BANNER AUDIENCIA PUBLICA.png',
+        url: '',
+      },
+      {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/rendicioncuenta.jpeg',
         url: '',
