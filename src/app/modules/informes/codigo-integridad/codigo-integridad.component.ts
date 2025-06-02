@@ -16,6 +16,31 @@ export class CodigoIntegridadComponent {
     this.items = [
       {
         id: 1,
+        nombre: 'CÓDIGO DE INTEGRIDAD 2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'APGTHGTHCE01 - CODIGO DE INTEGRIDAD DEL FPS.pdf',
+            url: '/assets/files/codigo_etica/01. 2025/APGTHGTHCE01 - CODIGO DE INTEGRIDAD DEL FPS.pdf',
+          },
+          {
+            id: 2,
+            tipo: 'pdf',
+            nombre:
+              'ACTA 01 INTEGRIDAD 2025.PDF',
+            url: '/assets/files/codigo_etica/01. 2025/Acta 01 Integridad 2025.pdf',
+          },
+          {
+            id: 3,
+            tipo: 'pdf',
+            nombre: 'PLAN DE ACCIÓN - CÓDIGO DE INTEGRIDAD 2025.PDF',
+            url: '/assets/files/codigo_etica/01. 2025/Plan de acción - Código de integridad 2025.pdf',
+          },
+        ],
+      },
+      {
+        id: 1,
         nombre: 'CÓDIGO DE INTEGRIDAD 2024',
         files: [
           {
