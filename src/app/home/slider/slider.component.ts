@@ -47,11 +47,7 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/CONVOCATORIA AUDITORES INTERNOS AJUSTES.png',
         url: '',
       },
-      {
-        id: 6,
-        imagen: '/assets/img/Home/sliderHome/rendicioncuenta.jpeg',
-        url: '',
-      },
+     
       {
         id: 5,
         imagen: '/assets/img/Home/sliderHome/mivacuna.png',
