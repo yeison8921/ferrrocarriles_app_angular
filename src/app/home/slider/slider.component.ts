@@ -29,6 +29,11 @@ export class SliderComponent {
     this.slider = [
       {
         id: 7,
+        imagen: '/assets/img/Home/sliderHome/INVITACIÓN PROPUESTAS Y RECOMENDACIONES PARA AUDIENCIA CON AJUSTES.png',
+        url: '',
+      },
+      {
+        id: 7,
         imagen: '/assets/img/Home/sliderHome/IMG_4139.png',
         url: 'https://sedevirtual.fps.gov.co/prestini/',
       },
