@@ -16,6 +16,37 @@ export class InformeConsolidadoComponent {
     this.items = [
       {
         id: 1,
+        nombre: '2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '01. CONSOLIDADO TRAMITES MES ENERO 2025.pdf',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO ENERO 2025.pdf',
+          },
+          {
+            id: 2,
+            tipo: 'pdf',
+            nombre: '02. CONSOLIDADO TRAMITES MES FEBRERO 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO FEBRERO 2025.pdf',
+          },
+          {
+            id: 3,
+            tipo: 'pdf',
+            nombre: '03. CONSOLIDADO TRAMITES MES MARZO 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO MARZO 2025.pdf',
+          },
+          {
+            id: 4,
+            tipo: 'pdf',
+            nombre: '04. CONSOLIDADO TRAMITES MES ABRIL 2024',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO ABRIL 2025.pdf',
+          }
+          
+        ]
+      },
+      {
+        id: 1,
         nombre: '2024',
         files: [
           {
