@@ -28,6 +28,11 @@ export class SliderComponent {
   constructor() {
     this.slider = [
       {
+        id: 9,
+        imagen: '/assets/img/Home/sliderHome/FALTAN 15.png',
+        url: '',
+      },
+      {
         id: 7,
         imagen: '/assets/img/Home/sliderHome/INVITACIÓN PROPUESTAS Y RECOMENDACIONES PARA AUDIENCIA CON AJUSTES.png',
         url: '',
