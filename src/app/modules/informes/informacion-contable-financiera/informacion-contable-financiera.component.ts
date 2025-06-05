@@ -54,7 +54,7 @@ export class InformacionContableFinancieraComponent {
                 nombre: 'REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
                 url: '/assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
               },
-            ],
+            ]
           }
           
         ]
