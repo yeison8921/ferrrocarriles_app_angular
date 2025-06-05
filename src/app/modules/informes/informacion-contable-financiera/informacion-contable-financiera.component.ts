@@ -23,7 +23,7 @@ export class InformacionContableFinancieraComponent {
   constructor() {
     this.presupuesto = [
       {
-        id: 1,
+        id: 20,
         nombre: '2025',
         acordion: [
           {
