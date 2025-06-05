@@ -140,6 +140,12 @@ export class TramitesComponent {
             tipo: 'excel',
             nombre: '04. PAGOS SERVICIOS DE SALUD ABRIL.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/4. PAGOS SERVICIOS DE SALUD ABRIL.xlsx',
+          },
+          {
+            id: 6,
+            tipo: 'excel',
+            nombre: '05. PAGOS SERVICIOS DE SALUD MAYO.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/5. PAGOS SERVICIOS DE SALUD MAYO.xlsx',
           }
         ],
       },
