@@ -25,7 +25,7 @@ export class InformacionContableFinancieraComponent {
       
       {
         id: 1,
-        nombre: '2023',
+        nombre: '2024',
         acordion: [
           {
             id: 1,
