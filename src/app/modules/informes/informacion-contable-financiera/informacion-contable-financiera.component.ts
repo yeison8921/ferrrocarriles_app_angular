@@ -22,46 +22,10 @@ export class InformacionContableFinancieraComponent {
   informacionSalud: AcordionFiles[] = [];
   constructor() {
     this.presupuesto = [
-      {
-        id: 20,
-        nombre: '2025',
-        acordion: [
-          {
-            id: 1,
-            nombre: 'Enero',
-            files: [
-              {
-                id: 1,
-                tipo: 'pdf',
-                nombre: 'REP_EPG034_EjecucionPresupuestal VIGENCIA INGRESOS DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-                url: '/assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal VIGENCIA INGRESOS DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-              },
-              {
-                id: 2,
-                tipo: 'pdf',
-                nombre: 'REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-                url: '/assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-              },
-              {
-                id: 3,
-                tipo: 'pdf',
-                nombre: 'REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-                url: '/assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
-              },
-              {
-                id: 4,
-                tipo: 'pdf',
-                nombre: 'REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
-                url: '/assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
-              },
-            ]
-          }
-          
-        ]
-      },
+      
       {
         id: 1,
-        nombre: '2024',
+        nombre: '2025',
         acordion: [
           {
             id: 1,
