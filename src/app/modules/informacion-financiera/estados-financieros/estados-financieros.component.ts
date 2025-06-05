@@ -15,6 +15,116 @@ export class EstadosFinancierosComponent {
 
   constructor() {
     this.files = [
+     
+        {
+        id: 1,
+        nombre: '2025',
+        acordion: [
+          {
+            id: 1,
+            nombre: 'ENERO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  '1. ESTADO DE SITUACION FINANCIERA COMPARATIVO ENERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/ENERO/1. ESTADO DE SITUACION FINANCIERA COMPARATIVO ENERO 2025-2024-.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:'2. ESTADO DE SITUACION FINANCIERA  COMPARATIVO ENERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/ENERO/2. ESTADO DE SITUACION FINANCIERA  COMPARATIVO ENERO 2025-2024-.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre:'3.  ESTADO DE RESULTADOS  COMPARATIVO ENERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/ENERO/3.  ESTADO DE RESULTADOS  COMPARATIVO ENERO 2025-2024-.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre:'4. ESTADO DE RESULTADOS COMPARATIVO ENERO 2023-2022.pdf',
+                url: 'assets/files/estados_financieros/2025/ENERO/4.  ESTADO DE RESULTADOS COMPARATIVO  ENERO 2025-2024-.pdf',
+              },
+            ],
+          },
+          {
+            id: 2,
+            nombre: 'FEBRERO',
+            files: [
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre:
+                  '1. ESTADO DE SITUACION FINANCIERA COMPARATIVO  FEBRERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/FEBRERO/1. ESTADO DE SITUACION FINANCIERA COMPARATIVO  FEBRERO 2025-2024-.pdf',
+              },
+              {
+                id: 6,
+                tipo: 'pdf',
+                nombre:
+                  '2. ESTADO DE SITUACION FINANCIERA COMPARATIVO FEBRERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/FEBRERO/2. ESTADO DE SITUACION FINANCIERA COMPARATIVO FEBRERO 2025-2024-.pdf',
+              },
+              {
+                id: 7,
+                tipo: 'pdf',
+                nombre:
+                  '3. ESATADO DE RESULTADOS COMPARATIVO FEBRERO 2024-2023.pdf',
+                url: 'assets/files/estados_financieros/2025/FEBRERO/3.  ESTADO DE RESULTADOS COMPARATIVO  FEBRERO 2025-2024- (1).pdf',
+              },
+              {
+                id: 8,
+                tipo: 'pdf',
+                nombre:
+                  '4. ESTADO DE RESULTADOS COMPARATIVO FEBRERO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/FEBRERO/4. ESTADO DE RESULTADOS COMPARATIVO FEBRERO 2025-2024-.pdf',
+              },
+            ],
+          },
+
+          {
+            id: 3,
+            nombre: 'MARZO',
+            files: [
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre:
+                  '1. ESTADO DE SITUACION FINANCIERA COMPARATIVO  MARZO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/MARZO/1. ESTADO DE SITUACION FINANCIERA COMPARATIVO  MARZO 2025-2024-.pdf',
+              },
+              {
+                id: 6,
+                tipo: 'pdf',
+                nombre:
+                  '2. ESTADO DE SITUACION FINANCIERA COMPARATIVO MARZO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/MARZO/2. ESTADO DE SITUACION FINANCIERA COMPARATIVO MARZO 2025-2024-.pdf',
+              },
+              {
+                id: 7,
+                tipo: 'pdf',
+                nombre:
+                  '3. ESTADO DE RESULTADOS COMPARATIVO MARZO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/MARZO/3. ESTADO DE RESULTADOS COMPARATIVO MARZO 2025-2024-.pdf',
+              },
+              {
+                id: 8,
+                tipo: 'pdf',
+                nombre:
+                  '4. ESTADO DE RESULTADOS COMPARATIVO  MARZO 2025-2024-.pdf',
+                url: 'assets/files/estados_financieros/2025/MARZO/4. ESTADO DE RESULTADOS COMPARATIVO  MARZO 2025-2024-.pdf',
+              },
+            ],
+          },
+          
+          
+        ],
+      },
+      
       {
         id: 1,
         nombre: '2024',
@@ -368,6 +478,45 @@ export class EstadosFinancierosComponent {
                 tipo: 'pdf',
                 nombre: '4. ESTADO DE RESULTADOS NOVIEMBRE 2024-2023-.pdf',
                 url: 'assets/files/estados_financieros/01. 2024/11 Noviembre/4. ESTADO DE RESULTADOS NOVIEMBRE 2024-2023-.pdf',
+              },
+            ],
+          },
+
+          {
+            id: 7,
+            nombre: 'DICIEMBRE',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  '1 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/1 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'pdf',
+                nombre:
+                  '2 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/2 ESTADO DE SITUACION FINANCIERA DICIEMBRE 2024-2023 -.pdf',
+              },
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '3 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/3 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+              },
+              {
+                id: 4,
+                tipo: 'pdf',
+                nombre: '4 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/4 ESTADO DE RESULTADOS DICIEMBRE  2024-2023.pdf',
+              },
+               {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '5 ESTADO DE CAMBIO EN EL PATRIMONIO 2024 -2023.pdf',
+                url: 'assets/files/estados_financieros/01. 2024/12 Diciembre/5 ESTADO DE CAMBIO EN EL PATRIMONIO 2024 -2023.pdf',
               },
             ],
           },
