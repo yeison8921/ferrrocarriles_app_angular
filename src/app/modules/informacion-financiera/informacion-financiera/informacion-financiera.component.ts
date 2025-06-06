@@ -17,6 +17,140 @@ export class InformacionFinancieraComponent {
     this.files = [
       {
         id: 1,
+        nombre: '2025',
+        acordion: [
+          {
+            id: 1,
+            nombre: 'ENERO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
+                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal DECRETO LIQUIDACION A 31 ENERO 2025 - 2025-02-03-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+                url: 'assets/files/presupuesto/2025/ENERO/REP_EPG034_EjecucionPresupuestal RESERVA DECRETO LIQUIDACION A ENERO 31 2025- 2025-02-03-.pdf',
+              },
+            ],
+          },
+          {
+            id: 1,
+            nombre: 'FEBRERO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
+                url: 'assets/files/presupuesto/2025/FEBRERO/REP_EPG034_EjecucionPresupuestal CUENTAS POR PAGAR DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
+                url: 'assets/files/presupuesto/2025/FEBRERO/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION - 2025-03-03 A FEBRERO 28-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal VIGENCIA DECRETO LIQUIDACION - 2025-03-03 A FEB 28..pdf',
+                url: 'assets/files/presupuesto/2025/FEBRERO/REP_EPG034_EjecucionPresupuestal VIGENCIA DECRETO LIQUIDACION - 2025-03-03 A FEB 28..pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_InformeEjecucionINGRESOS VIGENCIA DECRETO LIQUIDACION - 2025-03-04 A FEBRERO 28 2025-.pdf',
+                url: 'assets/files/presupuesto/2025/FEBRERO/REP_ING031_InformeEjecucionINGRESOS VIGENCIA DECRETO LIQUIDACION - 2025-03-04 A FEBRERO 28 2025-.pdf',
+              },
+            ],
+          },
+          
+          {
+            id: 1,
+            nombre: 'MARZO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION   RESERVAS 2024 DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+                url: 'assets/files/presupuesto/2025/MARZO/EJECUCION   RESERVAS 2024 DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'EJECUCION  CXP DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+                url: 'assets/files/presupuesto/2025/MARZO/EJECUCION  CXP DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION  INGRESOS DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+                url: 'assets/files/presupuesto/2025/MARZO/EJECUCION  INGRESOS DECRETO LIQUIDACION - 2025-03-31 PARA WEB.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION  VIGENCIA DECRETO LIQUIDACION 2025-03-31 PARA WEB.pdf',
+                url: 'assets/files/presupuesto/2025/MARZO/EJECUCION  VIGENCIA DECRETO LIQUIDACION 2025-03-31 PARA WEB.pdf',
+              },
+            ],
+          },
+
+          {
+            id: 1,
+            nombre: 'ABRIL',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION  CUENTAS X PAGAR DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/ABRIL/EJECUCION  CUENTAS X PAGAR DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'EJECUCION  INGRESOS DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/ABRIL/EJECUCION  INGRESOS DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION  RESERVAS DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/ABRIL/EJECUCION  RESERVAS DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'EJECUCION DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/ABRIL/EJECUCION DECRETO LIQUIDACION A ABRIL 30 2025.pdf',
+              },
+            ],
+          },
+          
+         
+        ],
+      },
+
+      {
+        id: 1,
         nombre: '2024',
         acordion: [
           {
