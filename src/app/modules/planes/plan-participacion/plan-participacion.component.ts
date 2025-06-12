@@ -24,6 +24,18 @@ export class PlanParticipacionComponent {
       id: 1,
       nombre:"CRONOGRAMA",
       acordion:[
+         {
+          id: 1,
+          nombre:"2025" ,
+          files: [
+            {
+              id: 1,
+		          tipo: "xlsx",
+		          url:"/assets/files/planes/participacion_ciudadana/CRONOGRAMA/2025/Cronograma%20de%20Participacio%cc%81n%20%202023.xlsx" ,
+		          nombre:"Cronograma de Participación ciudadana y Rendición de cuenta 2025.xlsx"
+            }
+          ]
+        },
         {
           id: 1,
           nombre:"2023" ,
