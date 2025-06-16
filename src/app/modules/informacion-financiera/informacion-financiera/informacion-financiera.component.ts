@@ -144,6 +144,38 @@ export class InformacionFinancieraComponent {
               },
             ],
           },
+
+                    {
+            id: 1,
+            nombre: 'MAYO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+                url: 'assets/files/presupuesto/2025/MAYO/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+                url: 'assets/files/presupuesto/2025/MAYO/REP_EPG034_EjecucionPresupuestalAgregadaDECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION MAYO 31 2025-.pd',
+                url: 'assets/files/presupuesto/2025/MAYO/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION MAYO 31 2025-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregaDECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+                url: 'assets/files/presupuesto/2025/MAYO/REP_EPG034_EjecucionPresupuestalAgregadaCUENTAS X PAGAR DECRETO LIQUIDACION A MAYO 31 2025-.pdf',
+              },
+            ],
+          },
           
          
         ],
