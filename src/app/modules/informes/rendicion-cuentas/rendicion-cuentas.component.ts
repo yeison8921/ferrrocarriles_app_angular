@@ -31,6 +31,13 @@ export class RendicionCuentasComponent {
             nombre: '02. INFORME DE GESTION ANUAL 2024',
             url: '/assets/files/rendicion_cuentas/01. 2024/INFORME DE GESTION ANUAL 2024.pdf',
           },
+
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '02. REGLAMENTO AUDIENCIA PÚBLICA 2024',
+            url: '/assets/files/rendicion_cuentas/2025/REGLAMENTO AUDIENCIA PÚBLICA 2024...-.pdf',
+          },
           
         ]
       },
