@@ -35,7 +35,7 @@ export class RendicionCuentasComponent {
            {
             id: 1,
             tipo: 'pdf',
-            nombre: '02. REGLAMENTO AUDIENCIA PÚBLICA 2024',
+            nombre: '03. REGLAMENTO AUDIENCIA PÚBLICA 2024',
             url: '/assets/files/rendicion_cuentas/2025/REGLAMENTO AUDIENCIA PÚBLICA 2024...-.pdf',
           },
           
