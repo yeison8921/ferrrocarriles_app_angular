@@ -15,48 +15,89 @@
     COMENTARIOS
   </span>
 </h5>
+
+<div class="formulario-comentario mt-4 p-3 border rounded bg-light">
+  <h5>Agregar un comentario</h5>
+
+  <form (ngSubmit)="enviarComentario()" #formComentario="ngForm">
+    <div class="mb-3">
+      <label class="form-label">Nombre</label>
+      <input
+        type="text"
+        class="form-control"
+        name="nombre_usu"
+        [(ngModel)]="nuevoComentario.nombre_usu"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        name="email"
+        [(ngModel)]="nuevoComentario.email"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Teléfono</label>
+      <input
+        type="text"
+        class="form-control"
+        name="telefono"
+        [(ngModel)]="nuevoComentario.telefono"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Comentario</label>
+      <textarea
+        class="form-control"
+        name="comentario"
+        rows="3"
+        [(ngModel)]="nuevoComentario.comentario"
+        required
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="formComentario.invalid">
+      Enviar Comentario
+    </button>
+  </form>
+</div>
 <div *ngFor="let comentario of comentarios" class="py-3 separador">
   <div class="comment position-relative">
-    <div class="header-comment mx-3 pt-3">
-      <label class="col-12">Comentario</label>
-      <strong>N° {{ comentario.id }}</strong>
+    <div class="header-comment mx-3 pt-3 d-flex justify-content-between">
+      <label class="col-6">Comentario</label>
+      <strong class="text-end">N° {{ comentario.id }}</strong>
     </div>
+
     <div class="body-comment p-3 col-12 d-flex">
       <i class="fa-sharp fa-regular fa-circle-user me-2"></i>
-      <div class="contenido">
-        <div class="user">
-          <span>{{ comentario.nombreUsuario }}</span>
-          <p>{{ comentario.fechaHora }}</p>
+      <div class="contenido w-100">
+        <div class="user mb-2">
+          <span><strong>Usuario:</strong> {{ comentario.nombre_usu }}</span><br>
+          <span><strong>Teléfono:</strong> {{ comentario.telefono }}</span><br>
+          <span><strong>Correo:</strong> {{ comentario.email }}</span>
         </div>
         <p class="m-0">
           {{ comentario.comentario }}
         </p>
-      </div>
-    </div>
-  </div>
-  <div
-    *ngFor="let respuesta of comentario.respuestas"
-    class="comment respuesta position-relative mt-3"
-  >
-    <div class="header-comment mx-3 pt-3">
-      <label class="col-12">Respuesta</label>
-      <strong>N° {{ comentario.id }}</strong>
-    </div>
-    <div class="body-comment p-3 col-12 d-flex">
-      <i class="fa-sharp fa-regular fa-circle-user me-2"></i>
-      <div class="contenido">
-        <div class="user">
-          <span>{{ respuesta.nombreUsuario }}</span>
-          <p>{{ respuesta.fechaHora }}</p>
-        </div>
-        <p>
-          Respetado(a) Señor(a):<br />
-          <b>{{ comentario.nombreUsuario }}</b>
-        </p>
-        <p class="m-0">
-          {{ respuesta.comentario }}
+
+        <!-- Fecha alineada a la derecha -->
+        <p class="text-end mt-2 mb-0">
+          <small>{{ comentario.created}}</small>
         </p>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+

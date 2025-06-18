@@ -1,7 +1,8 @@
 export interface Comentarios {
   id: number;
-  fechaHora: string;
-  nombreUsuario: string;
+  nombre_usu: string;
+  email: string;
+  telefono: string;
   comentario: string;
-  respuestas?: Comentarios[];
+  created: string; // o Date si después lo parseas
 }
