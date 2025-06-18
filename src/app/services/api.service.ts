@@ -16,7 +16,7 @@ interface ForoResponse {
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   private http = inject(HttpClient);
-  private baseUrl = 'http://132.255.23.85:8000';
+  private baseUrl = 'https://132.255.23.85:8000';
 
   /**
    * Obtiene los comentarios y extrae el array de resultados
