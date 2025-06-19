@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 import { Comentarios } from '../modules/atencion-al-usuario/foro/comentarios';
 
 
-interface ForoResponse {
+export interface ForoResponse {
   page: number;
   size: number;
   total: number;
@@ -21,10 +21,13 @@ export class ApiService {
   /**
    * Obtiene los comentarios y extrae el array de resultados
    */
-  getComentarios(): Observable<Comentarios[]> {
-    return this.http
-      .get<ForoResponse>(`${this.baseUrl}/foro/`)
-      .pipe(map(resp => resp.results));
+  getComentarios(page = 1, size = 10): Observable<ForoResponse> {
+    const params = new URLSearchParams({
+      page: page.toString(),
+      size: size.toString(),
+      ordering: '-created'
+    }).toString();
+    return this.http.get<ForoResponse>(`${this.baseUrl}/foro/?${params}`);
   }
 
   /**
