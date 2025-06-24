@@ -26,6 +26,12 @@ export class TramitesComponent {
             nombre: 'HOJA DE VIDA EDGARDO ARRIETA.pdf',
             url: '/assets/files/hojas_de_vida/ASPIRANTES 2025/HV Edgardo Arrieta.pdf',
           },
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'HOJA DE VIDA MARCO OROZCO.pdf',
+            url: '/assets/files/hojas_de_vida/ASPIRANTES 2025/hojadevida.pdf',
+          },
           
         ],
       },
