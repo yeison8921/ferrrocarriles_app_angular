@@ -16,7 +16,7 @@
   </span>
 </h5>
 
-<!--<div class="formulario-comentario mt-4 p-3 border rounded bg-light">
+<div class="formulario-comentario mt-4 p-3 border rounded bg-light">
   <h5>Agregar un comentario</h5>
 
   <form (ngSubmit)="enviarComentario()" #formComentario="ngForm">
@@ -69,6 +69,8 @@
     </button>
   </form>
 </div>
+
+<!-- Comentarios -->
 <div *ngFor="let comentario of comentarios" class="py-3 separador">
   <div class="comment position-relative">
     <div class="header-comment mx-3 pt-3 d-flex justify-content-between">
@@ -88,16 +90,28 @@
           {{ comentario.comentario }}
         </p>
 
-       
+
         <p class="text-end mt-2 mb-0">
           <small>{{ comentario.created}}</small>
         </p>
       </div>
     </div>
   </div>
-</div>-->
+</div>
 
+<!-- Paginación -->
+<div class="mt-4 d-flex justify-content-center align-items-center gap-3">
+  <button class="btn btn-outline-primary"
+          [disabled]="currentPage === 1"
+          (click)="cambiarPagina(-1)">
+    Anterior
+  </button>
 
+  <span>Página {{ currentPage }} de {{ totalPages }}</span>
 
-
-
+  <button class="btn btn-outline-primary"
+          [disabled]="currentPage === totalPages"
+          (click)="cambiarPagina(1)">
+    Siguiente
+  </button>
+</div>
