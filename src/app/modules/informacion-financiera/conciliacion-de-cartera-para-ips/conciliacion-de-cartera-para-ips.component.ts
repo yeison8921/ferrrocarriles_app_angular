@@ -25,12 +25,7 @@ export class ConciliacionDeCarteraParaIpsComponent {
           {
             "id": 1,
             "nombre": "Cronograma de Conciliación y Depuración",
-            "files": []
-          },
-          {
-            "id": 2,
-            "nombre": "Avance proceso de conciliación y Depuración",
-            "files": [      
+            "files": [
               {
                 "id": 5,
                 "tipo": "excel",
@@ -49,9 +44,9 @@ export class ConciliacionDeCarteraParaIpsComponent {
                 "nombre": "Reporte FT022 01032023 a 31032023.xlsx",
                 "url": "assets/files/conciliacion_cartera_ips/01. Reportes 2023/02 Avance proceso de conciliaci%c3%b3n y Depuraci%c3%b3n/Reporte FT022 01032023 a 31032023.xlsx"
               },
-             
             ]
           },
+         
           
         ]
       },
