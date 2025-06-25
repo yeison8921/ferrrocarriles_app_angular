@@ -30,19 +30,19 @@ export class ConciliacionDeCarteraParaIpsComponent {
                 "id": 5,
                 "tipo": "excel",
                 "nombre": "Reporte FT022 01012023 a 31012023.xlsx",
-                "url": "assets/files/conciliacion_cartera_ips/01. Reportes 2023/02 Avance proceso de conciliaci%c3%b3n y Depuraci%c3%b3n/Reporte FT022 01012023 a 31012023.xlsx"
+                "url": "assets/files/conciliacion_cartera_ips/2025/CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Junio.xlsx"
               },
               {
                 "id": 6,
                 "tipo": "excel",
                 "nombre": "Reporte FT022 01022023 a 28022023.xlsx",
-                "url": "assets/files/conciliacion_cartera_ips/01. Reportes 2023/02 Avance proceso de conciliaci%c3%b3n y Depuraci%c3%b3n/Reporte FT022 01022023 a 28022023.xlsx"
+                "url": "assets/files/conciliacion_cartera_ips/2025/CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Junio.xlsx"
               },
               {
                 "id": 7,
                 "tipo": "excel",
                 "nombre": "Reporte FT022 01032023 a 31032023.xlsx",
-                "url": "assets/files/conciliacion_cartera_ips/01. Reportes 2023/02 Avance proceso de conciliaci%c3%b3n y Depuraci%c3%b3n/Reporte FT022 01032023 a 31032023.xlsx"
+                "url": "assets/files/conciliacion_cartera_ips/2025/CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Agosto.xlsx"
               },
             ]
           },
