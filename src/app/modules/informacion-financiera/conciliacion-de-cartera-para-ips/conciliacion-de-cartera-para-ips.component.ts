@@ -50,6 +50,17 @@ export class ConciliacionDeCarteraParaIpsComponent {
           
         ]
       },
+
+        {
+        "id": 1,
+        "nombre": "REPORTES 2024",
+        "acordion": [
+         
+         
+          
+        ]
+      },
+      
       
      
       
