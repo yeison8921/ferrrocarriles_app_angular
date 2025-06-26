@@ -688,6 +688,18 @@ export class TalentoHumanoComponent {
         id: 1,
         nombre: 'ESCALA SALARIAL ',
         acordion: [
+           {
+            id: 1,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: ' DECRETO 0611 DEL 3 DE JUNIO DE 2025.pdf',
+                url: '/assets/files/corporativo/talento-humano/ESCALA%20SALARIAL/2025/DECRETO 0611 DEL 3 DE JUNIO DE 2025.pdf',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2024',
