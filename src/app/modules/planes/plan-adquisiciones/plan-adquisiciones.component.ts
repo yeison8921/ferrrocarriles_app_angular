@@ -14,6 +14,20 @@ export class PlanAdquisicionesComponent {
   constructor() {
     this.items =
     [
+     {
+      id : 15,
+      nombre: "2025",
+      files :
+         [
+          {
+            id:1,
+            tipo:"pdf",
+            url:"/assets/files/planes/plan_adquisiciones/PLAN DE ADQUISICIONES 2025 11012025firmado-.pdf" ,
+            nombre: "01 PLAN DE ADQUISICIONES 2025.pdf"
+          }
+         ]
+    },
+
       {
         id: 1,
         nombre:"2024",
