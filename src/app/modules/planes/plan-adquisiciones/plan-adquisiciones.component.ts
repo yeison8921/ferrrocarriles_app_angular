@@ -22,7 +22,7 @@ export class PlanAdquisicionesComponent {
           {
             id:1,
             tipo:"pdf",
-            url:"/assets/files/planes/plan_adquisiciones/PLAN DE ADQUISICIONES 2025 11012025firmado-.pdf" ,
+            url:"/assets/files/planes/plan_adquisiciones/2025/PLAN DE ADQUISICIONES 2025 11012025firmado-.pdf" ,
             nombre: "01 PLAN DE ADQUISICIONES 2025.pdf"
           }
          ]
