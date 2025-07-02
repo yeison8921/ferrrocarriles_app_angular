@@ -1,35 +1,27 @@
 <header class="bg-white {{ tipo }}" id="header">
   <app-topbar id="topbar"></app-topbar>
   <div class="row m-0 div-superior bg-white" id="logos">
-    <div class="d-flex d-lg-none py-2 align-items-center div-logo">
-      <!--<a class="col-4 col-sm-3 col-lg-2 px-2 px-xl-4" href="/" rel="home">
-        <img
-          class="img-fluid"
-          src="assets/img/logos/logo_colombia_potencia_de_vida.png"
-        />
-      </a>-->
+
+    <!-- LOGO - Izquierda en pantallas grandes -->
+    <div class="d-none d-lg-flex col-lg-4 align-items-center justify-content-start p-2">
       <a href="/" rel="home">
         <img src="assets/img/logos/logo_fps.svg" class="logo" />
       </a>
     </div>
-    <!--<div class="d-none d-lg-flex col-lg-4 align-items-center p-2">
-      <img
-        class="col-3"
-        src="assets/img/logos/logo_colombia_potencia_de_vida.png"
-      />
-    </div>-->
-    <div
-      class="d-none d-lg-flex col-lg-4 align-items-center justify-content-center p-2"
-    >
-      <app-search class="col-12 col-sm-8 col-lg-8"></app-search>
+
+    <!-- BUSCADOR - Derecha en pantallas grandes -->
+    <div class="d-none d-lg-flex col-lg-8 align-items-center justify-content-end p-2">
+      <app-search class="col-12 col-sm-8 col-lg-6"></app-search>
     </div>
-    <div
-      class="d-none d-lg-flex col-lg-4 align-items-center justify-content-end p-2"
-    >
+
+    <!-- Para móviles (logo centrado) -->
+    <div class="d-flex d-lg-none py-2 align-items-center div-logo justify-content-center w-100">
       <a href="/" rel="home">
         <img src="assets/img/logos/logo_fps.svg" class="logo" />
       </a>
     </div>
+
   </div>
   <app-menu></app-menu>
 </header>
+
