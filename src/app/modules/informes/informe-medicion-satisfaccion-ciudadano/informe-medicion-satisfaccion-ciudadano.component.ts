@@ -22,7 +22,7 @@ export class InformeMedicionSatisfaccionCiudadanoComponent {
             id: 1,
             tipo: 'pdf',
             nombre: 'INFORME DE SATISFACCIÓN I SEMESTRE DE 2024',
-            url: '/assets/files/medicion_satisfaccion_ciudadano/01. 2023/INFORME DE SATISFACCIÓN I SEMESTRE DE 2024_firmado.pdf',
+            url: '/assets/files/medicion_satisfaccion_ciudadano/01. 2023/INFORME DE SATISFACCIÓN I SEMESTRE DE 2024.pdf',
           },
           {
             id: 2,
