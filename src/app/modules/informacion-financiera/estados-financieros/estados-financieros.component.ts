@@ -120,6 +120,21 @@ export class EstadosFinancierosComponent {
               },
             ],
           },
+
+
+           {
+            id: 4,
+            nombre: 'ABRIL',
+            files: [
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/ABRIL/3. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
+              },
+             
+            ],
+          },
           
           
         ],
