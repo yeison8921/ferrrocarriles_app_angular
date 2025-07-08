@@ -269,7 +269,7 @@ export class InformeMedicionSatisfaccionCiudadanoComponent {
                 url: '/assets/files/medicion_satisfaccion_ciudadano/07. 2017/Informe General de Medicion de la Satisfaccion al Ciudadano Trimestral/InfoSatisfacIVtrimestre2017.pdf',
               },
               {
-                id: 4,
+                id: 5,
                 tipo: 'pdf',
                 nombre: 'InfoSatisfacItrimestre2017',
                 url: '/assets/files/medicion_satisfaccion_ciudadano/07. 2017/Informe General de Medicion de la Satisfaccion al Ciudadano Trimestral/InfoSatisfacItrimestre2017.pdf',
