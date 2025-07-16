@@ -3,14 +3,22 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./out-tsc/spec",
+    "outDir": "./out-tsc/app",
     "types": [
-      "jasmine",
       "@angular/localize"
     ]
   },
+  "files": [
+    "src/main.ts"
+  ],
   "include": [
-    "src/**/*.spec.ts",
+    "src/**/*.ts",
     "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts",
+    "server.ts",
+    "src/main.server.ts"
   ]
 }
