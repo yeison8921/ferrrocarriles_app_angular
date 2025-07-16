@@ -34,16 +34,8 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/IMG_4139.png',
         url: 'https://sedevirtual.fps.gov.co/prestini/',
       },
-      {
-        id: 7,
-        imagen: '/assets/img/Home/sliderHome/BANNERAUDIENCIAPUBLICA.png',
-        url: '',
-      },
-      {
-        id: 8,
-        imagen: '/assets/img/Home/sliderHome/CONVOCATORIA AUDITORES INTERNOS AJUSTES.png',
-        url: '',
-      },
+     
+      
      
       {
         id: 5,
