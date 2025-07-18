@@ -113,10 +113,17 @@ export class ContratacionComponent {
               },
 
               {
-                id: 4,
+                id: 5,
                 tipo: 'excel',
-                nombre: 'CONTRATOS A PUBLICAR EN PAG WEB MAYO DE 2025',
+                nombre: 'CONTRATOS SUSCRITOS EN MAYO 2025',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS A PUBLICAR EN PAG WEB MAYO DE 2025.xlsx',
+              },
+
+               {
+                id: 6,
+                tipo: 'excel',
+                nombre: 'CONTRATOS SUSCRITOS EN JUNIO 2025',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/Contratos Celebrados Junio de 2025.xlsx',
               },
 
             ],
