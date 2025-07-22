@@ -31,7 +31,7 @@ export class PlanMejoramientoComponent {
              {
             id: 1,
             tipo: "excel",
-            url:"/assets/files/planes/plan_mejoramiento/15. 2025/PLAN DE MEJORAMIENTO INST. Y CGR II TRIMESTRE 2025.xlsx",
+            url:"/assets/files/planes/plan_mejoramiento/15. 2025/PLAN DE MEJORAMIENTO INST. Y CGR II TRIMESTRE 2025_.xlsx",
             nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL. Y CGR II TRIMESTRE 2025.xlsx"
           },
           
