@@ -176,6 +176,45 @@ export class InformacionFinancieraComponent {
               },
             ],
           },
+
+          
+                    {
+            id: 1,
+            nombre: 'JUNIO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EJECUCIONPRESUPUESTALAGREGADA DECRETO LIQUIDACION JUNIO 30 2025-.pdf',
+                url: 'assets/files/presupuesto/2025/JUNIO/REP_EPG034_EjecucionPresupuestalAgregada CXP DECRETO LIQ JUNIO 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EJECUCIONPRESUPUESTALAGREGADA DECRETO LIQUIDACION JUNIO 30 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JUNIO/REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION JUNIO 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EJECUCIONPRESUPUESTALAGREGADA DECRETO LIQUIDACION JUNIO 30 2025-.PDF',
+                url: 'assets/files/presupuesto/2025/JUNIO/REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION JUNIO 30 2025-.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EJECUCIONPRESUPUESTALAGREGADA RESERVAS DECRETO LIQ JUNIO 30 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JUNIO/REP_EPG034_EjecucionPresupuestalAgregada RESERVAS DECRETO LIQ JUNIO 30 2025.pdf',
+              },
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_INFORMEEJECUCIONPRESUPUESTAL INGRESOS DECRETO LIQ JUNIO 30 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JUNIO/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQ JUNIO 30 2025.pdf',
+              }
+            ],
+          },
           
          
         ],
