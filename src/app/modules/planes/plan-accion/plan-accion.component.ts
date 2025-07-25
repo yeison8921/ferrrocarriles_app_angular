@@ -21,7 +21,7 @@ export class PlanAccionComponent {
           {
             id: 1,
             tipo: 'excel',
-            url: '/assets/files/planes/plan_accion/2025/PLAN DE ACCION 2025 .xlsx',
+            url: '/assets/files/planes/plan_accion/2025/PLAN DE ACCIÓN I SEMESTRE 2025.....xlsx',
             nombre: 'PLAN DE ACCIÓN 2025.xlsx',
           },
           {
