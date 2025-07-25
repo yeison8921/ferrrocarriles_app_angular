@@ -44,6 +44,12 @@ export class RendicionCuentasComponent {
             nombre: '04. PREGUNTAS CIUDADANÍA RENDICIÓN DE CUENTAS VIGENCIA 2024 19',
             url: '/assets/files/rendicion_cuentas/2025/Preguntas Ciudadanía Rendicion.pdf',
           },
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '05. INFORME EVALUACIÓN EVENTO RENDICION DE CUENTAS GESTION 2024 24 DE JULIO DE 2025.PDF',
+            url: '/assets/files/rendicion_cuentas/2025/Informe Evaluación Evento Rendicion de Cuentas Gestion 2024 24 de Julio de 2025..pdf',
+          },
           
         ]
       },
