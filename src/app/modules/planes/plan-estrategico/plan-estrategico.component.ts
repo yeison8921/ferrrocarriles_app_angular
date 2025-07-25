@@ -21,7 +21,7 @@ export class PlanEstrategicoComponent {
           {
             id: 1,
             tipo: 'excel',
-            url: '/assets/files/planes/plan_estrategico/2025/PLAN ESTRATÉGICO 2025 I SEMESTRE...xslx',
+            url: '/assets/files/planes/plan_estrategico/2025/PLAN ESTRATÉGICO 2025 I SEMESTRE.xlsx',
             nombre: 'PLAN ESTRATÉGICO 2025 I SEMESTRE.xlsx',
           },
           {
