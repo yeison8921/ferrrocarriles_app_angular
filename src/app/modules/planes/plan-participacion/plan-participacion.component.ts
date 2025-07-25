@@ -106,21 +106,27 @@ export class PlanParticipacionComponent {
   this.items = [
     {
       id: 1,
+      tipo:"excel",
+      url:"/assets/files/planes/participacion_ciudadana/I Semestre de Participación ciudadana y Rendición de cuenta 2025..xlsx",
+      nombre: "01. I Semestre de Participación ciudadana y Rendición de cuenta 2025"
+    },
+    {
+      id: 1,
       tipo:"pdf",
       url:"/assets/files/planes/participacion_ciudadana/01%20Evidencia%20Formulaci%c3%b3n%20Planes%20FPS%202021.pdf",
-      nombre: "01. Evidencia formulación planes FPS 2021.pdf"
+      nombre: "02. Evidencia formulación planes FPS 2021.pdf"
     },
     {
       id: 2,
       tipo:"pdf",
       url:"/assets/files/planes/participacion_ciudadana/02%20Formulaci%c3%b3n%20Participativa%20FPS%202021.pdf",
-      nombre: "02 Formulación Participativa FPS 2021.pdf"
+      nombre: "03 Formulación Participativa FPS 2021.pdf"
   },
   {
     id: 3,
     tipo:"pdf",
     url:"/assets/files/planes/participacion_ciudadana/03%20GUIA%20PARA%20LA%20PARTICIPACION%20CIUDADANA%20%20V4.pdf",
-    nombre: "03 GUIA PARA LA PARTICIPACION CIUDADANA  V4.pdf"
+    nombre: "04 GUIA PARA LA PARTICIPACION CIUDADANA  V4.pdf"
   }
   ]
 }
