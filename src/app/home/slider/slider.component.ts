@@ -31,7 +31,7 @@ export class SliderComponent {
      
       {
         id: 7,
-        imagen: '/assets/img/Home/sliderHome/IMG_4139.png',
+        imagen: '/assets/img/Home/sliderHome/4139.png',
         url: 'https://sedevirtual.fps.gov.co/prestini/',
       },
      
