@@ -47,6 +47,12 @@ export class PlanEstrategicoTecComponent {
               tipo:"pdf",
               url:"/assets/files/planes/plan_tic/07.2025_2026/INFORME DE EJECUCIÓN PETIC A JUNIO 2024.pdf",
               nombre: "INFORME DE EJECUCIÓN PETIC A JUNIO 2024.pdf"
+            },
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/INFORME DE EJECUCIÓN PETIC A DICIEMBRE 2024.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC A DICIEMBRE 2024.pdf"
             }
         ]
       },
