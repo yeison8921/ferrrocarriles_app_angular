@@ -1102,6 +1102,19 @@ export class InformesEstadoControlInternoComponent {
         nombre:
           'Informe de Evaluación Independiente del Sistema de Control Interno',
         acordion: [
+           {
+            id: 2,
+            nombre: '2025',
+            files: [
+              {
+                id: 3,
+                tipo: 'pdf',
+                nombre: 'Evaluación Independiente Del Estado Del SCI  I Semestre 2025.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe de Evaluación Independiente del Sistema de Control Interno/04. 2025/EVALUACION INDEPENDIENTE DEL ESTADO DEL SCI I SEMESTRE 2025.pdf',
+              },
+              
+            ],
+          },
           {
             id: 2,
             nombre: '2024',
