@@ -28,7 +28,11 @@ export class SliderComponent {
   constructor() {
     this.slider = [
      
-     
+       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/RADICACION MODULOFACTURACIONDEURGENCIAS.png',
+        url: 'https://fps.horus-health.com/',
+      },
       {
         id: 7,
         imagen: '/assets/img/Home/sliderHome/4139.png',
