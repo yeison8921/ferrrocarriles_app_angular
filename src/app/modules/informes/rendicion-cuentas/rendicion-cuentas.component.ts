@@ -41,8 +41,8 @@ export class RendicionCuentasComponent {
            {
             id: 1,
             tipo: 'pdf',
-            nombre: '04. PREGUNTAS CIUDADANÍA RENDICIÓN DE CUENTAS VIGENCIA 2024 19',
-            url: '/assets/files/rendicion_cuentas/2025/Preguntas Ciudadanía Rendicion.pdf',
+            nombre: '04. PREGUNTAS CIUDADANÍA RENDICIÓN DE CUENTAS VIGENCIA 2024',
+            url: '/assets/files/rendicion_cuentas/2025/Preguntas Ciudadania Rendicion de Cuentas Vigencia 2024.pdf',
           },
           {
             id: 1,
