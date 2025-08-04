@@ -125,6 +125,12 @@ export class ContratacionComponent {
                 nombre: 'CONTRATOS SUSCRITOS EN JUNIO 2025',
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/Contratos Celebrados Junio de 2025.xlsx',
               },
+               {
+                id: 6,
+                tipo: 'excel',
+                nombre: 'CONTRATOS SUSCRITOS EN JULIO 2025',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS CELEBRADOS DURANTE JULIO DE 2025.xlsx',
+              },
 
             ],
           },
