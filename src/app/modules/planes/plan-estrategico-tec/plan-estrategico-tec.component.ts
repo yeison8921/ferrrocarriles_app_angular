@@ -32,6 +32,18 @@ export class PlanEstrategicoTecComponent {
               tipo:"pdf",
               url:"/assets/files/planes/plan_tic/07.2025_2026/MAPADERUTAPETIC_ 2025_2026.pdf",
               nombre: "MAPADERUTAPETIC_ 2025_2026.pdf"
+            },
+            {
+              id:3,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/INFORME DE EJECUCIÓN PETIC I S EMESTRE  2025 definitivo.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC I SEMESTRE  2025.pdf"
+            },
+             {
+              id:3,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/MAPA DE RUTA-PETIC2023-2026_Seguimiento I sem 2025 definitivo.pdf",
+              nombre: "MAPA DE RUTA-PETIC2023-2026_SEGUIMIENTO I SEM 2025 DEFINITIVO"
             }
            
         ]
