@@ -43,7 +43,7 @@ export class PlanEstrategicoTecComponent {
               id:3,
               tipo:"pdf",
               url:"/assets/files/planes/plan_tic/07.2025_2026/MAPA DE RUTA-PETIC2023-2026_Seguimiento I sem 2025 definitivo.pdf",
-              nombre: "MAPA DE RUTA-PETIC2023-2026_SEGUIMIENTO I SEM 2025 DEFINITIVO"
+              nombre: "MAPA DE RUTA-PETIC2023-2026_SEGUIMIENTO I SEM 2025 "
             }
            
         ]
