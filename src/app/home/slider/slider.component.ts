@@ -27,6 +27,11 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+      {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/RADICACION MODULO FACTURACION DE URGENCIAS.jpg',
+        url: '',
+      },
      {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/RADICACION MODULOFACTURACIONDEURGENCIAS.jpg',
