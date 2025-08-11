@@ -15,6 +15,7 @@ import { PlanSeguridadComponent } from './plan-seguridad/plan-seguridad.componen
 import { ProyectosInversionComponent } from './proyectos-inversion/proyectos-inversion.component';
 import { PlanAdquisicionesComponent } from './plan-adquisiciones/plan-adquisiciones.component';
 import { GestionDocumentalComponent } from './gestion-documental/gestion-documental.component';
+import { TranspareciaPublicaComponent } from './transparecia-publica/transparecia-publica.component';
 import { PlaneacionGestionYControlComponent } from './planeacion-gestion-y-control/planeacion-gestion-y-control.component';
 import { PlanmipgComponent } from './planmipg/planmipg.component';
 
@@ -102,6 +103,12 @@ const routes: Routes = [
   {
     path: 'gestion-documental/317',
     component: PlanmipgComponent,
+    title: 'Plan de fortalecimiento del MIPG',
+  },
+
+  {
+    path: 'transparencia-etica-publica/357',
+    component: TranspareciaPublicaComponent,
     title: 'Plan de fortalecimiento del MIPG',
   },
 ];
