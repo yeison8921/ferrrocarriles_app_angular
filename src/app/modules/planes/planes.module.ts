@@ -109,7 +109,7 @@ const routes: Routes = [
   {
     path: 'transparencia-etica-publica/357',
     component: TranspareciaPublicaComponent,
-    title: 'Plan de fortalecimiento del MIPG',
+    title: 'Programa de transparencia y ética pública',
   },
 ];
 
