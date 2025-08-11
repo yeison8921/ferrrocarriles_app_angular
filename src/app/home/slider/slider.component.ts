@@ -29,7 +29,7 @@ export class SliderComponent {
     this.slider = [
       {
         id: 6,
-        imagen: '/assets/img/Home/sliderHome/RADICACION MODULO FACTURACION DE URGENCIAS.jpg',
+        imagen: '/assets/img/Home/sliderHome/PARTICIPA EN LA FORMULACIÓN DEL PROGRAMA.jpg',
         url: '',
       },
      {
