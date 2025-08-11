@@ -18,6 +18,8 @@ import { GestionDocumentalComponent } from './gestion-documental/gestion-documen
 import { TranspareciaPublicaComponent } from './transparecia-publica/transparecia-publica.component';
 import { PlaneacionGestionYControlComponent } from './planeacion-gestion-y-control/planeacion-gestion-y-control.component';
 import { PlanmipgComponent } from './planmipg/planmipg.component';
+import { CommonModule } from '@angular/common';
+import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   {
