@@ -5,7 +5,7 @@ import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-transparecia-publica',
-  standalone: true,
+  standalone: false,
   imports: [],
   templateUrl: './transparecia-publica.component.html',
   styleUrl: './transparecia-publica.component.css'
