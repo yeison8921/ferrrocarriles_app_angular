@@ -30,7 +30,7 @@ export class SliderComponent {
       {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/PARTICIPA EN LA FORMULACIÓN DEL PROGRAMA.jpg',
-        url: '',
+        url: '/assets/img/Home/sliderHome/file/PROGRAMA DE TRANSPARENCIA - FPS. Agosto.docx',
       },
      {
         id: 6,
