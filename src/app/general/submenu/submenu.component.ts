@@ -656,14 +656,20 @@ export class SubmenuComponent {
                 url: '/planeacion-gestion-y-control/programas-y-proyectos-de-inversion/202',
                 active: false,
               },
-              {
+               {
                 id: 15,
+                nombre: 'Programa de Transparencia y Ética Pública',
+                url: '/planeacion-gestion-y-control/transparencia-etica-publica/357',
+                active: false,
+              },
+              {
+                id: 16,
                 nombre: 'Gestión documental',
                 url: '/planeacion-gestion-y-control/gestion-documental/203',
                 active: false,
               },
               {
-                id: 16,
+                id: 17,
                 nombre: 'Plan de Fortalecimiento del MIPG',
                 url: '/planeacion-gestion-y-control/gestion-documental/317',
                 active: false,
