@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { AcordionFiles } from '../../../interfaces/acordion';
 import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-transparecia-publica',
-  standalone: false,
-  imports: [],
+  standalone: true,
+  imports: [ CommonModule,NgbAccordionModule],
   templateUrl: './transparecia-publica.component.html',
   styleUrl: './transparecia-publica.component.css'
 })
