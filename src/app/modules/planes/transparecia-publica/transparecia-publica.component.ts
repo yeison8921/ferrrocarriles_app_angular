@@ -23,9 +23,9 @@ export class TranspareciaPublicaComponent {
         [
           {
             id:1,
-            tipo:"excel",
-            url:"/assets/files/planes/riesgo/14.2025/PM RIESGOS Y OPORTUNIDADES I TRIMESTRE 2025 DEF.xlsx",
-            nombre:"PM RIESGOS Y OPORTUNIDADES I TRIMESTRE 2025 DEF.xlsx"
+            tipo:"word",
+            url:"/assets/files/planes/programa_etica/PROGRAMA DE TRANSPARENCIA - FPS. Agosto.docx",
+            nombre:"PROGRAMA DE TRANSPARENCIA - FPS"
           }
         ]
       },
