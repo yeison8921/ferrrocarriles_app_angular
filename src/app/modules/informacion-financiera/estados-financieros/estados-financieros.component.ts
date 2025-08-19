@@ -152,9 +152,13 @@ export class EstadosFinancierosComponent {
                 url: 'assets/files/estados_financieros/2025/ABRIL/4. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
               },
 
+
+              
+            ],
+          },
                
                {
-            id: 5,
+            id: 4,
             nombre: 'MAYO',
             files: [
                {
