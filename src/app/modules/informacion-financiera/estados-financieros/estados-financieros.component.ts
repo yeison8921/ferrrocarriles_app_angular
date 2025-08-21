@@ -158,7 +158,7 @@ export class EstadosFinancierosComponent {
           },
                
                {
-            id: 4,
+            id: 5,
             nombre: 'MAYO',
             files: [
                {
@@ -185,6 +185,41 @@ export class EstadosFinancierosComponent {
                 tipo: 'pdf',
                 nombre: '4. ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
                 url: 'assets/files/estados_financieros/2025/MAYO/4 ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
+              },
+              
+             
+            ],
+          },
+
+
+           {
+            id: 6,
+            nombre: 'JUNIO',
+            files: [
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '1. ESTADO DE SITUACION FINANCIERA JUNIO 2025-2024 .pdf',
+                url: 'assets/files/estados_financieros/2025/JUNIO/1 ESTADO DE SITUACION FINANCIERA JUNIO 2025-2024 .pdf',
+              },
+               {
+                id: 2,
+                tipo: 'pdf',
+                nombre: '2. ESTADO DE SITUACION FINANCIERA JUNIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JUNIO/2 ESTADO DE SITUACION FINANCIERA JUNIO 2025-2024.pdf',
+              },
+            
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JUNIO/3 ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
+              },
+                {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '4. ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JUNIO/4 ESTADO DE RESULTADOS MAYO 2025-2024.pdf',
               },
               
              
