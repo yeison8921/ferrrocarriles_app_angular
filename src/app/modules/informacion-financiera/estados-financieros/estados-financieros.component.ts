@@ -142,14 +142,14 @@ export class EstadosFinancierosComponent {
               {
                 id: 5,
                 tipo: 'pdf',
-                nombre: '3. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
-                url: 'assets/files/estados_financieros/2025/ABRIL/3. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
+                nombre: '3. ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/ABRIL/3 ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
               },
                 {
                 id: 3,
                 tipo: 'pdf',
-                nombre: '4. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
-                url: 'assets/files/estados_financieros/2025/ABRIL/4. ESTADO DE RESULTADOS ABRIL 2025-2024.pdf',
+                nombre: '4. ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/ABRIL/4 ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
               },
 
 
