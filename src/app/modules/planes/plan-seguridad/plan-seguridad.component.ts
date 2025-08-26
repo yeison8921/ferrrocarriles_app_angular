@@ -58,6 +58,27 @@ export class PlanSeguridadComponent {
         nombre:"PLAN_TRATAMIENTO_DE_RIESGOS_SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION",
         acordion:
         [
+
+           {
+            id:1,
+            nombre:"2025",
+            files:
+            [
+              {
+                id:1,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_seguridad_privacidad/PLAN DE SEGURIDAD Y PRIVACIDAD DE LA INFORMACION __2023-2026.pdf",
+                nombre: "PLAN DE SEGURIDAD Y PRIVACIDAD DE LA INFORMACION __2023-2026.pdf"
+              },
+               {
+                id:2,
+                tipo:"pdf",
+                url:"/assets/files/planes/plan_seguridad_privacidad/PLAN DE TRATAMIENTO DE RIESGOS 2025.pdf",
+                nombre: "PLAN DE TRATAMIENTO DE RIESGOS 2025.pdf"
+              },
+
+            ]
+          },
           {
             id:1,
             nombre:"2020",
