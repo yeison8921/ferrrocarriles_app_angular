@@ -1,9 +1,6 @@
 [
-  { "href": "https://www.fps.gov.co/noticias/participa/222", "text": "PQRSDF" },
-  {
-    "href": "https://www.fps.gov.co/atencion-al-usuario/encuesta-de-satisfaccion/214",
-    "text": "Encuesta de Satisfacción"
-  },
+  { "href": "https://sedevirtual.fps.gov.co/", "text": "PQRSDF" },
+
   {
     "href": "https://www.fps.gov.co/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236",
     "text": "Evaluación del Evento de Audiencia Pública"
