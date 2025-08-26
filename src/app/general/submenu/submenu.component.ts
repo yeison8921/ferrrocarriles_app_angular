@@ -278,7 +278,7 @@ export class SubmenuComponent {
           {
             id: 3,
             nombre:
-              'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2021',
+              'Encuesta de Evaluación del Evento de Audiencia Pública Vigencia 2024',
             url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
             active: false,
           },
