@@ -76,7 +76,6 @@ export class PlanSeguridadComponent {
                 url:"/assets/files/planes/plan_seguridad_privacidad/PLAN DE TRATAMIENTO DE RIESGOS 2025.pdf",
                 nombre: "PLAN DE TRATAMIENTO DE RIESGOS 2025.pdf"
               },
-
             ]
           },
           {
