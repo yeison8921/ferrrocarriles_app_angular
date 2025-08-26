@@ -142,7 +142,7 @@ export class SubmenuComponent {
           {
             id: 20,
             nombre: 'Intranet',
-            url: 'https://intranet.aymsoft.net/',
+            url: 'https://intranet.fps.gov.co/login',
             active: false,
           },
         ],
