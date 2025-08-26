@@ -27,6 +27,11 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/INFORMACION IMPORTANTE CALLE 73.png',
+        url: '',
+      },
       {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/PARTICIPA EN LA FORMULACIÓN DEL PROGRAMA.jpg',

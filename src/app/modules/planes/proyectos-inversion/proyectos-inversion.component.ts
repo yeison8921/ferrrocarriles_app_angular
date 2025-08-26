@@ -107,6 +107,19 @@ export class ProyectosInversionComponent {
         nombre: "Ejecución Presupuestal",
         acordion:
         [
+           {
+            id:1,
+            nombre: "2024",
+            files:
+            [
+              {
+                id:1,
+                tipo: "pdf",
+                url:"/assets/files/planes/proyectos_inversion/2/Ejecuci%c3%b3n%20Presupuestal/01.%202023/EJECUCION%20PRESUPUESTAL%20EN-MAR%202023.pdf" ,
+                nombre:"EJECUCION PRESUPUESTAL EN-MAR 2023.pdf"
+              },
+            ]
+          },
           {
             id:1,
             nombre: "2023",
