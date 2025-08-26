@@ -166,58 +166,58 @@ export class SubmenuComponent {
             id: 8,
             nombre: 'Quejas',
             //url: '/atencion-al-usuario/quejas/7',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/quejas',
             active: false,
           },
           {
             id: 9,
             nombre: 'Reclamos',
             //url: '/atencion-al-usuario/reclamos/8',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/reclamos',
             active: false,
           },
           {
             id: 10,
             nombre: 'Sugerencias',
             //url: '/atencion-al-usuario/sugerencias/4',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/sugerencias',
             active: false,
           },
           {
             id: 11,
             nombre: 'Denuncias',
             //url: '/atencion-al-usuario/denuncias/5',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/denuncias',
             active: false,
           },
           {
             id: 12,
             nombre: 'Felicitaciones',
             //url: '/atencion-al-usuario/felicitaciones/3',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/felicitaciones',
             active: false,
           },
-          {
+         /* {
             id: 13,
             nombre: 'Solicitud de Información Pública',
             //url: '/atencion-al-usuario/solicitud-de-informacion-publica/9',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 14,
             nombre: 'Consulta de Solicitudes',
             //url: '/atencion-al-usuario/consulta-de-solicitudes/10',
-            url: '',
+            url: 'https://orfeo.fps.gov.co/orfeo/consultaWebMinSalud/',
             active: false,
           },
-          {
+        /*  {
             id: 15,
             nombre: 'Actualización de datos',
             //url: '/atencion-al-usuario/actualizacion-de-datos/213',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 17,
             nombre: 'Buzón Notificaciones Judiciales',
@@ -230,26 +230,26 @@ export class SubmenuComponent {
             url: '/atencion-al-usuario/contratacion/97',
             active: false,
           },
-          {
+         /* {
             id: 18,
             nombre: 'Preguntas Frecuentes',
             //url: '/atencion-al-usuario/preguntas-frecuentes/121',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 19,
             nombre: 'Ofertas Laborales',
             url: '/atencion-al-usuario/ofertas-laborales/153',
             active: false,
           },
-          {
+      /*    {
             id: 6,
             nombre: 'Sondeo de Opinión',
             //url: '/atencion-al-usuario/sondeo-de-opinion/119',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 20,
             nombre: 'Foro',
@@ -268,13 +268,13 @@ export class SubmenuComponent {
             url: '/atencion-al-usuario/encuesta-de-satisfaccion/214',
             active: false,
           },
-          {
+        /*  {
             id: 4,
             nombre: 'Encuesta de Usabilidad FPSFNC',
             //url: '/atencion-al-usuario/encuesta-de-usabilidad-fpsfnc/232',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 3,
             nombre:
@@ -282,13 +282,13 @@ export class SubmenuComponent {
             url: '/atencion-al-usuario/encuesta-de-evaluacion-del-evento-de-audiencia-publica-vigencia-2021/236',
             active: false,
           },
-          {
+        /*  {
             id: 3,
             nombre: 'Contacto',
             //url: '/atencion-al-usuario/contacto/2',
             url: '',
             active: false,
-          },
+          },*/
           {
             id: 1,
             nombre:
