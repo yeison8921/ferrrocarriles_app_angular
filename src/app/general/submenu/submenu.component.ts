@@ -159,7 +159,7 @@ export class SubmenuComponent {
             id: 7,
             nombre: 'Peticiones',
             //url: '/atencion-al-usuario/peticiones/6',
-            url: '',
+            url: 'https://sedevirtual.fps.gov.co/peticiones',
             active: false,
           },
           {
