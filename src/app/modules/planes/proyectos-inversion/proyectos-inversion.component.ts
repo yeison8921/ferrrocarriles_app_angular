@@ -14,6 +14,227 @@ export class ProyectosInversionComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+
+       {
+          id:2,
+          nombre: "2025",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO PENSIÓN ENERO - ABRIL 2025.pdf" ,
+              nombre:"1. ENERO - ABRIL - RESUMEN EJECUTIVO PENSIÓN ENERO - ABRIL 2025.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO SALUD ENERO - ABRIL 2025.pdf" ,
+              nombre:"2. ENERO - ABRIL - RESUMEN EJECUTIVO SALUD ENERO - ABRIL 2025.pdf"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO PENSIÓN MAYO 2025 (1).pdf" ,
+              nombre:"1. MAYO - RESUMEN EJECUTIVO PENSIÓN MAYO 2025.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO SALUD MAYO 2025 (1).pdf" ,
+              nombre:"2. MAYO - RESUMEN EJECUTIVO SALUD MAYO 2025.pdf"
+            },
+
+             {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO PENSIÓN JUNIO 2025.pdf" ,
+              nombre:"1. JUNIO - RESUMEN EJECUTIVO PENSIÓN JUNIO 2025.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO SALUD JUNIO 2025.pdf" ,
+              nombre:"2. JUNIO - RESUMEN EJECUTIVO SALUD JUNIO 2025.pdf"
+            },
+
+              {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO PENSIÓN JULIO 2025.pdf" ,
+              nombre:"1. JULIO - RESUMEN EJECUTIVO PENSIÓN JULIO 2025.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO SALUD JULIO 2025.pdf" ,
+              nombre:"2. JULIO - RESUMEN EJECUTIVO SALUD JULIO 2025.pdf"
+            },
+          ]
+        },
+
+
+     {
+          id:2,
+          nombre: "2024",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 ENERO 2024.pdf" ,
+              nombre:"1. ENERO - RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 ENERO 2024.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD ENERO 2024_BPIN 202300000000339.pdf" ,
+              nombre:"2. ENERO -  RESUMEN EJECUTIVO SALUD ENERO 2024_BPIN 202300000000339"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO SALUD FEBRERO 2024_BPIN 202300000000339.pdf" ,
+              nombre:"1. FEBRERO - RESUMEN EJECUTIVO SALUD FEBRERO 2024_BPIN 202300000000339.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 FEBRERO 2024.pdf" ,
+              nombre:"2. FEBRERO -  RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 FEBRERO 2024"
+            },
+
+             {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 MARZO 2024.pdf" ,
+              nombre:"1. MARZO - 1. RESUMEN EJECUTIVO PENSIONES_BPIN220230000000341 MARZO 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/3. RESUMEN EJECUTIVO SALUD MARZO 2024_BPIN 202300000000339.pdf" ,
+              nombre:"2. MARZO -  RESUMEN EJECUTIVO SALUD MARZO 2024_BPIN 202300000000339"
+            },
+
+              {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO PENSIONES ABRIL 2024.pdf" ,
+              nombre:"1. ABRIL - ESUMEN EJECUTIVO PENSIONES ABRIL 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD ABRIL 2024.pdf" ,
+              nombre:"2. ABRIL -  RESUMEN EJECUTIVO SALUD ABRIL 2024"
+            },
+
+             {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD MAYO 2024.pdf" ,
+              nombre:"1. MAYO -  RESUMEN EJECUTIVO SALUD MAYO 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO PENSIONES MAYO 2024.pdf" ,
+              nombre:"2. MAYO - RESUMEN EJECUTIVO PENSIONES MAYO 2024"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD JUNIO 2024.pdf" ,
+              nombre:"1. JUNIO -  RESUMEN EJECUTIVO SALUD JUNIO 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO PENSIONES JUNIO 2024.pdf" ,
+              nombre:"2. JUNIO - RESUMEN EJECUTIVO PENSIONES JUNIO 2024"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD JULIO 2024.pdf" ,
+              nombre:"1. JULIO -  RESUMEN EJECUTIVO SALUD JULIO 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO PENSIONES JULIO 2024.pdf" ,
+              nombre:"2. JULIO -  RESUMEN EJECUTIVO PENSIONES JULIO 2024"
+            },
+
+              {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO SALUD AGOSTO 2024 (1).pdf" ,
+              nombre:"1. AGOSTO -  2. RESUMEN EJECUTIVO SALUD AGOSTO 2024"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO SALUD AGOSTO 2024 (1).pdf" ,
+              nombre:"2. AGOSTO -  2. RESUMEN EJECUTIVO SALUD AGOSTO 2024"
+            },
+
+              {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD SEPTIEMBRE 2024 (1).pdf" ,
+              nombre:"1. SEPTIEMBRE - RESUMEN EJECUTIVO SALUD SEPTIEMBRE 2024 "
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO PENSIONES SEPTIEMBRE 2024 (1).pdf" ,
+              nombre:"2. SEPTIEMBRE-  2. RESUMEN EJECUTIVO PENSIONES SEPTIEMBRE 2024"
+            },
+
+                {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO SALUD OCTUBRE 2024.pdf" ,
+              nombre:"1. OCTUBRE - 2. RESUMEN EJECUTIVO SALUD OCTUBRE 2024"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/1. RESUMEN EJECUTIVO SALUD NOVIEMBRE 2024.pdf" ,
+              nombre:"1. NOVIEMBRE - RESUMEN EJECUTIVO SALUD NOVIEMBRE 2024 "
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/2. RESUMEN EJECUTIVO PENSIONES NOVIEMBRE 2024.pdf" ,
+              nombre:"2. NOVIEMBRE -  RESUMEN EJECUTIVO PENSIONES NOVIEMBRE 2024"
+            },
+
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO PENSIONES DICIEMBRE 2024_ (1) (1).pdf" ,
+              nombre:"1. DICIEMBRE - RESUMEN EJECUTIVO PENSIONES DICIEMBRE 2024 "
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/2025/RESUMEN EJECUTIVO SALUD DICIEMBRE 2024 (1) (1).pdf" ,
+              nombre:"2. DICIEMBRE -  RESUMEN EJECUTIVO SALUD DICIEMBRE 2024 "
+            },
+           
+          ]
+          
+        },
+      
+      
       {	id:1,
         nombre: "Fichas EBI",
         acordion: [
