@@ -236,11 +236,19 @@ export class TransparenciaComponent {
             nombre: 'Informe Austeridad del Gasto I Semestre 2024',
             url: '/assets/files/transparencia/INFORME AUSTERIDAD I SEMESTRE SG.docx.pdf',
           },
+          
           {
             id: 8,
             tipo: 'pdf',
             nombre: 'Informe Austeridad del Gasto II Semestre 2024',
             url: '/assets/files/transparencia/INFORME II SEMESTRE 2024 AUSTERIDAD EN EL GASTO PUBLICO (2).pdf',
+          },
+
+           {
+            id: 8,
+            tipo: 'xlsx',
+            nombre: 'ESDESDIGFO23 FORMATO PLAN DE ACCION DE AUSTERIDAD EN EL GASTO PUBLICO II TRIMESTRE  2025 4.0',
+            url: '/assets/files/transparencia/ESDESDIGFO23 FORMATO PLAN DE ACCION DE AUSTERIDAD EN EL GASTO PUBLICO II TRIMESTRE  2025 4.0.xlsx',
           },
           {
             id: 6,
