@@ -101,7 +101,7 @@ export class PlaneacionGestionYControlComponent {
             id: 14,
             tipo: 'link-ext',
             nombre: 'Informe final Auditoría Contraloría FPS-FNC',
-            url: 'https://www.contraloria.gov.co/resultados/proceso-auditor/auditorias-liberadas/sector-social/auditorias-social-liberadas-ano-2018/-/asset_publisher/b5mCbBCyUQ8V/document/id/1098513?inheritRedirect=false&amp;redirect=https%3A%2F%2Fwww.contraloria.gov.co%3A443%2Fresultados%2Fproceso-auditor%2Fauditorias-liberadas%2Fsector-social%2Fauditorias-social-liberadas-ano-2018%3Fp_p_id%3D101_INSTANCE_b5mCbBCyUQ8V%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3D_118_INSTANCE_ssfLRJBnaAvd__column-1%26p_p_col_count%3D1%26_101_INSTANCE_b5mCbBCyUQ8V_advancedSearch%3Dfalse%26_101_INSTANCE_b5mCbBCyUQ8V_keywords%3D%26_101_INSTANCE_b5mCbBCyUQ8V_delta%3D20%26p_r_p_564233524_resetCur%3Dfalse%26_101_INSTANCE_b5mCbBCyUQ8V_cur%3D3%26_101_INSTANCE_b5mCbBCyUQ8V_andOperator%3Dtrue',
+            url: 'https://www.contraloria.gov.co/es/web/guest/resultados/proceso-auditor/auditorias-liberadas',
           },
           {
             id: 15,
