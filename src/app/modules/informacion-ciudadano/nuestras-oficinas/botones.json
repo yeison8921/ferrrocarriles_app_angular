@@ -1,14 +1,14 @@
 [
   {
     "title": "PETICIONES, QUEJAS Y RECLAMOS (PQRDSF)",
-    "href": "/participa/pqrs/222",
+    "href": "https://sedevirtual.fps.gov.co/",
     "iconClass": "fas fa-comments",
     "grid": "col-lg-3"
   },
 
   {
     "title": "CONSULTA DE SOLICITUDES",
-    "href": "#",
+    "href": "https://orfeo.fps.gov.co/orfeo/consultaWebMinSalud/",
     "iconClass": "fas fa-mouse",
     "grid": "col-lg-3"
   },
@@ -20,7 +20,7 @@
   },
   {
     "title": "ENCUESTA DE USABILIDAD",
-    "href": "#",
+    "href": "https://docs.google.com/forms/d/e/1FAIpQLSdaC7cP81_7V2-iVj0ViZAMM6s7cWNHfBbwdqbinnYtk0UXCA/viewform",
     "iconClass": "bi bi-search-heart",
     "grid": "col-lg-3"
   },
