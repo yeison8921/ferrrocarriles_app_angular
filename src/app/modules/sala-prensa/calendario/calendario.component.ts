@@ -14,26 +14,15 @@ export class CalendarioComponent {
     {
       id: 1,
       nombre: '2025',
-    },
-    {
-      id: 1,
-      nombre: '2024',
-    },
-    {
-      id: 1,
-      nombre: '2023',
-    },
-    {
-      id: 1,
-      nombre: '2022',
-    },
-    {
-      id: 1,
-      nombre: '2021',
-    },
-    {
-      id: 1,
-      nombre: '2020',
-    },
+       files: [
+          {
+            id: 1,
+            tipo: '',
+            url: '',
+            nombre: '19 DE JUNIO 2025  - EVENTO DE RENDICIÓN DE CUENTA Y AUDIENCIA PÚBLICA DE VIGENCIA 2024',
+          },
+         
+        ],
+    }
   ];
 }
