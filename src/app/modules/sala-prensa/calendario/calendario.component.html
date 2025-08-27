@@ -17,7 +17,7 @@
     <div ngbAccordionCollapse>
       <div ngbAccordionBody>
         <ul *ngIf="item.files?.length > 0; else sinEventos">
-          <li *ngFor="let file of item.files">
+          <li *ngFor="let file of item.files" style="list-style: none;">
             📅 {{ file.nombre }}
           </li>
         </ul>
