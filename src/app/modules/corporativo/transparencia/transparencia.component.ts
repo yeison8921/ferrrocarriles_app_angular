@@ -628,6 +628,12 @@ export class TransparenciaComponent {
             url: '/assets/files/transparencia/fps_politicas_tratamiento_datos.pdf',
           },
           {
+            id: 22,
+            tipo: 'pdf',
+            nombre: 'Política de Privacidad -Condiciones de Uso y Acceso a la Información del Sitio Web del FPS',
+            url: '/assets/files/transparencia/Política de Privacidad -Condiciones de Uso y Acceso a la Información del Sitio Web del FPS.pdf',
+          },
+          {
             id: 23,
             tipo: 'pdf',
             nombre: 'Repositorio Institucional Regional',
