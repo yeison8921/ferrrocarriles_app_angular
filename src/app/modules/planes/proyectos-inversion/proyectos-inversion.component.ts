@@ -15,7 +15,102 @@ export class ProyectosInversionComponent {
   constructor() {
     this.items = [
 
-       {
+    
+      
+      {	id:1,
+        nombre: "Fichas EBI",
+        acordion: [
+          {
+          id:1,
+          nombre: "2022",
+          files:
+          [
+          {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/01.%202022/2022-2018011000373-UNIDAD%20SALUD.pdf" ,
+            nombre:"2022-2018011000373-UNIDAD SALUD.pdf"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/01.%202022/2022-2019011000208-UNIDAD%20PENSIONES.pdf" ,
+            nombre:"2022-2019011000208-UNIDAD PENSIONES.pdf"
+          },
+          ]
+        },
+        {
+          id:2,
+          nombre: "2021",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/02.%202021/2021-2018011000373-UNIDAD%20SALUD.pdf" ,
+              nombre:"2021-2018011000373-UNIDAD SALUD.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/02.%202021/2021-2019011000208-UNIDAD%20PENSIONES.pdf" ,
+              nombre:"2021-2019011000208-UNIDAD PENSIONES.pdf"
+            },
+          ]
+        },
+        {
+          id:3,
+          nombre: "2020",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/03.%202020/2020-2018011000373-UNIDAD%20SALUD.pdf" ,
+              nombre:"2020-2018011000373-UNIDAD SALUD.pdf"
+            },
+            {
+              id:2,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/03.%202020/2020-2019011000208-UNIDAD%20PENSIONES.pdf",
+              nombre:"2020-2019011000208-UNIDAD PENSIONES.pdf"
+            },
+          ]
+        },
+        {
+          id:4,
+          nombre: "2019",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/04.%202019/PROYECTOS_INVERSION_2019.pdf" ,
+              nombre:"PROYECTOS_INVERSION_2019.pdf"
+            },
+          ]
+        },
+        {
+          id:5,
+          nombre: "2018",
+          files:
+          [
+            {
+              id:1,
+              tipo: "pdf",
+              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/05.%202018/PROYECTOS_INVERSION_2018.pdf" ,
+              nombre:"PROYECTOS_INVERSION_2018.pdf"
+            },
+          ]
+        }
+        ]
+      },
+      {
+        id:2,
+        nombre: "Ejecución Presupuestal",
+        acordion:
+        [
+              {
           id:2,
           nombre: "2025",
           files:
@@ -234,113 +329,6 @@ export class ProyectosInversionComponent {
           
         },
       
-      
-      {	id:1,
-        nombre: "Fichas EBI",
-        acordion: [
-          {
-          id:1,
-          nombre: "2022",
-          files:
-          [
-          {
-            id:1,
-            tipo: "pdf",
-            url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/01.%202022/2022-2018011000373-UNIDAD%20SALUD.pdf" ,
-            nombre:"2022-2018011000373-UNIDAD SALUD.pdf"
-          },
-          {
-            id:2,
-            tipo: "pdf",
-            url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/01.%202022/2022-2019011000208-UNIDAD%20PENSIONES.pdf" ,
-            nombre:"2022-2019011000208-UNIDAD PENSIONES.pdf"
-          },
-          ]
-        },
-        {
-          id:2,
-          nombre: "2021",
-          files:
-          [
-            {
-              id:1,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/02.%202021/2021-2018011000373-UNIDAD%20SALUD.pdf" ,
-              nombre:"2021-2018011000373-UNIDAD SALUD.pdf"
-            },
-            {
-              id:2,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/02.%202021/2021-2019011000208-UNIDAD%20PENSIONES.pdf" ,
-              nombre:"2021-2019011000208-UNIDAD PENSIONES.pdf"
-            },
-          ]
-        },
-        {
-          id:3,
-          nombre: "2020",
-          files:
-          [
-            {
-              id:1,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/03.%202020/2020-2018011000373-UNIDAD%20SALUD.pdf" ,
-              nombre:"2020-2018011000373-UNIDAD SALUD.pdf"
-            },
-            {
-              id:2,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/03.%202020/2020-2019011000208-UNIDAD%20PENSIONES.pdf",
-              nombre:"2020-2019011000208-UNIDAD PENSIONES.pdf"
-            },
-          ]
-        },
-        {
-          id:4,
-          nombre: "2019",
-          files:
-          [
-            {
-              id:1,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/04.%202019/PROYECTOS_INVERSION_2019.pdf" ,
-              nombre:"PROYECTOS_INVERSION_2019.pdf"
-            },
-          ]
-        },
-        {
-          id:5,
-          nombre: "2018",
-          files:
-          [
-            {
-              id:1,
-              tipo: "pdf",
-              url:"/assets/files/planes/proyectos_inversion/1/Fichas%20EBI/05.%202018/PROYECTOS_INVERSION_2018.pdf" ,
-              nombre:"PROYECTOS_INVERSION_2018.pdf"
-            },
-          ]
-        }
-        ]
-      },
-      {
-        id:2,
-        nombre: "Ejecución Presupuestal",
-        acordion:
-        [
-           {
-            id:1,
-            nombre: "2024",
-            files:
-            [
-              {
-                id:1,
-                tipo: "pdf",
-                url:"/assets/files/planes/proyectos_inversion/2/Ejecuci%c3%b3n%20Presupuestal/01.%202023/EJECUCION%20PRESUPUESTAL%20EN-MAR%202023.pdf" ,
-                nombre:"EJECUCION PRESUPUESTAL EN-MAR 2023.pdf"
-              },
-            ]
-          },
           {
             id:1,
             nombre: "2023",
