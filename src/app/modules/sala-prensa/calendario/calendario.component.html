@@ -1,19 +1,30 @@
 <h1 class="titulo-h1">CALENDARIO</h1>
+
 <div ngbAccordion>
   <div
     ngbAccordionItem
     [collapsed]="true"
     *ngFor="let item of items; let i = index"
   >
+    <!-- Encabezado del acordeón -->
     <div ngbAccordionHeader>
       <button ngbAccordionButton>
-        <span>{{ i + 1 }}</span
-        >{{ item.nombre }}
+        <span>{{ i + 1 }}.</span> {{ item.nombre }}
       </button>
     </div>
+
+    <!-- Cuerpo del acordeón -->
     <div ngbAccordionCollapse>
       <div ngbAccordionBody>
-        <ng-template> </ng-template>
+        <ul *ngIf="item.files?.length > 0; else sinEventos">
+          <li *ngFor="let file of item.files">
+            📅 {{ file.nombre }}
+          </li>
+        </ul>
+
+        <ng-template #sinEventos>
+          <p>No hay eventos registrados.</p>
+        </ng-template>
       </div>
     </div>
   </div>
