@@ -262,19 +262,18 @@ export class SubmenuComponent {
             url: '/atencion-al-usuario/glosario/117',
             active: false,
           },
-          {
+         /* {
             id: 2,
             nombre: 'Encuesta de satisfacción',
             url: '/atencion-al-usuario/encuesta-de-satisfaccion/214',
             active: false,
-          },
-        /*  {
+          },*/
+        {
             id: 4,
             nombre: 'Encuesta de Usabilidad FPSFNC',
-            //url: '/atencion-al-usuario/encuesta-de-usabilidad-fpsfnc/232',
-            url: '',
+            url: 'https://docs.google.com/forms/d/e/1FAIpQLSdaC7cP81_7V2-iVj0ViZAMM6s7cWNHfBbwdqbinnYtk0UXCA/viewform',
             active: false,
-          },*/
+          },
           {
             id: 3,
             nombre:
