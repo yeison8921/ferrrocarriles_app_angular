@@ -14,6 +14,66 @@ export class InformesFiscalesComponent {
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+       {
+        id: 1,
+        nombre: '2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            nombre: 'PLAN ESTRATÉGICO FPS FNC 2024.xlsx',
+            url: '/assets/files/informe_fiscal/2023/PLAN ESTRATÉGICO FPS FNC 2024.xlsx',
+          },
+           {
+            id: 1,
+            tipo: 'excel',
+            nombre: 'CUENTA O INFORME ANUAL CONSOLIDADO.xlsx',
+            url: '/assets/files/informe_fiscal/2023/51_000000456_20241231.xlsx',
+          },
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'ESTADOS FINANCIEROS FPS FNC 2024.pdf',
+            url: '/assets/files/informe_fiscal/2023/ESTADOS FINANCIEROS FPS FNC 2024.pdf',
+          },
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '456_Certificado CGR.pdf',
+            url: '/assets/files/informe_fiscal/2023/456_Certificado.pdf',
+          },
+        ],
+      },
+       {
+        id: 1,
+        nombre: '2023',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            nombre: 'PLAN ESTRATEGICO FPS 2022 - SIRECI.xlsx',
+            url: '/assets/files/informe_fiscal/2023/PLAN ESTRATEGICO FPS 2022 - SIRECI.xlsx',
+          },
+           {
+            id: 1,
+            tipo: 'excel',
+            nombre: 'CUENTA O INFORME ANUAL CONSOLIDADO.xlsx',
+            url: '/assets/files/informe_fiscal/2023/51_000000456_20221231.xlsx',
+          },
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'JUSTIFICACION DE NO APLICACION DOCUMENTO ELECTRONICO F8.7.pdf',
+            url: '/assets/files/informe_fiscal/2023/JUSTIFICACION DE NO APLICACION DOCUMENTO ELECTRONICO F8.7.pdf',
+          },
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '456_Certificado CGR.pdf',
+            url: '/assets/files/informe_fiscal/2023/456_Certificado (10).pdf',
+          },
+        ],
+      },
       {
         id: 1,
         nombre: '2019',

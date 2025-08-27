@@ -15,6 +15,72 @@ export class InformeCamaraRepresentantesComponent {
 
   constructor() {
     this.items = [
+       {
+        id: 2,
+        nombre: '2023',
+        files: [
+          {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 1-20240508T160718Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 1-20240508T160718Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 2-20240508T160727Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 2-20240508T160727Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 3-20240508T160741Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 3-20240508T160741Z-001.zip',
+          },
+          {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 5-20240508T160750Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 5-20240508T160750Z-001.zip',
+          },
+          {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 6-20240508T160759Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 6-20240508T160759Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 11-20240508T160812Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 11-20240508T160812Z-001.zip',
+          },
+          {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 12-20240508T160826Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 12-20240508T160826Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 13-20240508T160902Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 13-20240508T160902Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'zip',
+            nombre: 'PUNTO 14-20240508T160912Z-001',
+            url: '/assets/files/camara_representantes/2024/PUNTO 14-20240508T160912Z-001.zip',
+          },
+           {
+            id: 2,
+            tipo: 'pdf',
+            nombre: 'GITC - 202404200023801RESPUESTA REQUERIMIENTO INFORMACIÓN PRESUPUESTAL Y CONTABLE VIGENCIA 2023',
+            url: '/assets/files/camara_representantes/2024/GITC - 202404200023801Respuesta requerimiento información presupuestal y contable vigencia 2023.pdf',
+          },
+        ],
+      },
       {
         id: 1,
         nombre: '2022',

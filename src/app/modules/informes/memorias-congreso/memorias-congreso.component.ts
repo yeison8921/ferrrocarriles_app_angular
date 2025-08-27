@@ -16,6 +16,30 @@ export class MemoriasCongresoComponent {
     this.items = [
       {
         id: 1,
+        nombre: '2024',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'INFORME DE GESTIÓN AL CONGRESO  2024 FONFERROCARRILES 09 DE JUNIO.pdf',
+            url: '/assets/files/memorias_congreso/2025/Informe de Gestión al Congreso  2024-2025 Fonferrocarriles 09 de JUNIO (2).pdf',
+          },
+        ],
+      },
+       {
+        id: 1,
+        nombre: '2023',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'INFORME DE GESTIÓN AL CONGRESO  JUNIO 2023- MAYO 2024  FPS-FNC.pdf',
+            url: '/assets/files/memorias_congreso/2025/Informe de Gestión al Congreso  Junio 2023- Mayo 2024  FPS-FNC.pdf',
+          },
+        ],
+      },
+      {
+        id: 1,
         nombre: '2022',
         files: [
           {
