@@ -12,12 +12,7 @@
     "iconClass": "fas fa-mouse",
     "grid": "col-lg-3"
   },
-  {
-    "title": "ENCUESTA DE SATISFACCIÓN",
-    "href": "/atencion-al-usuario/encuesta-de-satisfaccion/214",
-    "iconClass": "fas fa-poll-h",
-    "grid": "col-lg-3"
-  },
+ 
   {
     "title": "ENCUESTA DE USABILIDAD",
     "href": "https://docs.google.com/forms/d/e/1FAIpQLSdaC7cP81_7V2-iVj0ViZAMM6s7cWNHfBbwdqbinnYtk0UXCA/viewform",
