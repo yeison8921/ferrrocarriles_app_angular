@@ -627,7 +627,8 @@ export class TransparenciaComponent {
             nombre: 'Política de tratamiento de datos personales',
             url: '/assets/files/transparencia/fps_politicas_tratamiento_datos.pdf',
           },
-          {
+         
+           {
             id: 22,
             tipo: 'pdf',
             nombre: 'Política de Privacidad -Condiciones de Uso y Acceso a la Información del Sitio Web del FPS',
