@@ -56,6 +56,13 @@ export class RendicionCuentasComponent {
             nombre: '06. ACTA RENDICIÓN DE CUENTAS VIGENCIA 2024.PDF',
             url: '/assets/files/rendicion_cuentas/2025/Acta Rendicion de Cuentas Vigencia 2024 -Ajustada-1.pdf',
           },
+
+           {
+            id: 1,
+            tipo: 'pptx',
+            nombre: '07. PRESENTACIÓN RENDICIÓN DE CUENTAS FPS 2024.pptx',
+            url: '/assets/files/rendicion_cuentas/2025/Presentación Rendición de Cuentas FPS 2024.pptx',
+          },
           
         ]
       },
