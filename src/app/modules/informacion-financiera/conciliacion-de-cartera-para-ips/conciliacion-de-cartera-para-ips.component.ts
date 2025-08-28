@@ -44,6 +44,12 @@ export class ConciliacionDeCarteraParaIpsComponent {
                 "nombre": "CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Agosto",
                 "url": "assets/files/conciliacion_cartera_ips/2025/CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Agosto.xlsx"
               },
+              {
+                "id": 8,
+                "tipo": "excel",
+                "nombre": "CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Septiembre",
+                "url": "assets/files/conciliacion_cartera_ips/2025/CRONOGRAMA - Glosas_Conciliar - atenciones urgencias x fuera red_Septiembre.xlsx"
+              },
             ]
           },
          
