@@ -59,9 +59,9 @@ export class RendicionCuentasComponent {
 
            {
             id: 1,
-            tipo: 'pptx',
-            nombre: '07. PRESENTACIÓN RENDICIÓN DE CUENTAS FPS 2024.pptx',
-            url: '/assets/files/rendicion_cuentas/2025/Presentación Rendición de Cuentas FPS 2024.pptx',
+            tipo: 'pdf',
+            nombre: '07. PRESENTACIÓN RENDICIÓN DE CUENTAS FPS 2024.pdf',
+            url: '/assets/files/rendicion_cuentas/2025/Presentación Rendición de Cuentas FPS 2024.pdf',
           },
           
         ]
