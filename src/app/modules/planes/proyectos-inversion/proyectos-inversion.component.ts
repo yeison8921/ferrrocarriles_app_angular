@@ -42,6 +42,28 @@ export class ProyectosInversionComponent {
           ]
 
       },
+       {
+          id:2,
+          nombre: "2024",
+          files:
+          [
+
+               {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 002 DE 2024 - DESAGREGAN CUENTAS GASTOS FPS 2024.pdf",
+            nombre:"RESOLUCIÓN 002 DE 2024 - DESAGREGAN CUENTAS GASTOS FPS 2024"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 001 DE 2024 - DESAGREGAN CUENTAS INGRESO FPS 2024.pdf",
+            nombre:"RESOLUCIÓN 001 DE 2024 - DESAGREGAN CUENTAS INGRESO FPS 2024"
+          },
+
+          ]
+
+      },
         {
           id:2,
           nombre: "2023",
