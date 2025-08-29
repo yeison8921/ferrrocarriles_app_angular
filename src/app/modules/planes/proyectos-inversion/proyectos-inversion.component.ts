@@ -20,6 +20,44 @@ export class ProyectosInversionComponent {
       {	id:1,
         nombre: "Fichas EBI",
         acordion: [
+           {
+          id:1,
+          nombre: "2025",
+          files:
+          [
+          {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/Ficha De Proyecto 202300000000341.pdf" ,
+            nombre:"Ficha De Proyecto 202300000000341.pdf"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/Ficha De Proyecto 202300000000339.pdf" ,
+            nombre:"Ficha De Proyecto 202300000000339.pdf"
+          },
+          ]
+        },
+           {
+          id:1,
+          nombre: "2024",
+          files:
+          [
+          {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/Ficha De Proyecto 202300000000341.pdf" ,
+            nombre:"Ficha De Proyecto 202300000000341.pdf"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/Ficha De Proyecto 202300000000339.pdf" ,
+            nombre:"Ficha De Proyecto 202300000000339.pdf"
+          },
+          ]
+        },
           {
           id:1,
           nombre: "2022",
