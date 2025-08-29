@@ -749,6 +749,12 @@ export class SubmenuComponent {
             url: '/normatividad/235',
             active: false,
           },
+          {
+            id: 6,
+            nombre: 'Consulta SUIN',
+            url: 'https://www.suin-juriscol.gov.co/legislacion/normatividad.html',
+            active: false,
+          },
         ],
       },
       {
