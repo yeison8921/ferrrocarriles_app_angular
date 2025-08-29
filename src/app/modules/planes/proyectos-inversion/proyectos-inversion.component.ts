@@ -41,6 +41,28 @@ export class ProyectosInversionComponent {
 
           ]
 
+      },
+        {
+          id:2,
+          nombre: "2023",
+          files:
+          [
+
+           {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 1928 DE 2022 - DESAGREGAN CUENTAS INGRESO FPS PARA 2023.pdf",
+            nombre:"RESOLUCIÓN 1928 DE 2022 - DESAGREGAN CUENTAS INGRESO FPS PARA 2023"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 1929 DE 2022 - DESAGREGAN CUENTAS GASTO FPS PARA 2023.pdf",
+            nombre:"RESOLUCIÓN 1929 DE 2022 - DESAGREGAN CUENTAS GASTO FPS PARA 2023"
+          },
+
+          ]
+
       }
     ]
     },

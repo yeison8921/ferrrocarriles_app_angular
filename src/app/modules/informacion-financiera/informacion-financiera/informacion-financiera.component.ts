@@ -625,6 +625,26 @@ export class InformacionFinancieraComponent {
         acordion: [
           {
             id: 1,
+            nombre: 'Desegregación presupuesto 2023',
+            files: [
+                {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 1928 DE 2022 - DESAGREGAN CUENTAS INGRESO FPS PARA 2023.pdf",
+            nombre:"RESOLUCIÓN 1928 DE 2022 - DESAGREGAN CUENTAS INGRESO FPS PARA 2023"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 1929 DE 2022 - DESAGREGAN CUENTAS GASTO FPS PARA 2023.pdf",
+            nombre:"RESOLUCIÓN 1929 DE 2022 - DESAGREGAN CUENTAS GASTO FPS PARA 2023"
+          },
+
+            ],
+          },
+          
+          {
+            id: 1,
             nombre: 'ENERO',
             files: [
               {
