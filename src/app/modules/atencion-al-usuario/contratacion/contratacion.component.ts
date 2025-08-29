@@ -593,12 +593,12 @@ export class ContratacionComponent {
         acordion: [
           {
             id: 1,
-            nombre: 'GESTION CONTRACTUAL SECOP',
+            nombre: '',
             files: [
               {
                 id: 1,
                 tipo: 'link',
-                nombre: 'GESTION CONTRACTUAL SECOP',
+                nombre: 'GESTIÓN CONTRACTUAL SECOP',
                 url: 'https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-CO&Page=login&Country=CO&SkinName=CCE',
               },
             ],
