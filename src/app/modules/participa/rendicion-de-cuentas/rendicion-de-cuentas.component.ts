@@ -37,7 +37,7 @@ export class RendicionDeCuentasComponent {
               id: 1,
               tipo: "pdf",
               url: "/assets/files/rendicion_cuentas/ESDESOPSES01 ESTRATEGIA RENDICION DE CUENTAS 2023 2026 V1.pdf",
-              nombre: ""
+              nombre: "ESDESOPSES01 ESTRATEGIA RENDICION DE CUENTAS 2023 2026 V1.pdf"
             }
           ],
         },
