@@ -17,7 +17,7 @@ export class ProyectosInversionComponent {
 
       {
         id:2,
-        nombre: "DESAGREGACIÓN DE PRESUPUESTO ",
+        nombre: "Desagregación de presupuesto ",
         acordion:
         [
               {
