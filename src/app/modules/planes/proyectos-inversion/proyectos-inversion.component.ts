@@ -15,7 +15,35 @@ export class ProyectosInversionComponent {
   constructor() {
     this.items = [
 
-    
+      {
+        id:2,
+        nombre: "DESAGREGACIÓN DE PRESUPUESTO ",
+        acordion:
+        [
+              {
+          id:2,
+          nombre: "2025",
+          files:
+          [
+
+             {
+            id:1,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 002 DE 2025 - DESAGREGAN CUENTAS GASTOS FPS 2025.pdf",
+            nombre:"RESOLUCIÓN 002 DE 2025 - DESAGREGAN CUENTAS GASTOS FPS 2025.pdf"
+          },
+          {
+            id:2,
+            tipo: "pdf",
+            url:"/assets/files/planes/proyectos_inversion/2025/RESOLUCIÓN 001 DE 2025 - DESAGREGAN CUENTAS INGRESO FPS 2025.pdf",
+            nombre:"RESOLUCIÓN 001 DE 2025 - DESAGREGAN CUENTAS INGRESO FPS 2025"
+          },
+
+          ]
+
+      }
+    ]
+    },
       
       {	id:1,
         nombre: "Fichas EBI",
