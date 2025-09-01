@@ -17,15 +17,8 @@
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
         "phone": "3817171 Ext. 1988"
-      },
-      {
-        "name": "EDUIN FERNANDO PACHÓN MEDINA",
-        "position": "CONDUCTOR MECÁNICO",
-        "email": "N/A",
-        "location": "Sede Administrativa",
-        "city": "BOGOTÁ D.C.",
-        "phone": "3817171 Ext. 1945"
       }
+      
     ]
   },
   {
@@ -46,15 +39,8 @@
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
         "phone": "3817171 Ext. 1963"
-      },
-      {
-        "name": "DIANA PAOLA CHURQUE MEDINA",
-        "position": "SECRETARIO EJECUTIVO (Nom PP)",
-        "email": "diana.churque@gps.gov.co",
-        "location": "Sede administrativa",
-        "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1963"
       }
+    
     ]
   },
   {
@@ -88,6 +74,22 @@
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
         "phone": "3817171 Ext. 1988"
+      },
+      {
+        "name": "JENNY CAROLINA SANABRIA",
+        "position": "SECRETARIA EJECUTIVA",
+        "email": "jenny.sanabria@fps.gov.co",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C.",
+        "phone": "N/A"
+      },
+      {
+        "name": "EDUIN FERNANDO PACHÓN MEDINA",
+        "position": "CONDUCTOR MECÁNICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C.",
+        "phone": "3817171 Ext. 1945"
       }
     ]
   },
@@ -103,12 +105,12 @@
         "phone": "3817171 Ext. 1903"
       },
       {
-        "name": "CLARA CECILIA RODRIGUEZ PACHO",
-        "position": "AUXILIAR ADMINISTRATIVO Grado 20",
-        "email": "clara.rodriguez@fps.gov.co",
-        "location": "Punto de Atención a ciudadanos",
+        "name": "JIMENA SANCHEZ ROBAYO",
+        "position": "AUXILIAR ADMINISTRATIVO",
+        "email": "jimena.sanchez@fps.gov.co",
+        "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1900"
+        "phone": "N/A"
       },
       {
         "name": "CARLOS DAVID GONZALEZ AMELL",
@@ -200,14 +202,7 @@
         "city": "BOGOTÁ D.C",
         "phone": "3817171 Ext. 1944"
       },
-      {
-        "name": "JIMENA SANCHEZ ROBAYO",
-        "position": "AUXILIAR SERVICIOS GENERALES (Nom PP)",
-        "email": "N/A",
-        "location": "Sede Administrativa",
-        "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1942"
-      },
+      
       {
         "name": "JULIO CESAR GAMEZ GONZALEZ",
         "position": "CONDUCTOR MECANICO",
