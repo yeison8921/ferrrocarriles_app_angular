@@ -440,6 +440,19 @@ export class ContratacionComponent {
         id: 2,
         nombre: 'SELECCIÓN ABREVIADA',
         acordion: [
+           {
+            id: 2,
+            nombre: '2024',
+            files: [
+              {
+                id: 5,
+                tipo: 'excel',
+                nombre: 'SELECCIÓN ABREVIADA MENOR CUANTÍA Y SUBSATA INVERSA 2024',
+                url: 'assets/files/contract/SELECCIÓN ABREVIADA MENOR CUANTÍA Y SUBSATA INVERSA 2024.xlsx',
+              },
+             
+            ],
+          },
           {
             id: 1,
             nombre: '2023',
