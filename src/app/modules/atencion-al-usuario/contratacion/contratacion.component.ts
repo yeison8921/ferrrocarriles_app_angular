@@ -521,6 +521,18 @@ export class ContratacionComponent {
         id: 3,
         nombre: 'ÓRDENES DE COMPRA',
         acordion: [
+            {
+            id: 1,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: 'BASE DE DATOS FPS 2025 - ORDENES DE COMPRA',
+                url: 'assets/files/contract/ORDENES DE COMPRA A 31 DE 2025.xlsm',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2024',
