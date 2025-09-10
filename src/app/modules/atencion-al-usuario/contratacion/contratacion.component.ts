@@ -529,7 +529,7 @@ export class ContratacionComponent {
                 id: 1,
                 tipo: 'excel',
                 nombre: 'BASE DE DATOS FPS 2025 - ORDENES DE COMPRA',
-                url: 'assets/files/contract/ORDENES DE COMPRA A 31 DE 2025.xlsm',
+                url: 'assets/files/contract/ORDENES DE COMPRA A 31 DE 2025.xlsx',
               },
             ],
           },
