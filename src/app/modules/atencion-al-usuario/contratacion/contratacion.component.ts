@@ -365,6 +365,18 @@ export class ContratacionComponent {
               },
             ],
           },
+           {
+            id: 2,
+            nombre: '2024',
+            files: [
+              {
+                id: 5,
+                tipo: 'excel',
+                nombre: 'INVITACION PUBLICA DE MINIMA CUANTIA 2024',
+                url: 'assets/files/contract/INVITACION PUBLICA DE MINIMA CUANTIA 2024.xlsx',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2023',
