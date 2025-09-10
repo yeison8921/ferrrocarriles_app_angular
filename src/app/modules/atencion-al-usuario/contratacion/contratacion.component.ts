@@ -607,6 +607,12 @@ export class ContratacionComponent {
                 nombre: 'GESTIÓN CONTRACTUAL SECOP',
                 url: 'https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index?currentLanguage=es-CO&Page=login&Country=CO&SkinName=CCE',
               },
+              {
+                id: 1,
+                tipo: 'excel',
+                nombre: ' Sábana Contratos SECOP II',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/SECOP_II_-_Contratos_Electrónicos_20250905.xlsx',
+              },
             ],
           },
           
