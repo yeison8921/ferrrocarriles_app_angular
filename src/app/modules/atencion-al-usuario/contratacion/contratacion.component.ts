@@ -354,6 +354,18 @@ export class ContratacionComponent {
         nombre: 'MINIMA CUANTIA',
         acordion: [
           {
+            id: 2,
+            nombre: '2025',
+            files: [
+              {
+                id: 5,
+                tipo: 'excel',
+                nombre: 'INVITACION PUBLICA DE MINIMA CUANTIA A AGOSTO DE 2025',
+                url: 'assets/files/contract/INVITACION PUBLICA DE MINIMA CUANTIA A AGOSTO DE 2025.xlsx',
+              },
+            ],
+          },
+          {
             id: 1,
             nombre: '2023',
             files: [
