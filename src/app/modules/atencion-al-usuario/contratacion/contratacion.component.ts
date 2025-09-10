@@ -611,7 +611,7 @@ export class ContratacionComponent {
                 id: 1,
                 tipo: 'excel',
                 nombre: ' Sábana Contratos SECOP II',
-                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/SECOP_II_-_Contratos_Electrónicos_20250905.xlsx',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/SECOPIIContratosElectrónicos20250905.csv',
               },
             ],
           },
