@@ -22,7 +22,7 @@ export class ManualesComponent {
       {
         id:2,
         tipo: "pdf",
-        url:"/assets/files/atencion_al_usuario/manuales/MANUAL_DE_CONTRATACION.pdf",
+        url:"/assets/files/atencion_al_usuario/manuales/APGCSGEMS01 MANUAL DE CONTRATACIÓN Y SUPERVISIÓN V7.pdf",
         nombre: "MANUAL_DE_CONTRATACION.pdf"
       },
       {
