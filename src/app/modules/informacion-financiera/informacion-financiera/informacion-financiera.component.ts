@@ -266,7 +266,7 @@ export class InformacionFinancieraComponent {
               }
             ],
           },
-          
+         
          
         ],
       },
