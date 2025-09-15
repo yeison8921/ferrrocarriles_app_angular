@@ -197,7 +197,7 @@ export class InformacionFinancieraComponent {
           },
 
           
-                    {
+         {
             id: 1,
             nombre: 'JUNIO',
             files: [
@@ -231,6 +231,38 @@ export class InformacionFinancieraComponent {
                 tipo: 'pdf',
                 nombre: 'REP_ING031_INFORMEEJECUCIONPRESUPUESTAL INGRESOS DECRETO LIQ JUNIO 30 2025.PDF',
                 url: 'assets/files/presupuesto/2025/JUNIO/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQ JUNIO 30 2025.pdf',
+              }
+            ],
+          },
+
+             {
+            id: 1,
+            nombre: 'JULIO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION A JULIO 31 2025.pdf',
+                url: 'assets/files/presupuesto/2025/JULIO/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION A JULIO 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'REP_EPG034_EjecucionPresupuestalAgregada  RESERVAS DECRETO LIQUIDACION A JULIO 31 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JULIO/REP_EPG034_EjecucionPresupuestalAgregada  RESERVAS DECRETO LIQUIDACION A JULIO 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO_ 31 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JULIO/REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO_ 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO 31 2025.PDF',
+                url: 'assets/files/presupuesto/2025/JULIO/REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO 31 2025.pdf',
               }
             ],
           },
