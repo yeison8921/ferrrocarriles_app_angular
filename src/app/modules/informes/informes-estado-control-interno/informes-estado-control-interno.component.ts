@@ -1182,6 +1182,25 @@ export class InformesEstadoControlInternoComponent {
         acordion: [
           {
             id: 1,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'Certificación control interno  ekogui_2025 I sem Fondo Pasivo Social Ferrocarriles Nacionales de Colombia.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/2025/Certificacion control interno  ekogui_2025 I sem Fondo Pasivo Social Ferrocarriles Nacionales de Colombia.pdf',
+              },
+              {
+                id: 2,
+                tipo: 'excel',
+                nombre:
+                  'plantilla_control_interno_ekogui_2025 I sem Fondo Pasivo Social Ferrocarriles Nacionales de Colombia.xlsx',
+                url: '/assets/files/estado_sistema_oci/Informe y certificación de la Información Litigiosa del Estado Ekogui/2025/plantilla_control_interno_ekogui_2025 I sem Fondo Pasivo Social Ferrocarriles Nacionales de Colombia.xlsx',
+              },
+            ],
+          },
+          {
+            id: 1,
             nombre: '2024',
             files: [
               {
