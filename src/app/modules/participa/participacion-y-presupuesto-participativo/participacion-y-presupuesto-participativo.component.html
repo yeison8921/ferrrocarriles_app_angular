@@ -92,33 +92,31 @@
         href="/planeacion-gestion-y-control/plan-anual-de-adquisiciones/198"
       >
         <i class="bi bi-search"></i>
-       Consultar aquí
+        Consultar aquí
       </a>
     </div>
   </div>
 
   <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen">
-    <img src="/assets/img/links/PIEZAS.png" alt=""  style="border-radius:9px"/>
+    <img src="/assets/img/links/PIEZAS.png" alt="" style="border-radius: 9px" />
     <div>
       <h5 class="text-white"></h5>
       <a
         class="btn-azul-o"
-      href="https://www.fps.gov.co/planeacion-gestion-y-control/transparencia-etica-publica/357"
+        href="https://www.fps.gov.co/planeacion-gestion-y-control/transparencia-etica-publica/357"
       >
         <i class="bi bi-search"></i>
         Consultar aquí
       </a>
     </div>
   </div>
-</div>
-
   <div class="col-12 col-md-6 col-lg-12 col-xl-6 cuadro-imagen">
-    <img src="/assets/img/links/PIEZAS1.png" alt=""  style="border-radius:9px"/>
+    <img src="/assets/img/links/PIEZAS1.png" alt="" style="border-radius: 9px" />
     <div>
       <h5 class="text-white"></h5>
       <a
         class="btn-azul-o"
-      href="https://www.fps.gov.co/planeacion-gestion-y-control/plan-de-participacion-ciudadana/73"
+        href="https://www.fps.gov.co/planeacion-gestion-y-control/plan-de-participacion-ciudadana/73"
       >
         <i class="bi bi-search"></i>
         Consultar aquí
@@ -133,29 +131,24 @@
     <span class="icon govco-server"></span>Listado de documentos
   </h3>
   <div ngbAccordion>
-    <div
-      ngbAccordionItem
-      [collapsed]="true"
-      *ngFor="let item of items; let i = index"
-    >
+    <div *ngFor="let item of items; let i = index" ngbAccordionItem>
       <div ngbAccordionHeader>
         <button ngbAccordionButton>
-          <span>{{ i + 1 }}</span
-          >{{ item.nombre }}
+          <span>{{ i + 1 }}</span>
+          {{ item.nombre }}
         </button>
       </div>
       <div ngbAccordionCollapse>
         <div ngbAccordionBody>
-          <ng-template>
-            <a
-              *ngFor="let file of item.files"
-              class="link-file"
-              href="{{ file.url }}"
-              target="_blank"
-              ><i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i
-              >{{ file.nombre }}</a
-            >
-          </ng-template>
+          <a
+            *ngFor="let file of item.files"
+            class="link-file"
+            [href]="file.url"
+            target="_blank"
+          >
+            <i class="bi bi-file-earmark-{{ file.tipo }}-fill"></i>
+            {{ file.nombre }}
+          </a>
         </div>
       </div>
     </div>
