@@ -5,6 +5,7 @@ interface Informacion {
   location: string;
   city: string;
   phone: string;
+  hv: string;
 }
 
 export interface Funcionario {
