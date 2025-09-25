@@ -3,7 +3,7 @@ interface Informacion {
   position: string;
   email: string;
   location: string;
-  city: string;
+   city: string;
    phone: string;
    hv?: string;
 }
