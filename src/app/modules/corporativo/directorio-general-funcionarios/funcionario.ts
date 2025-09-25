@@ -4,7 +4,7 @@ interface Informacion {
   email: string;
   location: string;
   city: string;
-  phone: string;
+   phone: string;
    hv: string;
 }
 
