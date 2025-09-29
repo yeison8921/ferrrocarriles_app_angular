@@ -14,6 +14,28 @@ export class PlanSeguridadComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+       {
+        id:1,
+        nombre:"MODELO DE SEGURIDAD Y PRIVACIDAD DE LA INFORMACIÓN (MSPI)",
+        acordion:
+        [
+          {
+            id:1,
+            nombre:"2025",
+            files: [
+              {
+                id:1,
+                tipo:"link",
+                url:"https://sig.fps.gov.co/suiteve/base/customConceptve?soa=8&_sveVrs=1005020250801&&clazz=3000027&mod=gsi&mdl2=gsi&sName=Activos%20de%20informaci%f3n&modId=262304&mis=gsi-91d0340d5bc52208d42d0d0b5c157345723e8056-32",
+                nombre: "MODELO DE SEGURIDAD Y PRIVACIDAD DE LA INFORMACIÓN (MSPI)"
+              },
+
+            ]
+          },
+         
+        ]
+      },
+
       {
         id:1,
         nombre:"PLAN_SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION",
