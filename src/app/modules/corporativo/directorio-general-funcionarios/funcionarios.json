@@ -66,7 +66,7 @@
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
         "phone": "3817171 Ext. 1952",
-        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S97894-0932-4"
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S179853-0932-4"
       }
     ]
   },
@@ -121,7 +121,8 @@
         "email": "jimena.sanchez@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "N/A"
+        "phone": "N/A",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S3400778-0932-4"
       },
       {
         "name": "CARLOS DAVID GONZALEZ AMELL",
@@ -129,7 +130,8 @@
         "email": "carlos.gonzalez@fps.gov.co",
         "location": "Punto de Atención a ciudadanos",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1973"
+        "phone": "3817171 Ext. 1973",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S4008504-0932-4"
       }
     ]
   },
@@ -142,7 +144,8 @@
         "email": "ana.feris@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1939"
+        "phone": "3817171 Ext. 1939",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S272259-0932-4"
       },
       {
         "name": "NOHORA CLEMENCIA SANABRIA AGUILAR",
@@ -150,7 +153,8 @@
         "email": "nohora.sanabria@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1939"
+        "phone": "3817171 Ext. 1939",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S114986-0932-4"
       },
       {
         "name": "SILVANO MARTINEZ LOPEZ",
@@ -158,15 +162,17 @@
         "email": "silvano.martinez@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1940"
+        "phone": "3817171 Ext. 1940",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S100878-0932-4"
       },
       {
-        "name": "NELLY RINCÓN LEÓN",
-        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
-        "email": "nelly.rincon@fps.gov.co",
+        "name": "TEHERAN SERPA JOSE MIGUEL",
+        "position": "AUXILIAR ADMINISTRATIVO GRADO 20",
+        "email": "jose.teheran@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1962"
+        "phone": "3817171 Ext. 1962",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S5086748-0932-4"
       }
     ]
   },
