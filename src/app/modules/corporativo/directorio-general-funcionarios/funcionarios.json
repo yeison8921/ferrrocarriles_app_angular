@@ -185,7 +185,8 @@
         "email": "luis.segura@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1941"
+        "phone": "3817171 Ext. 1941",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S106379-0932-4"
       },
       {
         "name": "ILBA CORREDOR LEIVA",
@@ -193,7 +194,8 @@
         "email": "ilba.corredor@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1942"
+        "phone": "3817171 Ext. 1942",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S119481-0932-4"
       },
       {
         "name": "JORGE OTALORA ALDANA",
@@ -201,23 +203,18 @@
         "email": "jorge.otalora@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1943"
+        "phone": "3817171 Ext. 1943",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S126985-0932-4"
       },
-      {
-        "name": "ERNESTO ELIAS MENDEZ RUIZ",
-        "position": "AUXILIAR ADMINISTRATIVO (Nom Prov)",
-        "email": "ernesto.mendez@fps.gov.co",
-        "location": "Sede Administrativa",
-        "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1944"
-      },
+    
       {
         "name": "HECTOR RUIZ MARTINEZ",
         "position": "AUXILIAR SERVICIOS GENERALES",
         "email": "N/A",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1944"
+        "phone": "3817171 Ext. 1944",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S119485-0932-4"
       },
       
       {
@@ -226,7 +223,8 @@
         "email": "N/A",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1943"
+        "phone": "3817171 Ext. 1943",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S119479-0932-4"
       },
       {
         "name": "JESUS ALBERTO GARZON GARZON",
@@ -234,7 +232,8 @@
         "email": "N/A",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1944"
+        "phone": "3817171 Ext. 1944",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S119483-0932-4"
       },
       {
         "name": "NELSON FERNANDO RAMIREZ HERRERA",
@@ -242,7 +241,8 @@
         "email": "N/A",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1944"
+        "phone": "3817171 Ext. 1944",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S102945-0932-4"
       },
       {
         "name": "ANGIE CAROLINA RINCON VALVUENA",
@@ -250,7 +250,8 @@
         "email": "N/A",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1944"
+        "phone": "3817171 Ext. 1944",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S116267-0932-4"
       }
     ]
   },
