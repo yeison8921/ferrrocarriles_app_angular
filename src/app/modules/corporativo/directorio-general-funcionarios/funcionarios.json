@@ -8,7 +8,8 @@
         "email": "samira.eljach@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1988"
+        "phone": "3817171 Ext. 1988",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S4780304-0932-4"
       },
       {
         "name": "DIANA MARCELA SERNA BURBANO",
@@ -16,7 +17,17 @@
         "email": "diana.serna@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1988"
+        "phone": "3817171 Ext. 1988",
+         "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S1929237-0932-4"
+      },
+       {
+        "name": "EDUIN FERNANDO PACHÓN MEDINA",
+        "position": "CONDUCTOR MECÁNICO",
+        "email": "N/A",
+        "location": "Sede Administrativa",
+        "city": "BOGOTÁ D.C.",
+        "phone": "3817171 Ext. 1945",
+         "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S4934688-0932-4"
       }
       
     ]
@@ -30,7 +41,8 @@
         "email": "yaneth.farfan@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1914"
+        "phone": "3817171 Ext. 1914",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S110074-0932-4"
       },
       {
         "name": "MARIA VILMA RUIZ LÓPEZ",
@@ -38,7 +50,8 @@
         "email": "vilma.ruiz@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1963"
+        "phone": "3817171 Ext. 1963",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S1636114-0932-4"
       }
     
     ]
@@ -52,7 +65,8 @@
         "email": "ciro.sanchez@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1952"
+        "phone": "3817171 Ext. 1952",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S97894-0932-4"
       }
     ]
   },
@@ -65,7 +79,8 @@
         "email": "jose.pumarejo@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1988"
+        "phone": "3817171 Ext. 1988",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S596093-0932-4"
       },
       {
         "name": "CLARA INES DUEÑAS BELTRAN",
@@ -73,7 +88,8 @@
         "email": "clara.dueñas@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1988"
+        "phone": "3817171 Ext. 1988",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S1633786-0932-4"
       },
       {
         "name": "JENNY CAROLINA SANABRIA",
@@ -81,16 +97,10 @@
         "email": "jenny.sanabria@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C.",
-        "phone": "N/A"
-      },
-      {
-        "name": "EDUIN FERNANDO PACHÓN MEDINA",
-        "position": "CONDUCTOR MECÁNICO",
-        "email": "N/A",
-        "location": "Sede Administrativa",
-        "city": "BOGOTÁ D.C.",
-        "phone": "3817171 Ext. 1945"
+        "phone": "N/A",
+        "hv":"https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S2188604-0932-4"
       }
+     
     ]
   },
   {
