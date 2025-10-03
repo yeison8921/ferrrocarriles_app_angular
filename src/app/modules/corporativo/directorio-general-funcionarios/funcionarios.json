@@ -569,7 +569,8 @@
         "email": "olga.cardona@fps.gov.co",
         "location": "Carrera 55 No. 40A # 20 Oficina 412",
         "city": "MEDELLIN",
-        "phone": "3817171 Ext. 1991"
+        "phone": "3817171 Ext. 1991",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S116265-0932-4"
       }
     ]
   },
@@ -582,7 +583,8 @@
         "email": "maria.laverde@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1949"
+        "phone": "3817171 Ext. 1949",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S116260-0932-4"
       },
       {
         "name": "XAVIER AUGUSTO NORIEGA SIRTORI",
@@ -590,7 +592,8 @@
         "email": "xavier.noriega@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1918"
+        "phone": "3817171 Ext. 1918",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S3026384-0932-4"
       }
     ]
   },
@@ -603,7 +606,8 @@
         "email": "omar.forero@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1960"
+        "phone": "3817171 Ext. 1960",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S1636113-0932-4"
       },
       {
         "name": "SILVIO RIVERA DOMINGUEZ",
@@ -611,7 +615,8 @@
         "email": "silvio.rivera@fps.gov.co",
         "location": "Sede Administrativa",
         "city": "BOGOTÁ D.C",
-        "phone": "3817171 Ext. 1961"
+        "phone": "3817171 Ext. 1961",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S112985-0932-4"
       }
     ]
   },
@@ -624,7 +629,8 @@
         "email": "lilia.franco@fps.gov.co",
         "location": "Carrera 55 No. 40A # 20 Oficina 412",
         "city": "MEDELLIN",
-        "phone": "3817171 Ext. 1991"
+        "phone": "3817171 Ext. 1991",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S113624-0932-4"
       }
     ]
   },
@@ -637,7 +643,8 @@
         "email": "ligia.galeano@fps.gov.co",
         "location": "Calle 22 # 23-45 Barrio Alarcon",
         "city": "BUCARAMANGA",
-        "phone": "3817171 Ext. 1992"
+        "phone": "3817171 Ext. 1992",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S102974-0932-4"
       }
     ]
   },
@@ -650,7 +657,8 @@
         "email": "isabel.gallo@fps.gov.co",
         "location": "Calle 25 Norte # 4 N-28",
         "city": "CALI",
-        "phone": "3817171 Ext. 1990"
+        "phone": "3817171 Ext. 1990",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S111971-0932-4"
       },
       {
         "name": "MARTHA AZUCENA GARZON",
@@ -658,21 +666,10 @@
         "email": "martha.garzon@fps.gov.co",
         "location": "Calle 25 Norte # 4 N-28",
         "city": "CALI",
-        "phone": "3817171 Ext. 1990"
-      }
-    ]
-  },
-  {
-    "name": "GRUPO INTERNO DE TRABAJO GESTIÓN PRESTACIÓN DE SERVICIOS DE SALUD - MAGDALENA",
-    "people": [
-      {
-        "name": "RAIMUNDO GUILLERMO COHEN COGOLLO",
-        "position": "MEDICO ESPECIALISTA (Nom Prov)",
-        "email": "raimundo.cohen@fps.gov.co",
-        "location": "Cll 31 No.58-38 Barrio Pedro de Heredia",
-        "city": "CARTAGENA",
-        "phone": "3817171 Ext. 1993"
+        "phone": "3817171 Ext. 1990",
+        "hv": "https://www.funcionpublica.gov.co/dafpIndexerBHV/hvSigep/detallarHV/S96258-0932-4"
       }
     ]
   }
+
 ]
