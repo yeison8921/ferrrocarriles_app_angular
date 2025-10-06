@@ -1,5 +1,22 @@
-<app-header *ngIf="!kids"></app-header>
-<app-header *ngIf="!kids" tipo="oculto"></app-header>
-<app-accessibility />
-<router-outlet />
-<app-footer *ngIf="!kids"></app-footer>
+<!-- Si NO está en iframe, muestra la app normalmente -->
+<div *ngIf="!inIframe; else blockedContent">
+  <!-- Header normal según kids -->
+  <app-header *ngIf="!kids"></app-header>
+  <app-header *ngIf="!kids" tipo="oculto"></app-header>
+
+  <!-- Accesibilidad y router -->
+  <app-accessibility></app-accessibility>
+  <router-outlet></router-outlet>
+
+  <!-- Footer según kids -->
+  <app-footer *ngIf="!kids"></app-footer>
+</div>
+
+<!-- Mensaje elegante si se detecta iframe -->
+<ng-template #blockedContent>
+  <div class="iframe-blocked">
+    <h1>❌ Acceso no permitido</h1>
+    <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
+  </div>
+</ng-template>
+

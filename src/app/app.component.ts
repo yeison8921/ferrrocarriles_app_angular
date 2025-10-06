@@ -16,17 +16,26 @@ import { Location, NgIf } from '@angular/common';
     NgIf,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
   kids: boolean = false;
+  inIframe: boolean = false; // Detecta iframe
+
   constructor(private location: Location) {
-    var url = this.location.path().split('/');
-    if (url.length > 0 && url[1] == 'kids') {
+    const url = this.location.path().split('/');
+    if (url.length > 0 && url[1] === 'kids') {
       this.kids = true;
     }
   }
+
   ngOnInit(): void {
     window.scrollTo(0, 0);
+
+    // Detecta si la app está dentro de un iframe
+    if (window.top !== window.self) {
+      this.inIframe = true;
+    }
   }
 }
+
