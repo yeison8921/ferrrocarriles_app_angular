@@ -1,0 +1,22 @@
+.iframe-blocked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f8d7da;
+  color: #721c24;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.iframe-blocked h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.iframe-blocked p {
+  font-size: 1.5rem;
+}

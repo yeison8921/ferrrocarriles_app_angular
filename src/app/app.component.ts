@@ -32,14 +32,27 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     window.scrollTo(0, 0);
 
-    // Detecta si la app está dentro de un iframe de manera segura
+    // Detecta iframe de forma segura
     try {
       if (window.top !== window.self) {
         this.inIframe = true;
+
+        // Opcional: reemplazar el contenido inmediatamente
+        document.body.innerHTML = `
+          <div class="iframe-blocked">
+            <h1>❌ Acceso no permitido</h1>
+            <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
+          </div>
+        `;
       }
     } catch (e) {
-      // Algunos navegadores bloquean acceso a window.top → asumir que está en iframe
       this.inIframe = true;
+      document.body.innerHTML = `
+        <div class="iframe-blocked">
+          <h1>❌ Acceso no permitido</h1>
+          <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
+        </div>
+      `;
     }
   }
 }
