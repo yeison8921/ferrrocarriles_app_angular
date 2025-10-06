@@ -32,10 +32,16 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     window.scrollTo(0, 0);
 
-    // Detecta si la app está dentro de un iframe
-    if (window.top !== window.self) {
+    // Detecta si la app está dentro de un iframe de manera segura
+    try {
+      if (window.top !== window.self) {
+        this.inIframe = true;
+      }
+    } catch (e) {
+      // Algunos navegadores bloquean acceso a window.top → asumir que está en iframe
       this.inIframe = true;
     }
   }
 }
+
 
