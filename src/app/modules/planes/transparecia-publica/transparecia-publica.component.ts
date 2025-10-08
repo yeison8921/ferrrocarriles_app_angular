@@ -23,8 +23,8 @@ export class TranspareciaPublicaComponent {
         [
           {
             id:1,
-            tipo:"word",
-            url:"/assets/files/planes/programa_etica/PROGRAMA DE TRANSPARENCIA - FPS. Agosto.docx",
+            tipo:"pdf",
+            url:"/assets/files/planes/programa_etica/PROGRAMA DE TRANSPARENCIA - FPS.pdf",
             nombre:"PROGRAMA DE TRANSPARENCIA - FPS"
           }
         ]
