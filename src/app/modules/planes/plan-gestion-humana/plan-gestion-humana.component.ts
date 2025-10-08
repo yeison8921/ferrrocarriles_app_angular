@@ -546,6 +546,12 @@ export class PlanGestionHumanaComponent {
         id: 7,
         nombre: 'Plan de Acción Código de Integridad',
         files: [
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'INFORME TEST PERCEPCIÓN DE INTEGRIDAD.PDF',
+            url: '/assets/files/planes/plan_gestion_humana/07. Plan de Acción Código de Integridad/INFORME TEST PERCEPCIÓN DE INTEGRIDAD.pdf',
+          },
           {
             id: 1,
             tipo: 'pdf',
