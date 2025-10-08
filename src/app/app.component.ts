@@ -20,7 +20,7 @@ import { Location, NgIf } from '@angular/common';
 })
 export class AppComponent implements OnInit {
   kids: boolean = false;
-  inIframe: boolean = true; // Detecta iframe
+  inIframe: boolean = false; // Detecta iframe
 
   constructor(private location: Location) {
     const url = this.location.path().split('/');
