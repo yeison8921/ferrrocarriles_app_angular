@@ -224,6 +224,12 @@ export class TransparenciaComponent {
             nombre: 'Planes Estratégicos',
             url: '/planeacion-gestion-y-control/plan-estrategico/63',
           },
+           {
+            id: 8,
+            tipo: 'pdf',
+            nombre: 'Informe Austeridad del Gasto Primer Semestre 2025',
+            url: '/assets/files/transparencia/INFORME AUSTERIDAD DEL GASTO PRIMER SEMESTRE 2025.pdf',
+          },
           {
             id: 8,
             tipo: 'excel',
