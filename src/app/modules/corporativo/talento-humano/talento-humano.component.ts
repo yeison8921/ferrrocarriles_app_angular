@@ -1030,7 +1030,7 @@ export class TalentoHumanoComponent {
             id: 3,
             nombre: 'RUTA DE ATENCIÓN ACOSO LABORAL.PDF',
             tipo: 'pdf',
-            url: '/assets/files/corporativo/talento-humano/ATENCION/RUTA DE ATENCIÓN ACOSO LABORAL.PDF',
+            url: '/assets/files/corporativo/talento-humano/ATENCION/Ruta de atención acoso laboral.pdf',
           },
           
         ],
