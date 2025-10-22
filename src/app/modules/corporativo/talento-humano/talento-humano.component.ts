@@ -1016,10 +1016,23 @@ export class TalentoHumanoComponent {
         files: [
           {
             id: 1,
-            nombre: 'OFICIO VINCULACIÓN A TERCEROS.pdf',
+            nombre: 'RUTA DE ATENCIÓN INTEGRAL A MUJERES VÍCTIMAS DE VIOLENCIA.PDF',
             tipo: 'pdf',
-            url: '/assets/files/corporativo/talento-humano/VINCULACI%c3%93N%20A%20TERCEROS/OFICIO%20VINCULACIO%cc%81N%20A%20TERCEROS.pdf',
+            url: '/assets/files/corporativo/talento-humano/ATENCION/Ruta de Atención Integral a Mujeres Víctimas de Violencia.pdf',
           },
+           {
+            id: 2,
+            nombre: 'RUTA DE ATENCIÓN EN CASOS DE VIOLENCIA SEXUAL.PDF',
+            tipo: 'pdf',
+            url: '/assets/files/corporativo/talento-humano/ATENCION/Ruta de Atención en Casos de Violencia Sexual.pdf',
+          },
+           {
+            id: 3,
+            nombre: 'RUTA DE ATENCIÓN ACOSO LABORAL.PDF',
+            tipo: 'pdf',
+            url: '/assets/files/corporativo/talento-humano/ATENCION/RUTA DE ATENCIÓN ACOSO LABORAL.PDF',
+          },
+          
         ],
       },
     ];
