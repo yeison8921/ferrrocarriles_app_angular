@@ -1009,6 +1009,19 @@ export class TalentoHumanoComponent {
           },
         ],
       },
+
+       {
+        id: 3,
+        nombre: 'RUTAS DE ATENCIÓN Y PREVENCIÓN',
+        files: [
+          {
+            id: 1,
+            nombre: 'OFICIO VINCULACIÓN A TERCEROS.pdf',
+            tipo: 'pdf',
+            url: '/assets/files/corporativo/talento-humano/VINCULACI%c3%93N%20A%20TERCEROS/OFICIO%20VINCULACIO%cc%81N%20A%20TERCEROS.pdf',
+          },
+        ],
+      },
     ];
   }
 }
