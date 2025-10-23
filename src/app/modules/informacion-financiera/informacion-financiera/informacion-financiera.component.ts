@@ -235,7 +235,7 @@ export class InformacionFinancieraComponent {
             ],
           },
 
-             {
+          {
             id: 1,
             nombre: 'JULIO',
             files: [
@@ -263,6 +263,37 @@ export class InformacionFinancieraComponent {
                 tipo: 'pdf',
                 nombre: 'REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO 31 2025.PDF',
                 url: 'assets/files/presupuesto/2025/JULIO/REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO 31 2025.pdf',
+              }
+            ],
+          },
+
+           {
+            id: 1,
+            nombre: 'AGOSTO',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada  CXP DECRETO LIQUIDACION A AGOSTO 31 2025.pdf',
+                url: 'assets/files/presupuesto/2025/AGOSTO/REP_EPG034_EjecucionPresupuestalAgregada  CXP DECRETO LIQUIDACION A AGOSTO 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION AGOSTO 31 2025.pdf',
+                url: 'assets/files/presupuesto/2025/AGOSTO/REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION AGOSTO 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO_ 31 2025.PDF',
+                url: 'assets/files/presupuesto/2025/AGOSTO/REP_EPG034_EjecucionPresupuestalAgregada  DECRETO LIQUIDACION A JULIO_ 31 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO DE LIQUIDACION AGOSTO 31 2025.pdf',
+                url: 'assets/files/presupuesto/2025/AGOSTO/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO DE LIQUIDACION AGOSTO 31 2025.pdf',
               }
             ],
           },
