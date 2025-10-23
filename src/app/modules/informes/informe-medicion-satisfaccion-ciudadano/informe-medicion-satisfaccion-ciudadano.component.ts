@@ -14,6 +14,20 @@ export class InformeMedicionSatisfaccionCiudadanoComponent {
   items: AcordionAnidadoFiles[] = [];
   constructor() {
     this.items = [
+        {
+        id: 1,
+        nombre: '2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: 'INFORME DE SATISFACCIÓN I SEMESTRE DE 2025',
+            url: '/assets/files/medicion_satisfaccion_ciudadano/2025/INFORME DE SATISFACCIÓN PRIMER SEMESTRE 2025 (2).pdf',
+          }
+         
+          
+        ],
+      },
       {
         id: 1,
         nombre: '2024',
