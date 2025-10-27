@@ -31,7 +31,7 @@ export class ObjetivosinstComponent {
       },
       {
         id:5,
-        text:"Fortalecer la administración de los bienes de la entidad y la óptima gestión de los recursos financieros durante el cuatrienio 2023-2026"
+        text:"Fortalecer la administración de los bienes de la entidad y la óptima gestión de los recursos financieros durante el cuatrienio 2023-2026."
       },
       {
         id:6,
