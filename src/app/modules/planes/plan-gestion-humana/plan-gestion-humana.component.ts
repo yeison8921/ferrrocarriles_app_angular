@@ -383,7 +383,7 @@ export class PlanGestionHumanaComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'PLAN INSTITUCIONAL DE INCENTIVOS 2025.pdf',
-                url: '/assets/files/planes/plan_gestion_humana/05. Plan Institucional de Incentivos/05. 2025/Plan Institucional de Incentivos 2025 V2 con Res.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/05. Plan Institucional de Incentivos/01. 2025/Plan Institucional de Incentivos 2025 V2 con Res.pdf',
               },
             ],
           },
