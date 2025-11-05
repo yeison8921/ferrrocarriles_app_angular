@@ -305,7 +305,7 @@ export class PlanGestionHumanaComponent {
                 tipo: 'pdf',
                 nombre: 'PLAN ANUAL DE TRABAJO SST-2025.pdf',
                 url: '/assets/files/planes/plan_gestion_humana/04. Plan Anual de Seguridad y Salud en el Trabajo/01. 2025/PLAN ANUAL DE TRABAJO SST-2025.pdf',
-              },
+               },
             ],
           },
           {
