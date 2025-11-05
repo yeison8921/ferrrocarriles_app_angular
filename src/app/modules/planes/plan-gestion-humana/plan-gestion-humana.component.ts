@@ -134,7 +134,7 @@ export class PlanGestionHumanaComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'PLAN INSTITUCIONAL DE CAPACITACIÓN 2025.pdf',
-                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/01. 2025/PLAN INSTITUCIONAL DE CAPACITACIÓN 2025.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/01. 2025/Plan Institucional de Capacitacion PIC 2025 V2 con Res.pdf',
               },
             ],
           },
