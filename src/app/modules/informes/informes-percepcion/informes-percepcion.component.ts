@@ -16,7 +16,7 @@ export class InformesPercepcionComponent {
     this.items = [
         {
         id: 1,
-        nombre: '2024',
+        nombre: '2025',
         files: [
            {
             id: 2,
