@@ -18,7 +18,7 @@ export class InformesPercepcionComponent {
         id: 1,
         nombre: '2024',
         files: [
-          {
+           {
             id: 2,
             tipo: 'pdf',
             nombre: 'INFORME PERCEPCIÓN POS TRÁMITE DE LOS SERVICIOS PRESTADOS POR LA ENTIDAD I SEMESTRE 2025.pdf',
