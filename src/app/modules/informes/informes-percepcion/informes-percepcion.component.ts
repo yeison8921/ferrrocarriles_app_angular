@@ -14,6 +14,18 @@ export class InformesPercepcionComponent {
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+        {
+        id: 1,
+        nombre: '2024',
+        files: [
+          {
+            id: 2,
+            tipo: 'pdf',
+            nombre: 'INFORME PERCEPCIÓN POS TRÁMITE DE LOS SERVICIOS PRESTADOS POR LA ENTIDAD I SEMESTRE 2025.pdf',
+            url: '/assets/files/percepcion_satisfaccion_ciudadano/12. 2025/INFORME PERCEPCIÓN POS TRÁMITE DE LOS SERVICIOS PRESTADOS POR LA ENTIDAD I SEMESTRE 2025.pdf',
+          }
+        ],
+      },
       {
         id: 1,
         nombre: '2024',
