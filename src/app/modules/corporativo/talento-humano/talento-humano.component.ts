@@ -1053,9 +1053,9 @@ export class TalentoHumanoComponent {
           },
            {
             id: 2,
-            nombre: 'RUTA DE ATENCIÓN EN CASOS DE VIOLENCIA SEXUAL.PDF',
+            nombre: ' RUTA DE ATENCIÓN EN CASOS DE ACOSO SEXUAL.PDF',
             tipo: 'pdf',
-            url: '/assets/files/corporativo/talento-humano/ATENCION/Ruta de Atención en Casos de Violencia Sexual.pdf',
+            url: '/assets/files/corporativo/talento-humano/ATENCION/Ruta de Atención en Casos de Acoso Sexual.pdf',
           },
            {
             id: 3,
