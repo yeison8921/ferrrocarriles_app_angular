@@ -935,6 +935,25 @@ export class TalentoHumanoComponent {
           {
             id: 1,
             tipo: 'pdf',
+            nombre: ' 01. INFORME DESEMPEÑO LABORAL 2024 - 2025.pdf ',
+            url: '/assets/files/corporativo/talento-humano/EVALUACION%20DESEMPEN%cc%83O/INFORME EVALUACIÓN DEL DESEMPENO LABORAL   2024- 2025.pdf',
+          },
+           {
+            id: 1,
+            tipo: 'pdf',
+            nombre: ' 01. INFORME DESEMPEÑO LABORAL 2023 - 2024.pdf ',
+            url: '/assets/files/corporativo/talento-humano/EVALUACION%20DESEMPEN%cc%83O/INFORME EVALUACIÓN DEL DESEMPENO LABORAL  2023- 2024.pdf',
+          },
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: ' 01. INFORME DESEMPEÑO LABORAL 2022 - 2023.pdf ',
+            url: '/assets/files/corporativo/talento-humano/EVALUACION%20DESEMPEN%cc%83O/INFORME EVALUACION DEL DESEMPENO LABORAL  2022- 2023.pdf',
+          },
+          
+          {
+            id: 1,
+            tipo: 'pdf',
             nombre: ' 01. INFORME DESEMPEÑO LABORAL 2021 - 2022.pdf ',
             url: '/assets/files/corporativo/talento-humano/EVALUACION%20DESEMPEN%cc%83O/01.%20INFORME%20DESEMPE%c3%91O%20LABORAL%202021%20-%202022.pdf',
           },
