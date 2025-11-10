@@ -584,7 +584,7 @@ export class PlanGestionHumanaComponent {
           },
         ],
       },
-      {
+     /* {
         id: 8,
         nombre: 'Plan de Reinducción',
         acordion: [
@@ -626,8 +626,8 @@ export class PlanGestionHumanaComponent {
             ],
           },
         ],
-      },
-      {
+      },*/
+     /* {
         id: 8,
         nombre: 'Plan de Capacitaciones de Seguridad',
         files: [
@@ -638,7 +638,7 @@ export class PlanGestionHumanaComponent {
             url: '/assets/files/planes/plan_gestion_humana/09. Plan de Capacitaciones de Seguridad/5-PLAN DE CAPACITACIONES DE SEGURIDAD 2022.pdf',
           },
         ],
-      },
+      },*/
     ];
   }
 }
