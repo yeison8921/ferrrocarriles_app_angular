@@ -814,6 +814,18 @@ export class TalentoHumanoComponent {
         id: 2,
         nombre: 'ESCALA VIATICOS ',
         acordion: [
+           {
+            id: 1,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: ' ESCALA DE VIATICOS Decreto 613 DE 2025.pdf ',
+                url: '/assets/files/corporativo/talento-humano/ESCALA%20VIATICOS/09. 2025/Decretos_Salariales_613_de_2025_Departamento_Administrativo_de_la_Función_Pública.pdf',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2024',
