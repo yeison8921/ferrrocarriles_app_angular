@@ -46,7 +46,7 @@ export class EstadosFinancierosComponent {
               {
                 id: 4,
                 tipo: 'pdf',
-                nombre:'4. ESTADO DE RESULTADOS COMPARATIVO ENERO 2023-2022.pdf',
+                nombre:'4. ESTADO DE RESULTADOS COMPARATIVO ENERO 2025-2024.pdf',
                 url: 'assets/files/estados_financieros/2025/ENERO/4.  ESTADO DE RESULTADOS COMPARATIVO  ENERO 2025-2024-.pdf',
               },
             ],
@@ -220,6 +220,40 @@ export class EstadosFinancierosComponent {
                 tipo: 'pdf',
                 nombre: '4. ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
                 url: 'assets/files/estados_financieros/2025/JUNIO/4 ESTADO DE RESULTADOS JUNIO 2025-2024.pdf',
+              },
+              
+             
+            ],
+          },
+
+          {
+            id: 6,
+            nombre: 'JULIO',
+            files: [
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '1. ESTADO DE SITUACION FINANCIERA  COMPARATIVO JULIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JULIO/1 ESTADO DE SITUACION FINANCIERA  COMPARATIVO JULIO 2025-2024.pdf',
+              },
+               {
+                id: 2,
+                tipo: 'pdf',
+                nombre: '2. ESTADO DE SITUACION FINANCIERA COMPARATIVO  JULIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JULIO/2 ESTADO DE SITUACION FINANCIERA COMPARATIVO  JULIO 2025-2024.pdf',
+              },
+            
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS  COMPARATIVO JULIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JULIO/3 ESTADO DE RESULTADOS  COMPARATIVO JULIO 2025-2024.pdf',
+              },
+                {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '4. ESTADO DE RESULTADOS COMPARATIVO  JULIO 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/JULIO/4 ESTADO DE RESULTADOS COMPARATIVO  JULIO 2025-2024.pdf',
               },
               
              
