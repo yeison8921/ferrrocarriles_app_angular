@@ -256,7 +256,7 @@ export class EstadosFinancierosComponent {
                 url: 'assets/files/estados_financieros/2025/JULIO/4 ESTADO DE RESULTADOS COMPARATIVO  JULIO 2025-2024.pdf',
               },
               
-             
+              
             ],
           },
           
