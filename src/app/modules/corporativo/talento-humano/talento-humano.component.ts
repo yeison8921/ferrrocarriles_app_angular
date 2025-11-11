@@ -1032,6 +1032,12 @@ export class TalentoHumanoComponent {
         id: 3,
         nombre: 'VINCULACIÓN A TERCEROS ',
         files: [
+            {
+            id: 1,
+            nombre: 'VINCULACIÓN A TERCEROS-2.pdf',
+            tipo: 'pdf',
+            url: '/assets/files/corporativo/talento-humano/VINCULACI%c3%93N%20A%20TERCEROS/VINCULACIÓN A TERCEROS-2.pdf',
+          },
           {
             id: 1,
             nombre: 'OFICIO VINCULACIÓN A TERCEROS.pdf',
