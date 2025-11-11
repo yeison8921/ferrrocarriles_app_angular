@@ -293,6 +293,40 @@ export class EstadosFinancierosComponent {
               
             ],
           },
+
+           {
+            id: 6,
+            nombre: 'SEPTIEMBRE',
+            files: [
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '1. ESTADO DE SITUACION FINANCIERA COMPARATIVO SEPTIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/SEPTIEMBRE/1 ESTADO DE SITUACION FINANCIERA COMPARATIVO SEPTIEMBRE 2025-2024.pdf',
+              },
+               {
+                id: 2,
+                tipo: 'pdf',
+                nombre: '2. ESTADO DE SITUACION FINANCIERA COMPARATIVO SEPTIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/SEPTIEMBRE/2 ESTADO DE SITUACION FINANCIERA COMPARATIVO SEPTIEMBRE 2025-2024.pdf',
+              },
+            
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS COMPARATIVO  SEPTIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/SEPTIEMBRE/3 ESTADO DE RESULTADOS COMPARATIVO  SEPTIEMBRE 2025-2024.pdf',
+              },
+                {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '4. ESTADO DE RESULTADOS COMPARATIVO  SEPTIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/SEPTIEMBRE/4 ESTADO DE RESULTADOS COMPARATIVO  SEPTIEMBRE 2025-2024.pdf',
+              },
+              
+              
+            ],
+          },
           
           
         ],
