@@ -20,7 +20,7 @@ export class PlanMejoramientoComponent {
       {
         id: 14,
         nombre:"2025",
-        files: [
+        files: [ 
 
           {
             id: 1,
