@@ -297,6 +297,38 @@ export class InformacionFinancieraComponent {
               }
             ],
           },
+
+
+            {
+            id: 1,
+            nombre: 'SEPTIEMBRE',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION SEPTIEMBRE 30 2025 (1).pdf',
+                url: 'assets/files/presupuesto/2025/SEPTIEMBRE/REP_EPG034_EjecucionPresupuestalAgregada DECRETO LIQUIDACION SEPTIEMBRE 30 2025 (1).pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION SEPTIEMBRE 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/SEPTIEMBRE/REP_EPG034_EjecucionPresupuestal RESERVAS DECRETO LIQUIDACION SEPTIEMBRE 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION SEPTIEMBRE 30 2025.PDF',
+                url: 'assets/files/presupuesto/2025/SEPTIEMBRE/REP_EPG034_EjecucionPresupuestal CXP DECRETO LIQUIDACION SEPTIEMBRE 30 2025.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION A SEPT 30 2025.pdf',
+                url: 'assets/files/presupuesto/2025/SEPTIEMBRE/REP_ING031_InformeEjecucionPresupuestal INGRESOS DECRETO LIQUIDACION A SEPT 30 2025.pdf',
+              }
+            ],
+          },
          
          
         ],
