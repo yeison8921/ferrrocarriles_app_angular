@@ -138,6 +138,12 @@ export class TransparenciaComponent {
             nombre: 'Hojas de Vida',
             url: '/tramites-y-servicios/tramites/54',
           },
+          {
+            id: 23,
+            tipo: 'link',
+            nombre: 'Asociaciones o Agremiaciones FPS',
+            url: '/corporativo/asociaciones-ferrocarriles/249',
+          },
         ],
       },
       {
@@ -358,12 +364,7 @@ export class TransparenciaComponent {
             nombre: 'Informes PQRS',
             url: '/informes/informes-pqrs/180',
           },
-          {
-            id: 23,
-            tipo: 'link',
-            nombre: 'Asociaciones o Agremiaciones FPS',
-            url: '/corporativo/asociaciones-ferrocarriles/249',
-          },
+          
         ],
       },
       {
