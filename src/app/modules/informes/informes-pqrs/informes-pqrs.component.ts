@@ -30,6 +30,12 @@ export class InformesPqrsComponent {
             tipo: 'pdf',
             nombre: 'INFORME PQRSDF II TRIMESTRE 2025.pdf',
             url: '/assets/files/pqrs/12. 2025/INFORME PQRSDF II TRIMESTRE 2025.pdf',
+          },
+          {
+            id: 3,
+            tipo: 'pdf',
+            nombre: 'INFORME PQRSDF III TRIMESTRE 2025.pdf',
+            url: '/assets/files/pqrs/12. 2025/INFORME PQRSDF III TRIMESTRE 2025_FIRMADO.pdf',
           }
           
         ],
