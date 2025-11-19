@@ -605,12 +605,7 @@ export class MapaSitioComponent {
                   id: 16,
                   name: 'Plan de Fortalecimiento del MIPG',
                   url: '/planeacion-gestion-y-control/gestion-documental/317',
-                },
-                 {
-                  id: 16,
-                  name: 'Asociaciones o Agremiaciones FPS',
-                  url: '/corporativo/asociaciones-ferrocarriles/249',
-                },
+                }
               ],
             },
           ],
