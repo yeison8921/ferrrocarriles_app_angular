@@ -1,3 +1,9 @@
+
+ .extra-texts p {
+        margin: 0;
+        line-height: 0.85; /* Ajusta entre 0.8 y 0.9 según prefieras */
+    }
+
 .news {
   border: 2px solid var(--blanco-o);
   background-color: var(--blanco-o);
