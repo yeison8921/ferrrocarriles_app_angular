@@ -1,65 +1,47 @@
- .row {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
+.news {
+  border: 2px solid var(--blanco-o);
+  background-color: var(--blanco-o);
+  border-radius: 5px;
 
-        .box {
-            width: 100%;
-            max-width: 900px;
-            background: #2ea6bf;
-            display: flex;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-border:1px solid #000
-        }
+  .imagen,
+  .descripcion {
+    min-height: 235px;
+  }
 
-        /* LADO IZQUIERDO (LOGO) */
-        .box-logo {
-            background: white;
-            width: 180px;
-            padding: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  .imagen {
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-        .box-logo img {
-            width: 100%;
-            max-width: 150px;
-        }
+  .descripcion {
+    width: calc(100% - 200px);
 
-        /* LADO DERECHO (TEXTOS) */
-        .box-info {
-            padding: 20px;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+    .header-descripcion {
+      color: var(--azul-o);
+      border-bottom: 2px solid var(--azul-c);
 
-        .box-info h3 {
-            margin: 0;
-            font-size: 1.4rem;
-        }
+      h2 {
+        font-family: Montserrat-Bold;
+        font-size: 1.2rem;
+      }
+    }
 
-        .vertical-bar {
-            width: 4px;
-            background: #f4ca44;
-            margin-right: 12px;
-            border-radius: 2px;
-        }
+    span,
+    p {
+      font-family: WorkSans-Regular;
+    }
+  }
 
-        .info-row {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .extra-texts {
-            margin-top: 5px;
-            font-size: 0.9rem;
-            opacity: 0.95;
-        }
+  .descripcion::before {
+    background: var(--amarillo);
+    content: '';
+    display: inline-block;
+    height: 60%;
+    left: -5.5px;
+    position: absolute;
+    top: calc(45% - 25%);
+    width: 10px;
+  }
+}
