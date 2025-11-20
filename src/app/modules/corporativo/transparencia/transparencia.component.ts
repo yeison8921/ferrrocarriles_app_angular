@@ -163,6 +163,45 @@ export class TransparenciaComponent {
               'Justificación del Sistema Único de Información Normativa SUIN - FPSFNC',
             url: '/assets/files/transparencia/JUSTIFICACIÓN SUIN.pdf',
           },
+          {
+            id: 3,
+            tipo: 'link',
+            nombre: 'Resoluciones',
+            url: '/normatividad/49',
+          },
+           {
+            id: 4,
+            tipo: 'link',
+            nombre: 'Decretos',
+            url: '/normatividad/234',
+          },
+
+           {
+            id: 5,
+            tipo: 'link',
+            nombre: 'Leyes',
+            url: '/normatividad/233',
+          },
+
+            {
+            id: 6,
+            tipo: 'link',
+            nombre: 'Circulares',
+            url: '/normatividad/235',
+          },
+
+          {
+            id: 7,
+            tipo: 'link',
+            nombre: 'Consulta SUIN',
+            url: 'https://www.suin-juriscol.gov.co/legislacion/normatividad.html',
+          },
+          {
+            id: 8,
+            tipo: 'link',
+            nombre: 'Consulta Diario Oficial',
+            url: 'https://www.imprenta.gov.co/diario-oficial',
+          },
         ],
       },
       {
