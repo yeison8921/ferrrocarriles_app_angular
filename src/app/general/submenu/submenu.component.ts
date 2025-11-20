@@ -755,6 +755,12 @@ export class SubmenuComponent {
             url: 'https://www.suin-juriscol.gov.co/legislacion/normatividad.html',
             active: false,
           },
+          {
+            id: 7,
+            nombre: 'Consulta Diario Oficial',
+            url: 'https://www.imprenta.gov.co/diario-oficial',
+            active: false,
+          },
         ],
       },
       {
