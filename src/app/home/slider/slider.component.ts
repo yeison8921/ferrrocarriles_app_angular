@@ -27,6 +27,11 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+      {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/COMPONENTEPROGRAMATICO.png',
+        url: '/planeacion-gestion-y-control/transparencia-etica-publica/357',
+      },
      {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/camp.jpeg',

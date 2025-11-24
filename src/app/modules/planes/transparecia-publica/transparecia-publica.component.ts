@@ -26,6 +26,12 @@ export class TranspareciaPublicaComponent {
             tipo:"pdf",
             url:"/assets/files/planes/programa_etica/PROGRAMA DE TRANSPARENCIA - FPS.pdf",
             nombre:"PROGRAMA DE TRANSPARENCIA - FPS"
+          },
+           {
+            id:1,
+            tipo:"pdf",
+            url:"/assets/files/planes/programa_etica/COMPONENTE PROGRAMATICO  - PROGRAMA DE TRANSPARENCIA FPS 2025- PROYECTO.xls",
+            nombre:"PROGRAMA DE TRANSPARENCIA Y ÉTICA PÚBLICA - COMPONENTE PROGRAMÁTICO"
           }
         ]
       },
