@@ -29,6 +29,11 @@ export class SliderComponent {
     this.slider = [
       {
         id: 6,
+        imagen: '/assets/img/Home/sliderHome/PREVENCIONCONSUMOSPA.png',
+        url: '',
+      },
+      {
+        id: 6,
         imagen: '/assets/img/Home/sliderHome/Banner.jpeg',
         url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=IcbJrWyj4UKfSu3GELHf0Xj15KuHJVBNuUK0HH81aqpURElVNUlBRlJIUUZBMlo5ODZTUUsxWUlWSi4u',
       },
