@@ -27,6 +27,11 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/CEREBROCARDIOVASCULAR.jpeg',
+        url: '',
+      },
       {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/PREVENCIONCONSUMOSPA.png',
