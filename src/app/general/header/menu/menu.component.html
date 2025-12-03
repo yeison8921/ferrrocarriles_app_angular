@@ -35,6 +35,7 @@
               [ngClass]="item.active ? 'active' : ''"
               href="{{ item.url }}"
               role="button"
+              title="button"
               (click)="
                 activarMenu(item.url.split('/')[item.url.split('/').length - 1])
               "
