@@ -47,11 +47,7 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/COMPONENTEPROGRAMATICO.png',
         url: '/planeacion-gestion-y-control/transparencia-etica-publica/357',
       },
-     {
-        id: 6,
-        imagen: '/assets/img/Home/sliderHome/camp.jpeg',
-        url: '',
-      },
+    
        {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/INFORMACION IMPORTANTE CALLE 73.png',
