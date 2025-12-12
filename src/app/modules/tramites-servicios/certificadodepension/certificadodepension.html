@@ -29,7 +29,7 @@
       <!-- Spinner de carga -->
       <div *ngIf="cargando" class="text-center mt-3">
         <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Cargando...</span>
+          <span>Buscando documento...</span>
         </div>
       </div>
 
@@ -44,7 +44,7 @@
           Certificado PDF
         </div>
         <div class="card-body p-0">
-          <iframe [src]="pdfURL" width="100%" height="600px" style="border:none;"></iframe>
+          <iframe [src]="pdfURL" width="100%" height="900px" style="border:none;"></iframe>
         </div>
       </div>
     </div>

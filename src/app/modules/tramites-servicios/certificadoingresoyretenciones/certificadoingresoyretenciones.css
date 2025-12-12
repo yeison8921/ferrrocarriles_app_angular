@@ -3,3 +3,9 @@
 :host {
   font-family: 'Work Sans', sans-serif;
 }
+
+/* Quitar sombra de los inputs al hacer foco */
+.custom-input:focus {
+  box-shadow: none;
+  border-color: #2A9EBD; /* coincide con el color del header */
+}
