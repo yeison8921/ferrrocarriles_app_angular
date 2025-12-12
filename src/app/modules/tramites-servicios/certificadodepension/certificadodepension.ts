@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-certificadodepension',
@@ -16,9 +17,9 @@ export class Certificadodepension {
   resultado: any = null;
   cargando = false;
   error = '';
-  pdfURL: string | null = null; // <-- URL del PDF para mostrar en iframe
+  pdfURL: SafeResourceUrl | null = null; // <-- usar SafeResourceUrl
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private sanitizer: DomSanitizer) {}
 
   buscar() {
     if (!this.documento) return;
@@ -47,7 +48,7 @@ export class Certificadodepension {
       });
   }
 
-  crearPDFURL(base64: string): string {
+  crearPDFURL(base64: string): SafeResourceUrl {
     const byteCharacters = atob(base64);
     const byteNumbers = new Array(byteCharacters.length);
     for (let i = 0; i < byteCharacters.length; i++) {
@@ -55,9 +56,11 @@ export class Certificadodepension {
     }
     const byteArray = new Uint8Array(byteNumbers);
     const blob = new Blob([byteArray], { type: 'application/pdf' });
-    return URL.createObjectURL(blob);
+    const url = URL.createObjectURL(blob);
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url); // <-- aquí
   }
 }
+
 
 
 
