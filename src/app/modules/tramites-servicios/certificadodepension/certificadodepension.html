@@ -1,6 +1,6 @@
 <div class="container py-5">
   <div class="row justify-content-center">
-    <div class="col-md-12">
+    <div class="col-md-6">
       <div class="card shadow-sm border-0">
         <div class="card-header bg-primary text-white text-center">
           <h5 class="mb-0">Consulta de Certificado de Pensión</h5>
@@ -11,15 +11,8 @@
           </p>
 
           <div class="input-group mt-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Ingrese número de documento"
-              [(ngModel)]="documento"
-            >
-            <button class="btn btn-primary" type="button" (click)="buscar()">
-              Buscar
-            </button>
+            <input type="text" class="form-control" placeholder="Ingrese número de documento" [(ngModel)]="documento">
+            <button class="btn btn-primary" type="button" (click)="buscar()">Buscar</button>
           </div>
         </div>
       </div>
