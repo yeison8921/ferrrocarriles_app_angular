@@ -9,3 +9,8 @@
   box-shadow: none;
   border-color: #2A9EBD; /* coincide con el color del header */
 }
+
+
+.custom-spinner {
+  color: #2A9EBD !important;
+}
