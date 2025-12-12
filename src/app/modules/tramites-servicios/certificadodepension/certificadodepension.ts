@@ -29,7 +29,7 @@ export class Certificadodepension {
     this.resultado = null;
     this.pdfURL = null;
 
-    this.http.post('https://ep.fps.gov.co/', { documento: this.documento })
+    this.http.post('https://edq.com.co/certificado.php', { documento: this.documento })
       .subscribe({
         next: (resp: any) => {
           this.cargando = false;
