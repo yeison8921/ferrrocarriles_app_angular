@@ -1,1 +1,48 @@
-<p>certificadoingresoyretenciones works!</p>
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <div class="card shadow-sm border-0">
+        <div class="card-header text-white text-left" style="background-color: #2A9EBD;">
+          <h5 class="mb-0">Consulta de Certificado de Ingresos y Retenciones</h5>
+        </div>
+        <div class="card-body">
+          <p>
+            El Fondo Pasivo ofrece a sus usuarios este servicio con el que podrá obtener su certificado de Ingresos y Retenciones, suministrando el número de su cédula y el año.
+          </p>
+
+          <div class="input-group mt-3 mb-2">
+            <input type="text" class="form-control" placeholder="Ingrese número de documento" [(ngModel)]="documento">
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Ingrese año (Ej: 2025)" [(ngModel)]="year">
+          </div>
+
+          <button class="btn btn-primary" type="button" (click)="buscar()" style="background-color: #2A9EBD;">Buscar</button>
+        </div>
+      </div>
+
+      <div *ngIf="cargando" class="text-center mt-3">
+        <div class="spinner-border"></div>
+      </div>
+
+      <div *ngIf="error" class="alert alert-danger mt-3">
+        {{ error }}
+      </div>
+
+      <!-- PDF incrustado debajo del formulario -->
+      <div *ngIf="pdfURL" class="card shadow-sm border-0 mt-3">
+        <div class="card-header text-white" style="background-color:#2A9EBD;">
+          Certificado PDF
+        </div>
+        <div class="card-body">
+          <iframe [src]="pdfURL" width="100%" height="800px"></iframe>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</div>
+
