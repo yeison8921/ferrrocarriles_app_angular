@@ -19,7 +19,7 @@
 
           <!-- Input año -->
           <div class="form-floating mb-3">
-            <input type="text" class="form-control custom-input" id="year" placeholder="Año (Ej: 2025)" [(ngModel)]="year">
+            <input type="number" class="form-control custom-input" id="year" placeholder="Año" min="1900" max="2025" [(ngModel)]="year">
             <label for="year">Año (Ej: 2025)</label>
           </div>
 
@@ -35,7 +35,7 @@
       <!-- Spinner de carga -->
       <div *ngIf="cargando" class="text-center mt-3">
         <div class="spinner-border text-primary" role="status">
-          <span>Buscando documento...</span>
+          <span>Cargando...</span>
         </div>
       </div>
 
