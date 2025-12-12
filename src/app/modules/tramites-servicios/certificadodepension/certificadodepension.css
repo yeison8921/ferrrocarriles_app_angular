@@ -3,3 +3,8 @@
 :host {
   font-family: 'Work Sans', sans-serif;
 }
+
+.custom-input:focus {
+  box-shadow: none;
+  border-color: #2A9EBD; /* opcional: borde azul igual al header */
+}
