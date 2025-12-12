@@ -29,7 +29,7 @@ export class Certificadodepension {
     this.resultado = null;
     this.pdfURL = null;
 
-    this.http.post('https://edq.com.co/certificado.php', { documento: this.documento })
+    this.http.post('http://192.168.100.4/fps-backend/certificado.php', { documento: this.documento })
       .subscribe({
         next: (resp: any) => {
           this.cargando = false;
