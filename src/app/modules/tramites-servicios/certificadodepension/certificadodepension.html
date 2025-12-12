@@ -1,9 +1,9 @@
-<div class="container py-1">
+<div class="container py-5">
   <div class="row justify-content-center">
     <div class="col-md-12">
       <!-- Card principal -->
       <div class="card shadow-sm border-0">
-        <div class="card-header text-white text-end" style="background-color: #2A9EBD;">
+        <div class="card-header text-white text-start" style="background-color: #2A9EBD;">
           <h5 class="mb-0">Consulta de Certificado de Pensión</h5>
         </div>
         <div class="card-body">
@@ -12,12 +12,14 @@
           </p>
 
           <!-- Formulario con floating label -->
-          <div class="d-flex align-items-start mb-3">
-            <div class="form-floating flex-grow-1 me-2">
-              <input type="text" class="form-control custom-input" id="documento" placeholder="Número de documento" [(ngModel)]="documento">
-              <label for="documento">Número de documento</label>
-            </div>
-            <button class="btn btn-sm text-white" type="button" (click)="buscar()" style="background-color: #2A9EBD;">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control custom-input" id="documento" placeholder="Número de documento" [(ngModel)]="documento">
+            <label for="documento">Número de documento</label>
+          </div>
+
+          <!-- Botón alineado a la derecha -->
+          <div class="d-flex justify-content-end">
+            <button class="btn text-white" type="button" (click)="buscar()" style="background-color: #2A9EBD;">
               Buscar
             </button>
           </div>
@@ -48,6 +50,7 @@
     </div>
   </div>
 </div>
+
 
 
 
