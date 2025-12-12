@@ -18,11 +18,13 @@ export class Certificadodepension {
   cargando = false;
   error = '';
 
-  // Datos quemados para generar token
+  // Usuario y clave quemados
   private usuario = 'TU_USUARIO';
   private clave = 'TU_CLAVE';
-  private urlToken = 'https://tu-api.com/token'; // endpoint para generar token
-  private urlCertificado = 'https://tu-api.com/certificado'; // endpoint protegido
+
+  // Endpoints
+  private urlLogin = 'https://apix.fps.gov.co/Certificados/api/login/authenticate';
+  private urlCertificado = 'https://apix.fps.gov.co/Certificados/api/Certificados/ConsultaCertificadoPensionados';
 
   constructor(private http: HttpClient) {}
 
@@ -33,16 +35,20 @@ export class Certificadodepension {
     this.error = '';
     this.resultado = null;
 
-    // 1️⃣ Generar token
-    const bodyToken = { username: this.usuario, password: this.clave };
-    this.http.post<{ token: string }>(this.urlToken, bodyToken)
+    // 1️⃣ Login para obtener token
+    const bodyLogin = { username: this.usuario, password: this.clave };
+
+    this.http.post<{ token: string }>(this.urlLogin, bodyLogin)
       .pipe(
-        // 2️⃣ Usar token para llamar al endpoint protegido
+        // 2️⃣ Usar token para consultar certificado
         switchMap((resp: { token: any; }) => {
           const headers = new HttpHeaders({
             'Authorization': `Bearer ${resp.token}`
           });
-          return this.http.get(`${this.urlCertificado}/${this.documento}`, { headers });
+
+          const url = `${this.urlCertificado}?Identificacion=${this.documento}&AnoPago=2025`;
+
+          return this.http.get(url, { headers });
         })
       )
       .subscribe({
