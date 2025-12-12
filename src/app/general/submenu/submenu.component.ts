@@ -784,9 +784,15 @@ export class SubmenuComponent {
             active: false,
           },
           {
-            id: 4,
+            id: 5,
             nombre: 'Descargar certificado pensión',
             url: '/tramites-y-servicios/certificadodepension/358',
+            active: false,
+          },
+             {
+            id: 4,
+            nombre: 'Descargar certificado de ingresos y retenciones',
+            url: '/tramites-y-servicios/certificadodeingresoyretenciones/359',
             active: false,
           },
         ],
