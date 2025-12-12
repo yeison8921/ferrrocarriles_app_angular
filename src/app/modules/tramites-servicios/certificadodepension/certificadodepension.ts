@@ -37,7 +37,7 @@ export class Certificadodepension {
             this.resultado = resp;
             this.pdfURL = this.crearPDFURL(resp.pCodigoCertificado);
           } else {
-            this.error = 'No se encontró el certificado';
+            this.error = 'El número de cédula ingresado no existe en la base de datos.';
           }
         },
         error: (err: any) => {

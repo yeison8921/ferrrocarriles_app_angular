@@ -24,7 +24,7 @@ export class Certificadoingresoyretenciones {
 
   buscar() {
     if (!this.documento || !this.year) {
-      this.error = 'Debe ingresar documento y año';
+      this.error = 'Los campos documento y año son obligatorios';
       return;
     }
 
