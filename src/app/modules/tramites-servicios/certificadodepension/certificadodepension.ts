@@ -19,8 +19,8 @@ export class Certificadodepension {
   error = '';
 
   // Usuario y clave quemados
-  private usuario = 'TU_USUARIO';
-  private clave = 'TU_CLAVE';
+  private usuario = 'safixFPasivoTest';
+  private clave = 'C0n3ctfP4S1V0T3st';
 
   // Endpoints
   private urlLogin = 'https://apix.fps.gov.co/Certificados/api/login/authenticate';
