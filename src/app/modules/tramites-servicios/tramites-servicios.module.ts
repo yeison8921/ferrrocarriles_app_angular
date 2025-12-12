@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { TramitesComponent } from './tramites/tramites.component';
 import { FormatosComponent } from './formatos/formatos.component';
-import { Certificadodepension} from './certificadodepension/Certificadodepension';
+import { Certificadodepension} from './certificadodepension/certificadodepension';
 import { VentanillaVirtualComponent } from './ventanilla-virtual/ventanilla-virtual.component';
 
 const routes: Routes = [
