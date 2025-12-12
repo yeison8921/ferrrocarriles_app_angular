@@ -783,6 +783,12 @@ export class SubmenuComponent {
             url: '/tramites-y-servicios/ventanilla-virtual/55',
             active: false,
           },
+          {
+            id: 4,
+            nombre: 'Descargar certificado pensión',
+            url: '/tramites-y-servicios/ventanilla-virtual/certificadopension',
+            active: false,
+          },
         ],
       },
       {
