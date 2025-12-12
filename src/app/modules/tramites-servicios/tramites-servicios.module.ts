@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TramitesComponent } from './tramites/tramites.component';
 import { FormatosComponent } from './formatos/formatos.component';
 import { Certificadodepension} from './certificadodepension/certificadodepension';
+import { Certificadoingresoyretenciones} from './certificadoingresoyretenciones/certificadoingresoyretenciones';
 import { VentanillaVirtualComponent } from './ventanilla-virtual/ventanilla-virtual.component';
 
 const routes: Routes = [
@@ -16,6 +17,11 @@ const routes: Routes = [
     path: 'certificadodepension/358',
     title: 'Certificado Pensión',
     component: Certificadodepension,
+  },
+  {
+    path: 'certificadodeingresoyretenciones/359',
+    title: 'Certificado de ingreso y retenciones',
+    component: Certificadoingresoyretenciones,
   },
   {
     path: 'formatos/165',
