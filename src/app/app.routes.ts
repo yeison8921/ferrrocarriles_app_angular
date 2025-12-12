@@ -11,6 +11,9 @@ import { AtencionUsuarioComponent } from './modules/atencion-al-usuario/atencion
 import { TramitesServiciosComponent } from './modules/tramites-servicios/tramites-servicios.component';
 import { InformacionCiudadanoComponent } from './modules/informacion-ciudadano/informacion-ciudadano.component';
 import { CorporativoComponent } from './modules/corporativo/corporativo.component';
+import { CertificadodepensionComponent } from './certificadodepension/certificadodepension.component';
+
+
 import { KidsComponent } from './kids/kids.component';
 
 export let routes: Routes = [
@@ -18,6 +21,13 @@ export let routes: Routes = [
     path: '',
     component: HomeComponent,
   },
+   {
+    path: 'certificadodepension',
+    component: CertificadodepensionComponent,
+    title: 'Certificado de Pensión',
+    data: { page: false }
+  },
+  
   {
     path: 'corporativo',
     component: CorporativoComponent,
