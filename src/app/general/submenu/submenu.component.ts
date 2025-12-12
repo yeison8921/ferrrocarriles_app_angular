@@ -786,7 +786,7 @@ export class SubmenuComponent {
           {
             id: 4,
             nombre: 'Descargar certificado pensión',
-            url: '/tramites-y-servicios/certificadopension/358',
+            url: '/tramites-y-servicios/certificadodepension/358',
             active: false,
           },
         ],

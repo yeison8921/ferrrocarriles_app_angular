@@ -13,7 +13,7 @@ const routes: Routes = [
     component: TramitesComponent,
   },
   {
-    path: 'Certificadodepension/358',
+    path: 'certificadodepension/358',
     title: 'Certificado Pensión',
     component: Certificadodepension,
   },
