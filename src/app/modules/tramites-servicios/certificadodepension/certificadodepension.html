@@ -1,42 +1,53 @@
 <div class="container py-5">
   <div class="row justify-content-center">
-    <div class="col-md-12">
+    <div class="col-md-8">
+      <!-- Card principal -->
       <div class="card shadow-sm border-0">
-        <div class="card-header text-white text-left" style="background-color: #2A9EBD;">
+        <div class="card-header text-white text-center" style="background-color: #2A9EBD;">
           <h5 class="mb-0">Consulta de Certificado de Pensión</h5>
         </div>
         <div class="card-body">
-          <p>
-            El Fondo Pasivo ofrece a sus usuarios este servicio con el que podrá obtener su certificado de Pensión del año 2025, suministrando el número de su cédula.
+          <p class="text-muted">
+            Obtenga su certificado de pensión del año 2025 ingresando su número de cédula.
           </p>
 
-          <div class="input-group mt-3">
-            <input type="text" class="form-control" placeholder="Ingrese número de documento" [(ngModel)]="documento">
-            <button class="btn btn-primary" type="button" (click)="buscar()" style="background-color: #2A9EBD;">Buscar</button>
+          <!-- Formulario con floating label -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="documento" placeholder="Número de documento" [(ngModel)]="documento">
+            <label for="documento">Número de documento</label>
           </div>
+
+          <button class="btn w-100 text-white" type="button" (click)="buscar()" style="background-color: #2A9EBD;">
+            Buscar
+          </button>
         </div>
       </div>
 
+      <!-- Spinner de carga -->
       <div *ngIf="cargando" class="text-center mt-3">
-        <div class="spinner-border"></div>
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Cargando...</span>
+        </div>
       </div>
 
+      <!-- Mensaje de error -->
       <div *ngIf="error" class="alert alert-danger mt-3">
         {{ error }}
       </div>
 
       <!-- PDF incrustado debajo del formulario -->
       <div *ngIf="pdfURL" class="card shadow-sm border-0 mt-3">
-        <div class="card-header text-white" style="background-color:#2A9EBD;">
+        <div class="card-header text-white text-center" style="background-color:#2A9EBD;">
           Certificado PDF
         </div>
-        <div class="card-body">
-          <iframe [src]="pdfURL" width="100%" height="600px"></iframe>
+        <div class="card-body p-0">
+          <iframe [src]="pdfURL" width="100%" height="600px" style="border:none;"></iframe>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 
 
 
