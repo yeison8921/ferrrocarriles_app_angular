@@ -16,6 +16,7 @@ export class Certificadodepension {
   resultado: any = null;
   cargando = false;
   error = '';
+  pdfURL: string | null = null; // <-- URL del PDF para mostrar en iframe
 
   constructor(private http: HttpClient) {}
 
@@ -25,12 +26,18 @@ export class Certificadodepension {
     this.cargando = true;
     this.error = '';
     this.resultado = null;
+    this.pdfURL = null;
 
     this.http.post('https://edq.com.co/certificado.php', { documento: this.documento })
       .subscribe({
         next: (resp: any) => {
-          this.resultado = resp;
           this.cargando = false;
+          if (resp?.pCodigoCertificado) {
+            this.resultado = resp;
+            this.pdfURL = this.crearPDFURL(resp.pCodigoCertificado);
+          } else {
+            this.error = 'No se encontró el certificado';
+          }
         },
         error: (err: any) => {
           this.error = 'No se pudo consultar el certificado.';
@@ -39,6 +46,18 @@ export class Certificadodepension {
         }
       });
   }
+
+  crearPDFURL(base64: string): string {
+    const byteCharacters = atob(base64);
+    const byteNumbers = new Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+      byteNumbers[i] = byteCharacters.charCodeAt(i);
+    }
+    const byteArray = new Uint8Array(byteNumbers);
+    const blob = new Blob([byteArray], { type: 'application/pdf' });
+    return URL.createObjectURL(blob);
+  }
 }
+
 
 
