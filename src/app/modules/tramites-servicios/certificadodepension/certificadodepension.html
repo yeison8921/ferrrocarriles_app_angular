@@ -1,67 +1,34 @@
 <p>El Fondo Pasivo ofrece a sus usuarios este servicio con el que podrá obtener su certificado de Pensión del año 2025, suministrando el número de su cédula.</p>
-<div class="container py-4">
+<div class="container py-5">
 
   <div class="row justify-content-center">
     <div class="col-md-6">
 
       <div class="card shadow-sm border-0">
         <div class="card-header bg-primary text-white text-center">
-          <h5 class="mb-0">Consulta de Certificado de Pensión</h5>
+          <h5 class="mb-0">Consultar Certificado de Pensión</h5>
         </div>
 
         <div class="card-body">
 
-          <form [formGroup]="form" (ngSubmit)="consultar()">
-            
-            <!-- Campo documento -->
-            <div class="mb-3">
-              <label class="form-label">Número de Documento</label>
-              <input 
-                type="text" 
-                class="form-control" 
-                formControlName="documento"
-                placeholder="Ingrese su número de documento"
-              >
-              <div 
-                class="text-danger small mt-1"
-                *ngIf="form.controls['documento'].touched && form.controls['documento'].invalid"
-              >
-                * El documento es obligatorio
-              </div>
-            </div>
-
-            <!-- Botón -->
-            <button 
-              class="btn btn-primary w-100" 
-              type="submit"
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ingrese número de documento"
+              formControlName="documento"
+            >
+            <button
+              class="btn btn-primary"
+              type="button"
+              (click)="consultar()"
               [disabled]="form.invalid || cargando"
             >
-              <span *ngIf="!cargando">Consultar</span>
+              <span *ngIf="!cargando">Buscar</span>
               <span *ngIf="cargando" class="spinner-border spinner-border-sm"></span>
             </button>
-          </form>
+          </div>
 
-        </div>
-      </div>
-
-      <!-- Mostrar error -->
-      <div 
-        *ngIf="error" 
-        class="alert alert-danger mt-3 text-center"
-      >
-        {{ error }}
-      </div>
-
-      <!-- Mostrar resultado -->
-      <div 
-        *ngIf="resultado" 
-        class="card shadow-sm border-0 mt-3"
-      >
-        <div class="card-header bg-success text-white">
-          <h6 class="mb-0">Resultado de la consulta</h6>
-        </div>
-        <div class="card-body">
-          <pre class="bg-light p-3 rounded">{{ resultado | json }}</pre>
         </div>
       </div>
 
