@@ -1,9 +1,40 @@
-<div *ngIf="pdfURL" class="card shadow-sm border-0 mt-3">
-  <div class="card-header bg-info text-white">
-    Certificado PDF
-  </div>
-  <div class="card-body">
-    <iframe [src]="pdfURL" width="100%" height="600px"></iframe>
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white text-center">
+          <h5 class="mb-0">Consulta de Certificado de Pensión</h5>
+        </div>
+        <div class="card-body">
+          <p>
+            El Fondo Pasivo ofrece a sus usuarios este servicio con el que podrá obtener su certificado de Pensión del año 2025, suministrando el número de su cédula.
+          </p>
+
+          <div class="input-group mt-3">
+            <input type="text" class="form-control" placeholder="Ingrese número de documento" [(ngModel)]="documento">
+            <button class="btn btn-primary" type="button" (click)="buscar()">Buscar</button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="cargando" class="text-center mt-3">
+        <div class="spinner-border"></div>
+      </div>
+
+      <div *ngIf="error" class="alert alert-danger mt-3">
+        {{ error }}
+      </div>
+
+      <!-- PDF incrustado debajo del formulario -->
+      <div *ngIf="pdfURL" class="card shadow-sm border-0 mt-3">
+        <div class="card-header bg-info text-white">
+          Certificado PDF
+        </div>
+        <div class="card-body">
+          <iframe [src]="pdfURL" width="100%" height="600px"></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
