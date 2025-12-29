@@ -16,6 +16,18 @@ export class PlanAccionComponent {
     this.items = [
       {
         id: 1,
+        nombre: '2026',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            url: '/assets/files/planes/plan_accion/2026/FORMULACIÓN PLAN DE ACCIÓN 2026 CONSULTA A LA CIUDADANIA.xlsx',
+            nombre: 'PLAN DE ACCIÓN 2026.xlsx',
+          }
+        ],
+      },
+      {
+        id: 1,
         nombre: '2025',
         files: [
           {
