@@ -27,7 +27,7 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
-       {
+     {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/plan2026.png',
         url: '',
