@@ -20,7 +20,7 @@ import { Location, NgIf } from '@angular/common';
 })
 export class AppComponent implements OnInit {
   kids: boolean = false;
-  inIframe: boolean = false; // Detecta iframe
+  secureApp: boolean = false; 
 
   constructor(private location: Location) {
     const url = this.location.path().split('/');
@@ -31,30 +31,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     window.scrollTo(0, 0);
-
-    // Detecta iframe de forma segura
-    try {
-      if (window.top !== window.self) {
-        this.inIframe = true;
-
-        // Opcional: reemplazar el contenido inmediatamente
-        document.body.innerHTML = `
-          <div class="iframe-blocked">
-            <h1>❌ Acceso no permitido</h1>
-            <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
-          </div>
-        `;
-      }
-    } catch (e) {
-      this.inIframe = true;
-      document.body.innerHTML = `
-        <div class="iframe-blocked">
-          <h1>❌ Acceso no permitido</h1>
-          <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
-        </div>
-      `;
+    const month = new Date().getMonth(); 
+    if (month === 1) {
+      this.secureApp = true;
     }
   }
 }
+
 
 
