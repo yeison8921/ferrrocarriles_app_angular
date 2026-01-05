@@ -29,6 +29,11 @@ export class SliderComponent {
     this.slider = [
        {
         id: 6,
+        imagen: '/assets/img/Home/sliderHome/plan2026.png',
+        url: '',
+      },
+       {
+        id: 6,
         imagen: '/assets/img/Home/sliderHome/CEREBROCARDIOVASCULAR.jpeg',
         url: '',
       },
@@ -49,11 +54,7 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/INFORMACION IMPORTANTE CALLE 73.png',
         url: '',
       },
-      {
-        id: 6,
-        imagen: '/assets/img/Home/sliderHome/PARTICIPA EN LA FORMULACIÓN DEL PROGRAMA.jpg',
-        url: '/assets/img/Home/sliderHome/file/PROGRAMA DE TRANSPARENCIA - FPS. Agosto.docx',
-      },
+     
      {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/RADICACION MODULOFACTURACIONDEURGENCIAS.jpg',
