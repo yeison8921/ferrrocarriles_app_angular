@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     window.scrollTo(0, 0);
     const month = new Date().getMonth(); 
-    if (month === 0) {
+    if (month > 2 && month < 11) {
       this.secureApp = true;
     }
   }
