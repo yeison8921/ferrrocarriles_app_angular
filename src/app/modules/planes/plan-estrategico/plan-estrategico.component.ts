@@ -16,7 +16,7 @@ export class PlanEstrategicoComponent {
     this.items = [
        {
         id: 1,
-        nombre: '2025',
+        nombre: '2026',
         files: [
           {
             id: 1,
