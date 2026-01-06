@@ -14,6 +14,19 @@ export class PlanEstrategicoComponent {
   items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+       {
+        id: 1,
+        nombre: '2025',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            url: '/assets/files/planes/plan_estrategico/2026/PLAN ESTRATEGICO 2026 FORMULACION CONSULTA A LA CIUDADANIA.xlsx',
+            nombre: 'PLAN ESTRATÉGICO 2026 FORMULACIÓN CONSULTA A LA CIUDADANÍA.xlsx',
+          }
+    
+        ],
+      },
       {
         id: 1,
         nombre: '2025',
