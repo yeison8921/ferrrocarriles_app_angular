@@ -87,7 +87,7 @@ export class AfiliacionesComponent {
            {
             id: 1,
             tipo: 'pdf',
-            nombre: '01. Valores UPC Adicional 2024.pdf',
+            nombre: '01. Valores UPC Adicional 2026.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/VALOR UPC_1202603200000024_0000.pdf',
           },
           {
