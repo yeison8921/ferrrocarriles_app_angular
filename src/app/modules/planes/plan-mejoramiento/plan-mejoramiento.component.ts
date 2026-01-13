@@ -16,7 +16,7 @@ export class PlanMejoramientoComponent {
   constructor() {
     this.items = [
 
-
+      
       {
         id: 14,
         nombre:"2025",
@@ -40,6 +40,13 @@ export class PlanMejoramientoComponent {
             tipo: "excel",
             url:"/assets/files/planes/plan_mejoramiento/15. 2025/PLAN DE MEJORAMIENTO INST. Y CGR III TRIMESTRE 2025 (3).xlsx",
             nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL Y CGR III TRIMESTRE 2025.xlsx"
+          },
+
+          {
+            id: 1,
+            tipo: "excel",
+            url:"/assets/files/planes/plan_mejoramiento/15. 2025/PLAN DE MEJORAMIENTO INST. Y CGR IV TRIMESTRE 2025.xlsx",
+            nombre: "PLAN DE MEJORAMIENTO INSTITUCIONAL Y CGR IV TRIMESTRE 2025.xlsx"
           },
           
         ]
