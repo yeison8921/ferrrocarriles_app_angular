@@ -84,40 +84,46 @@ export class AfiliacionesComponent {
         id: 3,
         nombre: 'Valores historicos upc adicional',
         files: [
-          {
+           {
             id: 1,
             tipo: 'pdf',
             nombre: '01. Valores UPC Adicional 2024.pdf',
+            url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/VALOR UPC_1202603200000024_0000.pdf',
+          },
+          {
+            id: 1,
+            tipo: 'pdf',
+            nombre: '02. Valores UPC Adicional 2024.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/02. Valores UPC Adicional 2024.pdf',
           },
           {
             id: 2,
             tipo: 'pdf',
-            nombre: '02. Valores UPC Adicional 2023.pdf',
+            nombre: '03. Valores UPC Adicional 2023.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/03. Valores UPC Adicional 2023.pdf',
           },
           {
             id: 3,
             tipo: 'pdf',
-            nombre: '03. Valores UPC Adicional 2022.pdf',
+            nombre: '04. Valores UPC Adicional 2022.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/04. Valores UPC Adicional 2022.pdf',
           },
           {
             id: 4,
             tipo: 'pdf',
-            nombre: '04. Valores UPC Adicional 2021.pdf',
+            nombre: '05. Valores UPC Adicional 2021.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/05. Valores UPC Adicional 2021.pdf',
           },
           {
             id: 5,
             tipo: 'pdf',
-            nombre: '05. Valores UPC Adicional 2020.pdf',
+            nombre: '06. Valores UPC Adicional 2020.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/06. Valores UPC Adicional 2020.pdf',
           },
           {
             id: 6,
             tipo: 'pdf',
-            nombre: '06. Valores UPC Adicional 2019.pdf',
+            nombre: '07. Valores UPC Adicional 2019.pdf',
             url: '/assets/files/afiliaciones/Valores Historicos UPC Adicional/07. Valores UPC Adicional 2019.pdf',
           },
         ],
