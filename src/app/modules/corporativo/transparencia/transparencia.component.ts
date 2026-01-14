@@ -673,6 +673,13 @@ export class TransparenciaComponent {
             nombre: 'Portafolio de Servicios',
             url: '/assets/files/transparencia/PortafolioServiciosFPS.pdf',
           },
+
+          {
+            id: 21,
+            tipo: 'pdf',
+            nombre: 'Cronograma de mantenimiento de infraestructura',
+            url: '/assets/files/transparencia/156-2CRONOGRAMA DE MANTENIMIENTO DE INFRAESTRUCTURA-2025 V1.xlsx (1).pdf',
+          },
           {
             id: 22,
             tipo: 'pdf',
