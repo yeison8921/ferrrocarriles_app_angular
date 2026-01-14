@@ -632,7 +632,7 @@ export class TransparenciaComponent {
             tipo: 'excel',
             nombre:
               'Inventarios de activos de información (Formato Excel - Enero 2024)',
-            url: '/assets/files/transparencia/APGTSOPSFO10 - Inventario de Activos de Información_2023.xlsx',
+            url: '/assets/files/transparencia/APGTSOPSFO10 - Inventario de Activos de Información_2024.xlsx',
           },
           {
             id: 17,
