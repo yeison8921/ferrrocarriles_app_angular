@@ -194,13 +194,13 @@ export class AsociacionesFerrocarrilesComponent {
           {
             id: 1,
             tipo: 'pdf',
-            url: '/assets/files/corporativo/asociaciones_ferrocarriles/DIRECTORIO DE ASOCIACIONES DE PENSIONADOS DE FERROCARRILES/DIRECTORIO ASOCIACIONES DE USUARIOS FCN.pdf',
+            url: '/assets/files/corporativo/asociaciones_ferrocarriles/DIRECTORIO DE ASOCIACIONES DE PENSIONADOS DE FERROCARRILES/DIRECTORIO ASOCIACIONES DE USUARIOS FCN  20251.pdf',
             nombre: 'DIRECTORIO ASOCIACIONES DE USUARIOS FCN.pdf',
           },
           {
             id: 2,
             tipo: 'pdf',
-            url: '/assets/files/corporativo/asociaciones_ferrocarriles/DIRECTORIO DE ASOCIACIONES DE PENSIONADOS DE FERROCARRILES/DIRECTORIO ASOCIACIONES DE USUARIOS PNC.pdf',
+            url: '/assets/files/corporativo/asociaciones_ferrocarriles/DIRECTORIO DE ASOCIACIONES DE PENSIONADOS DE FERROCARRILES/DIRECTORIO ASOCIACIONES DE USUARIOS PNC  20251.pdf',
             nombre: 'DIRECTORIO ASOCIACIONES DE USUARIOS PNC.pdf',
           },
         ],
