@@ -182,6 +182,12 @@ export class TramitesComponent {
             tipo: 'excel',
             nombre: '10. PAGOS SERVICIOS DE SALUD OCTUBRE.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/10. PAGOS SERVICIOS DE SALUD OCTUBRE.xlsx',
+          },
+          {
+            id: 6,
+            tipo: 'excel',
+            nombre: '10. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/11. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
           }
         ],
       },
