@@ -186,7 +186,7 @@ export class TramitesComponent {
           {
             id: 6,
             tipo: 'excel',
-            nombre: '10. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
+            nombre: '11. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/11. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
           }
         ],
