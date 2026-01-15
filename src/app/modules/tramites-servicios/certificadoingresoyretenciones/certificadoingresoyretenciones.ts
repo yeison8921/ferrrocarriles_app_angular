@@ -38,7 +38,7 @@ export class Certificadoingresoyretenciones {
       year: this.year 
     };
 
-    this.http.post('https://ep.fps.gov.co/certificadoretencion.php', payload)
+    this.http.post('https://www.edq.com.co/certificadoretencion.php', payload)
       .subscribe({
         next: (resp: any) => {
           this.cargando = false;
