@@ -156,6 +156,14 @@ export class ContratacionComponent {
                 url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS CELEBRADOS NOVIEMBRE DE 2025.xlsx',
               },
 
+               {
+                id: 6,
+                tipo: 'excel',
+                nombre: 'CONTRATOS SUSCRITOS EN DICIEMBRE 2025',
+                url: 'assets/files/contract/CONTRATACIÓN DIRECTA/01. 2025/CONTRATOS CELEBRADOS DICIEMBRE DE 2025.xlsx',
+              },
+
+
             ],
           },
           {
