@@ -37,6 +37,12 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/CEREBROCARDIOVASCULAR.jpeg',
         url: '',
       },
+
+       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/BANNER_CORREO.png',
+        url: '',
+      },
       {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/PREVENCIONCONSUMOSPA.png',
