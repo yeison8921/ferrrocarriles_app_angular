@@ -27,9 +27,20 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+     {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/plan_2026_1.png',
+        url: '',
+      },
        {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/CEREBROCARDIOVASCULAR.jpeg',
+        url: '',
+      },
+
+       {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/BANNER_CORREO.png',
         url: '',
       },
       {
@@ -42,22 +53,14 @@ export class SliderComponent {
         imagen: '/assets/img/Home/sliderHome/Banner.jpeg',
         url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=IcbJrWyj4UKfSu3GELHf0Xj15KuHJVBNuUK0HH81aqpURElVNUlBRlJIUUZBMlo5ODZTUUsxWUlWSi4u',
       },
-       {
-        id: 6,
-        imagen: '/assets/img/Home/sliderHome/COMPONENTEPROGRAMATICO.png',
-        url: '/planeacion-gestion-y-control/transparencia-etica-publica/357',
-      },
+      
     
        {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/INFORMACION IMPORTANTE CALLE 73.png',
         url: '',
       },
-      {
-        id: 6,
-        imagen: '/assets/img/Home/sliderHome/PARTICIPA EN LA FORMULACIÓN DEL PROGRAMA.jpg',
-        url: '/assets/img/Home/sliderHome/file/PROGRAMA DE TRANSPARENCIA - FPS. Agosto.docx',
-      },
+     
      {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/RADICACION MODULOFACTURACIONDEURGENCIAS.jpg',

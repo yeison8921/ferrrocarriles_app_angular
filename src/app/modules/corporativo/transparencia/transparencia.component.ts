@@ -632,7 +632,7 @@ export class TransparenciaComponent {
             tipo: 'excel',
             nombre:
               'Inventarios de activos de información (Formato Excel - Enero 2024)',
-            url: '/assets/files/transparencia/APGTSOPSFO10 - Inventario de Activos de Información_2023.xlsx',
+            url: '/assets/files/transparencia/APGTSOPSFO10 - Inventario de Activos de Información_2024.xlsx',
           },
           {
             id: 17,
@@ -672,6 +672,13 @@ export class TransparenciaComponent {
             tipo: 'pdf',
             nombre: 'Portafolio de Servicios',
             url: '/assets/files/transparencia/PortafolioServiciosFPS.pdf',
+          },
+
+          {
+            id: 21,
+            tipo: 'pdf',
+            nombre: 'Cronograma de mantenimiento de infraestructura',
+            url: '/assets/files/transparencia/156-2CRONOGRAMA DE MANTENIMIENTO DE INFRAESTRUCTURA-2025 V1.xlsx (1).pdf',
           },
           {
             id: 22,

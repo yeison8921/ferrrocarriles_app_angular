@@ -162,13 +162,13 @@ export class TramitesComponent {
           {
             id: 6,
             tipo: 'excel',
-            nombre: '07. PAGOS SERVICIOS DE SALUD JULIO.xlsxx',
+            nombre: '07. PAGOS SERVICIOS DE SALUD JULIO.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/7. PAGOS SERVICIOS DE SALUD JULIO.xlsx',
           },
           {
             id: 6,
             tipo: 'excel',
-            nombre: '08. PAGOS SERVICIOS DE SALUD AGOSTO.xlsxx',
+            nombre: '08. PAGOS SERVICIOS DE SALUD AGOSTO.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/8. PAGOS SERVICIOS DE SALUD AGOSTO.xlsx',
           },
             {
@@ -182,6 +182,12 @@ export class TramitesComponent {
             tipo: 'excel',
             nombre: '10. PAGOS SERVICIOS DE SALUD OCTUBRE.xlsx',
             url: '/assets/files/pagos_ips_y_salud/06. 2025/10. PAGOS SERVICIOS DE SALUD OCTUBRE.xlsx',
+          },
+          {
+            id: 6,
+            tipo: 'excel',
+            nombre: '11. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/06. 2025/11. PAGOS SERVICIOS DE SALUD NOVIEMBRE.xls',
           }
         ],
       },

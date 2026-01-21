@@ -1,5 +1,4 @@
-<!-- Si NO está en iframe -->
-<div *ngIf="!inIframe; else blockedContent">
+<ng-container *ngIf="!secureApp">
   <app-header *ngIf="!kids"></app-header>
   <app-header *ngIf="!kids" tipo="oculto"></app-header>
 
@@ -7,14 +6,6 @@
   <router-outlet></router-outlet>
 
   <app-footer *ngIf="!kids"></app-footer>
-</div>
-
-<!-- Mensaje elegante si se detecta iframe -->
-<ng-template #blockedContent>
-  <div class="iframe-blocked">
-    <h1>❌ Acceso no permitido</h1>
-    <p>Esta aplicación no puede ser cargada dentro de un iframe.</p>
-  </div>
-</ng-template>
+</ng-container>
 
 
