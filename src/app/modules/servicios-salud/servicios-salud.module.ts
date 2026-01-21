@@ -182,34 +182,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    IndicadoresSaludComponent,
-    RedDePrestadoresComponent,
-    CanalAtencionRedDePrestadoresComponent,
-    ZonaCostaComponent,
-    ZonaAntioquiaComponent,
-    ZonaCafeteraComponent,
-    ZonaCentroComponent,
-    ZonaPacificoComponent,
-    ServiciosExcluidosComponent,
-    ServiciosIncluidosComponent,
-    InfanciaComponent,
-    Infancia2Component,
-    AdolescenciaComponent,
-    JuventudComponent,
-    AdultezComponent,
-    VejezComponent,
-    GestionDelRiesgo260Component,
-    GestionDelRiesgo261Component,
-    GestionDelRiesgo262Component,
-    GestionDelRiesgo263Component,
-    GestionDelRiesgo264Component,
-    GestionDelRiesgo265Component,
-    AfiliadosComponent,
-    ProgramaPromocionPrevencionComponent,
-    CaracterizacionPoblacional,
-  ],
-  imports: [RouterModule.forChild(routes)],
+  imports: [RouterModule.forChild(routes), CaracterizacionPoblacional],
   exports: [RouterModule],
 })
 export class ServiciosSaludModule {}
