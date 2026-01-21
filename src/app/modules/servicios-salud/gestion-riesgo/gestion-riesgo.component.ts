@@ -40,6 +40,7 @@ export class GestionRiesgoComponent {
         url:"/servicios-de-salud/gestion-del-riesgo/262"
       },
       {
+        
         id:4,
         texto: "Ruta de atención integral a",
         texto2: "Victimas de violencia, agreciones o traumas",
