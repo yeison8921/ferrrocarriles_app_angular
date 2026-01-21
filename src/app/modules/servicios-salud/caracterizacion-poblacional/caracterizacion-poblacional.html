@@ -1,1 +1,45 @@
-<h3></h3>
+<h1 class="titulo-h1 mb-4">Caracterización Poblacional</h1>
+<p>
+  En este Módulo encontrará las orientaciones para la caracterización poblacional,
+  incluyendo datos demográficos y estadísticas relevantes.
+</p>
+
+<div class="row">
+  @for (card of cards; track card.id) {
+    <div class="col-lg-4 m4-">
+      <div class="card cardButtons m-4">
+        <img src="{{card.imagen}}" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="text-white">
+            {{card.texto}}
+             <br/>
+            {{card.texto2}}
+          </h5>
+        </div>
+        <div class="card-footer border-0 py-2">
+          <a class="btn-azul-o" href="{{card.url}}">
+            <i class="bi bi-search"></i>
+            Consultar aquí
+          </a>
+        </div>
+      </div>
+    </div>
+  }
+</div>
+
+
+<h3  class="titulo-h3 my-4">Información de interés para su salud</h3>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+@for (item of items; track item.id) {
+<a
+  class="link-file mb-2"    href="{{item.url}}"
+  target="_blank"
+  >
+   <i class="bi bi-file-earmark-pdf-fill"></i>
+   {{item.nombre}}
+</a>
+}
