@@ -68,10 +68,10 @@ export class GestionRiesgoComponent {
       },
 
       {
-        id:7,
+        id:8,
         texto: "Caracterización Poblacional",
         imagen:"./assets/img/salud/caracterizacion.png",
-        url:"/servicios-de-salud/gestion-del-riesgo/265"
+        url:"/servicios-de-salud/caracterizacion-poblacional/270"
       },
 
 
