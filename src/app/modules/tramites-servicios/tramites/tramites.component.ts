@@ -112,6 +112,19 @@ export class TramitesComponent {
       },
     ];
     this.pagos = [
+       {
+        id: 6,
+        nombre: '2026',
+        files: [
+          {
+            id: 1,
+            tipo: 'excel',
+            nombre: '00 PORCENTAJE DEL INCREMENTO 2026.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/07. 2026/PORCENTAJE DEL INCREMENTO 2026.xlsx',
+          },
+          
+        ],
+      },
 
       {
         id: 6,
