@@ -40,6 +40,7 @@ export class GestionRiesgoComponent {
         url:"/servicios-de-salud/gestion-del-riesgo/262"
       },
       {
+        
         id:4,
         texto: "Ruta de atención integral a",
         texto2: "Victimas de violencia, agreciones o traumas",
@@ -67,10 +68,10 @@ export class GestionRiesgoComponent {
       },
 
       {
-        id:7,
+        id:8,
         texto: "Caracterización Poblacional",
         imagen:"./assets/img/salud/caracterizacion.png",
-        url:"/servicios-de-salud/gestion-del-riesgo/265"
+        url:"/servicios-de-salud/caracterizacion-poblacional/270"
       },
 
 

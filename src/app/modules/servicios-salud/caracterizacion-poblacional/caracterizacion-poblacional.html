@@ -1,0 +1,26 @@
+<h1 class="titulo-h1 mb-4">Caracterización Poblacional</h1>
+<p>
+  En este Módulo encontrará las orientaciones para la caracterización poblacional,
+  incluyendo datos demográficos y estadísticas relevantes.
+</p>
+
+<h3  class="titulo-h3 my-4">Información de interés para su salud</h3>
+<h3 class="titulo-h3">
+  <span class="icon govco-server"></span>
+  Listado de documentos
+</h3>
+
+<div class="row">
+  @for (item of items; track item.id) {
+    <div class="col-md-6">
+      <a
+        class="link-file mb-2"
+        href="{{item.url}}"
+        target="_blank"
+      >
+        <i class="bi bi-file-earmark-pdf-fill"></i>
+        {{item.nombre}}
+      </a>
+    </div>
+  }
+</div>

@@ -29,6 +29,7 @@ import { GestionDelRiesgo266Component } from './gestion-del-riesgo-266/gestion-d
 import { AfiliacionesComponent } from './afiliaciones/afiliaciones.component';
 import { ReportePensionadosFallecidosComponent } from './reporte-pensionados-fallecidos/reporte-pensionados-fallecidos.component';
 import { ZonaCesarSantanderComponent } from './zona-cesar-santander/zona-cesar-santander.component';
+import { CaracterizacionPoblacional } from './caracterizacion-poblacional/caracterizacion-poblacional';
 
 const routes: Routes = [
   {
@@ -173,10 +174,15 @@ const routes: Routes = [
     title: 'Reporte Pensionados Fallecidos',
     component: ReportePensionadosFallecidosComponent,
   },
+  {
+    path: 'caracterizacion-poblacional/270',
+    title: 'Caracterización Poblacional',
+    component: CaracterizacionPoblacional,
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
+  imports: [RouterModule.forChild(routes), CaracterizacionPoblacional],
   exports: [RouterModule],
 })
 export class ServiciosSaludModule {}
