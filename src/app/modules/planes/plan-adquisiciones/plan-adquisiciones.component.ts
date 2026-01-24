@@ -14,6 +14,25 @@ export class PlanAdquisicionesComponent {
   constructor() {
     this.items =
     [
+         {
+      id : 15,
+      nombre: "2026",
+      files :
+         [
+          {
+            id:1,
+            tipo:"pdf",
+            url:"/assets/files/planes/plan_adquisiciones/2026/PLAN DE ADQUISICIONES DE BIENES Y SERVICIOS 2026.pdf" ,
+            nombre: "01 PLAN DE ADQUISICIONES 2026.pdf"
+          },
+          {
+            id:1,
+            tipo:"pdf",
+            url:"/assets/files/planes/plan_adquisiciones/2026/ACTA I COMITE DE CONTRATACION 2026 firmada.pdf" ,
+            nombre: "ACTA I COMITE DE CONTRATACION 2026.pdf"
+          }
+         ]
+    },
      {
       id : 15,
       nombre: "2025",
