@@ -20,7 +20,19 @@ export class PlanEstrategicoTecComponent {
         nombre: "2025 - 2026",
         files:
         [
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/MAPA DE RUTA PETIC 2026_SEGUIMIENTO II SEMESTRE 2025.pdf",
+              nombre: "MAPA DE RUTA PETIC 2026_SEGUIMIENTO II SEMESTRE 2025.pdf"
+            },
 
+            {
+              id:1,
+              tipo:"pdf",
+              url:"/assets/files/planes/plan_tic/07.2025_2026/INFORME DE EJECUCIÓN PETIC II SEMESTRE  2025.pdf",
+              nombre: "INFORME DE EJECUCIÓN PETIC II SEMESTRE  2025.pdf"
+            },
             {
               id:1,
               tipo:"pdf",
