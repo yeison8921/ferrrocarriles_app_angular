@@ -39,8 +39,56 @@ export class InformeConsolidadoComponent {
           {
             id: 4,
             tipo: 'pdf',
-            nombre: '04. CONSOLIDADO TRAMITES MES ABRIL 2024',
+            nombre: '04. CONSOLIDADO TRAMITES MES ABRIL 2025',
             url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO ABRIL 2025.pdf',
+          },
+          {
+            id: 5,
+            tipo: 'pdf',
+            nombre: '05. CONSOLIDADO TRAMITES MES MAY0 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO MAYO 2025.pdf',
+          },
+          {
+            id: 6,
+            tipo: 'pdf',
+            nombre: '06. CONSOLIDADO TRAMITES MES JUNIO 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO JUNIO 2025.pdf',
+          },
+           {
+            id: 7,
+            tipo: 'pdf',
+            nombre: '07. CONSOLIDADO TRAMITES MES JULIO 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO JULIO 2025.pdf',
+          },
+          {
+            id: 8,
+            tipo: 'pdf',
+            nombre: '08. CONSOLIDADO TRAMITES MES AGOSTO 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO AGOSTO 2025.pdf',
+          },
+          {
+            id: 9,
+            tipo: 'pdf',
+            nombre: '09. CONSOLIDADO TRAMITES MES SEPTIEMBRE 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO SEPTIEMBRE 2025.pdf',
+          },
+          {
+            id: 10,
+            tipo: 'pdf',
+            nombre: '10. CONSOLIDADO TRAMITES MES OCTUBRE 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO OCTUBRE 2025.pdf',
+          },
+          {
+            id: 11,
+            tipo: 'pdf',
+            nombre: '11. CONSOLIDADO TRAMITES MES NOVIEMBRE 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO NOVIEMBRE 2025.pdf',
+          },
+          {
+            id: 12,
+            tipo: 'pdf',
+            nombre: '12. CONSOLIDADO TRAMITES MES DICIEMBRE 2025',
+            url: '/assets/files/consolidado_gestion_prestaciones/11. 2025/CONSOLIDADO DICIEMBRE 2025.pdf',
           }
           
         ]
