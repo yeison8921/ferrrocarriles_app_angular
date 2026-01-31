@@ -224,6 +224,18 @@ export class PlanGestionHumanaComponent {
         id: 3,
         nombre: 'Plan Estratégico de Talento Humano',
         acordion: [
+           {
+            id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'PLAN ESTRATEGICO DE TALENTO HUMANO FPS-FNC 2026.pdf',
+                 url: '/assets/files/planes/plan_gestion_humana/03. Plan Estratégico de Talento Humano/2026/Plan Estratégico de Talento Humano PETH 2026.pdf',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2025',
@@ -326,6 +338,18 @@ export class PlanGestionHumanaComponent {
         id: 4,
         nombre: 'Plan Anual de Seguridad y Salud en el Trabajo',
         acordion: [
+          {
+            id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'PLAN ANUAL DE TRABAJO SST-2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/04. Plan Anual de Seguridad y Salud en el Trabajo/2026/PLAN ANUAL DE SST-2026.pdf',
+               },
+            ],
+          },
           {
             id: 1,
             nombre: '2025',
