@@ -18,6 +18,18 @@ export class PlanGestionHumanaComponent {
         id: 1,
         nombre: 'Plan de Bienestar',
         acordion: [
+            {
+            id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'Plan de Bienestar Social y Laboral 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/01. Plan de Bienestar/2026/Plan de Bienestar Social y Laboral- 2026.pdf',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2025',
