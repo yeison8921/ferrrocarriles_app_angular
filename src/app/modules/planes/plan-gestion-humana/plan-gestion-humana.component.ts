@@ -377,6 +377,18 @@ export class PlanGestionHumanaComponent {
         acordion: [
           {
             id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'PLAN INSTITUCIONAL DE INCENTIVOS 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/05. Plan Institucional de Incentivos/2026/Resolución que adopta Plan Institucional de Incentivos 2026.pdf',
+              },
+            ],
+          },
+          {
+            id: 1,
             nombre: '2025',
             files: [
               {
