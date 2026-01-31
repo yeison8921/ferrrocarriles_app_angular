@@ -128,6 +128,24 @@ export class PlanGestionHumanaComponent {
         acordion: [
           {
             id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'PLAN INSTITUCIONAL DE CAPACITACIÓN 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/2026/PLAN DE INSTITUCIONAL DE CAPACITACIÓN PIC 2026.pdf.pdf',
+              },
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'RESOLUCIÓN PLAN INSTITUCIONAL DE CAPACITACIÓN 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/2026/Resolución que adopta Plan Institucional de Capacitación PIC 2026.pdf',
+              },
+            ],
+          },
+          {
+            id: 1,
             nombre: '2025',
             files: [
               {
@@ -383,6 +401,12 @@ export class PlanGestionHumanaComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'PLAN INSTITUCIONAL DE INCENTIVOS 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/05. Plan Institucional de Incentivos/2026/PLAN INSTITUCIONAL DE INCENTIVOS- 2026.pdf',
+              },
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'RESOLUCIÓN PLAN INSTITUCIONAL DE INCENTIVOS 2026.pdf',
                 url: '/assets/files/planes/plan_gestion_humana/05. Plan Institucional de Incentivos/2026/Resolución que adopta Plan Institucional de Incentivos 2026.pdf',
               },
             ],
