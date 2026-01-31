@@ -134,7 +134,7 @@ export class PlanGestionHumanaComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'PLAN INSTITUCIONAL DE CAPACITACIÓN 2026.pdf',
-                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/2026/PLAN DE INSTITUCIONAL DE CAPACITACIÓN PIC 2026.pdf.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/02. Plan Institucional de Capacitación/2026/PLAN DE INSTITUCIONAL DE CAPACITACIÓN PIC 2026.pdf',
               },
                {
                 id: 1,
