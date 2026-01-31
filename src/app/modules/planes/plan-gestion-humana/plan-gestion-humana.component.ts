@@ -477,6 +477,19 @@ export class PlanGestionHumanaComponent {
         id: 6,
         nombre: 'Plan Anual de Vacantes y Previsión',
         acordion: [
+           {
+            id: 1,
+            nombre: '2026',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre:
+                  'PLAN ANUAL DE VACANTES Y PREVISIÓN DE EMPLEOS VIGENCIA 2026.pdf',
+                url: '/assets/files/planes/plan_gestion_humana/06. Plan Anual de Vacantes y Previsión/2026/PLAN ANUAL DE VACANTES Y PREVISIÓN DE EMPLEOS- 2026.pdf',
+              },
+            ],
+          },
           {
             id: 1,
             nombre: '2025',
