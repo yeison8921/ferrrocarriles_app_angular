@@ -620,6 +620,27 @@ export class InformesEstadoControlInternoComponent {
           },
         ],
       },
+
+      {
+        id: 1,
+        nombre: ' Informe de Evaluación Gestión Por dependencias',
+        acordion: [
+          {
+            id: 2,
+            nombre: '2025',
+            files: [
+              {
+                id: 1,
+                tipo: 'pdf',
+                nombre: 'MEMORANDO OCI-202601010000114 EVALUACION DE GESTION POR DEPENDENCIAS VIGENCIA 2025.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe Ejecutivo DEP/MEMORANDO OCI-202601010000114 EVALUACION DE GESTION POR DEPENDENCIAS VIGENCIA 2025.pdf',
+              },
+            ],
+          },
+          
+          
+        ],
+      },
       {
         id: 8,
         nombre: 'Informe Pormenorizado del Estado de Control Interno',
