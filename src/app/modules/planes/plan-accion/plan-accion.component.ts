@@ -23,7 +23,15 @@ export class PlanAccionComponent {
             tipo: 'excel',
             url: '/assets/files/planes/plan_accion/2026/FORMULACIÓN PLAN DE ACCIÓN 2026 CONSULTA A LA CIUDADANIA.xlsx',
             nombre: 'CONSULTA A LA CIUDADANIA PLAN DE ACCIÓN.xlsx',
+          },
+          {
+            id: 2,
+            tipo: 'pdf',
+            url: '/assets/files/planes/plan_accion/2026/FORMULACIÓN PLAN DE ACCIÓN 2026  - V.1.0.pdf',
+            nombre: 'FORMULACIÓN PLAN DE ACCIÓN 2026  - V.1.0.pdf',
           }
+
+
         ],
       },
       {
