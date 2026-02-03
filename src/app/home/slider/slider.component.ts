@@ -27,6 +27,11 @@ export class SliderComponent {
 
   constructor() {
     this.slider = [
+        {
+        id: 6,
+        imagen: '/assets/img/Home/sliderHome/BANNER_CANCER.png',
+        url: '/assets/img/Home/sliderHome/OFICIO SOLICITUD CARACTERIZACIÓN.zip',
+      },
        {
         id: 6,
         imagen: '/assets/img/Home/sliderHome/BANNER_ops.png',
