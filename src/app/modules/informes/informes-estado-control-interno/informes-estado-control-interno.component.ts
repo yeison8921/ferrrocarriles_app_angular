@@ -633,7 +633,7 @@ export class InformesEstadoControlInternoComponent {
                 id: 1,
                 tipo: 'pdf',
                 nombre: 'MEMORANDO OCI-202601010000114 EVALUACION DE GESTION POR DEPENDENCIAS VIGENCIA 2025.pdf',
-                url: '/assets/files/estado_sistema_oci/Informe Ejecutivo DEP/MEMORANDO OCI-202601010000114 EVALUACION DE GESTION POR DEPENDENCIAS VIGENCIA 2025.pdf',
+                url: '/assets/files/estado_sistema_oci/Informe Ejecutivo DEP/CIRCULAR OCI-202601010000114 EVALUACION DE GESTION POR DEPENDENCIAS VIGENCIA 2025 (1).pdf',
               },
             ],
           },
