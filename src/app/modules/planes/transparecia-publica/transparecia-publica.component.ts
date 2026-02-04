@@ -16,6 +16,20 @@ export class TranspareciaPublicaComponent {
    items: AcordionFiles[] = [];
   constructor() {
     this.items = [
+       {
+        id:1,
+        nombre:"2026",
+        files:
+        [
+          {
+            id:1,
+            tipo:"pdf",
+            url:"/assets/files/planes/programa_etica/PROGRAMA DE TRANSPARENCIA FPS COMPONENTE PROGRAMÁTICO 2026- V 1.0.pdf",
+            nombre:"PROGRAMA DE TRANSPARENCIA FPS COMPONENTE PROGRAMÁTICO 2026- V 1.0"
+          },
+           
+        ]
+      },
       {
         id:1,
         nombre:"2025",
