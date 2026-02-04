@@ -18,6 +18,28 @@ export class ConciliacionDeCarteraParaIpsComponent {
   constructor(){
     this.files = [
 
+       {
+        "id": 1,
+        "nombre": "REPORTES 2026",
+        "acordion": [
+          {
+            "id": 1,
+            "nombre": "Cronograma de Conciliación y Depuración",
+            "files": [
+              {
+                "id": 5,
+                "tipo": "excel",
+                "nombre": "CRONOGRAMA CONCILIACION GLOSAS DIV. CENTRAL 2026",
+                "url": "assets/files/conciliacion_cartera_ips/2026/CRONOGRAMA CONCILIACION GLOSAS DIV. CENTRAL 2026.xlsx"
+              },
+            
+            ]
+          },
+         
+          
+        ]
+      },
+
         {
         "id": 1,
         "nombre": "REPORTES 2025",
