@@ -51,6 +51,13 @@ export class PlanAccionComponent {
             url: '/assets/files/planes/plan_accion/2025/PROYECTO PLAN DE ACCION 2025.xlsx',
             nombre: 'PROYECTO PLAN DE ACCION 2025.xlsx',
           },
+
+          {
+            id: 2,
+            tipo: 'excel',
+            url: '/assets/files/planes/plan_accion/2025/PLAN DE ACCIÓN 2025 SEGUIMIENTO.pdf',
+            nombre: 'PLAN DE ACCIÓN 2025 SEGUIMIENTO.pdf',
+          },
         ],
       },
       {
