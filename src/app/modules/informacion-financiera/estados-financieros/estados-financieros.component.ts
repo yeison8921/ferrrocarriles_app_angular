@@ -361,6 +361,41 @@ export class EstadosFinancierosComponent {
               
             ],
           },
+
+          
+           {
+            id: 6,
+            nombre: 'NOVIEMBRE',
+            files: [
+               {
+                id: 1,
+                tipo: 'pdf',
+                nombre: '1. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/1. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024.pdf',
+              },
+               {
+                id: 2,
+                tipo: 'pdf',
+                nombre: '2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024',
+                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024',
+              },
+            
+              {
+                id: 5,
+                tipo: 'pdf',
+                nombre: '3. 3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 ',
+                url: 'assets/files/estados_financieros/2025/OCTUBRE/3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024.pdf',
+              },
+                {
+                id: 3,
+                tipo: 'pdf',
+                nombre: '3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pd',
+                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pd',
+              },
+              
+              
+            ],
+          },
           
           
         ],
