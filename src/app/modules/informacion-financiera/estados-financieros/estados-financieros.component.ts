@@ -383,14 +383,14 @@ export class EstadosFinancierosComponent {
               {
                 id: 5,
                 tipo: 'pdf',
-                nombre: '3. 3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 ',
-                url: 'assets/files/estados_financieros/2025/OCTUBRE/3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024.pdf',
+                nombre: '3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024.pdf',
+                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pdf',
               },
                 {
                 id: 3,
                 tipo: 'pdf',
-                nombre: '3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pd',
-                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/3. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pd',
+                nombre: '4. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024 .pd',
+                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/4. ESTADO DE RESULTADOS NOVIEMBRE 2025-2024.pdf',
               },
               
               
