@@ -377,7 +377,7 @@ export class EstadosFinancierosComponent {
                 id: 2,
                 tipo: 'pdf',
                 nombre: '2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024.pdf',
-                url: 'assets/files/estados_financieros/2025/NOVIEMBRE/2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024.pdf',
+                 url: 'assets/files/estados_financieros/2025/NOVIEMBRE/2. ESTADO DE SITUACION FINANCIERA NOVIEMBRE 2025-2024.pdf',
               },
             
               {
