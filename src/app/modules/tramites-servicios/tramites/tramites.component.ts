@@ -122,6 +122,12 @@ export class TramitesComponent {
             nombre: '00 PORCENTAJE DEL INCREMENTO 2026.xlsx',
             url: '/assets/files/pagos_ips_y_salud/07. 2026/PORCENTAJE DEL INCREMENTO 2026.xlsx',
           },
+          {
+            id: 2,
+            tipo: 'excel',
+            nombre: '01 PAGOS SERVICIOS DE SALUD ENERO 2026.xlsx',
+            url: '/assets/files/pagos_ips_y_salud/07. 2026/1. PAGOS SERVICIOS DE SALUD ENERO.xlsx',
+          },
           
         ],
       },
